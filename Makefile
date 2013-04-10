@@ -17,7 +17,8 @@ pull-transifex:
 strip-po:
 	@for po_file in $(po_files); do \
 		echo Stripping $$po_file; \
-		msgattrib --translated --no-fuzzy --no-location $$po_file > $$po_file.tmp; \
+		msgattrib --translated --no-fuzzy --no-location --sort-output \
+			$$po_file > $$po_file.tmp; \
 		mv $$po_file.tmp $$po_file; \
 	done
 	@export FILES_TO_REMOVE=`find . -name '*.po' -empty`; \
