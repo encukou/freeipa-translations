@@ -11,9 +11,9 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-03 09:50+0200\n"
-"PO-Revision-Date: 2013-04-07 16:23+0000\n"
-"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
+"POT-Creation-Date: 2013-04-10 10:37+0200\n"
+"PO-Revision-Date: 2013-04-10 08:38+0000\n"
+"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2667,10 +2667,6 @@ msgstr ""
 "La zone inverse %(name)s requiert exactement %(count)d composants d'adresses "
 "IP, %(user_count)d donnés"
 
-msgid ""
-"CNAME record is not allowed to coexist with any other records except PTR"
-msgstr "L'enregistrement CNAME ne peut coexister avec aucun autre hormis PTR"
-
 msgid "Add new DNS resource record."
 msgstr "Ajouter un nouvel enregistrement de ressources DNS."
 
@@ -5119,6 +5115,9 @@ msgstr "Contrôle d'accès basé sur les rôles"
 msgid "Sudo"
 msgstr "Sudo"
 
+msgid "Trusts"
+msgstr "Approbations"
+
 msgid "True"
 msgstr "Vrai"
 
@@ -7123,9 +7122,6 @@ msgstr "approbation"
 
 msgid "trusts"
 msgstr "approbations"
-
-msgid "Trusts"
-msgstr "Approbations"
 
 msgid "Trust"
 msgstr "Approbation"
