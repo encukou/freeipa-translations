@@ -20,62 +20,43 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#, python-format
-msgid "Enter %(label)s again to verify: "
-msgstr "Geben Sie %(label)s zum Überprüfen ein:"
+msgid "ACI name"
+msgstr "ACI-Namen"
 
-#, c-format
-msgid "Passwords do not match!"
-msgstr "Passwörter stimmen nicht überein!"
+msgid "ACIs"
+msgstr "ACIs"
 
-msgid "an internal error has occurred"
-msgstr "Ein interner Fehler ist aufgetreten"
+msgid "Attributes"
+msgstr "Attribute"
 
-msgid "No credentials cache found"
-msgstr "Keine Anmeldeinformationen-Cache gefunden"
+msgid "Automount"
+msgstr "Automount"
 
-msgid "Ticket expired"
-msgstr "Ticket abgelaufen"
-
-msgid "Passwords do not match"
-msgstr "Passwörter stimmen nicht überein"
+msgid "Certificate"
+msgstr "Zertifikat"
 
 msgid "Command not implemented"
 msgstr "Befehl nicht implementiert"
 
-msgid "This entry already exists"
-msgstr "Dieser Eintrag existiert bereits"
+msgid "DNS"
+msgstr "DNS"
+
+#, python-format
+msgid "Enter %(label)s again to verify: "
+msgstr "Geben Sie %(label)s zum Überprüfen ein:"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Filter"
+msgstr "Filter"
 
 #, python-format
 msgid "Group '%s' does not exist"
 msgstr "Gruppe '%s' existiert nicht"
 
-msgid "ACIs"
-msgstr "ACIs"
-
-msgid "ACI name"
-msgstr "ACI-Namen"
-
-msgid "User group"
-msgstr "Benutzer-Gruppe"
-
-msgid "Permissions"
-msgstr "Berechtigungen"
-
-msgid "Attributes"
-msgstr "Attribute"
-
-msgid "Type"
-msgstr "Typ"
-
-msgid "Member of"
-msgstr "Mitglied von"
-
-msgid "Member of a group"
-msgstr "Mitglied einer Gruppe"
-
-msgid "Filter"
-msgstr "Filter"
+msgid "Key"
+msgstr "Key"
 
 msgid "Location"
 msgstr "Ort"
@@ -83,29 +64,48 @@ msgstr "Ort"
 msgid "Map"
 msgstr "Karte"
 
-msgid "Key"
-msgstr "Key"
+msgid "Member of"
+msgstr "Mitglied von"
+
+msgid "Member of a group"
+msgstr "Mitglied einer Gruppe"
 
 msgid "Mount information"
 msgstr "Einhänge-Informationen"
 
-msgid "description"
-msgstr "Beschreibung"
+msgid "No credentials cache found"
+msgstr "Keine Anmeldeinformationen-Cache gefunden"
 
-msgid "Certificate"
-msgstr "Zertifikat"
+msgid "Passwords do not match"
+msgstr "Passwörter stimmen nicht überein"
 
-msgid "Subject"
-msgstr "Betreff"
+#, c-format
+msgid "Passwords do not match!"
+msgstr "Passwörter stimmen nicht überein!"
+
+msgid "Permissions"
+msgstr "Berechtigungen"
 
 msgid "Reason"
 msgstr "Grund"
 
-msgid "Error"
-msgstr "Fehler"
+msgid "Subject"
+msgstr "Betreff"
 
-msgid "Automount"
-msgstr "Automount"
+msgid "This entry already exists"
+msgstr "Dieser Eintrag existiert bereits"
 
-msgid "DNS"
-msgstr "DNS"
+msgid "Ticket expired"
+msgstr "Ticket abgelaufen"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "User group"
+msgstr "Benutzer-Gruppe"
+
+msgid "an internal error has occurred"
+msgstr "Ein interner Fehler ist aufgetreten"
+
+msgid "description"
+msgstr "Beschreibung"

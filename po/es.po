@@ -25,533 +25,6 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#, python-format
-msgid "Enter %(label)s again to verify: "
-msgstr "Ingrese %(label)s nuevamente para verificar: "
-
-#, c-format
-msgid "Passwords do not match!"
-msgstr "¡Las contraseñas no coinciden!"
-
-msgid "Topic commands:"
-msgstr "Tema comandos:"
-
-msgid "Command name"
-msgstr "Nombre del comando"
-
-msgid "No file to read"
-msgstr "No existe el fichero para leer"
-
-#, python-format
-msgid "unknown error %(code)d from %(server)s: %(error)s"
-msgstr "error %(code)d desconocido de %(server)s: %(error)s"
-
-msgid "an internal error has occurred"
-msgstr "ha ocurrido un error interno"
-
-#, python-format
-msgid "Invalid JSON-RPC request: %(error)s"
-msgstr "Petición JSON-RPC no válida: %(error)s"
-
-#, python-format
-msgid "error marshalling data for XML-RPC transport: %(error)s"
-msgstr "error de clasificación para el transporte de datos XML-RPC: %(error)s "
-
-#, python-format
-msgid "Kerberos error: %(major)s/%(minor)s"
-msgstr "Error de kerberos:  %(major)s/%(minor)s"
-
-msgid "did not receive Kerberos credentials"
-msgstr "no se ha recibido ninguna credencial de Kerberos"
-
-msgid "No credentials cache found"
-msgstr "No se han encontrado credenciales de cache"
-
-msgid "Ticket expired"
-msgstr "El ticket ha expirado"
-
-msgid "Credentials cache permissions incorrect"
-msgstr "Los permisos de credenciales de caché son incorrectos"
-
-msgid "Bad format in credentials cache"
-msgstr "Las credenciales de caché están mal formadas"
-
-msgid "Cannot resolve KDC for requested realm"
-msgstr "No es posible resolver KDC para el reinado solicitado"
-
-#, python-format
-msgid "Insufficient access: %(info)s"
-msgstr "Acceso insuficiente: %(info)s"
-
-msgid "Passwords do not match"
-msgstr "Las contraseñas no coinciden"
-
-msgid "Command not implemented"
-msgstr "El comando no se ha implementado"
-
-msgid "Client is not configured. Run ipa-client-install."
-msgstr "El cliente no está configurado. Ejecutar la API de cliente a instalar."
-
-#, python-format
-msgid "%(reason)s"
-msgstr "%(reason)s"
-
-msgid "This entry already exists"
-msgstr "Esta entrada ya existe"
-
-msgid "You must enroll a host in order to create a host service"
-msgstr "Debe registrar el equipo para poder generar un servicio de host"
-
-#, python-format
-msgid ""
-"Service principal is not of the form: service/fully-qualified host name: "
-"%(reason)s"
-msgstr ""
-"El servicio principal no tiene la forma de servicio/nombre de equipo "
-"totalmente calificado: %(reason)s"
-
-msgid ""
-"The realm for the principal does not match the realm for this IPA server"
-msgstr ""
-"El reinado para el principal no coincide con el reinado para este servidor "
-"IPA"
-
-msgid "This command requires root access"
-msgstr "Este comando necesita acceso de usuario root"
-
-msgid "This is already a posix group"
-msgstr "Este ya es un grupo posix"
-
-msgid "This entry is already enabled"
-msgstr "Esta entrada ya está habilitada"
-
-msgid "This entry is already disabled"
-msgstr "Esta entrada ya está desactivada"
-
-msgid "This entry cannot be enabled or disabled"
-msgstr "Esta entrada no puede ser activada o desactivada"
-
-msgid "This entry is not a member"
-msgstr "Esta entrada no es miembro"
-
-msgid "A group may not be a member of itself"
-msgstr "Un grupo no puede ser miembro de sí mismo"
-
-msgid "This entry is already a member"
-msgstr "Esta entrada ya es un miembro"
-
-#, python-format
-msgid "Base64 decoding failed: %(reason)s"
-msgstr "Falló la decodificación base64: %(reason)s"
-
-msgid "A group may not be added as a member of itself"
-msgstr "Un grupo no puede ser agregado como miembro de sí mismo"
-
-msgid "The default users group cannot be removed"
-msgstr "El grupo de usuarios predeterminado no puede ser eliminado"
-
-msgid "Host does not have corresponding DNS A record"
-msgstr "El equipo no posee un registro DNS A con el que se corresponda "
-
-msgid "Deleting a managed group is not allowed. It must be detached first."
-msgstr ""
-"No se permite eliminar un grupo administrado. Primero debe ser desasociado. "
-
-msgid "A managed group cannot have a password policy."
-msgstr "Un grupo administrado no puede tener una política de contraseñas."
-
-#, python-format
-msgid "'%(entry)s' doesn't have a certificate."
-msgstr "'%(entry)s' no tiene certificado"
-
-#, python-format
-msgid "Unable to create private group. A group '%(group)s' already exists."
-msgstr "No se puede crear un grupo privado. Un grupo de '%(group)s' ya existe."
-
-#, python-format
-msgid ""
-"A problem was encountered when verifying that all members were %(verb)s: "
-"%(exc)s"
-msgstr ""
-"Se encontró un problema al verificar si todos los miembros eran %(verb)s: "
-"%(exc)s"
-
-#, python-format
-msgid "%(attr)s does not contain '%(value)s'"
-msgstr "%(attr)s no contiene '%(value)s'"
-
-#, python-format
-msgid ""
-"The search criteria was not specific enough. Expected 1 and found %(found)d."
-msgstr ""
-"El criterio de búsqueda no fue bastante específico. Se esperaba 1 y se "
-"encontró %(found)d."
-
-msgid "change collided with another change"
-msgstr "la modificación choca con otra modificación diferente"
-
-msgid "no modifications to be performed"
-msgstr "no existen modificaciones a ser realizadas"
-
-#, python-format
-msgid "%(desc)s: %(info)s"
-msgstr "%(desc)s:%(info)s"
-
-msgid "limits exceeded for this query"
-msgstr "han sido excedidos los límites para esta consulta"
-
-#, python-format
-msgid "%(info)s"
-msgstr "%(info)s"
-
-msgid "modifying primary key is not allowed"
-msgstr "modificar la clave principal no está permitido"
-
-#, python-format
-msgid "%(attr)s: Only one value allowed."
-msgstr " %(attr)s : Solamente un valor permitido."
-
-#, python-format
-msgid "%(attr)s: Invalid syntax."
-msgstr "%(attr)s: sintaxis inválida."
-
-#, python-format
-msgid "Bad search filter %(info)s"
-msgstr "%(info)s de filtro de búsqueda errado"
-
-#, python-format
-msgid "Certificate operation cannot be completed: %(error)s"
-msgstr "La operación certificada no puede ser completada: %(error)s"
-
-#, python-format
-msgid "Certificate format error: %(error)s"
-msgstr "Error de certificado de formato: %(error)s "
-
-msgid "Already registered"
-msgstr "Ya está registrado"
-
-msgid "Not registered yet"
-msgstr "Aún no está registrado"
-
-msgid "Results are truncated, try a more specific search"
-msgstr ""
-"Los resultados se encuentran truncados, intente realizar una búsqueda más "
-"específica"
-
-msgid ""
-"Retrieve and print all attributes from the server. Affects command output."
-msgstr ""
-"Recuperar e imprimir todos los atributos del servidor. Afecta a la salida "
-"del comando."
-
-msgid "Print entries as stored on the server. Only affects output format."
-msgstr ""
-"Imprimir entradas como almacenadas en el servidor. Solamente afecta formato "
-"de salida."
-
-msgid "Client version. Used to determine if server will accept request."
-msgstr ""
-"Versión de cliente. Se utiliza para determinar si el servidor va a aceptar "
-"la solicitud."
-
-msgid "Forward to server instead of running locally"
-msgstr "Reenvía al servidor en lugar de ejecutarse localmente"
-
-msgid "A dictionary representing an LDAP entry"
-msgstr "Un diccionario representando una entrada LDAP"
-
-msgid "A list of LDAP entries"
-msgstr "Una lista de entradas LDAP"
-
-msgid "All commands should at least have a result"
-msgstr "Todos los comandos deberían por lo menos tener un resultado"
-
-msgid "incorrect type"
-msgstr "tipo incorrecto"
-
-msgid "Only one value is allowed"
-msgstr "Sólo se permite un valor"
-
-msgid "must be True or False"
-msgstr "debe ser True o False"
-
-msgid "must be an integer"
-msgstr "debe ser un entero"
-
-#, python-format
-msgid "must be at least %(minvalue)d"
-msgstr "debe ser como mínimo %(minvalue)d"
-
-#, python-format
-msgid "can be at most %(maxvalue)d"
-msgstr "puede ser como máximo %(maxvalue)d"
-
-msgid "must be a decimal number"
-msgstr "debe ser un número decimal"
-
-#, python-format
-msgid "must match pattern \"%(pattern)s\""
-msgstr "debe coincidir con el modelo \"%(pattern)s"
-
-msgid "must be binary data"
-msgstr "debe ser un dato binario"
-
-#, python-format
-msgid "must be at least %(minlength)d bytes"
-msgstr "debe ser como mínimo de %(minlength)d bytes"
-
-#, python-format
-msgid "can be at most %(maxlength)d bytes"
-msgstr "puede ser a lo sumo de %(maxlength)d bytes"
-
-#, python-format
-msgid "must be exactly %(length)d bytes"
-msgstr "debe ser exactamente de %(length)d bytes"
-
-msgid "must be Unicode text"
-msgstr "debe ser texto Unicode"
-
-msgid "Leading and trailing spaces are not allowed"
-msgstr "No están permitidos espacios iniciales ni finales"
-
-#, python-format
-msgid "must be at least %(minlength)d characters"
-msgstr "debe tener como mínimo %(minlength)d caracteres"
-
-#, python-format
-msgid "can be at most %(maxlength)d characters"
-msgstr "puede tener a lo sumo %(maxlength)d caracteres"
-
-#, python-format
-msgid "must be exactly %(length)d characters"
-msgstr "debe tener exactamente %(length)d caracteres"
-
-msgid "A list of ACI values"
-msgstr "Una lista de valores ACI"
-
-msgid "type, filter, subtree and targetgroup are mutually exclusive"
-msgstr "tipo, filtro, subárbol y grupo de destino, se excluyen mutuamente"
-
-msgid "ACI prefix is required"
-msgstr "Se requiere prefijo de ACI "
-
-msgid ""
-"at least one of: type, filter, subtree, targetgroup, attrs or memberof are "
-"required"
-msgstr ""
-"es necesario como mínimo alguno de: tipo, filtro, subárbol, grupo de "
-"destino, atributos, o miembro de "
-
-msgid "filter and memberof are mutually exclusive"
-msgstr "filtro y memberof son mutuamente excluyentes"
-
-msgid "group, permission and self are mutually exclusive"
-msgstr "grupo, permisos y auto son mutuamente excluyentes"
-
-msgid "One of group, permission or self is required"
-msgstr "Uno de grupo, permiso o self es necesario"
-
-#, python-format
-msgid "Group '%s' does not exist"
-msgstr "El grupo '%s' no existe"
-
-msgid "empty filter"
-msgstr "Vaciar filtro"
-
-#, python-format
-msgid "Syntax Error: %(error)s"
-msgstr "Error de sintaxis:%(error)s "
-
-#, python-format
-msgid "ACI with name \"%s\" not found"
-msgstr "No se encuentra un ACI cuyo nombre sea \"%s\""
-
-msgid "ACI prefix"
-msgstr "Prefijo ACI"
-
-msgid ""
-"Prefix used to distinguish ACI types (permission, delegation, selfservice, "
-"none)"
-msgstr ""
-"Prefijo utilizado para distinguir los tipos de ACI (permiso,delegación, "
-"autoservicio, ninguno)"
-
-msgid "ACIs"
-msgstr "ACI"
-
-msgid "ACI name"
-msgstr "Nombre de ACI"
-
-msgid "Permission"
-msgstr "Permiso"
-
-msgid "Permission ACI grants access to"
-msgstr "El permiso ACI permite el acceso a"
-
-msgid "User group"
-msgstr "Grupo de usuarios"
-
-msgid "User group ACI grants access to"
-msgstr "El grupo de usuarios ACI permite el acceso a"
-
-msgid "Permissions"
-msgstr "Permisos"
-
-msgid "Attributes"
-msgstr "Atributos"
-
-msgid "Type"
-msgstr "Tipo"
-
-msgid "type of IPA object (user, group, host, hostgroup, service, netgroup)"
-msgstr ""
-"Objeto de tipo IPA (usuario, grupo, grupo de host, servicio, grupo de red)"
-
-msgid "Member of"
-msgstr "Miembro de"
-
-msgid "Member of a group"
-msgstr "Miembro de un grupo"
-
-msgid "Filter"
-msgstr "Filtro"
-
-msgid "Legal LDAP filter (e.g. ou=Engineering)"
-msgstr "Filtro legal LDAP (p.ej. ou=Ingeniería)"
-
-msgid "Subtree"
-msgstr "Subárbol"
-
-msgid "Subtree to apply ACI to"
-msgstr "Subárbol al que aplicar ACI"
-
-msgid "Target group"
-msgstr "Grupo elegido"
-
-msgid "Group to apply ACI to"
-msgstr "Grupo al que aplicar API"
-
-msgid "Target your own entry (self)"
-msgstr "Dirija su propia entrada (usted)"
-
-msgid "Apply ACI to your own entry (self)"
-msgstr "Aplique ACI a su propia entrada (usted)"
-
-#, python-format
-msgid "Created ACI \"%(value)s\""
-msgstr "Ha sido creado ACI \"%(value)s\""
-
-msgid "Test the ACI syntax but don't write anything"
-msgstr "Probar la sintaxis pero no escribir nada"
-
-#, python-format
-msgid "Deleted ACI \"%(value)s\""
-msgstr "Ha sido eliminado ACI \"%(value)s\""
-
-msgid "ACI"
-msgstr "ACI"
-
-#, python-format
-msgid "Modified ACI \"%(value)s\""
-msgstr "Ha sido modificado ACI \"%(value)s\""
-
-#, python-format
-msgid "%(count)d ACI matched"
-msgid_plural "%(count)d ACIs matched"
-msgstr[0] "%(count)d ACI coincidente"
-msgstr[1] "%(count)d ACIs coincidentes"
-
-msgid "New ACI name"
-msgstr "     Nuevo nombre de ACI"
-
-#, python-format
-msgid "Renamed ACI to \"%(value)s\""
-msgstr "ACI renombrado a \"%(value)s\""
-
-msgid "Inclusive Regex"
-msgstr "Regex inclusivo"
-
-msgid "Exclusive Regex"
-msgstr "Regex exclusivo"
-
-msgid "Attribute Key"
-msgstr "Atributo Clave"
-
-msgid ""
-"Attribute to filter via regex. For example fqdn for a host, or manager for a "
-"user"
-msgstr ""
-"Atributo a filtrar por medio de regex. Por ejemplo fqdn para un host o "
-"gestor para un usuario"
-
-msgid "Grouping Type"
-msgstr "Tipo de Agrupamiento"
-
-msgid "Grouping to which the rule applies"
-msgstr "Agrupamiento al cual se aplican las reglas"
-
-msgid "Automember Rule"
-msgstr "Regla Automiembro"
-
-msgid "Auto Membership Rule"
-msgstr "Regla Auto Afiliación"
-
-msgid "Description"
-msgstr "Descripción"
-
-msgid "A description of this auto member rule"
-msgstr "Una descripción de esta regla auto miembro"
-
-#, python-format
-msgid "Group: %s not found!"
-msgstr "Grupo: %s no encontrado!"
-
-#, python-format
-msgid "%s is not a valid attribute."
-msgstr "%s no es un atributo válido."
-
-msgid ""
-"\n"
-"    Add an automember rule.\n"
-"    "
-msgstr ""
-"\n"
-"    Añadir una regla automiembro.\n"
-"    "
-
-#, python-format
-msgid "Added automember rule \"%(value)s\""
-msgstr "Regla automiembro añadida \"%(value)s\""
-
-msgid "Auto Membership is not configured"
-msgstr "Auto Afiliación no está configurada"
-
-msgid ""
-"\n"
-"    Add conditions to an automember rule.\n"
-"    "
-msgstr ""
-"\n"
-"    Añadir condiciones a una regla automiembro.\n"
-"    "
-
-msgid "Failed to add"
-msgstr "Fallo al añadir"
-
-#, python-format
-msgid "Added condition(s) to \"%(value)s\""
-msgstr "Añadida condición(es) a \"%(value)s\""
-
-msgid "Conditions that could not be added"
-msgstr "Condiciones que no pueden ser agregadas"
-
-msgid "Number of conditions added"
-msgstr "Número de condiciones agregadas"
-
-#, python-format
-msgid "Auto member rule: %s not found!"
-msgstr "Regla auto miembro: %s no encontrada!"
-
 msgid ""
 "\n"
 "        Override this so we can add completed and failed to the return "
@@ -565,21 +38,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"    Remove conditions from an automember rule.\n"
-"    "
-msgstr ""
-"\n"
-"    Borrar condiciones de una regla automiembro.\n"
-"    "
-
-msgid "Conditions that could not be removed"
-msgstr "Condiciones que no pueden ser eliminadas"
-
-msgid "Number of conditions removed"
-msgstr "Número de condiciones eliminadas"
-
-msgid ""
-"\n"
 "        Override this so we can set completed and failed.\n"
 "        "
 msgstr ""
@@ -589,16 +47,21 @@ msgstr ""
 
 msgid ""
 "\n"
-"    Modify an automember rule.\n"
+"    Add an automember rule.\n"
 "    "
 msgstr ""
 "\n"
-"    Modificar una regla automiembro.\n"
+"    Añadir una regla automiembro.\n"
 "    "
 
-#, python-format
-msgid "Modified automember rule \"%(value)s\""
-msgstr "Modificada regla de automiembro \"%(value)s\""
+msgid ""
+"\n"
+"    Add conditions to an automember rule.\n"
+"    "
+msgstr ""
+"\n"
+"    Añadir condiciones a una regla automiembro.\n"
+"    "
 
 msgid ""
 "\n"
@@ -609,25 +72,6 @@ msgstr ""
 "    Borra una regla automiembro.\n"
 "    "
 
-#, python-format
-msgid "Deleted automember rule \"%(value)s\""
-msgstr "Borrada regla automiembro \"%(value)s\""
-
-msgid ""
-"\n"
-"    Search for automember rules.\n"
-"    "
-msgstr ""
-"\n"
-"    Búsqueda reglas automiembro.\n"
-"    "
-
-#, python-format
-msgid "%(count)d rules matched"
-msgid_plural "%(count)d rules matched"
-msgstr[0] "%(count)d reglas coincidentes"
-msgstr[1] "%(count)d reglas coincidentes"
-
 msgid ""
 "\n"
 "    Display information about an automember rule.\n"
@@ -637,882 +81,32 @@ msgstr ""
 "    Muestra información sobre una regla automiembro.\n"
 "    "
 
-msgid "automount location"
-msgstr "localización automontaje"
-
-msgid "automount locations"
-msgstr "localizaciones de automontaje"
-
-msgid "Automount Locations"
-msgstr "Ubicaciones de automontado"
-
-msgid "Automount Location"
-msgstr "Localización de Automontaje"
-
-msgid "Location"
-msgstr "Ubicación"
-
-msgid "Automount location name."
-msgstr "Nombre de la ubicación de montaje automático."
-
-msgid "Create a new automount location."
-msgstr "Crear una nueva localización de automontaje."
-
-#, python-format
-msgid "Added automount location \"%(value)s\""
-msgstr "Añadida localización de automontaje \"%(value)s\""
-
-msgid "Delete an automount location."
-msgstr "Borrar una localización de automontaje."
-
-#, python-format
-msgid "Deleted automount location \"%(value)s\""
-msgstr "Borrada una localización de automontaje \"%(value)s\""
-
-msgid "Display an automount location."
-msgstr "Mostrar una localización de automontaje"
-
-msgid "Search for an automount location."
-msgstr "Buscar una localización de automontaje."
-
-#, python-format
-msgid "%(count)d automount location matched"
-msgid_plural "%(count)d automount locations matched"
-msgstr[0] "%(count)d localización de automontaje coincidente"
-msgstr[1] "%(count)d localizaciones de automontaje coincidentes"
-
-msgid "Generate automount files for a specific location."
-msgstr "Generar ficheros de automontaje para una localización específica."
-
-msgid "Import automount files for a specific location."
-msgstr "Importar ficheros de automontaje para una localización específica."
-
-msgid "Master file"
-msgstr "    Archivo maestro"
-
-msgid "Automount master file."
-msgstr "    Archivo maestro automount."
+msgid ""
+"\n"
+"    Modify an automember rule.\n"
+"    "
+msgstr ""
+"\n"
+"    Modificar una regla automiembro.\n"
+"    "
 
 msgid ""
-"Continuous operation mode. Errors are reported but the process continues."
+"\n"
+"    Remove conditions from an automember rule.\n"
+"    "
 msgstr ""
-"    Modo de funcionamiento continuo. Reporta los errores, pero el proceso "
-"continúa."
-
-#, python-format
-msgid "File %(file)s not found"
-msgstr "No se encontró el archivo %(file)s "
-
-msgid "automount map"
-msgstr "mapa de automontaje"
-
-msgid "automount maps"
-msgstr "mapas de automontaje"
-
-msgid "Map"
-msgstr "Mapa"
-
-msgid "Automount map name."
-msgstr "  Nombre del mapa automount."
-
-msgid "Automount Maps"
-msgstr "Mapas de montaje automático"
-
-msgid "Automount Map"
-msgstr "Mapa de Automontaje"
-
-msgid "Create a new automount map."
-msgstr "Crear un nuevo mapa de automontaje"
-
-#, python-format
-msgid "Added automount map \"%(value)s\""
-msgstr "Añadido mapa de automontaje \"%(value)s\""
-
-msgid "Delete an automount map."
-msgstr "Borrar un mapa de automontaje."
-
-#, python-format
-msgid "Deleted automount map \"%(value)s\""
-msgstr "Borrado un mapa de automontaje \"%(value)s\""
-
-msgid "Modify an automount map."
-msgstr "Modificar un mapa de automontaje"
-
-#, python-format
-msgid "Modified automount map \"%(value)s\""
-msgstr "Modificado un mapa de automontaje \"%(value)s\""
-
-msgid "Search for an automount map."
-msgstr "Buscar un mapa de automontaje."
-
-#, python-format
-msgid "%(count)d automount map matched"
-msgid_plural "%(count)d automount maps matched"
-msgstr[0] "%(count)d mapa de automontaje coincidente"
-msgstr[1] "%(count)d mapas de automontaje coincidentes"
-
-msgid "Display an automount map."
-msgstr "Mostrar un mapa de automontaje"
-
-msgid "Automount key object."
-msgstr "Objeto clave de automontaje"
-
-msgid "automount key"
-msgstr "clave de automontaje"
-
-msgid "automount keys"
-msgstr "claves de automontaje"
-
-msgid "Key"
-msgstr "Llave"
-
-msgid "Automount key name."
-msgstr "    Nombre de clave de montaje automático"
-
-msgid "Mount information"
-msgstr "Información de montaje"
-
-msgid "description"
-msgstr "descripción"
-
-msgid "Automount Keys"
-msgstr "Llaves de montaje automático"
-
-msgid "Automount Key"
-msgstr "Clave de Automontaje"
-
-#, python-format
-msgid ""
-"The key,info pair must be unique. A key named %(key)s with info %(info)s "
-"already exists"
-msgstr ""
-"El par de claves, la información debe ser único. Un nombre clave %(key)s  "
-"con información %(info)s ya existe"
-
-#, python-format
-msgid "key named %(key)s already exists"
-msgstr "ya existe una llave denominada %(key)s"
-
-#, python-format
-msgid "The automount key %(key)s with info %(info)s does not exist"
-msgstr "La clave de montaje automático %(key)s con info %(info)s no existe"
-
-#, python-format
-msgid ""
-"More than one entry with key %(key)s found, use --info to select specific "
-"entry."
-msgstr ""
-"Se ha encontrado más de una entrada con la llave %(key)s, utilice --info "
-"para seleccionar una entrada específica."
-
-msgid "Create a new automount key."
-msgstr "Crear una nueva clave de automontaje."
-
-#, python-format
-msgid "Added automount key \"%(value)s\""
-msgstr "Añadida clave de automontaje \"%(value)s\""
-
-msgid "Create a new indirect mount point."
-msgstr "Crear un nuevo punto de montaje indirecto."
-
-#, python-format
-msgid "Added automount indirect map \"%(value)s\""
-msgstr "Añadido mapa de automontaje indirecto \"%(value)s\""
-
-msgid "Mount point"
-msgstr "Punto de montaje"
-
-msgid "Parent map"
-msgstr "Mapa del padre"
-
-msgid "Name of parent automount map (default: auto.master)."
-msgstr ""
-"Nombre del mapa de montaje automático de padre (por defecto: auto.master)."
-
-msgid "Delete an automount key."
-msgstr "Borrar una clave de automontaje."
-
-#, python-format
-msgid "Deleted automount key \"%(value)s\""
-msgstr "Borrada clave de automontaje \"%(value)s\""
-
-msgid "Modify an automount key."
-msgstr "Modificar una clave de automontaje."
-
-#, python-format
-msgid "Modified automount key \"%(value)s\""
-msgstr "Modificada clave de automontaje \"%(value)s\""
-
-msgid "New mount information"
-msgstr "Nueva información de montaje"
-
-msgid "Search for an automount key."
-msgstr "Buscar una clave de automontaje."
-
-#, python-format
-msgid "%(count)d automount key matched"
-msgid_plural "%(count)d automount keys matched"
-msgstr[0] "%(count)d clave de automontaje coincidente"
-msgstr[1] "%(count)d claves de automontaje coincidentes"
-
-msgid "Display an automount key."
-msgstr "Mostrar una clave de automontaje."
-
-msgid "Password"
-msgstr "Contraseña"
-
-msgid "Failed members"
-msgstr "Miembros fallidos"
-
-msgid "Member users"
-msgstr "Usuarios miembros"
-
-msgid "Member groups"
-msgstr "Grupos de miembros"
-
-msgid "Member of groups"
-msgstr "Miembros de los grupos"
-
-msgid "Member hosts"
-msgstr "Equipos miembro"
-
-msgid "Member host-groups"
-msgstr "Grupos de equipo miembro"
-
-msgid "Member of host-groups"
-msgstr "Miembro de los grupos de equipo"
-
-msgid "Roles"
-msgstr "  Roles"
-
-msgid "Sudo Command Groups"
-msgstr "Grupos de comando sudo"
-
-msgid "Granting privilege to roles"
-msgstr "Concesión de privilegios a los roles"
-
-msgid "Member netgroups"
-msgstr " Miembros de netgroups"
-
-msgid "Member of netgroups"
-msgstr "Miembros de netgroups"
-
-msgid "Member services"
-msgstr "Servicios de miembros"
-
-msgid "Member service groups"
-msgstr ""
-"\\n\n"
-"Servicios\\n\n"
-"\\n\n"
-"Un servicio IPA representa un servicio que se ejecuta en un host. El "
-"registro del servicio IPA\\n\n"
-"puede almacenar la principal de kerberos, un certificado SSL, o ambos.\\n\n"
-"\\n\n"
-"Un servicio IPA puede administrarse directamente desde una máquina, siempre "
-"y cuando\\n\n"
-"la máquina tenga el permiso correcto. Esto es cierto, incluso para\\n\n"
-"máquinas que no están asociadas con el servicio. Por ejemplo,\\n\n"
-"solicitando un certificado SSL mediante credenciales principales de servicio "
-"de host.\\n\n"
-"Para administrar un servicio mediante credenciales de host necesita\\n\n"
-"ejecutar kinit como el host:\\n\n"
-"\\n\n"
-" # kinit -kt /etc/krb5.keytab host/ipa.example.com@EXAMPLE.COM\\n\n"
-"\\n\n"
-"Añadir un servicio IPA le permite al servicio asociado solicitar un "
-"certificado o una tabla de claves\\n\n"
-"SSL, pero esto se realiza como un paso independiente; no se producen como"
-"\\n\n"
-"como resultado de añadir un servicio\\n\n"
-"Solamente el aspecto público de un certificado es almacenado en un registro "
-"de servicio;\\n\n"
-"la clave privada no es almacenada.\\n\n"
-"\\n\n"
-"EJEMPLOS:\\n\n"
-"\\n\n"
-" Añadir un nuevo servicio IPA:\\n\n"
-"   ipa service-add HTTP/web.example.com\\n\n"
-"\\n\n"
-" Permitir a un host administrar un certificado de servicio IPA:\\n\n"
-"  ipa service-add-host --hosts=web.example.com HTTP/web.example.com\\n\n"
-"  ipa role-add-member --hosts=web.example.com certadmin\\n\n"
-"\\n\n"
-" Borra un servicio IPA:\\n\n"
-"   ipa service-del HTTP/web.example.com\\n\n"
-"\\n\n"
-"  Buscar todos los servicio IPA asociados con un host:\\n\n"
-"   ipa service-find web.example.com\\n\n"
-"\\n\n"
-" Buscar todos los servicios HTTP:\\n\n"
-"   ipa service-find HTTP\\n\n"
-"\\n\n"
-" Desactivar la clave del servicio de kerberos y certificado SSL:\\n\n"
-"   ipa service-disable HTTP/web.example.com\\n\n"
-"\\n\n"
-" Solicitar un certificado para un servicio IPA:\\n\n"
-"   ipa cert-request --principal=HTTP/web.example.com example.csr\\n\n"
-"\\n\n"
-" Generar y recuperar una tabla de claves para un servicio IPA:\\n\n"
-"   ipa-getkeytab -s ipa.example.com -p HTTP/web.example.com -k /etc/httpd/"
-"httpd.keytab\\n\n"
-"\\n"
-
-msgid "Member HBAC service"
-msgstr "Miembro del servicio HBAC"
-
-msgid "Member HBAC service groups"
-msgstr "Grupos de servicio de Miembros HBAC"
-
-msgid "Indirect Member users"
-msgstr "Usuarios indirectos miembros"
-
-msgid "Indirect Member groups"
-msgstr "Grupos de miembros indirectos"
-
-msgid "Indirect Member hosts"
-msgstr "Hosts de miembros indirectos"
-
-msgid "Indirect Member host-groups"
-msgstr "Miembros indirectos de host-groups"
-
-msgid "Indirect Member of roles"
-msgstr "Roles de miembros indirectos"
-
-msgid "Indirect Member permissions"
-msgstr ""
-"\\n\n"
-"Permisos indirectos de miembro "
-
-msgid "Indirect Member HBAC service"
-msgstr "Servicio HBAC de miembro indirecto"
-
-msgid "Indirect Member HBAC service group"
-msgstr "Grupo de servicio HBAC de miembros indirectos "
-
-msgid "Indirect Member netgroups"
-msgstr "Miembros indirectos netgroups"
-
-msgid "Failed source hosts/hostgroups"
-msgstr "Fallada fuente hosts/grupos de hosts"
-
-msgid "Failed hosts/hostgroups"
-msgstr "Falló host/hostgroups"
-
-msgid "Failed users/groups"
-msgstr "Falló usuarios/grupos"
-
-msgid "Failed service/service groups"
-msgstr "Fallado servicio/servicio grupos"
-
-msgid "Failed to remove"
-msgstr "No se ha podido quitar"
-
-msgid "External host"
-msgstr "Equipo externo"
-
-msgid "entry"
-msgstr "entrada"
-
-msgid "entries"
-msgstr "entradas"
-
-msgid "Entry"
-msgstr "Entrada"
-
-#, python-format
-msgid "container entry (%(container)s) not found"
-msgstr "no se encuentra la entrada (%(container)s) de contenedor"
-
-#, python-format
-msgid "%(parent)s: %(oname)s not found"
-msgstr "%(parent)s: no se encuentra %(oname)s"
-
-#, python-format
-msgid "%(pkey)s: %(oname)s not found"
-msgstr "%(pkey)s: no se encuentra %(oname)s"
-
-#, python-format
-msgid "%(oname)s with name \"%(pkey)s\" already exists"
-msgstr " %(oname)s  con el nombre \"%(pkey)s\" ya existe"
+"\n"
+"    Borrar condiciones de una regla automiembro.\n"
+"    "
 
 msgid ""
-"Set an attribute to a name/value pair. Format is attr=value.\n"
-"For multi-valued attributes, the command replaces the values already present."
+"\n"
+"    Search for automember rules.\n"
+"    "
 msgstr ""
-"Establecer un atributo a un par nombre y valor. El formato es attr=value. \n"
-"Para los atributos de valor múltiple, el comando sustituye los valores ya "
-"presentes."
-
-msgid ""
-"Add an attribute/value pair. Format is attr=value. The attribute\n"
-"must be part of the schema."
-msgstr ""
-"Añadir un par atributo/valor. El formato es attr=value. El atributo debe ser "
-"parte del esquema."
-
-msgid ""
-"Delete an attribute/value pair. The option will be evaluated\n"
-"last, after all sets and adds."
-msgstr ""
-"Borrar un par atributo/valor. La opción será evaluada al final, después de "
-"todos los ajustes y añadidos."
-
-msgid "Continuous mode: Don't stop on errors."
-msgstr "Modo continuo: No se detenga en los errores."
-
-msgid "Rights"
-msgstr "Derechos"
-
-msgid ""
-"Display the access rights of this entry (requires --all). See ipa man page "
-"for details."
-msgstr ""
-"Mostrar los derechos de acceso de esta entrada (requiere --all). Consulte la "
-"página man de IPA para más detalles."
-
-msgid "Rename"
-msgstr "Cambiar el nombre de"
-
-#, python-format
-msgid "Rename the %(ldap_obj_name)s object"
-msgstr "Cambie el nombre del %(ldap_obj_name)s  objeto"
-
-msgid "the entry was deleted while being modified"
-msgstr "la entrada fue eliminada mientras estaba siendo modificada"
-
-#, python-format
-msgid "member %s"
-msgstr "miembro %s"
-
-msgid "Members that could not be added"
-msgstr "Miembros que no han podido ser añadidos"
-
-msgid "Number of members added"
-msgstr "Cantidad de miembros añadidos"
-
-msgid "Members that could not be removed"
-msgstr "Miembros que no han podido ser eliminados"
-
-msgid "Number of members removed"
-msgstr "Cantidad de miembros eliminados"
-
-msgid "Primary key only"
-msgstr "Sólo clave primaria"
-
-#, python-format
-msgid "Results should contain primary key attribute only (\"%s\")"
-msgstr ""
-"Los resultados deberían contener sólo atributo de clave primaria (“%s”)"
-
-msgid "Time Limit"
-msgstr "Tiempo límite"
-
-msgid "Time limit of search in seconds"
-msgstr "Tiempo máximo de búsqueda en segundos"
-
-msgid "Size Limit"
-msgstr "Tamaño límite"
-
-msgid "Maximum number of entries returned"
-msgstr "Cantidad máxima de entradas obtenidas"
-
-msgid "Nested Methods to execute"
-msgstr "Métodos anidados para ejecutar"
-
-msgid "Failure decoding Certificate Signing Request:"
-msgstr ""
-"Falla al intentar decodificar la petición de identificación de certificado"
-
-msgid "Failure decoding Certificate Signing Request"
-msgstr ""
-"Falla al intentar decodificar la petición de identificación de certificado"
-
-#, python-format
-msgid "Failure decoding Certificate Signing Request: %s"
-msgstr ""
-"Falla al intentar decodificar la petición de identificación de certificado: "
-"%s"
-
-msgid "Submit a certificate signing request."
-msgstr "Enviar una petición de firma de certificado."
-
-msgid "CSR"
-msgstr "CSR"
-
-msgid "Principal"
-msgstr "Principal"
-
-msgid "Service principal for this certificate (e.g. HTTP/test.example.com)"
-msgstr ""
-"Principal del servicio para este certificado (p.ej. HTTP/prueba.ejemplo.com)"
-
-msgid "automatically add the principal if it doesn't exist"
-msgstr "si no existe, agregar automáticamente el principal"
-
-msgid "Certificate"
-msgstr "Certificado"
-
-msgid "Subject"
-msgstr "Asunto"
-
-msgid "Issuer"
-msgstr "Emisor"
-
-msgid "Not Before"
-msgstr "No antes de"
-
-msgid "Not After"
-msgstr "No luego de"
-
-msgid "Fingerprint (MD5)"
-msgstr "Huella digital (MD5)"
-
-msgid "Fingerprint (SHA1)"
-msgstr "Huella digital (SHA1)"
-
-msgid "Serial number"
-msgstr "Número de serie"
-
-msgid "Dictionary mapping variable name to value"
-msgstr "Nombre de la variable de mapeo de dicionario a valorizar "
-
-msgid "Check the status of a certificate signing request."
-msgstr "Verificar el estado de una solicitud de firma de certificado."
-
-msgid "Request id"
-msgstr "Id de la petición"
-
-msgid "Request status"
-msgstr "Estado de la petición"
-
-msgid "Serial number in decimal or if prefixed with 0x in hexadecimal"
-msgstr "Número de serie en decimales, o hexadecimales, si tiene un prefijo 0x"
-
-msgid "Retrieve an existing certificate."
-msgstr "Recuperar un certificado existente."
-
-msgid "Revocation reason"
-msgstr "Motivo de la revocación"
-
-msgid "Output filename"
-msgstr "Nombre de archivo de salida"
-
-msgid "File to store the certificate in."
-msgstr "Archivo para almacenar el certificado"
-
-msgid "Revoke a certificate."
-msgstr "Revocar un certificado."
-
-msgid "Revoked"
-msgstr "Revocado"
-
-msgid "Reason"
-msgstr "Motivo"
-
-msgid "Reason for revoking the certificate (0-10)"
-msgstr "Motivo por el cual el certificado ha sido revocado (0-10)"
-
-msgid "7 is not a valid revocation reason"
-msgstr "7 no es una razón válida de revocación"
-
-msgid "Take a revoked certificate off hold."
-msgstr "Tomar un certificado revocado de espera."
-
-msgid "Unrevoked"
-msgstr "No revocado"
-
-msgid "Error"
-msgstr "Error"
-
-msgid "Status"
-msgstr "Estatus"
-
-msgid "searchtimelimit must be -1 or > 1."
-msgstr "searchtimelimit debe ser -1 o&gt; 1."
-
-msgid "configuration options"
-msgstr "opciones de configuración"
-
-msgid "Configuration"
-msgstr "Configuración"
-
-msgid "Maximum username length"
-msgstr "Largo máximo para nombre de usuario"
-
-msgid "Home directory base"
-msgstr "Base del directorio principal"
-
-msgid "Default location of home directories"
-msgstr "Localización por defecto de los directorios home"
-
-msgid "Default shell"
-msgstr "Shell predeterminada"
-
-msgid "Default shell for new users"
-msgstr "Shell predeterminada para usuarios nuevos"
-
-msgid "Default users group"
-msgstr "Grupo de usuarios predeterminado"
-
-msgid "Default group for new users"
-msgstr "Grupo predeterminado para usuarios nuevos"
-
-msgid "Default e-mail domain"
-msgstr "Dominio de correo electrónico por defecto"
-
-msgid "Search time limit"
-msgstr "Buscar límite de tiempo"
-
-msgid ""
-"Maximum amount of time (seconds) for a search (> 0, or -1 for unlimited)"
-msgstr ""
-"Máxima cantidad de tiempo (segundos) parab una búsqueda (> 0, o -1 para "
-"ilimitado)"
-
-msgid "Search size limit"
-msgstr "Límite del tamaño de la búsqueda"
-
-msgid "Maximum number of records to search (-1 is unlimited)"
-msgstr "Máximo número de registros a buscar (-1 es ilimitado)"
-
-msgid "User search fields"
-msgstr "Campos de búsqueda de usuario"
-
-msgid "A comma-separated list of fields to search in when searching for users"
-msgstr ""
-"Una lista separada por comas de los campos a buscar cuando se está buscando "
-"usuarios"
-
-msgid "A comma-separated list of fields to search in when searching for groups"
-msgstr ""
-"Una lista separada por comas de los campos a buscar cuando se está buscando "
-"grupos"
-
-msgid "Enable migration mode"
-msgstr "Habilitar modo migración"
-
-msgid "Certificate Subject base"
-msgstr "Base de certificado de asunto"
-
-msgid "Base for certificate subjects (OU=Test,O=Example)"
-msgstr "Base para sujetos certificados (OU=Prueba,O=Ejemplo)"
-
-msgid "Default group objectclasses"
-msgstr "Grupo predeterminado objectclass"
-
-msgid "Default user objectclasses"
-msgstr "Usuario predeterminado objectclasses"
-
-msgid "Password plugin features"
-msgstr "Funciones del complemento de contraseña"
-
-msgid "The group doesn't exist"
-msgstr "El grupo no existe"
-
-#, python-format
-msgid "attribute \"%s\" not allowed"
-msgstr "atributo \"%s\" no permitido"
-
-msgid "Show the current configuration."
-msgstr "Muestra la configuración actual"
-
-msgid "Delegation"
-msgstr "Delegación"
-
-msgid "Delegation name"
-msgstr "Nombre de delegación"
-
-msgid "Member user group"
-msgstr "Miembro del grupo de usuarios"
-
-msgid "User group to apply delegation to"
-msgstr "Grupo de usuarios para solicitar a la delegación"
-
-#, python-format
-msgid "Added delegation \"%(value)s\""
-msgstr "Delegación añadida \"%(value)s\""
-
-#, python-format
-msgid "Deleted delegation \"%(value)s\""
-msgstr "Delegación eliminada \"%(value)s\""
-
-#, python-format
-msgid "Modified delegation \"%(value)s\""
-msgstr "Delegación modificada \"%(value)s\""
-
-#, python-format
-msgid "%(count)d delegation matched"
-msgid_plural "%(count)d delegations matched"
-msgstr[0] "%(count)d delegación coincidente"
-msgstr[1] "%(count)d delegaciones coincidentes"
-
-#, python-format
-msgid "DNS reverse zone for IP address %(addr)s not found"
-msgstr "Zona invertida DNS para dirección IP %(addr)s no encontrada"
-
-#, python-format
-msgid "DNS zone %(zone)s not found"
-msgstr "Zona DNS %(zone)s no encontrado"
-
-msgid "Hostname"
-msgstr "Nombre del equipo anfitrión"
-
-msgid "Target"
-msgstr "Meta"
-
-msgid "Service"
-msgstr "Servicio"
-
-msgid "Priority"
-msgstr "Prioridad"
-
-#, python-format
-msgid "Nameserver '%(host)s' does not have a corresponding A/AAAA record"
-msgstr ""
-"El servidor de nombre '%(host)s' no tiene su correspondiente registro  A/AAAA"
-
-msgid "Zone name"
-msgstr "Nombre de la zona"
-
-msgid "Zone name (FQDN)"
-msgstr "Nombre de la zona (FQDN)"
-
-msgid "Authoritative nameserver"
-msgstr "Nombre de servidor autoritativo"
-
-msgid "Administrator e-mail address"
-msgstr "Correo-e de administrador"
-
-msgid "SOA serial"
-msgstr "Serie SOA"
-
-msgid "SOA record serial number"
-msgstr "Número de serie de registro SOA"
-
-msgid "SOA refresh"
-msgstr "Actualizar SOA"
-
-msgid "SOA record refresh time"
-msgstr "registro SOA tiempo de actualización"
-
-msgid "SOA retry"
-msgstr "Reintentar SOA"
-
-msgid "SOA record retry time"
-msgstr "tiempo de reintento de "
-
-msgid "SOA expire"
-msgstr "Expirar SOA"
-
-msgid "SOA record expire time"
-msgstr "tiempo de expiración de registro SOA"
-
-msgid "SOA minimum"
-msgstr "Mínimo SOA"
-
-msgid "How long should negative responses be cached"
-msgstr "¿Por cuánto tiempo las respuestas negativas deben guardarse en cache?"
-
-msgid "SOA time to live"
-msgstr "Tiempo para abandonar SOA"
-
-msgid "SOA record time to live"
-msgstr "tiempo de vida de registro SOA"
-
-msgid "SOA class"
-msgstr "Clase SOA"
-
-msgid "SOA record class"
-msgstr "Clase de registro SOA "
-
-msgid "BIND update policy"
-msgstr "Política de actualización de BIND"
-
-msgid "Active zone"
-msgstr "Activar zona"
-
-msgid "Is zone active?"
-msgstr "¿Está la zona activa?"
-
-msgid "Dynamic update"
-msgstr "Actualización dinámica"
-
-msgid "Allow dynamic updates."
-msgstr "Permitir actualizaciones dinámicas."
-
-msgid "Force"
-msgstr "Forzar"
-
-msgid "DNS is not configured"
-msgstr "DNS no está configurado"
-
-#, python-format
-msgid "Disabled DNS zone \"%(value)s\""
-msgstr "Zona de DNS desactivada \"%(value)s\" "
-
-#, python-format
-msgid "Enabled DNS zone \"%(value)s\""
-msgstr "Zona DNS habilitada \" %(value)s \""
-
-msgid "DNS resource record"
-msgstr "Registro de recursos DNS"
-
-msgid "Record name"
-msgstr "Nombre de registro"
-
-msgid "Time to live"
-msgstr "Tiempo para abandonar"
-
-msgid "Class"
-msgstr "Clase"
-
-msgid "DNS class"
-msgstr "Clase DNS"
-
-#, python-format
-msgid ""
-"Reverse zone for PTR record should be a sub-zone of one the following fully "
-"qualified domains: %s"
-msgstr ""
-"La zona invertida para registro PTR debería ser una sub-zona de uno de los "
-"siguientes dominios integramente cualificados: %s"
-
-msgid "force NS record creation even if its hostname is not in DNS"
-msgstr "Forzar la creación del registro DNS, aunque su nombre no sea absoluto"
-
-msgid "Current DNS record contents:\n"
-msgstr "Contenidos actuales del registro DNS:\n"
-
-#, python-format
-msgid "Deleted record \"%(value)s\""
-msgstr "Registro eliminado \"%(value)s\""
-
-msgid ""
-"Neither --del-all nor options to delete a specific record provided.\n"
-"Command help may be consulted for all supported record types."
-msgstr ""
-"Ni --del-all ni opciones para borrar un registro en concreto ha sido "
-"especificado.\n"
-"El comando de ayuda puede ser consultado para ver los tipos de registros "
-"soportados."
-
-msgid "Delete all associated records"
-msgstr "Eliminar todos los registros asociados"
-
-msgid "No option to delete specific record provided."
-msgstr "Ninguna opción para  borrar un registro en concreto especificado."
-
-msgid "Delete all?"
-msgstr "¿Borrar todos?"
-
-#, python-format
-msgid "Found '%(value)s'"
-msgstr "Ha sido encontrado '%(value)s'"
-
-#, python-format
-msgid "Host '%(host)s' not found"
-msgstr "No ha sido encontrado el equipo anfitrión '%(host)s' "
+"\n"
+"    Búsqueda reglas automiembro.\n"
+"    "
 
 msgid ""
 "\n"
@@ -1596,208 +190,6 @@ msgstr ""
 "\n"
 "Cambios a /etc/rhsm/rhsm.conf requieren un reinicio del servicio httpd.\\n\n"
 
-msgid "Entitlements"
-msgstr "Autorizaciones"
-
-msgid "UUID"
-msgstr "UUID"
-
-msgid "Product"
-msgstr "Producto"
-
-msgid "Quantity"
-msgstr "Cantidad"
-
-msgid "Consumed"
-msgstr "Consumido"
-
-#, python-format
-msgid "Consumed %(value)s entitlement(s)."
-msgstr "Derecho(s) consumido(s) %(value)s."
-
-msgid "Start"
-msgstr "Inicio"
-
-msgid "End"
-msgstr "Fin"
-
-msgid "Serial Number"
-msgstr "Número de serie"
-
-msgid "Not an entitlement certificate"
-msgstr "No es un certificado de derechos"
-
-msgid "Registered to entitlement server."
-msgstr "Registrado en el servidor de derechos."
-
-msgid "Username"
-msgstr "Nombre de usuario"
-
-msgid "Registration password"
-msgstr "Contraseña de registro"
-
-msgid "Enrollment UUID"
-msgstr "Inscripción UUID"
-
-msgid "Entitlement(s) synchronized."
-msgstr "Derecho (s) sincronizado(s)."
-
-msgid "group"
-msgstr "grupo"
-
-msgid "groups"
-msgstr "grupos"
-
-msgid "User Groups"
-msgstr "Grupos de usuarios"
-
-msgid "Group name"
-msgstr "Nombre del grupo"
-
-msgid "Group description"
-msgstr "Descripción del grupo"
-
-msgid "GID"
-msgstr "GID"
-
-msgid "GID (use this option to set it manually)"
-msgstr "GID (utilice esta opción para definirlo manualmente)"
-
-msgid "Create a new group."
-msgstr "Crear un grupo nuevo."
-
-#, python-format
-msgid "Added group \"%(value)s\""
-msgstr "Ha sido agregado el grupo \"%(value)s\""
-
-msgid "Create as a non-POSIX group"
-msgstr "  Crear como un grupo no POSIX"
-
-msgid "Delete group."
-msgstr "Eliminar grupo."
-
-#, python-format
-msgid "Deleted group \"%(value)s\""
-msgstr "Ha sido eliminado el grupo \"%(value)s\""
-
-msgid "Modify a group."
-msgstr "Modificar un grupo."
-
-#, python-format
-msgid "Modified group \"%(value)s\""
-msgstr "Ha sido modificado el grupo \"%(value)s\""
-
-msgid "change to a POSIX group"
-msgstr "Cambiar a un grupo POSIX"
-
-#, python-format
-msgid "%(count)d group matched"
-msgid_plural "%(count)d groups matched"
-msgstr[0] "%(count)d grupo coincidente"
-msgstr[1] "%(count)d grupos coincidentes"
-
-msgid "search for private groups"
-msgstr "Búsqueda de grupos privados"
-
-msgid "Add members to a group."
-msgstr "Agregar miembro a un grupo."
-
-msgid "Remove members from a group."
-msgstr "Eliminar miembro desde un grupo."
-
-#, python-format
-msgid "Detached group \"%(value)s\" from user \"%(value)s\""
-msgstr "Ha sido desasociado el grupo \"%(value)s\" del usuario \"%(value)s\""
-
-msgid "not allowed to modify user entries"
-msgstr "no se permite modificar las entradas de los usuarios"
-
-msgid "not allowed to modify group entries"
-msgstr "no se permite modificar las entradas de los grupos"
-
-msgid "Not a managed group"
-msgstr "No es un grupo administrado"
-
-msgid "HBAC Rule"
-msgstr "REgla HBAC"
-
-msgid "Rule name"
-msgstr "Nombre de la regla"
-
-msgid "Rule type"
-msgstr "Tipo de regla"
-
-msgid "User category"
-msgstr "Categoría de usuario"
-
-msgid "User category the rule applies to"
-msgstr "Categoría de usuario al que se aplica la regla"
-
-msgid "Host category"
-msgstr "Categoría del equipo"
-
-msgid "Host category the rule applies to"
-msgstr "Categoría del equipo al que se aplica la regla"
-
-msgid "Source host category"
-msgstr "Categoría del equipo de origen"
-
-msgid "Source host category the rule applies to"
-msgstr "Categoría del equipo de origen al que se aplica la regla"
-
-msgid "Service category"
-msgstr "   Añadir servicios a una regla de HBAC"
-
-msgid "Service category the rule applies to"
-msgstr "Categoría de servicio a la que se aplica la regla"
-
-msgid "Enabled"
-msgstr "Habilitado"
-
-msgid "Users"
-msgstr "Usuarios"
-
-msgid "Hosts"
-msgstr "Equipos"
-
-msgid "Host Groups"
-msgstr "Grupos de equipo"
-
-msgid "Services"
-msgstr "Sevicios HBAC"
-
-msgid "Service Groups"
-msgstr "    Búsqueda de servicios HBAC."
-
-#, python-format
-msgid "Added HBAC rule \"%(value)s\""
-msgstr "Añadida regla HBAC \"%(value)s\""
-
-#, python-format
-msgid "Deleted HBAC rule \"%(value)s\""
-msgstr "Suprimida regla HBAC \"%(value)s\""
-
-#, python-format
-msgid "Modified HBAC rule \"%(value)s\""
-msgstr "Modificada regla HBAC \"%(value)s\""
-
-#, python-format
-msgid "%(count)d HBAC rule matched"
-msgid_plural "%(count)d HBAC rules matched"
-msgstr[0] "%(count)d regla coincidente de HBAC"
-msgstr[1] "%(count)d reglas coincidentes de HBAC "
-
-#, python-format
-msgid "Enabled HBAC rule \"%(value)s\""
-msgstr "Habilitada regla HBAC \"%(value)s\""
-
-#, python-format
-msgid "Disabled HBAC rule \"%(value)s\""
-msgstr "\"%(value)s\" regla HBAC desactivada    "
-
-msgid "Access time"
-msgstr "Hora de acceso"
-
 msgid ""
 "\n"
 "HBAC Services\n"
@@ -1845,648 +237,39 @@ msgstr ""
 "   ipa hbacsvc-del tftp\n"
 "\n"
 
-msgid "HBAC service"
-msgstr "Servicio HBAC"
-
-msgid "HBAC Services"
-msgstr "Servicios HBAC"
-
-msgid "Service name"
-msgstr "% (Count) d HBAC servicios encontrados"
-
-msgid "HBAC service description"
-msgstr "Descripción de servicio HBAC"
-
-#, python-format
-msgid "Added HBAC service \"%(value)s\""
-msgstr "Servicio de HBAC \"%(value)s\" añadido"
-
-#, python-format
-msgid "Deleted HBAC service \"%(value)s\""
-msgstr "Suprimido el servicio HBAC \"%(value)s\""
-
-#, python-format
-msgid "Modified HBAC service \"%(value)s\""
-msgstr "    Servicio modificado HBAC \"%(value)s\""
-
-#, python-format
-msgid "%(count)d HBAC service matched"
-msgid_plural "%(count)d HBAC services matched"
-msgstr[0] "Servicio HBAC %(count)d coincidente"
-msgstr[1] "Servicios HBAC %(count)d coincidentes"
-
-msgid "Service group name"
-msgstr ""
-"    Desactivar la tecla de Kerberos, certificado SSL y todos los servicios "
-"de un host."
-
-msgid "HBAC service group description"
-msgstr "Servicios y grupos especificados"
-
-#, python-format
-msgid "Added HBAC service group \"%(value)s\""
-msgstr "Agregado servicio de grupo HBAC \"%(value)s\""
-
-#, python-format
-msgid "Deleted HBAC service group \"%(value)s\""
-msgstr "    Suprimido el servicio HBAC grupo \"%(value)s\""
-
-#, python-format
-msgid "Modified HBAC service group \"%(value)s\""
-msgstr "Servicio modificado HBAC grupo \"%(value)s\""
-
-#, python-format
-msgid "%(count)d HBAC service group matched"
-msgid_plural "%(count)d HBAC service groups matched"
-msgstr[0] "%(count)d grupo de servicio HBAC coincidente"
-msgstr[1] "%(count)d grupos de servicio HBAC coincidentes"
-
-msgid "User name"
-msgstr "Nombre de usuario"
-
-msgid "Unresolved rules in --rules"
-msgstr "Eliminar miembro desde un grupo."
-
-msgid "Keytab"
-msgstr "Keytab"
-
-msgid "Failed managedby"
-msgstr "Falló managedby"
-
-msgid "Host name"
-msgstr "Nombre del equipo"
-
-msgid "A description of this host"
-msgstr "Una descripción de este equipo"
-
-msgid "Locality"
-msgstr "Localidad"
-
-msgid "Host locality (e.g. \"Baltimore, MD\")"
-msgstr "Localidad del equipo (p.ej. \"Barrio latino, París\") "
-
-msgid "Host location (e.g. \"Lab 2\")"
-msgstr "Ubicación del equipo (p. ej. \"Laboratorio\")"
-
-msgid "Platform"
-msgstr "Plataforma"
-
-msgid "Host hardware platform (e.g. \"Lenovo T61\")"
-msgstr "Plataforma de hardware del equipo (p. ej. \"Lenovo T61\")"
-
-msgid "Operating system"
-msgstr "Sistema operativo"
-
-msgid "Host operating system and version (e.g. \"Fedora 9\")"
-msgstr ""
-"Sistema operativo que utiliza el equipo y versión (p.ej. \"Fedora 11\")"
-
-msgid "User password"
-msgstr "Contraseña de usuario"
-
-msgid "Password used in bulk enrollment"
-msgstr "Contraseña utilizada en el registro bruto"
-
-msgid "Generate a random password to be used in bulk enrollment"
-msgstr "Generar una contraseña aleatoria que se utilizará en la inscripción "
-
-msgid "Random password"
-msgstr "Contraseña aleatoria"
-
-msgid "Base-64 encoded server certificate"
-msgstr "Certificado del servidor codificado con base-64"
-
-msgid "Principal name"
-msgstr "Nombre principal"
-
-#, python-format
-msgid "Added host \"%(value)s\""
-msgstr "Ha sido agregado el equipo \"%(value)s\""
-
-msgid "force host name even if not in DNS"
-msgstr ""
-"fuerza el nombre del equipo anfitrión, incluso si no se encuentra en DNS"
-
-msgid "skip reverse DNS detection"
-msgstr "Ignorar la detección inversa de DNS"
-
-msgid "Add the host to DNS with this IP address"
-msgstr "Agregar el host de DNS con esta dirección IP"
-
-#, python-format
-msgid "The host was added but the DNS update failed with: %(exc)s"
-msgstr "El host fue añadido, pero la actualización de DNS falló con:%(exc)s"
-
-#, python-format
-msgid "Deleted host \"%(value)s\""
-msgstr "Ha sido eliminado el equipo \"%(value)s\""
-
-msgid "Remove entries from DNS"
-msgstr "Eliminar entradas de DNS"
-
-#, python-format
-msgid "Modified host \"%(value)s\""
-msgstr "Ha sido modificado el equipo \"%(value)s\""
-
-msgid "Kerberos principal name for this host"
-msgstr "Nombre del prinicpal de Kerberos para este equipo"
-
-#, python-format
-msgid "%(count)d host matched"
-msgid_plural "%(count)d hosts matched"
-msgstr[0] "%(count)d equipo coincidente"
-msgstr[1] "%(count)d equipos coincidentes"
-
-msgid "file to store certificate in"
-msgstr "archivo para almacenar"
-
-#, python-format
-msgid "Certificate stored in file '%(file)s'"
-msgstr "Certificado almacenado en el archivo '%(file)s'"
-
-#, python-format
-msgid "Disabled host \"%(value)s\""
-msgstr "Host desactivado \"%(value)s\""
-
-msgid "Host-group"
-msgstr "Grupo de equipo"
-
-msgid "Name of host-group"
-msgstr "Nombre del grupo de equipo"
-
-msgid "A description of this host-group"
-msgstr "Una descripción de este grupo de equipo"
-
-#, python-format
-msgid "Added hostgroup \"%(value)s\""
-msgstr "Ha sido agregado el grupo de equipo \"%(value)s\""
-
-#, python-format
-msgid "Deleted hostgroup \"%(value)s\""
-msgstr "Ha sido eliminado el grupo de equipo \"%(value)s\""
-
-#, python-format
-msgid "Modified hostgroup \"%(value)s\""
-msgstr "Ha sido modificado el grupo de equipo \"%(value)s\""
-
-#, python-format
-msgid "%(count)d hostgroup matched"
-msgid_plural "%(count)d hostgroups matched"
-msgstr[0] "%(count)d grupo de equipos coincidente"
-msgstr[1] "%(count)d grupos de equipos coincidentes"
-
-msgid "Name of object to export"
-msgstr "Nombre del objeto a exportar"
-
-msgid "Name of method to export"
-msgstr "Nombre del método para exportación"
-
-msgid "Dict of JSON encoded IPA Objects"
-msgstr "El dict de JSON ha codificado objetos IPA"
-
-msgid "Dict of JSON encoded IPA Methods"
-msgstr "Métodos IPA  codificados de Dict de JSON "
-
-msgid "Add ${other_entity} into ${entity} ${primary_key}"
-msgstr "Añadir ${other_entity} a ${entity} ${primary_key}"
-
-msgid "Remove ${other_entity} from ${entity} ${primary_key}"
-msgstr "Retirar ${other_entity} de ${entity} ${primary_key}"
-
-msgid "Add"
-msgstr "Agregar"
-
-msgid "Add and Add Another"
-msgstr "Agregar y agregar otro"
-
-msgid "Add and Close"
-msgstr "Añadir y cerrar"
-
-msgid "Add and Edit"
-msgstr "Agregar y Editar"
-
-msgid "Add Many"
-msgstr "Añadir Muchos"
-
-msgid "Cancel"
-msgstr "Cancelar"
-
-msgid "Close"
-msgstr "Cerrar"
-
-msgid "Find"
-msgstr "Buscar"
-
-msgid "Get"
-msgstr "Obtener"
-
-msgid "Issue"
-msgstr "Tema"
-
-msgid "OK"
-msgstr "Aceptar"
-
-msgid "Delete"
-msgstr "Eliminar"
-
-msgid "Reset"
-msgstr "Resetear"
-
-msgid "Restore"
-msgstr "Restaurar"
-
-msgid "Retry"
-msgstr "Reintentar"
-
-msgid "Revoke"
-msgstr "Revocar"
-
-msgid "Update"
-msgstr "Actualizar"
-
-msgid "View"
-msgstr "Ver"
-
-msgid "General"
-msgstr "General"
-
-msgid "Identity Settings"
-msgstr "Configuración de identidad"
-
-msgid "${entity} ${primary_key} Settings"
-msgstr "Configuraciones de  ${entity} ${primary_key}"
-
-msgid "Back to Top"
-msgstr "Volver al comienzo"
-
-msgid "Available"
-msgstr "Disponible"
-
-msgid "This page has unsaved changes. Please save or revert."
-msgstr "Esta página tiene cambios sin guardar. Por favor, guardar o deshacer."
-
-msgid "Prospective"
-msgstr "Prospectivo"
-
-msgid "Settings"
-msgstr "Configuración"
-
-msgid "Search"
-msgstr "Búsqueda"
-
-msgid "Logged In As"
-msgstr "Registrado como"
-
-msgid "Attribute"
-msgstr "Atributo"
-
-msgid "Automount Location Settings"
-msgstr "Configuración de ubicación de automount"
-
-msgid "AA Compromise"
-msgstr "AA transacción"
-
-msgid "Affiliation Changed"
-msgstr "Afiliación cambiada"
-
-msgid "CA Compromise"
-msgstr "CA de transacción"
-
-msgid "Certificate Hold"
-msgstr "Certificado retenido"
-
-msgid "Cessation of Operation"
-msgstr "Cese de operaciones"
-
-msgid "Common Name"
-msgstr "Nombre común"
-
-msgid "Expires On"
-msgstr "Expira el"
-
-msgid "Fingerprints"
-msgstr "Las huellas dactilares"
-
-msgid "Issue New Certificate for ${entity} ${primary_key}"
-msgstr "Enviar Nuevo Certificado para ${entity} ${primary_key}"
-
-msgid "Issued By"
-msgstr "Expedido por"
-
-msgid "Issued On"
-msgstr "Expiración"
-
-msgid "Issued To"
-msgstr "Expedido para"
-
-msgid "Key Compromise"
-msgstr "Clave de transacción"
-
-msgid "MD5 Fingerprint"
-msgstr "Huella digital de MD5"
-
-msgid "No Valid Certificate"
-msgstr "Certificado no válido"
-
-msgid "New Certificate"
-msgstr "Un nuevo certificado"
-
-msgid "Note"
-msgstr "Nota"
-
-msgid "Organization"
-msgstr "Organización"
-
-msgid "Organizational Unit"
-msgstr "Unidad organizativa"
-
-msgid "Privilege Withdrawn"
-msgstr "Retirada de privilegios"
-
-msgid "Reason for Revocation"
-msgstr "Motivo de la revocación"
-
-msgid "Remove from CRL"
-msgstr "Borrar de CRL"
-
-msgid "Restore Certificate for ${entity} ${primary_key}"
-msgstr "Restablecer Certificado para ${entity} ${primary_key}"
-
 msgid ""
-"To confirm your intention to restore this certificate, click the \"Restore\" "
-"button."
+"\n"
+"Kerberos pkinit options\n"
+"\n"
+"Enable or disable anonymous pkinit using the principal\n"
+"WELLKNOWN/ANONYMOUS@REALM. The server must have been installed with\n"
+"pkinit support.\n"
+"\n"
+"EXAMPLES:\n"
+"\n"
+" Enable anonymous pkinit:\n"
+"  ipa pkinit-anonymous enable\n"
+"\n"
+" Disable anonymous pkinit:\n"
+"  ipa pkinit-anonymous disable\n"
+"\n"
+"For more information on anonymous pkinit see:\n"
+"\n"
+"http://k5wiki.kerberos.org/wiki/Projects/Anonymous_pkinit\n"
 msgstr ""
-"Para confirmar su intención de restaurar este certificado, haga clic en el "
-"botón \"Restaurar\"."
-
-msgid "Revoke Certificate for ${entity} ${primary_key}"
-msgstr "Revocar certificado por ${entity} ${primary_key}"
-
-msgid ""
-"To confirm your intention to revoke this certificate, select a reason from "
-"the pull-down list, and click the \"Revoke\" button."
-msgstr ""
-"Para confirmar su intención de revocar el certificado, seleccione una razón "
-"de la lista desplegable y haga clic en el botón \"Revocar\"."
-
-msgid "Certificate Revoked"
-msgstr "Certificado revocado"
-
-msgid "SHA1 Fingerprint"
-msgstr "Huella digital SHA1"
-
-msgid "Superseded"
-msgstr "Obsoleta"
-
-msgid "Unspecified"
-msgstr "No especificada"
-
-msgid "Valid Certificate Present"
-msgstr "Presentar certificado válido"
-
-msgid "Validity"
-msgstr "Validez"
-
-msgid "Certificate for ${entity} ${primary_key}"
-msgstr "Certificado para ${entity} ${primary_key}"
-
-msgid "Data"
-msgstr "Datos"
-
-msgid "Records for DNS Zone"
-msgstr "Los registros para la zona DNS"
-
-msgid "DNS Zone Settings"
-msgstr "Configuración de la Zona DNS"
-
-msgid "Group Settings"
-msgstr "Configuración del grupo"
-
-msgid "External"
-msgstr "Externos"
-
-msgid "Any Host"
-msgstr "Cualquier host"
-
-msgid "Any Service"
-msgstr "Cualquier servicio"
-
-msgid "Anyone"
-msgstr "Cualquiera"
-
-msgid "Accessing"
-msgstr "Acceso"
-
-msgid "Rule status"
-msgstr "Estatus de reglas"
-
-msgid "Via Service"
-msgstr "Vía de servicio"
-
-msgid "From"
-msgstr "Desde"
-
-msgid "Specified Hosts and Groups"
-msgstr "Hosts y grupos especificados"
-
-msgid "Specified Services and Groups"
-msgstr "Servicios y grupos especificados"
-
-msgid "Specified Users and Groups"
-msgstr "Usuarios y grupos específicos"
-
-msgid "Who"
-msgstr "¿Quién?"
-
-msgid "Host Certificate"
-msgstr "Certificado de host"
-
-msgid "Host Name"
-msgstr "Nombre de host"
-
-msgid "Delete Key, Unprovision"
-msgstr "La eliminación de clave, unprovision"
-
-msgid "Host Settings"
-msgstr "Configuración del host"
-
-msgid "Enrollment"
-msgstr "Inscripción"
-
-msgid "Fully Qualified Host Name"
-msgstr "Nombre de host totalmente calificado"
-
-msgid "Kerberos Key Not Present"
-msgstr "No hay clave Kerberos Presente"
-
-msgid "Kerberos Key Present, Host Provisioned"
-msgstr "Claves de Kerberos presente, Host aprovisionado"
-
-msgid "Set OTP"
-msgstr "Establecer OTP"
-
-msgid "Unprovision"
-msgstr "Unprovision"
-
-msgid "Are you sure you want to unprovision this host?"
-msgstr "¿Está seguro que desea unprovision este equipo?"
-
-msgid "Unprovisioning ${entity}"
-msgstr "Cancelación ${entity}"
-
-msgid "Host Group Settings"
-msgstr "Configuraciones del Grupo de Host"
-
-msgid "Kerberos Ticket Policy"
-msgstr " Política de tiquete de Kerberos"
-
-msgid "Netgroup Settings"
-msgstr "Configuración de Netgroup"
-
-msgid "User"
-msgstr "Usuario"
-
-msgid "Identity"
-msgstr "Identidad"
-
-msgid "Permission with invalid target specification"
-msgstr "Permiso con especificación de destino inválida"
-
-msgid "Privilege Settings"
-msgstr "Configuración de privilegios"
-
-msgid "Password Policy"
-msgstr "Directiva de contraseñas"
-
-msgid "Role Settings"
-msgstr "Configuración de rol"
-
-msgid "Service Certificate"
-msgstr "Certificado de servicio"
-
-msgid "Service Settings"
-msgstr "Configuración del servicio"
-
-msgid "Provisioning"
-msgstr "Aprovisionamiento"
-
-msgid "Are you sure you want to unprovision this service?"
-msgstr "¿Está seguro de que desea no suministrar este servicio?"
-
-msgid "Kerberos Key Present, Service Provisioned"
-msgstr "Claves de Kerberos actuales, Servicio suministrado"
-
-msgid "Groups"
-msgstr "Grupos"
-
-msgid "Commands"
-msgstr "Comandos"
-
-msgid "Allow"
-msgstr "Permitir"
-
-msgid "Any Command"
-msgstr "Cualquier comando"
-
-msgid "Any Group"
-msgstr "Cualquier grupo"
-
-msgid "Run Commands"
-msgstr "Ejecutar comandos"
-
-msgid "Deny"
-msgstr "Negar"
-
-msgid "Access this host"
-msgstr "Acceder a este host"
-
-msgid "As Whom"
-msgstr "Como Whom"
-
-msgid "Specified Commands and Groups"
-msgstr "Comandos especificados y grupos"
-
-msgid "Specified Groups"
-msgstr "Grupos especificados"
-
-msgid "Account Settings"
-msgstr "Configuración de la cuenta"
-
-msgid "Contact Settings"
-msgstr "Configuración de contactos"
-
-msgid "Employee Information"
-msgstr "Información del Empleado"
-
-msgid "Error changing account status"
-msgstr "Error al cambiar el estado de cuenta"
-
-msgid "Mailing Address"
-msgstr "Dirección de correo"
-
-msgid "Misc. Information"
-msgstr "Información diversa"
-
-msgid "New Password"
-msgstr "Nueva Contraseña"
-
-msgid "Password change complete"
-msgstr "Cambiar la contraseña completa"
-
-msgid "Passwords must match"
-msgstr "Las contraseñas deben coincidir"
-
-msgid "Reset Password"
-msgstr "Restablecer contraseña"
-
-msgid "Are you sure you want to delete selected entries?"
-msgstr "¿Está seguro que desea eliminar las entradas seleccionadas?"
-
-msgid "Quick Links"
-msgstr "Enlaces rápidos"
-
-msgid "Select All"
-msgstr " Seleccionar todo"
-
-msgid ""
-"Query returned more results than the configured size limit. Displaying the "
-"first ${counter} results."
-msgstr ""
-"La solicitud devolvió más resultados que el límite de tamaño configurado. "
-"Mostrando los primeros resultados ${counter}."
-
-msgid "Unselect All"
-msgstr "Anular selección"
-
-msgid "Audit"
-msgstr "Auditoría"
-
-msgid "Automount"
-msgstr "Montaje automático"
-
-msgid "DNS"
-msgstr "DNS"
-
-msgid "Host Based Access Control"
-msgstr "Control de Acceso basado en Host"
-
-msgid "IPA Server"
-msgstr "Servidor IPA"
-
-msgid "Policy"
-msgstr "Política"
-
-msgid "Role Based Access Control"
-msgstr "Control de acceso basado en rol"
-
-msgid "Sudo"
-msgstr "Sudo"
-
-msgid "Text does not match field pattern"
-msgstr "El texto no coincide con el patrón de campo"
-
-msgid "Dict of I18N messages"
-msgstr "Dictado de los mensajes regionales"
+"\n"
+"Opciones de kerberos pkinit\n"
+"Activan o desactivan pkinit anónimo mediante el principal\n"
+"WELLKNOWN/ANONYMOUS@REALM. El servidor debe haber sido instalado con soporte "
+"pkinit.\n"
+"EJEMPLOS:\n"
+"Activar pkinit anónimo\n"
+"  ipa pkinit-anonymous enable\n"
+"Desactivar pkinit anónimo:\n"
+"  ipa pkinit-anonymous disable\n"
+"Para obtener mayor información sobre pkinit anónimo, por favor consulte: \n"
+"http://k5wiki.kerberos.org/wiki/Projects/Anonymous_pkinit\n"
+"\n"
 
 msgid ""
 "\n"
@@ -2560,113 +343,6 @@ msgstr ""
 "agregar usuarios, restablecer contraseñas o añadir un usuario al grupo de "
 "usuarios predeterminado de la IPA.\n"
 
-msgid "Manage ticket policy for specific user"
-msgstr "Administra política de ticket para un usuario específico"
-
-msgid "Max life"
-msgstr "Vida máxima"
-
-msgid "Maximum ticket life (seconds)"
-msgstr "Duración máxima del ticket (en segundos)"
-
-msgid "Max renew"
-msgstr "Renovación máxima"
-
-msgid "Maximum renewable age (seconds)"
-msgstr "Duración máxima renovable (en segundos)"
-
-#, python-format
-msgid ""
-"Kerberos principal %s already exists. Use 'ipa user-mod' to set it manually."
-msgstr ""
-"El principal %s de Kerberos ya existe. Utilice 'ipa user-mod' para definirlo "
-"manualmente."
-
-msgid ""
-"Failed to add user to the default group. Use 'ipa group-add-member' to add "
-"manually."
-msgstr ""
-"Falló al intenatar agregar al usuario al grupo predeterminado. Utilice 'ipa "
-"group-add-member' para agregarlo manualmente.  "
-
-msgid "Invalid LDAP URI."
-msgstr " URI LDAP no válida."
-
-msgid "LDAP URI"
-msgstr "LDAP URI"
-
-msgid "LDAP URI of DS server to migrate from"
-msgstr "LDAP URI del servidor DS desde donde realizar la migración"
-
-msgid "bind password"
-msgstr "asociar contraseña"
-
-msgid "Bind DN"
-msgstr "Asociar DN"
-
-msgid "User container"
-msgstr "Contenedor de usuario"
-
-msgid "Group container"
-msgstr "Contenedor de grupoi"
-
-msgid "User object class"
-msgstr "Clase de objeto de usuario"
-
-msgid "Group object class"
-msgstr "Clase de objeto de grupo"
-
-msgid "LDAP schema"
-msgstr "Esquema LDAP"
-
-msgid ""
-"The schema used on the LDAP server. Supported values are RFC2307 and "
-"RFC2307bis. The default is RFC2307bis"
-msgstr ""
-"El esquema utilizado en el servidor LDAP. Los valores admitidos son RFC2307 "
-"y RFC2307bis. El valor predeterminado es RFC2307bis"
-
-msgid ""
-"Continuous operation mode. Errors are reported but the process continues"
-msgstr ""
-"Modo de funcionamiento continuo. Se reportan errores, pero el proceso "
-"continúa"
-
-msgid "Lists of objects migrated; categorized by type."
-msgstr "Lista de objetos migrados; clasificados por tipo."
-
-msgid "Lists of objects that could not be migrated; categorized by type."
-msgstr "Lista de objetos que no pueden ser migrados; categorizados por tipo."
-
-msgid "False if migration mode was disabled."
-msgstr "\"False\", si el modo de migración fue inhabilitado."
-
-msgid ""
-"search results for objects to be migrated\n"
-"have been truncated by the server;\n"
-"migration process might be incomplete\n"
-msgstr ""
-"los resultados de la búsqueda de los objetos que se van a migrar se han "
-"truncado por el servidor; el proceso de migración puede estar incompleto\n"
-
-msgid "Migration mode is disabled. Use 'ipa config-mod' to enable it."
-msgstr ""
-"El modo de migración se encuentra inhabilitado. Utilice 'ipa config-mod' "
-"para habilitarlo."
-
-msgid ""
-"Passwords have been migrated in pre-hashed format.\n"
-"IPA is unable to generate Kerberos keys unless provided\n"
-"with clear text passwords. All migrated users need to\n"
-"login at https://your.domain/ipa/migration/ before they\n"
-"can use their Kerberos accounts."
-msgstr ""
-"Las contraseñas han sido migradas en formato pre-hashed.\n"
-"IPA es incapaz de generar claves de Kerberos a menos que le sean\n"
-"provistas contraseñas de texto claras. Todos los usuarios migrados\n"
-"necesitan registrarse en https://your.domain/ipa/migration/ antes de\n"
-"poder utilizar sus respectivas cuentas Kerberos."
-
 msgid ""
 "\n"
 "Misc plug-ins\n"
@@ -2674,107 +350,91 @@ msgstr ""
 "\n"
 "Misc plug-ins\n"
 
-#, python-format
-msgid "%(count)d variables"
-msgstr "%(count)d variables"
-
-msgid ""
-"retrieve and print all attributes from the server. Affects command output."
-msgstr ""
-"    Determinar si la ACI es un autoservicio de ACI  y   hacer una excepción "
-"si\n"
-"     no lo es.\n"
-"    Devolver el resultado si se trata de un autoservicio   de ACI."
-
-msgid "Total number of variables env (>= count)"
-msgstr "Cantidad total de variables env (>= count)"
-
-msgid "Number of variables returned (<= total)"
-msgstr "Cantidad de variables devueltas (<= total)"
-
-#, python-format
-msgid "%(count)d plugin loaded"
-msgid_plural "%(count)d plugins loaded"
-msgstr[0] "%(count)d complemento cargado"
-msgstr[1] "%(count)d complementos cargados"
-
-msgid "Number of plugins loaded"
-msgstr "Cantidad de complementos cargados"
-
-msgid "Member Host"
-msgstr "Miembro del equipo anfitrión"
-
-msgid "Netgroups"
-msgstr "Grupos de red"
-
-msgid "Netgroup name"
-msgstr "Nombre de grupo de red"
-
-msgid "Netgroup description"
-msgstr "Descripción del grupo de red"
-
-msgid "NIS domain name"
-msgstr "Nombre del dominio NIS"
-
-msgid "IPA unique ID"
-msgstr "ID unico de IPA"
-
-#, python-format
-msgid "Added netgroup \"%(value)s\""
-msgstr "\"%(value)s\"netgroup añadido"
-
-#, python-format
-msgid "Deleted netgroup \"%(value)s\""
-msgstr "%(value)s\" de netgroup eliminados"
-
-#, python-format
-msgid "Modified netgroup \"%(value)s\""
-msgstr "netgroup modificado \"%(value)s\""
-
-#, python-format
-msgid "%(count)d netgroup matched"
-msgid_plural "%(count)d netgroups matched"
-msgstr[0] "%(count)d autoservicio coincidente"
-msgstr[1] "%(count)d autoservicios coincidentes"
-
 msgid ""
 "\n"
-"Set a user's password\n"
+"Password policy\n"
 "\n"
-"If someone other than a user changes that user's password (e.g., Helpdesk\n"
-"resets it) then the password will need to be changed the first time it\n"
-"is used. This is so the end-user is the only one who knows the password.\n"
+"A password policy sets limitations on IPA passwords, including maximum\n"
+"lifetime, minimum lifetime, the number of passwords to save in\n"
+"history, the number of character classes required (for stronger passwords)\n"
+"and the minimum password length.\n"
 "\n"
-"The IPA password policy controls how often a password may be changed,\n"
-"what strength requirements exist, and the length of the password history.\n"
+"By default there is a single, global policy for all users. You can also\n"
+"create a password policy to apply to a group. Each user is only subject\n"
+"to one password policy, either the group policy or the global policy. A\n"
+"group policy stands alone; it is not a super-set of the global policy plus\n"
+"custom settings.\n"
+"\n"
+"Each group password policy requires a unique priority setting. If a user\n"
+"is in multiple groups that have password policies, this priority determines\n"
+"which password policy is applied. A lower value indicates a higher priority\n"
+"policy.\n"
+"\n"
+"Group password policies are automatically removed when the groups they\n"
+"are associated with are removed.\n"
 "\n"
 "EXAMPLES:\n"
 "\n"
-" To reset your own password:\n"
-"   ipa passwd\n"
+" Modify the global policy:\n"
+"   ipa pwpolicy-mod --minlength=10\n"
 "\n"
-" To change another user's password:\n"
-"   ipa passwd tuser1\n"
+" Add a new group password policy:\n"
+"   ipa pwpolicy-add --maxlife=90 --minlife=1 --history=10 --minclasses=3 --"
+"minlength=8 --priority=10 localadmins\n"
+"\n"
+" Display the global password policy:\n"
+"   ipa pwpolicy-show\n"
+"\n"
+" Display a group password policy:\n"
+"   ipa pwpolicy-show localadmins\n"
+"\n"
+" Display the policy that would be applied to a given user:\n"
+"   ipa pwpolicy-show --user=tuser1\n"
+"\n"
+" Modify a group password policy:\n"
+"   ipa pwpolicy-mod --minclasses=2 localadmins\n"
 msgstr ""
 "\n"
-"Establecer contraseña de un usuario\n"
+"Política de contraseñas\n"
 "\n"
-"Si alguien que no sea un usuario cambia la contraseña del usuario (por "
-"ejemplo, Servicio de Ayuda la restablece), entonces la contraseña tendrá que "
-"ser cambiada la primera vez que se utiliza. Esto es para que el usuario "
-"final sea el único que conoce la contraseña.\n"
-"La directiva de contraseñas IPA controla la frecuencia de cambio de una "
-"contraseña, los requisitos de fortaleza y longitud del historial de "
-"contraseñas. EJEMPLOS:\n"
-"Para restablecer su contraseña:\n"
-"   ipa passwd tuser1\n"
+"Una contraseña establece límites en contraseñas de IPA, incluyendo máxima y "
+"mínima duración, el número de contraseñas a guardar en historial, el número "
+"de clases de caracteresrequeridos (para contraseñas ás fuertes)\n"
+"y el mínimo de longitud de una contraseña.\n"
 "\n"
-" Para cambiar la contraseña de otro usuario:\n"
-"   ipa passwd tuser1\n"
-
-#, python-format
-msgid "Changed password for \"%(value)s\""
-msgstr "Cambio de contraseña para \"%(value)s\""
+"Por defecto es una única política global para todos los usuarios. También "
+"puede crear una política de contraseña para aplicar a un grupo. Cada usuario "
+"está sujeto solamente a una política de contraseña, ya sea de grupo o "
+"global. Una política de grupo es autónoma;  no es uper-set de la política "
+"global mas los parámetros personalizados.\n"
+"Cada política de contraseña requiere una configuración única . Si un usuario "
+"está en varios grupos que tienen políticas de contraseñas, esta prioridad "
+"determina qué política de contraseña aplica. Un valor inferior indica una "
+"política de prioridad superior.\n"
+"\n"
+"Las políticas de contraseña de grupo se eliminan automáticamente cuando se "
+"eliminan los grupos a los cuales están asociados.\n"
+"\n"
+"EJEMPLOS:\n"
+"\n"
+" Modificar la política global:\n"
+"   ipa pwpolicy-mod --minlength=10\n"
+"\n"
+" Agregar una política de contraseña de nuevo grupo:\n"
+"   ipa pwpolicy-add --maxlife=90 --minlife=1 --history=10 --minclasses=3 --"
+"minlength=8 --priority=10 localadmins\n"
+"\n"
+" Mostrar una política de contraseña global:\n"
+"   ipa pwpolicy-show\n"
+"\n"
+" Mostrar una política de contraseña de grupo:\n"
+"   ipa pwpolicy-show localadmins\n"
+"\n"
+" Mostrar la política que sería aplicada al usuario dado:\n"
+"   ipa pwpolicy-show --user=tuser1\n"
+"\n"
+" Modificar una polítca de contraseña de grupo:\n"
+"   ipa pwpolicy-mod --minclasses=2 localadmins\n"
 
 msgid ""
 "\n"
@@ -2884,89 +544,6 @@ msgstr ""
 "\"Manage Group \n"
 "Members\"\n"
 
-msgid "Permission Type"
-msgstr "Tipo de permiso"
-
-msgid "Permission name"
-msgstr "Nombre de permiso"
-
-msgid ""
-"Type of IPA object (user, group, host, hostgroup, service, netgroup, dns)"
-msgstr ""
-"Tipo de objeto del IPA (usuario, host, hostgroup, servicio, netgroup, dns)"
-
-msgid "Member of group"
-msgstr "Miembro del grupo"
-
-msgid "Target members of a group"
-msgstr "Objetivo para los miembros de un grupo"
-
-msgid "Subtree to apply permissions to"
-msgstr "Subárbol para aplicar permisos"
-
-msgid "User group to apply permissions to"
-msgstr "Grupo de usuario para aplicar permisos"
-
-#, python-format
-msgid "Added permission \"%(value)s\""
-msgstr "Permiso agregado \"%(value)s\""
-
-#, python-format
-msgid "Deleted permission \"%(value)s\""
-msgstr "Permiso borrado \"%(value)s\""
-
-#, python-format
-msgid "Modified permission \"%(value)s\""
-msgstr "Modificado el permiso \"%(value)s\""
-
-#, python-format
-msgid "%(count)d permission matched"
-msgid_plural "%(count)d permissions matched"
-msgstr[0] "%(count)d permiso coincidente"
-msgstr[1] " %(count)d permisos coincidentes"
-
-msgid ""
-"\n"
-"Kerberos pkinit options\n"
-"\n"
-"Enable or disable anonymous pkinit using the principal\n"
-"WELLKNOWN/ANONYMOUS@REALM. The server must have been installed with\n"
-"pkinit support.\n"
-"\n"
-"EXAMPLES:\n"
-"\n"
-" Enable anonymous pkinit:\n"
-"  ipa pkinit-anonymous enable\n"
-"\n"
-" Disable anonymous pkinit:\n"
-"  ipa pkinit-anonymous disable\n"
-"\n"
-"For more information on anonymous pkinit see:\n"
-"\n"
-"http://k5wiki.kerberos.org/wiki/Projects/Anonymous_pkinit\n"
-msgstr ""
-"\n"
-"Opciones de kerberos pkinit\n"
-"Activan o desactivan pkinit anónimo mediante el principal\n"
-"WELLKNOWN/ANONYMOUS@REALM. El servidor debe haber sido instalado con soporte "
-"pkinit.\n"
-"EJEMPLOS:\n"
-"Activar pkinit anónimo\n"
-"  ipa pkinit-anonymous enable\n"
-"Desactivar pkinit anónimo:\n"
-"  ipa pkinit-anonymous disable\n"
-"Para obtener mayor información sobre pkinit anónimo, por favor consulte: \n"
-"http://k5wiki.kerberos.org/wiki/Projects/Anonymous_pkinit\n"
-"\n"
-
-msgid "PKINIT"
-msgstr ""
-"    Los certificados de entrada deben estar codificados en DER. \n"
-"    Tenga en cuenta que no puede ser un normalizador en la Param, ya que "
-"solamente las variables de \n"
-"    Unicode  se normalizan.\n"
-"    "
-
 msgid ""
 "\n"
 "Privileges\n"
@@ -3009,284 +586,40 @@ msgstr ""
 "\n"
 "\n"
 
-msgid "Privileges"
-msgstr "    Objeto de servicio."
-
-msgid "Privilege name"
-msgstr "    Añadir un nuevo servicio de la nueva IPA."
-
-msgid "Privilege description"
-msgstr ""
-"    \n"
-"    Eliminar un servicio de la IPA."
-
-#, python-format
-msgid "Added privilege \"%(value)s\""
-msgstr "Privilegio añadido \"%(value)s\""
-
-#, python-format
-msgid "Deleted privilege \"%(value)s\""
-msgstr "Privilegio eliminado \"%(value)s \""
-
-#, python-format
-msgid "Modified privilege \"%(value)s\""
-msgstr "Privilegio modificado \"%(value)s \""
-
-#, python-format
-msgid "%(count)d privilege matched"
-msgid_plural "%(count)d privileges matched"
-msgstr[0] "%(count)d privilegio coincidente"
-msgstr[1] "%(count)d privilegios coincidentes"
-
-msgid "Number of permissions added"
-msgstr "Número de permisos añadidos"
-
-msgid "Number of permissions removed"
-msgstr "Número de permisos eliminados"
-
 msgid ""
 "\n"
-"Password policy\n"
+"Set a user's password\n"
 "\n"
-"A password policy sets limitations on IPA passwords, including maximum\n"
-"lifetime, minimum lifetime, the number of passwords to save in\n"
-"history, the number of character classes required (for stronger passwords)\n"
-"and the minimum password length.\n"
+"If someone other than a user changes that user's password (e.g., Helpdesk\n"
+"resets it) then the password will need to be changed the first time it\n"
+"is used. This is so the end-user is the only one who knows the password.\n"
 "\n"
-"By default there is a single, global policy for all users. You can also\n"
-"create a password policy to apply to a group. Each user is only subject\n"
-"to one password policy, either the group policy or the global policy. A\n"
-"group policy stands alone; it is not a super-set of the global policy plus\n"
-"custom settings.\n"
-"\n"
-"Each group password policy requires a unique priority setting. If a user\n"
-"is in multiple groups that have password policies, this priority determines\n"
-"which password policy is applied. A lower value indicates a higher priority\n"
-"policy.\n"
-"\n"
-"Group password policies are automatically removed when the groups they\n"
-"are associated with are removed.\n"
+"The IPA password policy controls how often a password may be changed,\n"
+"what strength requirements exist, and the length of the password history.\n"
 "\n"
 "EXAMPLES:\n"
 "\n"
-" Modify the global policy:\n"
-"   ipa pwpolicy-mod --minlength=10\n"
+" To reset your own password:\n"
+"   ipa passwd\n"
 "\n"
-" Add a new group password policy:\n"
-"   ipa pwpolicy-add --maxlife=90 --minlife=1 --history=10 --minclasses=3 --"
-"minlength=8 --priority=10 localadmins\n"
-"\n"
-" Display the global password policy:\n"
-"   ipa pwpolicy-show\n"
-"\n"
-" Display a group password policy:\n"
-"   ipa pwpolicy-show localadmins\n"
-"\n"
-" Display the policy that would be applied to a given user:\n"
-"   ipa pwpolicy-show --user=tuser1\n"
-"\n"
-" Modify a group password policy:\n"
-"   ipa pwpolicy-mod --minclasses=2 localadmins\n"
+" To change another user's password:\n"
+"   ipa passwd tuser1\n"
 msgstr ""
 "\n"
-"Política de contraseñas\n"
+"Establecer contraseña de un usuario\n"
 "\n"
-"Una contraseña establece límites en contraseñas de IPA, incluyendo máxima y "
-"mínima duración, el número de contraseñas a guardar en historial, el número "
-"de clases de caracteresrequeridos (para contraseñas ás fuertes)\n"
-"y el mínimo de longitud de una contraseña.\n"
+"Si alguien que no sea un usuario cambia la contraseña del usuario (por "
+"ejemplo, Servicio de Ayuda la restablece), entonces la contraseña tendrá que "
+"ser cambiada la primera vez que se utiliza. Esto es para que el usuario "
+"final sea el único que conoce la contraseña.\n"
+"La directiva de contraseñas IPA controla la frecuencia de cambio de una "
+"contraseña, los requisitos de fortaleza y longitud del historial de "
+"contraseñas. EJEMPLOS:\n"
+"Para restablecer su contraseña:\n"
+"   ipa passwd tuser1\n"
 "\n"
-"Por defecto es una única política global para todos los usuarios. También "
-"puede crear una política de contraseña para aplicar a un grupo. Cada usuario "
-"está sujeto solamente a una política de contraseña, ya sea de grupo o "
-"global. Una política de grupo es autónoma;  no es uper-set de la política "
-"global mas los parámetros personalizados.\n"
-"Cada política de contraseña requiere una configuración única . Si un usuario "
-"está en varios grupos que tienen políticas de contraseñas, esta prioridad "
-"determina qué política de contraseña aplica. Un valor inferior indica una "
-"política de prioridad superior.\n"
-"\n"
-"Las políticas de contraseña de grupo se eliminan automáticamente cuando se "
-"eliminan los grupos a los cuales están asociados.\n"
-"\n"
-"EJEMPLOS:\n"
-"\n"
-" Modificar la política global:\n"
-"   ipa pwpolicy-mod --minlength=10\n"
-"\n"
-" Agregar una política de contraseña de nuevo grupo:\n"
-"   ipa pwpolicy-add --maxlife=90 --minlife=1 --history=10 --minclasses=3 --"
-"minlength=8 --priority=10 localadmins\n"
-"\n"
-" Mostrar una política de contraseña global:\n"
-"   ipa pwpolicy-show\n"
-"\n"
-" Mostrar una política de contraseña de grupo:\n"
-"   ipa pwpolicy-show localadmins\n"
-"\n"
-" Mostrar la política que sería aplicada al usuario dado:\n"
-"   ipa pwpolicy-show --user=tuser1\n"
-"\n"
-" Modificar una polítca de contraseña de grupo:\n"
-"   ipa pwpolicy-mod --minclasses=2 localadmins\n"
-
-#, python-format
-msgid "priority must be a unique value (%(prio)d already used by %(gname)s)"
-msgstr ""
-"la prioridad debe ser un valor único (%(prio)d que ya esté siendo utilizado "
-"por %(gname)s)"
-
-msgid "Max failures"
-msgstr "Número máximo de fallas"
-
-msgid "Consecutive failures before lockout"
-msgstr "Fallos consecutivos antes del bloqueo"
-
-msgid "Failure reset interval"
-msgstr "Falló reajuste de intervalo"
-
-msgid "Period after which failure count will be reset (seconds)"
-msgstr "Período tras el cual se restablecerá (segundos) el conteo de errores"
-
-msgid "Lockout duration"
-msgstr "Duración de bloqueo"
-
-msgid "Period for which lockout is enforced (seconds)"
-msgstr "Período durante el cual se fuerza el bloqueo (segundos)"
-
-msgid "Group"
-msgstr "Grupo"
-
-msgid "Manage password policy for specific group"
-msgstr "Administra la política de contraseña de un grupo específico"
-
-msgid "Max lifetime (days)"
-msgstr "Vida máxima (días)"
-
-msgid "Maximum password lifetime (in days)"
-msgstr "Vida máxima de la contraseña (días)"
-
-msgid "Min lifetime (hours)"
-msgstr "Vida mínima (horas)"
-
-msgid "Minimum password lifetime (in hours)"
-msgstr "Vida mínima de la contraseña (en horas)"
-
-msgid "History size"
-msgstr "Tamaño del historial"
-
-msgid "Password history size"
-msgstr "Tamaño del historial de la contraseña"
-
-msgid "Character classes"
-msgstr "Clases de caracteres"
-
-msgid "Minimum number of character classes"
-msgstr "Cantidad mínima de clases de caracteres"
-
-msgid "Min length"
-msgstr "Longitud mínima"
-
-msgid "Minimum length of password"
-msgstr "Longitud mínima de la contraseña"
-
-msgid "Priority of the policy (higher number means lower priority"
-msgstr ""
-"Prioridad de la política (a mayor número corresponde una política menor)"
-
-msgid "Maximum password life must be greater than minimum."
-msgstr "La duración máxima de la contraseña debe ser mayor que la mínima."
-
-msgid "priority cannot be set on global policy"
-msgstr "la prioridad no puede ser definida en una plítica global"
-
-msgid "Display effective policy for a specific user"
-msgstr "Ofrece la política efectiva para un determinado usuario"
-
-msgid "Role"
-msgstr "Rol"
-
-msgid "Role name"
-msgstr "Nombre de rol"
-
-msgid "A description of this role-group"
-msgstr "Una descripción de este grupo de roles"
-
-#, python-format
-msgid "Added role \"%(value)s\""
-msgstr "Rol agregado \"%(value)s\""
-
-#, python-format
-msgid "Deleted role \"%(value)s\""
-msgstr "Rol eliminado \"%(value)s\""
-
-#, python-format
-msgid "Modified role \"%(value)s\""
-msgstr "Rol modificado \"%(value)s\""
-
-#, python-format
-msgid "%(count)d role matched"
-msgid_plural "%(count)d roles matched"
-msgstr[0] "%(count)d rol coincidente"
-msgstr[1] "%(count)d roles coincidentes"
-
-msgid "Number of privileges added"
-msgstr "Número de privilegios agregados"
-
-msgid "Number of privileges removed"
-msgstr "Número de privilegios eliminados"
-
-msgid "Self Service Permissions"
-msgstr "Permisos de autoservicio"
-
-msgid "Self-service name"
-msgstr "Auto-servicio de nombres"
-
-#, python-format
-msgid "Added selfservice \"%(value)s\""
-msgstr "Añadido autoservicio \"%(value)s\""
-
-#, python-format
-msgid "Deleted selfservice \"%(value)s\""
-msgstr "autoservicio eliminados \"%(value)s\""
-
-#, python-format
-msgid "Modified selfservice \"%(value)s\""
-msgstr "Autoservicio modificado \"%(value)s\""
-
-#, python-format
-msgid "%(count)d selfservice matched"
-msgid_plural "%(count)d selfservices matched"
-msgstr[0] "%(count)d autoservicio coincidente"
-msgstr[1] "%(count)d autoservicios coincidentes"
-
-msgid "Service principal"
-msgstr "    Búsqueda de servicios IPA"
-
-#, python-format
-msgid "Added service \"%(value)s\""
-msgstr "Ha sido agregado el servicio \"%(value)s\""
-
-msgid "force principal name even if not in DNS"
-msgstr "fuerza el nombre del prinicpal, aún si no se encuentra en DNS"
-
-#, python-format
-msgid "Deleted service \"%(value)s\""
-msgstr "Ha sido eliminado el servicio \"%(value)s\""
-
-#, python-format
-msgid "Modified service \"%(value)s\""
-msgstr "Ha sido modificado el servicio \"%(value)s\""
-
-#, python-format
-msgid "%(count)d service matched"
-msgid_plural "%(count)d services matched"
-msgstr[0] "%(count)d servicio coincidente"
-msgstr[1] "%(count)d servicios coincidentes\t\t\t"
-
-#, python-format
-msgid "Disabled service \"%(value)s\""
-msgstr "Servicio  inhabilitado \"%(value)s\""
+" Para cambiar la contraseña de otro usuario:\n"
+"   ipa passwd tuser1\n"
 
 msgid ""
 "\n"
@@ -3317,161 +650,134 @@ msgstr ""
 "   ipa sudocmd-del /usr/bin/less\n"
 "\n"
 
-msgid "Sudo Commands"
-msgstr "Comandos de sudo"
-
-msgid "Sudo Command"
-msgstr "Comando sudo "
-
-msgid "A description of this command"
-msgstr "Una descripción de este comando "
-
-msgid "Sudo Command Group"
-msgstr "Grupo de comando sudo"
-
-msgid "Sudo Rule"
-msgstr "Regla Sudo"
-
-msgid "Command category"
-msgstr "Categoría de comandos"
-
-msgid "Command category the rule applies to"
-msgstr "Categoría de comandos la regla se aplica a"
-
-msgid "Sudo Allow Commands"
-msgstr "Comandos Allow de sudo"
-
-msgid "Sudo Deny Commands"
-msgstr "Comandos Deny de sudo"
-
-msgid "External User"
-msgstr "De usuarios externos"
-
-msgid "RunAs External User"
-msgstr "RunAs de usuarios externos"
-
-msgid "RunAs External Group"
-msgstr "Grupo externo RunAs"
-
-msgid "Sudo Option"
-msgstr "Opción de sudo"
-
-msgid "Realm name"
-msgstr "Nombre de reino "
-
-msgid "User login"
-msgstr "Ingreso de usuario"
-
-msgid "First name"
-msgstr "Nombre"
-
-msgid "Last name"
-msgstr "Apellido"
-
-msgid "Full name"
-msgstr "Nombre y apellidos"
-
-msgid "Display name"
-msgstr "Mostrar nombre"
-
-msgid "Initials"
-msgstr "Iniciales"
-
-msgid "Home directory"
-msgstr "Directorio principal"
-
-msgid "GECOS field"
-msgstr "Campo GECOS"
-
-msgid "Login shell"
-msgstr "Shell de ingreso"
-
-msgid "Kerberos principal"
-msgstr "Principal kerberos"
-
-msgid "Email address"
-msgstr "Dirección de correo electrónico"
-
-msgid "Prompt to set the user password"
-msgstr "Solicita establecer la contraseña de usuario"
-
-msgid "UID"
-msgstr "UID"
-
-msgid "User ID Number (system will assign one if not provided)"
-msgstr ""
-"Número de ID de usuario (el sistema le asignará uno si no se indica ninguno)"
-
-msgid "Group ID Number"
-msgstr "Número de Identificación de Grupo"
-
-msgid "Street address"
-msgstr "Dirección postal"
-
-msgid "City"
-msgstr "Ciudad"
-
-msgid "State/Province"
-msgstr "Estado / Provincia"
-
-msgid "ZIP"
-msgstr "Zona "
-
-msgid "Telephone Number"
-msgstr "Número de teléfono"
-
-msgid "Mobile Telephone Number"
-msgstr "Número de teléfono celular"
-
-msgid "Pager Number"
-msgstr "Número de página"
-
-msgid "Fax Number"
-msgstr "Número de fx"
-
-msgid "Org. Unit"
-msgstr "Unidad. org"
-
-msgid "Job Title"
-msgstr "Cargo"
-
-msgid "Manager"
-msgstr "Manager"
-
-msgid "Car License"
-msgstr "Licencia de conducción"
-
-msgid "Account disabled"
-msgstr "Cuenta inhabilitada "
+msgid "${entity} ${primary_key} Settings"
+msgstr "Configuraciones de  ${entity} ${primary_key}"
 
 #, python-format
-msgid "manager %(manager)s not found"
-msgstr "Administrador %(manager)s no encontrado"
+msgid "%(attr)s does not contain '%(value)s'"
+msgstr "%(attr)s no contiene '%(value)s'"
 
 #, python-format
-msgid "Added user \"%(value)s\""
-msgstr "Ha sido agregado el usuario \"%(value)s\""
-
-msgid "Don't create user private group"
-msgstr "No crear grupo privado de usuario"
+msgid "%(attr)s: Invalid syntax."
+msgstr "%(attr)s: sintaxis inválida."
 
 #, python-format
-msgid "can be at most %(len)d characters"
-msgstr "puede ser a lo sumo%(len)d caracteres"
+msgid "%(attr)s: Only one value allowed."
+msgstr " %(attr)s : Solamente un valor permitido."
 
 #, python-format
-msgid "Deleted user \"%(value)s\""
-msgstr "Ha sido eliminado el usuario \"%(value)s\""
+msgid "%(count)d ACI matched"
+msgid_plural "%(count)d ACIs matched"
+msgstr[0] "%(count)d ACI coincidente"
+msgstr[1] "%(count)d ACIs coincidentes"
 
 #, python-format
-msgid "Modified user \"%(value)s\""
-msgstr "Ha sido modificado el usuario \"%(value)s\""
+msgid "%(count)d HBAC rule matched"
+msgid_plural "%(count)d HBAC rules matched"
+msgstr[0] "%(count)d regla coincidente de HBAC"
+msgstr[1] "%(count)d reglas coincidentes de HBAC "
 
-msgid "Self"
-msgstr "Self"
+#, python-format
+msgid "%(count)d HBAC service group matched"
+msgid_plural "%(count)d HBAC service groups matched"
+msgstr[0] "%(count)d grupo de servicio HBAC coincidente"
+msgstr[1] "%(count)d grupos de servicio HBAC coincidentes"
 
-msgid "Display user record for current Kerberos principal"
-msgstr "Muestra el registro del usuario para el principal de Kerberos actual"
+#, python-format
+msgid "%(count)d HBAC service matched"
+msgid_plural "%(count)d HBAC services matched"
+msgstr[0] "Servicio HBAC %(count)d coincidente"
+msgstr[1] "Servicios HBAC %(count)d coincidentes"
+
+#, python-format
+msgid "%(count)d automount key matched"
+msgid_plural "%(count)d automount keys matched"
+msgstr[0] "%(count)d clave de automontaje coincidente"
+msgstr[1] "%(count)d claves de automontaje coincidentes"
+
+#, python-format
+msgid "%(count)d automount location matched"
+msgid_plural "%(count)d automount locations matched"
+msgstr[0] "%(count)d localización de automontaje coincidente"
+msgstr[1] "%(count)d localizaciones de automontaje coincidentes"
+
+#, python-format
+msgid "%(count)d automount map matched"
+msgid_plural "%(count)d automount maps matched"
+msgstr[0] "%(count)d mapa de automontaje coincidente"
+msgstr[1] "%(count)d mapas de automontaje coincidentes"
+
+#, python-format
+msgid "%(count)d delegation matched"
+msgid_plural "%(count)d delegations matched"
+msgstr[0] "%(count)d delegación coincidente"
+msgstr[1] "%(count)d delegaciones coincidentes"
+
+#, python-format
+msgid "%(count)d group matched"
+msgid_plural "%(count)d groups matched"
+msgstr[0] "%(count)d grupo coincidente"
+msgstr[1] "%(count)d grupos coincidentes"
+
+#, python-format
+msgid "%(count)d host matched"
+msgid_plural "%(count)d hosts matched"
+msgstr[0] "%(count)d equipo coincidente"
+msgstr[1] "%(count)d equipos coincidentes"
+
+#, python-format
+msgid "%(count)d hostgroup matched"
+msgid_plural "%(count)d hostgroups matched"
+msgstr[0] "%(count)d grupo de equipos coincidente"
+msgstr[1] "%(count)d grupos de equipos coincidentes"
+
+#, python-format
+msgid "%(count)d netgroup matched"
+msgid_plural "%(count)d netgroups matched"
+msgstr[0] "%(count)d autoservicio coincidente"
+msgstr[1] "%(count)d autoservicios coincidentes"
+
+#, python-format
+msgid "%(count)d permission matched"
+msgid_plural "%(count)d permissions matched"
+msgstr[0] "%(count)d permiso coincidente"
+msgstr[1] " %(count)d permisos coincidentes"
+
+#, python-format
+msgid "%(count)d plugin loaded"
+msgid_plural "%(count)d plugins loaded"
+msgstr[0] "%(count)d complemento cargado"
+msgstr[1] "%(count)d complementos cargados"
+
+#, python-format
+msgid "%(count)d privilege matched"
+msgid_plural "%(count)d privileges matched"
+msgstr[0] "%(count)d privilegio coincidente"
+msgstr[1] "%(count)d privilegios coincidentes"
+
+#, python-format
+msgid "%(count)d role matched"
+msgid_plural "%(count)d roles matched"
+msgstr[0] "%(count)d rol coincidente"
+msgstr[1] "%(count)d roles coincidentes"
+
+#, python-format
+msgid "%(count)d rules matched"
+msgid_plural "%(count)d rules matched"
+msgstr[0] "%(count)d reglas coincidentes"
+msgstr[1] "%(count)d reglas coincidentes"
+
+#, python-format
+msgid "%(count)d selfservice matched"
+msgid_plural "%(count)d selfservices matched"
+msgstr[0] "%(count)d autoservicio coincidente"
+msgstr[1] "%(count)d autoservicios coincidentes"
+
+#, python-format
+msgid "%(count)d service matched"
+msgid_plural "%(count)d services matched"
+msgstr[0] "%(count)d servicio coincidente"
+msgstr[1] "%(count)d servicios coincidentes\t\t\t"
 
 #, python-format
 msgid "%(count)d user matched"
@@ -3480,316 +786,884 @@ msgstr[0] "%(count)d usuario coincidente"
 msgstr[1] "%(count)d usuarios coincidentes"
 
 #, python-format
-msgid "Disabled user account \"%(value)s\""
-msgstr " \"%(value)s\" de cuenta de usuario desactivada"
+msgid "%(count)d variables"
+msgstr "%(count)d variables"
 
 #, python-format
-msgid "Enabled user account \"%(value)s\""
-msgstr " \"%(value)s\" de cuenta de usuario activada"
+msgid "%(desc)s: %(info)s"
+msgstr "%(desc)s:%(info)s"
 
 #, python-format
-msgid "Unlocked account \"%(value)s\""
-msgstr "Cuenta desbloqueada \" %(value)s \""
+msgid "%(info)s"
+msgstr "%(info)s"
 
 #, python-format
-msgid "Permission denied: %(file)s"
-msgstr "Permiso denegado:%(file)s "
+msgid "%(oname)s with name \"%(pkey)s\" already exists"
+msgstr " %(oname)s  con el nombre \"%(pkey)s\" ya existe"
 
 #, python-format
-msgid "Issuer \"%(issuer)s\" does not match the expected issuer"
-msgstr "Emisor \"%(issuer)s\" no coincide con el emisor esperado "
+msgid "%(parent)s: %(oname)s not found"
+msgstr "%(parent)s: no se encuentra %(oname)s"
 
 #, python-format
-msgid "Unable to communicate with CMS (%s)"
-msgstr "No es posible comunicarse con CMS (%s)"
+msgid "%(pkey)s: %(oname)s not found"
+msgstr "%(pkey)s: no se encuentra %(oname)s"
 
-msgid "The hostname to register as"
-msgstr "El nombre del equipo a ser registrado como"
+#, python-format
+msgid "%(reason)s"
+msgstr "%(reason)s"
 
-msgid "The IPA realm"
-msgstr "El reinado IPA"
+#, python-format
+msgid "%s is not a valid attribute."
+msgstr "%s no es un atributo válido."
 
-msgid "Hardware platform of the host (e.g. Lenovo T61)"
-msgstr "Plataforma de hardware del equipo (p. ej. Lenovo T61)"
+#, python-format
+msgid "'%(entry)s' doesn't have a certificate."
+msgstr "'%(entry)s' no tiene certificado"
 
-msgid "Operating System and version of the host (e.g. Fedora 9)"
-msgstr "Sistema operativo que utiliza el equipo y versión (p.ej. Fedora 9)"
+msgid "7 is not a valid revocation reason"
+msgstr "7 no es una razón válida de revocación"
+
+msgid "A comma-separated list of fields to search in when searching for groups"
+msgstr ""
+"Una lista separada por comas de los campos a buscar cuando se está buscando "
+"grupos"
+
+msgid "A comma-separated list of fields to search in when searching for users"
+msgstr ""
+"Una lista separada por comas de los campos a buscar cuando se está buscando "
+"usuarios"
+
+msgid "A description of this auto member rule"
+msgstr "Una descripción de esta regla auto miembro"
+
+msgid "A description of this command"
+msgstr "Una descripción de este comando "
+
+msgid "A description of this host"
+msgstr "Una descripción de este equipo"
+
+msgid "A description of this host-group"
+msgstr "Una descripción de este grupo de equipo"
+
+msgid "A description of this role-group"
+msgstr "Una descripción de este grupo de roles"
+
+msgid "A dictionary representing an LDAP entry"
+msgstr "Un diccionario representando una entrada LDAP"
+
+msgid "A group may not be a member of itself"
+msgstr "Un grupo no puede ser miembro de sí mismo"
+
+msgid "A group may not be added as a member of itself"
+msgstr "Un grupo no puede ser agregado como miembro de sí mismo"
+
+msgid "A list of ACI values"
+msgstr "Una lista de valores ACI"
+
+msgid "A list of LDAP entries"
+msgstr "Una lista de entradas LDAP"
+
+msgid "A managed group cannot have a password policy."
+msgstr "Un grupo administrado no puede tener una política de contraseñas."
 
 #, python-format
 msgid ""
-"Request subject \"%(request_subject)s\" does not match the form "
-"\"%(subject_base)s\""
+"A problem was encountered when verifying that all members were %(verb)s: "
+"%(exc)s"
 msgstr ""
-"El asunto solicitado \"%(request_subject)s\" no coincide con la forma "
-"\"%(subject_base)s\""
+"Se encontró un problema al verificar si todos los miembros eran %(verb)s: "
+"%(exc)s"
+
+msgid "AA Compromise"
+msgstr "AA transacción"
+
+msgid "ACI"
+msgstr "ACI"
+
+msgid "ACI name"
+msgstr "Nombre de ACI"
+
+msgid "ACI prefix"
+msgstr "Prefijo ACI"
+
+msgid "ACI prefix is required"
+msgstr "Se requiere prefijo de ACI "
 
 #, python-format
-msgid "unable to decode csr: %s"
-msgstr "no es posible decodificar csr: %s"
+msgid "ACI with name \"%s\" not found"
+msgstr "No se encuentra un ACI cuyo nombre sea \"%s\""
 
-msgid "file operation"
-msgstr "operación de archivo"
+msgid "ACIs"
+msgstr "ACI"
 
-msgid "cannot obtain next serial number"
-msgstr "no es posible obtener el próximo número de serie"
+msgid "Access this host"
+msgstr "Acceder a este host"
 
-msgid "certutil failure"
-msgstr "falla de Certutil"
+msgid "Access time"
+msgstr "Hora de acceso"
 
-#, c-format
-msgid "cannot open configuration file %s\n"
-msgstr "no se puede abrir archivo de configuración %s\\n\n"
+msgid "Accessing"
+msgstr "Acceso"
 
-#, c-format
-msgid "cannot stat() configuration file %s\n"
-msgstr "no puede stat () del archivo de configuración%s\n"
+msgid "Account Settings"
+msgstr "Configuración de la cuenta"
 
-#, c-format
-msgid "out of memory\n"
-msgstr "sin Memoria\n"
+msgid "Account disabled"
+msgstr "Cuenta inhabilitada "
 
-#, c-format
-msgid "read error\n"
-msgstr "Error de lectura\n"
+msgid "Active zone"
+msgstr "Activar zona"
 
-#, c-format
-msgid "No keys accepted by KDC\n"
-msgstr "No hay claves aceptadas por KDC\n"
+msgid "Add"
+msgstr "Agregar"
 
-#, c-format
-msgid "Out of memory \n"
-msgstr "¡Memoria insuficiente!\n"
+msgid "Add ${other_entity} into ${entity} ${primary_key}"
+msgstr "Añadir ${other_entity} a ${entity} ${primary_key}"
 
-#, c-format
-msgid "Out of Memory!\n"
-msgstr "¡Memoria insuficiente!\n"
+msgid "Add Many"
+msgstr "Añadir Muchos"
 
-#, c-format
-msgid "Failed to create control!\n"
-msgstr "¡Falló crear control!\n"
-
-#, c-format
-msgid "Unable to initialize ldap library!\n"
-msgstr "¡No puede iniciar biblioteca IDAP!\n"
-
-#, c-format
-msgid "Unable to set ldap options!\n"
-msgstr "¡No puede establecer opciones IDAP!\n"
-
-#, c-format
-msgid "Simple bind failed\n"
-msgstr "¡Falló vinculación sencilla!\n"
-
-#, c-format
-msgid "Operation failed! %s\n"
-msgstr "¡Falló operación! %s\n"
-
-#, c-format
-msgid "Missing reply control!\n"
-msgstr "¡Falta control de respuesta!\n"
-
-#, c-format
-msgid "ber_init() failed, Invalid control ?!\n"
-msgstr "Falló ber_init(), ¿control inválido?\n"
-
-msgid "New Principal Password"
-msgstr "Nueva contraseña principal"
-
-msgid "Verify Principal Password"
-msgstr "Verificar contraseña principal"
-
-msgid "Print as little as possible"
-msgstr "Imprimir lo mínimo posible"
-
-msgid "Output only on errors"
-msgstr "Solamente salida sobre errores"
-
-msgid "Contact this specific KDC Server"
-msgstr "Contactar este servidor KDC específico"
-
-msgid "Server Name"
-msgstr "Nombre de servidor"
-
-msgid "The principal to get a keytab for (ex: ftp/ftp.example.com@EXAMPLE.COM)"
+msgid ""
+"Add an attribute/value pair. Format is attr=value. The attribute\n"
+"must be part of the schema."
 msgstr ""
-"La principal para obtener una tabla de claves para (ex: ftp/ftp.example."
-"com@EXAMPLE.COM)"
+"Añadir un par atributo/valor. El formato es attr=value. El atributo debe ser "
+"parte del esquema."
 
-msgid "Kerberos Service Principal Name"
-msgstr "Nombre principal del servicio de kerberos"
+msgid "Add and Add Another"
+msgstr "Agregar y agregar otro"
 
-msgid "File were to store the keytab information"
-msgstr "Archivo para almacenar la información de tabla de claves"
+msgid "Add and Close"
+msgstr "Añadir y cerrar"
 
-msgid "Keytab File Name"
-msgstr "Nombre de archivo de tabla de claves"
+msgid "Add and Edit"
+msgstr "Agregar y Editar"
 
-msgid "Encryption types to request"
-msgstr "Solicitud de tipos de cifrado"
+msgid "Add members to a group."
+msgstr "Agregar miembro a un grupo."
 
-msgid "Comma separated encryption types list"
-msgstr "Lista de tipos de cifrado separados por coma"
+msgid "Add the host to DNS with this IP address"
+msgstr "Agregar el host de DNS con esta dirección IP"
 
-msgid "Show the list of permitted encryption types and exit"
-msgstr "Mostrar la lista de los tipos cifrados permitidos y salir"
+#, python-format
+msgid "Added HBAC rule \"%(value)s\""
+msgstr "Añadida regla HBAC \"%(value)s\""
 
-msgid "Permitted Encryption Types"
-msgstr "Tipos de cifrado permitidos"
+#, python-format
+msgid "Added HBAC service \"%(value)s\""
+msgstr "Servicio de HBAC \"%(value)s\" añadido"
+
+#, python-format
+msgid "Added HBAC service group \"%(value)s\""
+msgstr "Agregado servicio de grupo HBAC \"%(value)s\""
+
+#, python-format
+msgid "Added automember rule \"%(value)s\""
+msgstr "Regla automiembro añadida \"%(value)s\""
+
+#, python-format
+msgid "Added automount indirect map \"%(value)s\""
+msgstr "Añadido mapa de automontaje indirecto \"%(value)s\""
+
+#, python-format
+msgid "Added automount key \"%(value)s\""
+msgstr "Añadida clave de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Added automount location \"%(value)s\""
+msgstr "Añadida localización de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Added automount map \"%(value)s\""
+msgstr "Añadido mapa de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Added condition(s) to \"%(value)s\""
+msgstr "Añadida condición(es) a \"%(value)s\""
+
+#, python-format
+msgid "Added delegation \"%(value)s\""
+msgstr "Delegación añadida \"%(value)s\""
+
+#, python-format
+msgid "Added group \"%(value)s\""
+msgstr "Ha sido agregado el grupo \"%(value)s\""
+
+#, python-format
+msgid "Added host \"%(value)s\""
+msgstr "Ha sido agregado el equipo \"%(value)s\""
+
+#, python-format
+msgid "Added hostgroup \"%(value)s\""
+msgstr "Ha sido agregado el grupo de equipo \"%(value)s\""
+
+#, python-format
+msgid "Added netgroup \"%(value)s\""
+msgstr "\"%(value)s\"netgroup añadido"
+
+#, python-format
+msgid "Added permission \"%(value)s\""
+msgstr "Permiso agregado \"%(value)s\""
+
+#, python-format
+msgid "Added privilege \"%(value)s\""
+msgstr "Privilegio añadido \"%(value)s\""
+
+#, python-format
+msgid "Added role \"%(value)s\""
+msgstr "Rol agregado \"%(value)s\""
+
+#, python-format
+msgid "Added selfservice \"%(value)s\""
+msgstr "Añadido autoservicio \"%(value)s\""
+
+#, python-format
+msgid "Added service \"%(value)s\""
+msgstr "Ha sido agregado el servicio \"%(value)s\""
+
+#, python-format
+msgid "Added user \"%(value)s\""
+msgstr "Ha sido agregado el usuario \"%(value)s\""
+
+msgid "Administrator e-mail address"
+msgstr "Correo-e de administrador"
+
+msgid "Affiliation Changed"
+msgstr "Afiliación cambiada"
+
+msgid "All commands should at least have a result"
+msgstr "Todos los comandos deberían por lo menos tener un resultado"
+
+msgid "Allow"
+msgstr "Permitir"
+
+msgid "Allow dynamic updates."
+msgstr "Permitir actualizaciones dinámicas."
+
+msgid "Already registered"
+msgstr "Ya está registrado"
+
+msgid "Any Command"
+msgstr "Cualquier comando"
+
+msgid "Any Group"
+msgstr "Cualquier grupo"
+
+msgid "Any Host"
+msgstr "Cualquier host"
+
+msgid "Any Service"
+msgstr "Cualquier servicio"
+
+msgid "Anyone"
+msgstr "Cualquiera"
+
+msgid "Apply ACI to your own entry (self)"
+msgstr "Aplique ACI a su propia entrada (usted)"
+
+msgid "Are you sure you want to delete selected entries?"
+msgstr "¿Está seguro que desea eliminar las entradas seleccionadas?"
+
+msgid "Are you sure you want to unprovision this host?"
+msgstr "¿Está seguro que desea unprovision este equipo?"
+
+msgid "Are you sure you want to unprovision this service?"
+msgstr "¿Está seguro de que desea no suministrar este servicio?"
+
+msgid "As Whom"
+msgstr "Como Whom"
 
 msgid "Asks for a non-random password to use for the principal"
 msgstr "Pregunta por una contraseña no aleatoria para la principal"
 
-msgid "LDAP DN"
-msgstr "LDAP DN"
+msgid "Attribute"
+msgstr "Atributo"
 
-msgid "DN to bind as if not using kerberos"
-msgstr "DN a vincular como si no usara kerberos"
+msgid "Attribute Key"
+msgstr "Atributo Clave"
 
-msgid "LDAP password"
-msgstr "Contraseña LDAP"
-
-msgid "password to use if not using kerberos"
-msgstr "Contraseña a usar si no usa kerberos"
-
-#, c-format
-msgid "Kerberos context initialization failed\n"
-msgstr "Inicio de contexto de kerberos falló\n"
-
-#, c-format
-msgid "No system preferred enctypes ?!\n"
-msgstr "¿Ningún sistema enctypes preferido?\n"
-
-#, c-format
-msgid "Supported encryption types:\n"
-msgstr "Tipos de cifrado suportado\n"
-
-#, c-format
-msgid "Warning: failed to convert type (#%d)\n"
-msgstr "Advertencia: Tipo para convertir falló (#%d)⏎\n"
-
-#, c-format
-msgid "Bind password required when using a bind DN.\n"
-msgstr "Vincular contraseña requerida mediante un enlace DN.\n"
-
-#, c-format
 msgid ""
-"Warning: salt types are not honored with randomized passwords (see opt. -P)\n"
+"Attribute to filter via regex. For example fqdn for a host, or manager for a "
+"user"
 msgstr ""
-"Advertencia: tipos salt no se aceptan con contraseñas aleatorias (ver opt.\n"
+"Atributo a filtrar por medio de regex. Por ejemplo fqdn para un host o "
+"gestor para un usuario"
 
-#, c-format
-msgid "Invalid Service Principal Name\n"
-msgstr "Nombre de servicio principal inválido\n"
+msgid "Attributes"
+msgstr "Atributos"
 
-#, c-format
-msgid "Kerberos Credential Cache not found. Do you have a Kerberos Ticket?\n"
-msgstr ""
-"No se encontró la cache de credencial kerberos. ¿Tiene un tiquete de "
-"kerberos?\n"
+msgid "Audit"
+msgstr "Auditoría"
 
-#, c-format
-msgid ""
-"Kerberos User Principal not found. Do you have a valid Credential Cache?\n"
-msgstr ""
-"No se encontró usuario principal de kerberos. ¿Tiene una cache de credencial "
-"válida?\n"
+msgid "Authoritative nameserver"
+msgstr "Nombre de servidor autoritativo"
 
-#, c-format
-msgid "Failed to open Keytab\n"
-msgstr "Fallo abrir clave de tablas.\n"
+msgid "Auto Membership Rule"
+msgstr "Regla Auto Afiliación"
 
-#, c-format
-msgid "Failed to create key material\n"
-msgstr "Error al crear el material de clave\n"
+msgid "Auto Membership is not configured"
+msgstr "Auto Afiliación no está configurada"
 
-#, c-format
-msgid "Failed to add key to the keytab\n"
-msgstr "No se pudo agregar clave de la tabla de claves\n"
+#, python-format
+msgid "Auto member rule: %s not found!"
+msgstr "Regla auto miembro: %s no encontrada!"
 
-#, c-format
-msgid "Failed to close the keytab\n"
-msgstr "No se pudo cerrar la tabla de claves\n"
+msgid "Automember Rule"
+msgstr "Regla Automiembro"
 
-#, c-format
-msgid "Keytab successfully retrieved and stored in: %s\n"
-msgstr "Tabla de claves recuperada y almacenada correctamente en:%s\n"
+msgid "Automount"
+msgstr "Montaje automático"
 
-#, c-format
-msgid "No permission to join this host to the IPA domain.\n"
-msgstr "No tiene permiso para vincular este equipo al dominio de la API.\n"
+msgid "Automount Key"
+msgstr "Clave de Automontaje"
 
-#, c-format
-msgid "No write permissions on keytab file '%s'\n"
-msgstr "No escribir permisos en archivo de tabla de claves'%s\n"
+msgid "Automount Keys"
+msgstr "Llaves de montaje automático"
 
-#, c-format
-msgid "Out of memory!"
-msgstr "¡Memoria insuficiente!"
+msgid "Automount Location"
+msgstr "Localización de Automontaje"
 
-#, c-format
-msgid "Unable to initialize connection to ldap server: %s"
-msgstr "No se puede iniciar con servidor IDAP:%s"
+msgid "Automount Location Settings"
+msgstr "Configuración de ubicación de automount"
 
-#, c-format
-msgid "Unable to enable SSL in LDAP\n"
-msgstr "No se puede habilitar SSL en LDAP\n"
+msgid "Automount Locations"
+msgstr "Ubicaciones de automontado"
 
-#, c-format
-msgid "Unable to set LDAP version\n"
-msgstr "No se puede establecer la versión de LDAP\n"
+msgid "Automount Map"
+msgstr "Mapa de Automontaje"
+
+msgid "Automount Maps"
+msgstr "Mapas de montaje automático"
+
+msgid "Automount key name."
+msgstr "    Nombre de clave de montaje automático"
+
+msgid "Automount key object."
+msgstr "Objeto clave de automontaje"
+
+msgid "Automount location name."
+msgstr "Nombre de la ubicación de montaje automático."
+
+msgid "Automount map name."
+msgstr "  Nombre del mapa automount."
+
+msgid "Automount master file."
+msgstr "    Archivo maestro automount."
+
+msgid "Available"
+msgstr "Disponible"
+
+msgid "BIND update policy"
+msgstr "Política de actualización de BIND"
+
+msgid "Back to Top"
+msgstr "Volver al comienzo"
+
+msgid "Bad format in credentials cache"
+msgstr "Las credenciales de caché están mal formadas"
+
+#, python-format
+msgid "Bad search filter %(info)s"
+msgstr "%(info)s de filtro de búsqueda errado"
+
+msgid "Base for certificate subjects (OU=Test,O=Example)"
+msgstr "Base para sujetos certificados (OU=Prueba,O=Ejemplo)"
+
+msgid "Base-64 encoded server certificate"
+msgstr "Certificado del servidor codificado con base-64"
+
+#, python-format
+msgid "Base64 decoding failed: %(reason)s"
+msgstr "Falló la decodificación base64: %(reason)s"
+
+msgid "Bind DN"
+msgstr "Asociar DN"
 
 #, c-format
 msgid "Bind failed: %s\n"
 msgstr "Falló enlace:%s\n"
 
 #, c-format
-msgid "No values for %s"
-msgstr "No hay valores para %s"
+msgid "Bind password required when using a bind DN.\n"
+msgstr "Vincular contraseña requerida mediante un enlace DN.\n"
+
+msgid "CA Compromise"
+msgstr "CA de transacción"
+
+msgid "CSR"
+msgstr "CSR"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Cannot resolve KDC for requested realm"
+msgstr "No es posible resolver KDC para el reinado solicitado"
+
+msgid "Car License"
+msgstr "Licencia de conducción"
+
+msgid "Certificate"
+msgstr "Certificado"
+
+msgid "Certificate Hold"
+msgstr "Certificado retenido"
+
+msgid "Certificate Revoked"
+msgstr "Certificado revocado"
+
+msgid "Certificate Subject base"
+msgstr "Base de certificado de asunto"
+
+msgid "Certificate for ${entity} ${primary_key}"
+msgstr "Certificado para ${entity} ${primary_key}"
+
+#, python-format
+msgid "Certificate format error: %(error)s"
+msgstr "Error de certificado de formato: %(error)s "
+
+#, python-format
+msgid "Certificate operation cannot be completed: %(error)s"
+msgstr "La operación certificada no puede ser completada: %(error)s"
+
+#, python-format
+msgid "Certificate stored in file '%(file)s'"
+msgstr "Certificado almacenado en el archivo '%(file)s'"
 
 #, c-format
-msgid "Out of memory!\n"
-msgstr "¡Memoria insuficiente!\n"
+msgid "Certificate subject base is: %s\n"
+msgstr "Asunto de certificado es:%s\n"
 
-#, c-format
-msgid "Search for ipaCertificateSubjectBase failed with error %d"
-msgstr "Búsqueda de ipaCertificateSubjectBase falló con error %d"
+msgid "Cessation of Operation"
+msgstr "Cese de operaciones"
 
-#, c-format
-msgid "Unable to determine root DN of %s\n"
-msgstr "No se puede determinar DN de root de%s\n"
+#, python-format
+msgid "Changed password for \"%(value)s\""
+msgstr "Cambio de contraseña para \"%(value)s\""
 
-#, c-format
-msgid "Incorrect password.\n"
-msgstr "Contraseña incorrecta.\n"
+msgid "Character classes"
+msgstr "Clases de caracteres"
 
-#, c-format
-msgid "Unable to determine certificate subject of %s\n"
-msgstr "No se puede determinar asunto del certificado de%s\n"
+msgid "Check the status of a certificate signing request."
+msgstr "Verificar el estado de una solicitud de firma de certificado."
 
-#, c-format
-msgid "principal not found in XML-RPC response\n"
-msgstr "principales no se encuentran en respuesta XML-RPC\n"
+msgid "City"
+msgstr "Ciudad"
 
-#, c-format
-msgid "Host is already joined.\n"
-msgstr "Host ya está vinculado\n"
+msgid "Class"
+msgstr "Clase"
 
-#, c-format
-msgid "Unable to determine IPA server from %s\n"
-msgstr "No se puede determinar servidor de la IPA de%s\n"
+msgid "Client is not configured. Run ipa-client-install."
+msgstr "El cliente no está configurado. Ejecutar la API de cliente a instalar."
 
-#, c-format
-msgid "The hostname must be fully-qualified: %s\n"
-msgstr "El nombre de host debe ser totalmente calificado:%s\n"
-
-#, c-format
-msgid "Unable to join host: Kerberos context initialization failed\n"
+msgid "Client version. Used to determine if server will accept request."
 msgstr ""
-"No se puede unir host: la inicialización de contexto de Kerberos falló\n"
+"Versión de cliente. Se utiliza para determinar si el servidor va a aceptar "
+"la solicitud."
+
+msgid "Close"
+msgstr "Cerrar"
 
 #, c-format
-msgid "Error resolving keytab: %s.\n"
-msgstr "Error al resolver tabla de claves:%s.\n"
+msgid "Closing keytab failed\n"
+msgstr "Cierre de tabla de claves falló\n"
+
+msgid "Comma separated encryption types list"
+msgstr "Lista de tipos de cifrado separados por coma"
+
+msgid "Command category"
+msgstr "Categoría de comandos"
+
+msgid "Command category the rule applies to"
+msgstr "Categoría de comandos la regla se aplica a"
+
+msgid "Command name"
+msgstr "Nombre del comando"
+
+msgid "Command not implemented"
+msgstr "El comando no se ha implementado"
+
+msgid "Commands"
+msgstr "Comandos"
+
+msgid "Common Name"
+msgstr "Nombre común"
+
+msgid "Conditions that could not be added"
+msgstr "Condiciones que no pueden ser agregadas"
+
+msgid "Conditions that could not be removed"
+msgstr "Condiciones que no pueden ser eliminadas"
+
+msgid "Configuration"
+msgstr "Configuración"
+
+msgid "Consecutive failures before lockout"
+msgstr "Fallos consecutivos antes del bloqueo"
+
+msgid "Consumed"
+msgstr "Consumido"
+
+#, python-format
+msgid "Consumed %(value)s entitlement(s)."
+msgstr "Derecho(s) consumido(s) %(value)s."
+
+msgid "Contact Settings"
+msgstr "Configuración de contactos"
+
+msgid "Contact this specific KDC Server"
+msgstr "Contactar este servidor KDC específico"
+
+msgid "Continuous mode: Don't stop on errors."
+msgstr "Modo continuo: No se detenga en los errores."
+
+msgid ""
+"Continuous operation mode. Errors are reported but the process continues"
+msgstr ""
+"Modo de funcionamiento continuo. Se reportan errores, pero el proceso "
+"continúa"
+
+msgid ""
+"Continuous operation mode. Errors are reported but the process continues."
+msgstr ""
+"    Modo de funcionamiento continuo. Reporta los errores, pero el proceso "
+"continúa."
+
+msgid "Create a new automount key."
+msgstr "Crear una nueva clave de automontaje."
+
+msgid "Create a new automount location."
+msgstr "Crear una nueva localización de automontaje."
+
+msgid "Create a new automount map."
+msgstr "Crear un nuevo mapa de automontaje"
+
+msgid "Create a new group."
+msgstr "Crear un grupo nuevo."
+
+msgid "Create a new indirect mount point."
+msgstr "Crear un nuevo punto de montaje indirecto."
+
+msgid "Create as a non-POSIX group"
+msgstr "  Crear como un grupo no POSIX"
+
+#, python-format
+msgid "Created ACI \"%(value)s\""
+msgstr "Ha sido creado ACI \"%(value)s\""
+
+msgid "Credentials cache permissions incorrect"
+msgstr "Los permisos de credenciales de caché son incorrectos"
+
+msgid "Current DNS record contents:\n"
+msgstr "Contenidos actuales del registro DNS:\n"
+
+msgid "DN to bind as if not using kerberos"
+msgstr "DN a vincular como si no usara kerberos"
+
+msgid "DNS"
+msgstr "DNS"
+
+msgid "DNS Zone Settings"
+msgstr "Configuración de la Zona DNS"
+
+msgid "DNS class"
+msgstr "Clase DNS"
+
+msgid "DNS is not configured"
+msgstr "DNS no está configurado"
+
+msgid "DNS resource record"
+msgstr "Registro de recursos DNS"
+
+#, python-format
+msgid "DNS reverse zone for IP address %(addr)s not found"
+msgstr "Zona invertida DNS para dirección IP %(addr)s no encontrada"
+
+#, python-format
+msgid "DNS zone %(zone)s not found"
+msgstr "Zona DNS %(zone)s no encontrado"
+
+msgid "Data"
+msgstr "Datos"
+
+msgid "Debugging output"
+msgstr "Salida de depuración"
+
+msgid "Default e-mail domain"
+msgstr "Dominio de correo electrónico por defecto"
+
+msgid "Default group for new users"
+msgstr "Grupo predeterminado para usuarios nuevos"
+
+msgid "Default group objectclasses"
+msgstr "Grupo predeterminado objectclass"
+
+msgid "Default location of home directories"
+msgstr "Localización por defecto de los directorios home"
+
+msgid "Default shell"
+msgstr "Shell predeterminada"
+
+msgid "Default shell for new users"
+msgstr "Shell predeterminada para usuarios nuevos"
+
+msgid "Default user objectclasses"
+msgstr "Usuario predeterminado objectclasses"
+
+msgid "Default users group"
+msgstr "Grupo de usuarios predeterminado"
+
+msgid "Delegation"
+msgstr "Delegación"
+
+msgid "Delegation name"
+msgstr "Nombre de delegación"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Delete Key, Unprovision"
+msgstr "La eliminación de clave, unprovision"
+
+msgid "Delete all associated records"
+msgstr "Eliminar todos los registros asociados"
+
+msgid "Delete all?"
+msgstr "¿Borrar todos?"
+
+msgid ""
+"Delete an attribute/value pair. The option will be evaluated\n"
+"last, after all sets and adds."
+msgstr ""
+"Borrar un par atributo/valor. La opción será evaluada al final, después de "
+"todos los ajustes y añadidos."
+
+msgid "Delete an automount key."
+msgstr "Borrar una clave de automontaje."
+
+msgid "Delete an automount location."
+msgstr "Borrar una localización de automontaje."
+
+msgid "Delete an automount map."
+msgstr "Borrar un mapa de automontaje."
+
+msgid "Delete group."
+msgstr "Eliminar grupo."
+
+#, python-format
+msgid "Deleted ACI \"%(value)s\""
+msgstr "Ha sido eliminado ACI \"%(value)s\""
+
+#, python-format
+msgid "Deleted HBAC rule \"%(value)s\""
+msgstr "Suprimida regla HBAC \"%(value)s\""
+
+#, python-format
+msgid "Deleted HBAC service \"%(value)s\""
+msgstr "Suprimido el servicio HBAC \"%(value)s\""
+
+#, python-format
+msgid "Deleted HBAC service group \"%(value)s\""
+msgstr "    Suprimido el servicio HBAC grupo \"%(value)s\""
+
+#, python-format
+msgid "Deleted automember rule \"%(value)s\""
+msgstr "Borrada regla automiembro \"%(value)s\""
+
+#, python-format
+msgid "Deleted automount key \"%(value)s\""
+msgstr "Borrada clave de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Deleted automount location \"%(value)s\""
+msgstr "Borrada una localización de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Deleted automount map \"%(value)s\""
+msgstr "Borrado un mapa de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Deleted delegation \"%(value)s\""
+msgstr "Delegación eliminada \"%(value)s\""
+
+#, python-format
+msgid "Deleted group \"%(value)s\""
+msgstr "Ha sido eliminado el grupo \"%(value)s\""
+
+#, python-format
+msgid "Deleted host \"%(value)s\""
+msgstr "Ha sido eliminado el equipo \"%(value)s\""
+
+#, python-format
+msgid "Deleted hostgroup \"%(value)s\""
+msgstr "Ha sido eliminado el grupo de equipo \"%(value)s\""
+
+#, python-format
+msgid "Deleted netgroup \"%(value)s\""
+msgstr "%(value)s\" de netgroup eliminados"
+
+#, python-format
+msgid "Deleted permission \"%(value)s\""
+msgstr "Permiso borrado \"%(value)s\""
+
+#, python-format
+msgid "Deleted privilege \"%(value)s\""
+msgstr "Privilegio eliminado \"%(value)s \""
+
+#, python-format
+msgid "Deleted record \"%(value)s\""
+msgstr "Registro eliminado \"%(value)s\""
+
+#, python-format
+msgid "Deleted role \"%(value)s\""
+msgstr "Rol eliminado \"%(value)s\""
+
+#, python-format
+msgid "Deleted selfservice \"%(value)s\""
+msgstr "autoservicio eliminados \"%(value)s\""
+
+#, python-format
+msgid "Deleted service \"%(value)s\""
+msgstr "Ha sido eliminado el servicio \"%(value)s\""
+
+#, python-format
+msgid "Deleted user \"%(value)s\""
+msgstr "Ha sido eliminado el usuario \"%(value)s\""
+
+msgid "Deleting a managed group is not allowed. It must be detached first."
+msgstr ""
+"No se permite eliminar un grupo administrado. Primero debe ser desasociado. "
+
+msgid "Deny"
+msgstr "Negar"
+
+msgid "Description"
+msgstr "Descripción"
+
+#, python-format
+msgid "Detached group \"%(value)s\" from user \"%(value)s\""
+msgstr "Ha sido desasociado el grupo \"%(value)s\" del usuario \"%(value)s\""
+
+msgid "Dict of I18N messages"
+msgstr "Dictado de los mensajes regionales"
+
+msgid "Dict of JSON encoded IPA Methods"
+msgstr "Métodos IPA  codificados de Dict de JSON "
+
+msgid "Dict of JSON encoded IPA Objects"
+msgstr "El dict de JSON ha codificado objetos IPA"
+
+msgid "Dictionary mapping variable name to value"
+msgstr "Nombre de la variable de mapeo de dicionario a valorizar "
+
+#, python-format
+msgid "Disabled DNS zone \"%(value)s\""
+msgstr "Zona de DNS desactivada \"%(value)s\" "
+
+#, python-format
+msgid "Disabled HBAC rule \"%(value)s\""
+msgstr "\"%(value)s\" regla HBAC desactivada    "
+
+#, python-format
+msgid "Disabled host \"%(value)s\""
+msgstr "Host desactivado \"%(value)s\""
+
+#, python-format
+msgid "Disabled service \"%(value)s\""
+msgstr "Servicio  inhabilitado \"%(value)s\""
+
+#, python-format
+msgid "Disabled user account \"%(value)s\""
+msgstr " \"%(value)s\" de cuenta de usuario desactivada"
+
+msgid "Display an automount key."
+msgstr "Mostrar una clave de automontaje."
+
+msgid "Display an automount location."
+msgstr "Mostrar una localización de automontaje"
+
+msgid "Display an automount map."
+msgstr "Mostrar un mapa de automontaje"
+
+msgid "Display effective policy for a specific user"
+msgstr "Ofrece la política efectiva para un determinado usuario"
+
+msgid "Display name"
+msgstr "Mostrar nombre"
+
+msgid ""
+"Display the access rights of this entry (requires --all). See ipa man page "
+"for details."
+msgstr ""
+"Mostrar los derechos de acceso de esta entrada (requiere --all). Consulte la "
+"página man de IPA para más detalles."
+
+msgid "Display user record for current Kerberos principal"
+msgstr "Muestra el registro del usuario para el principal de Kerberos actual"
+
+msgid "Don't create user private group"
+msgstr "No crear grupo privado de usuario"
+
+msgid "Dynamic update"
+msgstr "Actualización dinámica"
+
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+msgid "Employee Information"
+msgstr "Información del Empleado"
+
+msgid "Enable migration mode"
+msgstr "Habilitar modo migración"
+
+msgid "Enabled"
+msgstr "Habilitado"
+
+#, python-format
+msgid "Enabled DNS zone \"%(value)s\""
+msgstr "Zona DNS habilitada \" %(value)s \""
+
+#, python-format
+msgid "Enabled HBAC rule \"%(value)s\""
+msgstr "Habilitada regla HBAC \"%(value)s\""
+
+#, python-format
+msgid "Enabled user account \"%(value)s\""
+msgstr " \"%(value)s\" de cuenta de usuario activada"
+
+msgid "Encryption types to request"
+msgstr "Solicitud de tipos de cifrado"
+
+msgid "Enctype comparison failed!\n"
+msgstr "¡Falló comparación de Enctype!\n"
+
+msgid "End"
+msgstr "Fin"
+
+msgid "Enrollment"
+msgstr "Inscripción"
+
+msgid "Enrollment UUID"
+msgstr "Inscripción UUID"
+
+#, python-format
+msgid "Enter %(label)s again to verify: "
+msgstr "Ingrese %(label)s nuevamente para verificar: "
+
+msgid "Entitlement(s) synchronized."
+msgstr "Derecho (s) sincronizado(s)."
+
+msgid "Entitlements"
+msgstr "Autorizaciones"
+
+msgid "Entry"
+msgstr "Entrada"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Error changing account status"
+msgstr "Error al cambiar el estado de cuenta"
 
 #, c-format
 msgid "Error getting default Kerberos realm: %s.\n"
@@ -3800,24 +1674,1800 @@ msgid "Error obtaining initial credentials: %s.\n"
 msgstr "Error al obtener credenciales de iniciales:%s.\n"
 
 #, c-format
-msgid "Unable to generate Kerberos Credential Cache\n"
-msgstr "No se puede generar la cache de credenciales de Kerberos\n"
+msgid "Error resolving keytab: %s.\n"
+msgstr "Error al resolver tabla de claves:%s.\n"
 
 #, c-format
 msgid "Error storing creds in credential cache: %s.\n"
 msgstr "Error de almacenamiento de credenciales en cache de credenciales:%s.\n"
 
-#, c-format
-msgid "Unenrollment successful.\n"
-msgstr "Cancelación de registro exitoso.\n"
+msgid "Exclusive Regex"
+msgstr "Regex exclusivo"
+
+msgid "Expires On"
+msgstr "Expira el"
+
+msgid "External"
+msgstr "Externos"
+
+msgid "External User"
+msgstr "De usuarios externos"
+
+msgid "External host"
+msgstr "Equipo externo"
+
+msgid "Failed hosts/hostgroups"
+msgstr "Falló host/hostgroups"
+
+msgid "Failed managedby"
+msgstr "Falló managedby"
+
+msgid "Failed members"
+msgstr "Miembros fallidos"
+
+msgid "Failed service/service groups"
+msgstr "Fallado servicio/servicio grupos"
+
+msgid "Failed source hosts/hostgroups"
+msgstr "Fallada fuente hosts/grupos de hosts"
+
+msgid "Failed to add"
+msgstr "Fallo al añadir"
 
 #, c-format
-msgid "Unenrollment failed.\n"
-msgstr "Cancelación falló.\n"
+msgid "Failed to add key to the keytab\n"
+msgstr "No se pudo agregar clave de la tabla de claves\n"
+
+msgid ""
+"Failed to add user to the default group. Use 'ipa group-add-member' to add "
+"manually."
+msgstr ""
+"Falló al intenatar agregar al usuario al grupo predeterminado. Utilice 'ipa "
+"group-add-member' para agregarlo manualmente.  "
 
 #, c-format
-msgid "result not found in XML-RPC response\n"
-msgstr "resultado no se encuentra en respuesta XML-RPC\n"
+msgid "Failed to close the keytab\n"
+msgstr "No se pudo cerrar la tabla de claves\n"
+
+#, c-format
+msgid "Failed to create control!\n"
+msgstr "¡Falló crear control!\n"
+
+#, c-format
+msgid "Failed to create key material\n"
+msgstr "Error al crear el material de clave\n"
+
+msgid "Failed to create key!\n"
+msgstr "¡Falló la creación de clave!\n"
+
+msgid "Failed to create random key!\n"
+msgstr "Falló la creación de clave aleatoria\n"
+
+#, c-format
+msgid "Failed to open Keytab\n"
+msgstr "Fallo abrir clave de tablas.\n"
+
+#, c-format
+msgid "Failed to open keytab\n"
+msgstr "No pudo abrir la tabla de claves\n"
+
+msgid "Failed to remove"
+msgstr "No se ha podido quitar"
+
+msgid "Failed users/groups"
+msgstr "Falló usuarios/grupos"
+
+msgid "Failure decoding Certificate Signing Request"
+msgstr ""
+"Falla al intentar decodificar la petición de identificación de certificado"
+
+msgid "Failure decoding Certificate Signing Request:"
+msgstr ""
+"Falla al intentar decodificar la petición de identificación de certificado"
+
+#, python-format
+msgid "Failure decoding Certificate Signing Request: %s"
+msgstr ""
+"Falla al intentar decodificar la petición de identificación de certificado: "
+"%s"
+
+msgid "Failure reset interval"
+msgstr "Falló reajuste de intervalo"
+
+msgid "False if migration mode was disabled."
+msgstr "\"False\", si el modo de migración fue inhabilitado."
+
+msgid "Fax Number"
+msgstr "Número de fx"
+
+#, python-format
+msgid "File %(file)s not found"
+msgstr "No se encontró el archivo %(file)s "
+
+msgid "File to store the certificate in."
+msgstr "Archivo para almacenar el certificado"
+
+msgid "File were to store the keytab information"
+msgstr "Archivo para almacenar la información de tabla de claves"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Find"
+msgstr "Buscar"
+
+msgid "Fingerprint (MD5)"
+msgstr "Huella digital (MD5)"
+
+msgid "Fingerprint (SHA1)"
+msgstr "Huella digital (SHA1)"
+
+msgid "Fingerprints"
+msgstr "Las huellas dactilares"
+
+msgid "First name"
+msgstr "Nombre"
+
+msgid "Force"
+msgstr "Forzar"
+
+msgid "Forward to server instead of running locally"
+msgstr "Reenvía al servidor en lugar de ejecutarse localmente"
+
+#, python-format
+msgid "Found '%(value)s'"
+msgstr "Ha sido encontrado '%(value)s'"
+
+msgid "From"
+msgstr "Desde"
+
+msgid "Full name"
+msgstr "Nombre y apellidos"
+
+msgid "Fully Qualified Host Name"
+msgstr "Nombre de host totalmente calificado"
+
+msgid "GECOS field"
+msgstr "Campo GECOS"
+
+msgid "GID"
+msgstr "GID"
+
+msgid "GID (use this option to set it manually)"
+msgstr "GID (utilice esta opción para definirlo manualmente)"
+
+msgid "General"
+msgstr "General"
+
+msgid "Generate a random password to be used in bulk enrollment"
+msgstr "Generar una contraseña aleatoria que se utilizará en la inscripción "
+
+msgid "Generate automount files for a specific location."
+msgstr "Generar ficheros de automontaje para una localización específica."
+
+msgid "Get"
+msgstr "Obtener"
+
+msgid "Granting privilege to roles"
+msgstr "Concesión de privilegios a los roles"
+
+msgid "Group"
+msgstr "Grupo"
+
+#, python-format
+msgid "Group '%s' does not exist"
+msgstr "El grupo '%s' no existe"
+
+msgid "Group ID Number"
+msgstr "Número de Identificación de Grupo"
+
+msgid "Group Settings"
+msgstr "Configuración del grupo"
+
+msgid "Group container"
+msgstr "Contenedor de grupoi"
+
+msgid "Group description"
+msgstr "Descripción del grupo"
+
+msgid "Group name"
+msgstr "Nombre del grupo"
+
+msgid "Group object class"
+msgstr "Clase de objeto de grupo"
+
+msgid "Group to apply ACI to"
+msgstr "Grupo al que aplicar API"
+
+#, python-format
+msgid "Group: %s not found!"
+msgstr "Grupo: %s no encontrado!"
+
+msgid "Grouping Type"
+msgstr "Tipo de Agrupamiento"
+
+msgid "Grouping to which the rule applies"
+msgstr "Agrupamiento al cual se aplican las reglas"
+
+msgid "Groups"
+msgstr "Grupos"
+
+msgid "HBAC Rule"
+msgstr "REgla HBAC"
+
+msgid "HBAC Services"
+msgstr "Servicios HBAC"
+
+msgid "HBAC service"
+msgstr "Servicio HBAC"
+
+msgid "HBAC service description"
+msgstr "Descripción de servicio HBAC"
+
+msgid "HBAC service group description"
+msgstr "Servicios y grupos especificados"
+
+msgid "Hardware platform of the host (e.g. Lenovo T61)"
+msgstr "Plataforma de hardware del equipo (p. ej. Lenovo T61)"
+
+msgid "History size"
+msgstr "Tamaño del historial"
+
+msgid "Home directory"
+msgstr "Directorio principal"
+
+msgid "Home directory base"
+msgstr "Base del directorio principal"
+
+#, python-format
+msgid "Host '%(host)s' not found"
+msgstr "No ha sido encontrado el equipo anfitrión '%(host)s' "
+
+msgid "Host Based Access Control"
+msgstr "Control de Acceso basado en Host"
+
+msgid "Host Certificate"
+msgstr "Certificado de host"
+
+msgid "Host Group Settings"
+msgstr "Configuraciones del Grupo de Host"
+
+msgid "Host Groups"
+msgstr "Grupos de equipo"
+
+msgid "Host Name"
+msgstr "Nombre de host"
+
+msgid "Host Settings"
+msgstr "Configuración del host"
+
+msgid "Host category"
+msgstr "Categoría del equipo"
+
+msgid "Host category the rule applies to"
+msgstr "Categoría del equipo al que se aplica la regla"
+
+msgid "Host does not have corresponding DNS A record"
+msgstr "El equipo no posee un registro DNS A con el que se corresponda "
+
+msgid "Host hardware platform (e.g. \"Lenovo T61\")"
+msgstr "Plataforma de hardware del equipo (p. ej. \"Lenovo T61\")"
+
+#, c-format
+msgid "Host is already joined.\n"
+msgstr "Host ya está vinculado\n"
+
+msgid "Host locality (e.g. \"Baltimore, MD\")"
+msgstr "Localidad del equipo (p.ej. \"Barrio latino, París\") "
+
+msgid "Host location (e.g. \"Lab 2\")"
+msgstr "Ubicación del equipo (p. ej. \"Laboratorio\")"
+
+msgid "Host name"
+msgstr "Nombre del equipo"
+
+msgid "Host operating system and version (e.g. \"Fedora 9\")"
+msgstr ""
+"Sistema operativo que utiliza el equipo y versión (p.ej. \"Fedora 11\")"
+
+msgid "Host-group"
+msgstr "Grupo de equipo"
+
+msgid "Hostname"
+msgstr "Nombre del equipo anfitrión"
+
+msgid "Hostname of this server"
+msgstr "Nombre de host de este servidor"
+
+msgid "Hosts"
+msgstr "Equipos"
+
+msgid "How long should negative responses be cached"
+msgstr "¿Por cuánto tiempo las respuestas negativas deben guardarse en cache?"
+
+msgid "IPA Server"
+msgstr "Servidor IPA"
+
+msgid "IPA Server to use"
+msgstr "Servidor de IPA a utilizar"
+
+msgid "IPA unique ID"
+msgstr "ID unico de IPA"
+
+msgid "Identity"
+msgstr "Identidad"
+
+msgid "Identity Settings"
+msgstr "Configuración de identidad"
+
+msgid "Import automount files for a specific location."
+msgstr "Importar ficheros de automontaje para una localización específica."
+
+msgid "Inclusive Regex"
+msgstr "Regex inclusivo"
+
+#, c-format
+msgid "Incorrect password.\n"
+msgstr "Contraseña incorrecta.\n"
+
+msgid "Indirect Member HBAC service"
+msgstr "Servicio HBAC de miembro indirecto"
+
+msgid "Indirect Member HBAC service group"
+msgstr "Grupo de servicio HBAC de miembros indirectos "
+
+msgid "Indirect Member groups"
+msgstr "Grupos de miembros indirectos"
+
+msgid "Indirect Member host-groups"
+msgstr "Miembros indirectos de host-groups"
+
+msgid "Indirect Member hosts"
+msgstr "Hosts de miembros indirectos"
+
+msgid "Indirect Member netgroups"
+msgstr "Miembros indirectos netgroups"
+
+msgid "Indirect Member of roles"
+msgstr "Roles de miembros indirectos"
+
+msgid "Indirect Member permissions"
+msgstr ""
+"\\n\n"
+"Permisos indirectos de miembro "
+
+msgid "Indirect Member users"
+msgstr "Usuarios indirectos miembros"
+
+msgid "Initials"
+msgstr "Iniciales"
+
+#, python-format
+msgid "Insufficient access: %(info)s"
+msgstr "Acceso insuficiente: %(info)s"
+
+#, python-format
+msgid "Invalid JSON-RPC request: %(error)s"
+msgstr "Petición JSON-RPC no válida: %(error)s"
+
+msgid "Invalid LDAP URI."
+msgstr " URI LDAP no válida."
+
+#, c-format
+msgid "Invalid Service Principal Name\n"
+msgstr "Nombre de servicio principal inválido\n"
+
+msgid "Is zone active?"
+msgstr "¿Está la zona activa?"
+
+msgid "Issue"
+msgstr "Tema"
+
+msgid "Issue New Certificate for ${entity} ${primary_key}"
+msgstr "Enviar Nuevo Certificado para ${entity} ${primary_key}"
+
+msgid "Issued By"
+msgstr "Expedido por"
+
+msgid "Issued On"
+msgstr "Expiración"
+
+msgid "Issued To"
+msgstr "Expedido para"
+
+msgid "Issuer"
+msgstr "Emisor"
+
+#, python-format
+msgid "Issuer \"%(issuer)s\" does not match the expected issuer"
+msgstr "Emisor \"%(issuer)s\" no coincide con el emisor esperado "
+
+msgid "Job Title"
+msgstr "Cargo"
+
+#, c-format
+msgid "Kerberos Credential Cache not found. Do you have a Kerberos Ticket?\n"
+msgstr ""
+"No se encontró la cache de credencial kerberos. ¿Tiene un tiquete de "
+"kerberos?\n"
+
+msgid "Kerberos Key Not Present"
+msgstr "No hay clave Kerberos Presente"
+
+msgid "Kerberos Key Present, Host Provisioned"
+msgstr "Claves de Kerberos presente, Host aprovisionado"
+
+msgid "Kerberos Key Present, Service Provisioned"
+msgstr "Claves de Kerberos actuales, Servicio suministrado"
+
+msgid "Kerberos Service Principal Name"
+msgstr "Nombre principal del servicio de kerberos"
+
+msgid "Kerberos Ticket Policy"
+msgstr " Política de tiquete de Kerberos"
+
+#, c-format
+msgid ""
+"Kerberos User Principal not found. Do you have a valid Credential Cache?\n"
+msgstr ""
+"No se encontró usuario principal de kerberos. ¿Tiene una cache de credencial "
+"válida?\n"
+
+#, c-format
+msgid "Kerberos context initialization failed\n"
+msgstr "Inicio de contexto de kerberos falló\n"
+
+#, python-format
+msgid "Kerberos error: %(major)s/%(minor)s"
+msgstr "Error de kerberos:  %(major)s/%(minor)s"
+
+msgid "Kerberos principal"
+msgstr "Principal kerberos"
+
+#, python-format
+msgid ""
+"Kerberos principal %s already exists. Use 'ipa user-mod' to set it manually."
+msgstr ""
+"El principal %s de Kerberos ya existe. Utilice 'ipa user-mod' para definirlo "
+"manualmente."
+
+msgid "Kerberos principal name for this host"
+msgstr "Nombre del prinicpal de Kerberos para este equipo"
+
+msgid "Key"
+msgstr "Llave"
+
+msgid "Key Compromise"
+msgstr "Clave de transacción"
+
+msgid "Keytab"
+msgstr "Keytab"
+
+msgid "Keytab File Name"
+msgstr "Nombre de archivo de tabla de claves"
+
+#, c-format
+msgid "Keytab successfully retrieved and stored in: %s\n"
+msgstr "Tabla de claves recuperada y almacenada correctamente en:%s\n"
+
+msgid "LDAP DN"
+msgstr "LDAP DN"
+
+msgid "LDAP URI"
+msgstr "LDAP URI"
+
+msgid "LDAP URI of DS server to migrate from"
+msgstr "LDAP URI del servidor DS desde donde realizar la migración"
+
+msgid "LDAP password"
+msgstr "Contraseña LDAP"
+
+msgid "LDAP password (if not using Kerberos)"
+msgstr "contraseña de LDAP (si no usa Kerberos)"
+
+msgid "LDAP schema"
+msgstr "Esquema LDAP"
+
+msgid "Last name"
+msgstr "Apellido"
+
+msgid "Leading and trailing spaces are not allowed"
+msgstr "No están permitidos espacios iniciales ni finales"
+
+msgid "Legal LDAP filter (e.g. ou=Engineering)"
+msgstr "Filtro legal LDAP (p.ej. ou=Ingeniería)"
+
+msgid "Lists of objects migrated; categorized by type."
+msgstr "Lista de objetos migrados; clasificados por tipo."
+
+msgid "Lists of objects that could not be migrated; categorized by type."
+msgstr "Lista de objetos que no pueden ser migrados; categorizados por tipo."
+
+msgid "Locality"
+msgstr "Localidad"
+
+msgid "Location"
+msgstr "Ubicación"
+
+msgid "Lockout duration"
+msgstr "Duración de bloqueo"
+
+msgid "Logged In As"
+msgstr "Registrado como"
+
+msgid "Login shell"
+msgstr "Shell de ingreso"
+
+msgid "MD5 Fingerprint"
+msgstr "Huella digital de MD5"
+
+msgid "Mailing Address"
+msgstr "Dirección de correo"
+
+msgid "Manage password policy for specific group"
+msgstr "Administra la política de contraseña de un grupo específico"
+
+msgid "Manage ticket policy for specific user"
+msgstr "Administra política de ticket para un usuario específico"
+
+msgid "Manager"
+msgstr "Manager"
+
+msgid "Map"
+msgstr "Mapa"
+
+msgid "Master file"
+msgstr "    Archivo maestro"
+
+msgid "Max failures"
+msgstr "Número máximo de fallas"
+
+msgid "Max life"
+msgstr "Vida máxima"
+
+msgid "Max lifetime (days)"
+msgstr "Vida máxima (días)"
+
+msgid "Max renew"
+msgstr "Renovación máxima"
+
+msgid ""
+"Maximum amount of time (seconds) for a search (> 0, or -1 for unlimited)"
+msgstr ""
+"Máxima cantidad de tiempo (segundos) parab una búsqueda (> 0, o -1 para "
+"ilimitado)"
+
+msgid "Maximum number of entries returned"
+msgstr "Cantidad máxima de entradas obtenidas"
+
+msgid "Maximum number of records to search (-1 is unlimited)"
+msgstr "Máximo número de registros a buscar (-1 es ilimitado)"
+
+msgid "Maximum password life must be greater than minimum."
+msgstr "La duración máxima de la contraseña debe ser mayor que la mínima."
+
+msgid "Maximum password lifetime (in days)"
+msgstr "Vida máxima de la contraseña (días)"
+
+msgid "Maximum renewable age (seconds)"
+msgstr "Duración máxima renovable (en segundos)"
+
+msgid "Maximum ticket life (seconds)"
+msgstr "Duración máxima del ticket (en segundos)"
+
+msgid "Maximum username length"
+msgstr "Largo máximo para nombre de usuario"
+
+msgid "Member HBAC service"
+msgstr "Miembro del servicio HBAC"
+
+msgid "Member HBAC service groups"
+msgstr "Grupos de servicio de Miembros HBAC"
+
+msgid "Member Host"
+msgstr "Miembro del equipo anfitrión"
+
+msgid "Member groups"
+msgstr "Grupos de miembros"
+
+msgid "Member host-groups"
+msgstr "Grupos de equipo miembro"
+
+msgid "Member hosts"
+msgstr "Equipos miembro"
+
+msgid "Member netgroups"
+msgstr " Miembros de netgroups"
+
+msgid "Member of"
+msgstr "Miembro de"
+
+msgid "Member of a group"
+msgstr "Miembro de un grupo"
+
+msgid "Member of group"
+msgstr "Miembro del grupo"
+
+msgid "Member of groups"
+msgstr "Miembros de los grupos"
+
+msgid "Member of host-groups"
+msgstr "Miembro de los grupos de equipo"
+
+msgid "Member of netgroups"
+msgstr "Miembros de netgroups"
+
+msgid "Member service groups"
+msgstr ""
+"\\n\n"
+"Servicios\\n\n"
+"\\n\n"
+"Un servicio IPA representa un servicio que se ejecuta en un host. El "
+"registro del servicio IPA\\n\n"
+"puede almacenar la principal de kerberos, un certificado SSL, o ambos.\\n\n"
+"\\n\n"
+"Un servicio IPA puede administrarse directamente desde una máquina, siempre "
+"y cuando\\n\n"
+"la máquina tenga el permiso correcto. Esto es cierto, incluso para\\n\n"
+"máquinas que no están asociadas con el servicio. Por ejemplo,\\n\n"
+"solicitando un certificado SSL mediante credenciales principales de servicio "
+"de host.\\n\n"
+"Para administrar un servicio mediante credenciales de host necesita\\n\n"
+"ejecutar kinit como el host:\\n\n"
+"\\n\n"
+" # kinit -kt /etc/krb5.keytab host/ipa.example.com@EXAMPLE.COM\\n\n"
+"\\n\n"
+"Añadir un servicio IPA le permite al servicio asociado solicitar un "
+"certificado o una tabla de claves\\n\n"
+"SSL, pero esto se realiza como un paso independiente; no se producen como"
+"\\n\n"
+"como resultado de añadir un servicio\\n\n"
+"Solamente el aspecto público de un certificado es almacenado en un registro "
+"de servicio;\\n\n"
+"la clave privada no es almacenada.\\n\n"
+"\\n\n"
+"EJEMPLOS:\\n\n"
+"\\n\n"
+" Añadir un nuevo servicio IPA:\\n\n"
+"   ipa service-add HTTP/web.example.com\\n\n"
+"\\n\n"
+" Permitir a un host administrar un certificado de servicio IPA:\\n\n"
+"  ipa service-add-host --hosts=web.example.com HTTP/web.example.com\\n\n"
+"  ipa role-add-member --hosts=web.example.com certadmin\\n\n"
+"\\n\n"
+" Borra un servicio IPA:\\n\n"
+"   ipa service-del HTTP/web.example.com\\n\n"
+"\\n\n"
+"  Buscar todos los servicio IPA asociados con un host:\\n\n"
+"   ipa service-find web.example.com\\n\n"
+"\\n\n"
+" Buscar todos los servicios HTTP:\\n\n"
+"   ipa service-find HTTP\\n\n"
+"\\n\n"
+" Desactivar la clave del servicio de kerberos y certificado SSL:\\n\n"
+"   ipa service-disable HTTP/web.example.com\\n\n"
+"\\n\n"
+" Solicitar un certificado para un servicio IPA:\\n\n"
+"   ipa cert-request --principal=HTTP/web.example.com example.csr\\n\n"
+"\\n\n"
+" Generar y recuperar una tabla de claves para un servicio IPA:\\n\n"
+"   ipa-getkeytab -s ipa.example.com -p HTTP/web.example.com -k /etc/httpd/"
+"httpd.keytab\\n\n"
+"\\n"
+
+msgid "Member services"
+msgstr "Servicios de miembros"
+
+msgid "Member user group"
+msgstr "Miembro del grupo de usuarios"
+
+msgid "Member users"
+msgstr "Usuarios miembros"
+
+msgid "Members that could not be added"
+msgstr "Miembros que no han podido ser añadidos"
+
+msgid "Members that could not be removed"
+msgstr "Miembros que no han podido ser eliminados"
+
+msgid "Migration mode is disabled. Use 'ipa config-mod' to enable it."
+msgstr ""
+"El modo de migración se encuentra inhabilitado. Utilice 'ipa config-mod' "
+"para habilitarlo."
+
+msgid "Min length"
+msgstr "Longitud mínima"
+
+msgid "Min lifetime (hours)"
+msgstr "Vida mínima (horas)"
+
+msgid "Minimum length of password"
+msgstr "Longitud mínima de la contraseña"
+
+msgid "Minimum number of character classes"
+msgstr "Cantidad mínima de clases de caracteres"
+
+msgid "Minimum password lifetime (in hours)"
+msgstr "Vida mínima de la contraseña (en horas)"
+
+msgid "Misc. Information"
+msgstr "Información diversa"
+
+#, c-format
+msgid "Missing reply control!\n"
+msgstr "¡Falta control de respuesta!\n"
+
+msgid "Mobile Telephone Number"
+msgstr "Número de teléfono celular"
+
+#, python-format
+msgid "Modified ACI \"%(value)s\""
+msgstr "Ha sido modificado ACI \"%(value)s\""
+
+#, python-format
+msgid "Modified HBAC rule \"%(value)s\""
+msgstr "Modificada regla HBAC \"%(value)s\""
+
+#, python-format
+msgid "Modified HBAC service \"%(value)s\""
+msgstr "    Servicio modificado HBAC \"%(value)s\""
+
+#, python-format
+msgid "Modified HBAC service group \"%(value)s\""
+msgstr "Servicio modificado HBAC grupo \"%(value)s\""
+
+#, python-format
+msgid "Modified automember rule \"%(value)s\""
+msgstr "Modificada regla de automiembro \"%(value)s\""
+
+#, python-format
+msgid "Modified automount key \"%(value)s\""
+msgstr "Modificada clave de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Modified automount map \"%(value)s\""
+msgstr "Modificado un mapa de automontaje \"%(value)s\""
+
+#, python-format
+msgid "Modified delegation \"%(value)s\""
+msgstr "Delegación modificada \"%(value)s\""
+
+#, python-format
+msgid "Modified group \"%(value)s\""
+msgstr "Ha sido modificado el grupo \"%(value)s\""
+
+#, python-format
+msgid "Modified host \"%(value)s\""
+msgstr "Ha sido modificado el equipo \"%(value)s\""
+
+#, python-format
+msgid "Modified hostgroup \"%(value)s\""
+msgstr "Ha sido modificado el grupo de equipo \"%(value)s\""
+
+#, python-format
+msgid "Modified netgroup \"%(value)s\""
+msgstr "netgroup modificado \"%(value)s\""
+
+#, python-format
+msgid "Modified permission \"%(value)s\""
+msgstr "Modificado el permiso \"%(value)s\""
+
+#, python-format
+msgid "Modified privilege \"%(value)s\""
+msgstr "Privilegio modificado \"%(value)s \""
+
+#, python-format
+msgid "Modified role \"%(value)s\""
+msgstr "Rol modificado \"%(value)s\""
+
+#, python-format
+msgid "Modified selfservice \"%(value)s\""
+msgstr "Autoservicio modificado \"%(value)s\""
+
+#, python-format
+msgid "Modified service \"%(value)s\""
+msgstr "Ha sido modificado el servicio \"%(value)s\""
+
+#, python-format
+msgid "Modified user \"%(value)s\""
+msgstr "Ha sido modificado el usuario \"%(value)s\""
+
+msgid "Modify a group."
+msgstr "Modificar un grupo."
+
+msgid "Modify an automount key."
+msgstr "Modificar una clave de automontaje."
+
+msgid "Modify an automount map."
+msgstr "Modificar un mapa de automontaje"
+
+#, python-format
+msgid ""
+"More than one entry with key %(key)s found, use --info to select specific "
+"entry."
+msgstr ""
+"Se ha encontrado más de una entrada con la llave %(key)s, utilice --info "
+"para seleccionar una entrada específica."
+
+msgid "Mount information"
+msgstr "Información de montaje"
+
+msgid "Mount point"
+msgstr "Punto de montaje"
+
+msgid "NIS domain name"
+msgstr "Nombre del dominio NIS"
+
+msgid "Name of host-group"
+msgstr "Nombre del grupo de equipo"
+
+msgid "Name of method to export"
+msgstr "Nombre del método para exportación"
+
+msgid "Name of object to export"
+msgstr "Nombre del objeto a exportar"
+
+msgid "Name of parent automount map (default: auto.master)."
+msgstr ""
+"Nombre del mapa de montaje automático de padre (por defecto: auto.master)."
+
+#, python-format
+msgid "Nameserver '%(host)s' does not have a corresponding A/AAAA record"
+msgstr ""
+"El servidor de nombre '%(host)s' no tiene su correspondiente registro  A/AAAA"
+
+msgid ""
+"Neither --del-all nor options to delete a specific record provided.\n"
+"Command help may be consulted for all supported record types."
+msgstr ""
+"Ni --del-all ni opciones para borrar un registro en concreto ha sido "
+"especificado.\n"
+"El comando de ayuda puede ser consultado para ver los tipos de registros "
+"soportados."
+
+msgid "Nested Methods to execute"
+msgstr "Métodos anidados para ejecutar"
+
+msgid "Netgroup Settings"
+msgstr "Configuración de Netgroup"
+
+msgid "Netgroup description"
+msgstr "Descripción del grupo de red"
+
+msgid "Netgroup name"
+msgstr "Nombre de grupo de red"
+
+msgid "Netgroups"
+msgstr "Grupos de red"
+
+msgid "New ACI name"
+msgstr "     Nuevo nombre de ACI"
+
+msgid "New Certificate"
+msgstr "Un nuevo certificado"
+
+msgid "New Password"
+msgstr "Nueva Contraseña"
+
+msgid "New Principal Password"
+msgstr "Nueva contraseña principal"
+
+msgid "New mount information"
+msgstr "Nueva información de montaje"
+
+msgid "No Valid Certificate"
+msgstr "Certificado no válido"
+
+msgid "No credentials cache found"
+msgstr "No se han encontrado credenciales de cache"
+
+msgid "No file to read"
+msgstr "No existe el fichero para leer"
+
+#, c-format
+msgid "No keys accepted by KDC\n"
+msgstr "No hay claves aceptadas por KDC\n"
+
+msgid "No option to delete specific record provided."
+msgstr "Ninguna opción para  borrar un registro en concreto especificado."
+
+#, c-format
+msgid "No permission to join this host to the IPA domain.\n"
+msgstr "No tiene permiso para vincular este equipo al dominio de la API.\n"
+
+#, c-format
+msgid "No system preferred enctypes ?!\n"
+msgstr "¿Ningún sistema enctypes preferido?\n"
+
+#, c-format
+msgid "No values for %s"
+msgstr "No hay valores para %s"
+
+#, c-format
+msgid "No write permissions on keytab file '%s'\n"
+msgstr "No escribir permisos en archivo de tabla de claves'%s\n"
+
+msgid "Not After"
+msgstr "No luego de"
+
+msgid "Not Before"
+msgstr "No antes de"
+
+msgid "Not a managed group"
+msgstr "No es un grupo administrado"
+
+msgid "Not an entitlement certificate"
+msgstr "No es un certificado de derechos"
+
+msgid "Not registered yet"
+msgstr "Aún no está registrado"
+
+msgid "Note"
+msgstr "Nota"
+
+msgid "Number of conditions added"
+msgstr "Número de condiciones agregadas"
+
+msgid "Number of conditions removed"
+msgstr "Número de condiciones eliminadas"
+
+msgid "Number of members added"
+msgstr "Cantidad de miembros añadidos"
+
+msgid "Number of members removed"
+msgstr "Cantidad de miembros eliminados"
+
+msgid "Number of permissions added"
+msgstr "Número de permisos añadidos"
+
+msgid "Number of permissions removed"
+msgstr "Número de permisos eliminados"
+
+msgid "Number of plugins loaded"
+msgstr "Cantidad de complementos cargados"
+
+msgid "Number of privileges added"
+msgstr "Número de privilegios agregados"
+
+msgid "Number of privileges removed"
+msgstr "Número de privilegios eliminados"
+
+msgid "Number of variables returned (<= total)"
+msgstr "Cantidad de variables devueltas (<= total)"
+
+msgid "OK"
+msgstr "Aceptar"
+
+msgid "One of group, permission or self is required"
+msgstr "Uno de grupo, permiso o self es necesario"
+
+msgid "Only one value is allowed"
+msgstr "Sólo se permite un valor"
+
+msgid "Operating System and version of the host (e.g. Fedora 9)"
+msgstr "Sistema operativo que utiliza el equipo y versión (p.ej. Fedora 9)"
+
+msgid "Operating system"
+msgstr "Sistema operativo"
+
+#, c-format
+msgid "Operation failed! %s\n"
+msgstr "¡Falló operación! %s\n"
+
+msgid "Org. Unit"
+msgstr "Unidad. org"
+
+msgid "Organization"
+msgstr "Organización"
+
+msgid "Organizational Unit"
+msgstr "Unidad organizativa"
+
+#, c-format
+msgid "Out of Memory!\n"
+msgstr "¡Memoria insuficiente!\n"
+
+msgid "Out of memory\n"
+msgstr "¡Memoria insuficiente!\n"
+
+#, c-format
+msgid "Out of memory \n"
+msgstr "¡Memoria insuficiente!\n"
+
+#, c-format
+msgid "Out of memory!"
+msgstr "¡Memoria insuficiente!"
+
+#, c-format
+msgid "Out of memory!\n"
+msgstr "¡Memoria insuficiente!\n"
+
+msgid "Out of memory!?\n"
+msgstr ""
+"¡Memoria insuficiente!\n"
+"\n"
+
+msgid "Output filename"
+msgstr "Nombre de archivo de salida"
+
+msgid "Output only on errors"
+msgstr "Solamente salida sobre errores"
+
+msgid "PKINIT"
+msgstr ""
+"    Los certificados de entrada deben estar codificados en DER. \n"
+"    Tenga en cuenta que no puede ser un normalizador en la Param, ya que "
+"solamente las variables de \n"
+"    Unicode  se normalizan.\n"
+"    "
+
+msgid "Pager Number"
+msgstr "Número de página"
+
+msgid "Parent map"
+msgstr "Mapa del padre"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "Password Policy"
+msgstr "Directiva de contraseñas"
+
+msgid "Password change complete"
+msgstr "Cambiar la contraseña completa"
+
+msgid "Password history size"
+msgstr "Tamaño del historial de la contraseña"
+
+msgid "Password plugin features"
+msgstr "Funciones del complemento de contraseña"
+
+msgid "Password used in bulk enrollment"
+msgstr "Contraseña utilizada en el registro bruto"
+
+msgid "Passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#, c-format
+msgid "Passwords do not match!"
+msgstr "¡Las contraseñas no coinciden!"
+
+msgid ""
+"Passwords have been migrated in pre-hashed format.\n"
+"IPA is unable to generate Kerberos keys unless provided\n"
+"with clear text passwords. All migrated users need to\n"
+"login at https://your.domain/ipa/migration/ before they\n"
+"can use their Kerberos accounts."
+msgstr ""
+"Las contraseñas han sido migradas en formato pre-hashed.\n"
+"IPA es incapaz de generar claves de Kerberos a menos que le sean\n"
+"provistas contraseñas de texto claras. Todos los usuarios migrados\n"
+"necesitan registrarse en https://your.domain/ipa/migration/ antes de\n"
+"poder utilizar sus respectivas cuentas Kerberos."
+
+msgid "Passwords must match"
+msgstr "Las contraseñas deben coincidir"
+
+msgid "Period after which failure count will be reset (seconds)"
+msgstr "Período tras el cual se restablecerá (segundos) el conteo de errores"
+
+msgid "Period for which lockout is enforced (seconds)"
+msgstr "Período durante el cual se fuerza el bloqueo (segundos)"
+
+msgid "Permission"
+msgstr "Permiso"
+
+msgid "Permission ACI grants access to"
+msgstr "El permiso ACI permite el acceso a"
+
+msgid "Permission Type"
+msgstr "Tipo de permiso"
+
+#, python-format
+msgid "Permission denied: %(file)s"
+msgstr "Permiso denegado:%(file)s "
+
+msgid "Permission name"
+msgstr "Nombre de permiso"
+
+msgid "Permission with invalid target specification"
+msgstr "Permiso con especificación de destino inválida"
+
+msgid "Permissions"
+msgstr "Permisos"
+
+msgid "Permitted Encryption Types"
+msgstr "Tipos de cifrado permitidos"
+
+msgid "Platform"
+msgstr "Plataforma"
+
+msgid "Policy"
+msgstr "Política"
+
+msgid ""
+"Prefix used to distinguish ACI types (permission, delegation, selfservice, "
+"none)"
+msgstr ""
+"Prefijo utilizado para distinguir los tipos de ACI (permiso,delegación, "
+"autoservicio, ninguno)"
+
+msgid "Primary key only"
+msgstr "Sólo clave primaria"
+
+msgid "Principal"
+msgstr "Principal"
+
+msgid "Principal name"
+msgstr "Nombre principal"
+
+msgid "Print as little as possible"
+msgstr "Imprimir lo mínimo posible"
+
+msgid "Print debugging information"
+msgstr "Imprimir la información de depuración"
+
+msgid "Print entries as stored on the server. Only affects output format."
+msgstr ""
+"Imprimir entradas como almacenadas en el servidor. Solamente afecta formato "
+"de salida."
+
+msgid "Print the raw XML-RPC output in GSSAPI mode"
+msgstr "Imprimir la salida cruda de XML-RPC en modo de GSSAPI"
+
+msgid "Priority"
+msgstr "Prioridad"
+
+msgid "Priority of the policy (higher number means lower priority"
+msgstr ""
+"Prioridad de la política (a mayor número corresponde una política menor)"
+
+msgid "Privilege Settings"
+msgstr "Configuración de privilegios"
+
+msgid "Privilege Withdrawn"
+msgstr "Retirada de privilegios"
+
+msgid "Privilege description"
+msgstr ""
+"    \n"
+"    Eliminar un servicio de la IPA."
+
+msgid "Privilege name"
+msgstr "    Añadir un nuevo servicio de la nueva IPA."
+
+msgid "Privileges"
+msgstr "    Objeto de servicio."
+
+msgid "Product"
+msgstr "Producto"
+
+msgid "Prompt to set the user password"
+msgstr "Solicita establecer la contraseña de usuario"
+
+msgid "Prospective"
+msgstr "Prospectivo"
+
+msgid "Provisioning"
+msgstr "Aprovisionamiento"
+
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgid ""
+"Query returned more results than the configured size limit. Displaying the "
+"first ${counter} results."
+msgstr ""
+"La solicitud devolvió más resultados que el límite de tamaño configurado. "
+"Mostrando los primeros resultados ${counter}."
+
+msgid "Quick Links"
+msgstr "Enlaces rápidos"
+
+msgid "Quiet mode. Only errors are displayed."
+msgstr "Modo silencioso. Sólo se muestran los errores."
+
+msgid "Random password"
+msgstr "Contraseña aleatoria"
+
+msgid "Realm name"
+msgstr "Nombre de reino "
+
+msgid "Reason"
+msgstr "Motivo"
+
+msgid "Reason for Revocation"
+msgstr "Motivo de la revocación"
+
+msgid "Reason for revoking the certificate (0-10)"
+msgstr "Motivo por el cual el certificado ha sido revocado (0-10)"
+
+msgid "Record name"
+msgstr "Nombre de registro"
+
+msgid "Records for DNS Zone"
+msgstr "Los registros para la zona DNS"
+
+msgid "Registered to entitlement server."
+msgstr "Registrado en el servidor de derechos."
+
+msgid "Registration password"
+msgstr "Contraseña de registro"
+
+msgid "Remove ${other_entity} from ${entity} ${primary_key}"
+msgstr "Retirar ${other_entity} de ${entity} ${primary_key}"
+
+msgid "Remove all principals in this realm"
+msgstr "Quite todos los principales en este ámbito"
+
+msgid "Remove entries from DNS"
+msgstr "Eliminar entradas de DNS"
+
+msgid "Remove from CRL"
+msgstr "Borrar de CRL"
+
+msgid "Remove members from a group."
+msgstr "Eliminar miembro desde un grupo."
+
+#, c-format
+msgid "Removing principal %s\n"
+msgstr "Eliminando %s principales\n"
+
+msgid "Rename"
+msgstr "Cambiar el nombre de"
+
+#, python-format
+msgid "Rename the %(ldap_obj_name)s object"
+msgstr "Cambie el nombre del %(ldap_obj_name)s  objeto"
+
+#, python-format
+msgid "Renamed ACI to \"%(value)s\""
+msgstr "ACI renombrado a \"%(value)s\""
+
+msgid "Request id"
+msgstr "Id de la petición"
+
+msgid "Request status"
+msgstr "Estado de la petición"
+
+#, python-format
+msgid ""
+"Request subject \"%(request_subject)s\" does not match the form "
+"\"%(subject_base)s\""
+msgstr ""
+"El asunto solicitado \"%(request_subject)s\" no coincide con la forma "
+"\"%(subject_base)s\""
+
+msgid "Reset"
+msgstr "Resetear"
+
+msgid "Reset Password"
+msgstr "Restablecer contraseña"
+
+msgid "Restore"
+msgstr "Restaurar"
+
+msgid "Restore Certificate for ${entity} ${primary_key}"
+msgstr "Restablecer Certificado para ${entity} ${primary_key}"
+
+msgid "Results are truncated, try a more specific search"
+msgstr ""
+"Los resultados se encuentran truncados, intente realizar una búsqueda más "
+"específica"
+
+#, python-format
+msgid "Results should contain primary key attribute only (\"%s\")"
+msgstr ""
+"Los resultados deberían contener sólo atributo de clave primaria (“%s”)"
+
+msgid "Retrieve an existing certificate."
+msgstr "Recuperar un certificado existente."
+
+msgid ""
+"Retrieve and print all attributes from the server. Affects command output."
+msgstr ""
+"Recuperar e imprimir todos los atributos del servidor. Afecta a la salida "
+"del comando."
+
+msgid "Retry"
+msgstr "Reintentar"
+
+#, python-format
+msgid ""
+"Reverse zone for PTR record should be a sub-zone of one the following fully "
+"qualified domains: %s"
+msgstr ""
+"La zona invertida para registro PTR debería ser una sub-zona de uno de los "
+"siguientes dominios integramente cualificados: %s"
+
+msgid "Revocation reason"
+msgstr "Motivo de la revocación"
+
+msgid "Revoke"
+msgstr "Revocar"
+
+msgid "Revoke Certificate for ${entity} ${primary_key}"
+msgstr "Revocar certificado por ${entity} ${primary_key}"
+
+msgid "Revoke a certificate."
+msgstr "Revocar un certificado."
+
+msgid "Revoked"
+msgstr "Revocado"
+
+msgid "Rights"
+msgstr "Derechos"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "Role Based Access Control"
+msgstr "Control de acceso basado en rol"
+
+msgid "Role Settings"
+msgstr "Configuración de rol"
+
+msgid "Role name"
+msgstr "Nombre de rol"
+
+msgid "Roles"
+msgstr "  Roles"
+
+msgid "Rule name"
+msgstr "Nombre de la regla"
+
+msgid "Rule status"
+msgstr "Estatus de reglas"
+
+msgid "Rule type"
+msgstr "Tipo de regla"
+
+msgid "Run Commands"
+msgstr "Ejecutar comandos"
+
+msgid "RunAs External Group"
+msgstr "Grupo externo RunAs"
+
+msgid "RunAs External User"
+msgstr "RunAs de usuarios externos"
+
+msgid "SHA1 Fingerprint"
+msgstr "Huella digital SHA1"
+
+msgid "SOA class"
+msgstr "Clase SOA"
+
+msgid "SOA expire"
+msgstr "Expirar SOA"
+
+msgid "SOA minimum"
+msgstr "Mínimo SOA"
+
+msgid "SOA record class"
+msgstr "Clase de registro SOA "
+
+msgid "SOA record expire time"
+msgstr "tiempo de expiración de registro SOA"
+
+msgid "SOA record refresh time"
+msgstr "registro SOA tiempo de actualización"
+
+msgid "SOA record retry time"
+msgstr "tiempo de reintento de "
+
+msgid "SOA record serial number"
+msgstr "Número de serie de registro SOA"
+
+msgid "SOA record time to live"
+msgstr "tiempo de vida de registro SOA"
+
+msgid "SOA refresh"
+msgstr "Actualizar SOA"
+
+msgid "SOA retry"
+msgstr "Reintentar SOA"
+
+msgid "SOA serial"
+msgstr "Serie SOA"
+
+msgid "SOA time to live"
+msgstr "Tiempo para abandonar SOA"
+
+msgid "Search"
+msgstr "Búsqueda"
+
+msgid "Search for an automount key."
+msgstr "Buscar una clave de automontaje."
+
+msgid "Search for an automount location."
+msgstr "Buscar una localización de automontaje."
+
+msgid "Search for an automount map."
+msgstr "Buscar un mapa de automontaje."
+
+#, c-format
+msgid "Search for ipaCertificateSubjectBase failed with error %d"
+msgstr "Búsqueda de ipaCertificateSubjectBase falló con error %d"
+
+msgid "Search size limit"
+msgstr "Límite del tamaño de la búsqueda"
+
+msgid "Search time limit"
+msgstr "Buscar límite de tiempo"
+
+msgid "Select All"
+msgstr " Seleccionar todo"
+
+msgid "Self"
+msgstr "Self"
+
+msgid "Self Service Permissions"
+msgstr "Permisos de autoservicio"
+
+msgid "Self-service name"
+msgstr "Auto-servicio de nombres"
+
+msgid "Serial Number"
+msgstr "Número de serie"
+
+msgid "Serial number"
+msgstr "Número de serie"
+
+msgid "Serial number in decimal or if prefixed with 0x in hexadecimal"
+msgstr "Número de serie en decimales, o hexadecimales, si tiene un prefijo 0x"
+
+msgid "Server Name"
+msgstr "Nombre de servidor"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "Service Certificate"
+msgstr "Certificado de servicio"
+
+msgid "Service Groups"
+msgstr "    Búsqueda de servicios HBAC."
+
+msgid "Service Settings"
+msgstr "Configuración del servicio"
+
+msgid "Service category"
+msgstr "   Añadir servicios a una regla de HBAC"
+
+msgid "Service category the rule applies to"
+msgstr "Categoría de servicio a la que se aplica la regla"
+
+msgid "Service group name"
+msgstr ""
+"    Desactivar la tecla de Kerberos, certificado SSL y todos los servicios "
+"de un host."
+
+msgid "Service name"
+msgstr "% (Count) d HBAC servicios encontrados"
+
+msgid "Service principal"
+msgstr "    Búsqueda de servicios IPA"
+
+msgid "Service principal for this certificate (e.g. HTTP/test.example.com)"
+msgstr ""
+"Principal del servicio para este certificado (p.ej. HTTP/prueba.ejemplo.com)"
+
+#, python-format
+msgid ""
+"Service principal is not of the form: service/fully-qualified host name: "
+"%(reason)s"
+msgstr ""
+"El servicio principal no tiene la forma de servicio/nombre de equipo "
+"totalmente calificado: %(reason)s"
+
+msgid "Services"
+msgstr "Sevicios HBAC"
+
+msgid "Set OTP"
+msgstr "Establecer OTP"
+
+msgid ""
+"Set an attribute to a name/value pair. Format is attr=value.\n"
+"For multi-valued attributes, the command replaces the values already present."
+msgstr ""
+"Establecer un atributo a un par nombre y valor. El formato es attr=value. \n"
+"Para los atributos de valor múltiple, el comando sustituye los valores ya "
+"presentes."
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Show the current configuration."
+msgstr "Muestra la configuración actual"
+
+msgid "Show the list of permitted encryption types and exit"
+msgstr "Mostrar la lista de los tipos cifrados permitidos y salir"
+
+#, c-format
+msgid "Simple bind failed\n"
+msgstr "¡Falló vinculación sencilla!\n"
+
+msgid "Size Limit"
+msgstr "Tamaño límite"
+
+msgid "Source host category"
+msgstr "Categoría del equipo de origen"
+
+msgid "Source host category the rule applies to"
+msgstr "Categoría del equipo de origen al que se aplica la regla"
+
+msgid "Specified Commands and Groups"
+msgstr "Comandos especificados y grupos"
+
+msgid "Specified Groups"
+msgstr "Grupos especificados"
+
+msgid "Specified Hosts and Groups"
+msgstr "Hosts y grupos especificados"
+
+msgid "Specified Services and Groups"
+msgstr "Servicios y grupos especificados"
+
+msgid "Specified Users and Groups"
+msgstr "Usuarios y grupos específicos"
+
+msgid "Specifies where to store keytab information."
+msgstr "Especifica dónde almacenar la información de tabla de claves."
+
+msgid "Start"
+msgstr "Inicio"
+
+msgid "State/Province"
+msgstr "Estado / Provincia"
+
+msgid "Status"
+msgstr "Estatus"
+
+msgid "Street address"
+msgstr "Dirección postal"
+
+msgid "Subject"
+msgstr "Asunto"
+
+msgid "Submit a certificate signing request."
+msgstr "Enviar una petición de firma de certificado."
+
+msgid "Subtree"
+msgstr "Subárbol"
+
+msgid "Subtree to apply ACI to"
+msgstr "Subárbol al que aplicar ACI"
+
+msgid "Subtree to apply permissions to"
+msgstr "Subárbol para aplicar permisos"
+
+msgid "Sudo"
+msgstr "Sudo"
+
+msgid "Sudo Allow Commands"
+msgstr "Comandos Allow de sudo"
+
+msgid "Sudo Command"
+msgstr "Comando sudo "
+
+msgid "Sudo Command Group"
+msgstr "Grupo de comando sudo"
+
+msgid "Sudo Command Groups"
+msgstr "Grupos de comando sudo"
+
+msgid "Sudo Commands"
+msgstr "Comandos de sudo"
+
+msgid "Sudo Deny Commands"
+msgstr "Comandos Deny de sudo"
+
+msgid "Sudo Option"
+msgstr "Opción de sudo"
+
+msgid "Sudo Rule"
+msgstr "Regla Sudo"
+
+msgid "Superseded"
+msgstr "Obsoleta"
+
+#, c-format
+msgid "Supported encryption types:\n"
+msgstr "Tipos de cifrado suportado\n"
+
+#, python-format
+msgid "Syntax Error: %(error)s"
+msgstr "Error de sintaxis:%(error)s "
+
+msgid "Take a revoked certificate off hold."
+msgstr "Tomar un certificado revocado de espera."
+
+msgid "Target"
+msgstr "Meta"
+
+msgid "Target group"
+msgstr "Grupo elegido"
+
+msgid "Target members of a group"
+msgstr "Objetivo para los miembros de un grupo"
+
+msgid "Target your own entry (self)"
+msgstr "Dirija su propia entrada (usted)"
+
+msgid "Telephone Number"
+msgstr "Número de teléfono"
+
+msgid "Test the ACI syntax but don't write anything"
+msgstr "Probar la sintaxis pero no escribir nada"
+
+msgid "Text does not match field pattern"
+msgstr "El texto no coincide con el patrón de campo"
+
+msgid "The IPA realm"
+msgstr "El reinado IPA"
+
+#, python-format
+msgid "The automount key %(key)s with info %(info)s does not exist"
+msgstr "La clave de montaje automático %(key)s con info %(info)s no existe"
+
+msgid "The default users group cannot be removed"
+msgstr "El grupo de usuarios predeterminado no puede ser eliminado"
+
+msgid "The group doesn't exist"
+msgstr "El grupo no existe"
+
+#, python-format
+msgid "The host was added but the DNS update failed with: %(exc)s"
+msgstr "El host fue añadido, pero la actualización de DNS falló con:%(exc)s"
+
+#, c-format
+msgid "The hostname must be fully-qualified: %s\n"
+msgstr "El nombre de host debe ser totalmente calificado:%s\n"
+
+msgid "The hostname to register as"
+msgstr "El nombre del equipo a ser registrado como"
+
+#, python-format
+msgid ""
+"The key,info pair must be unique. A key named %(key)s with info %(info)s "
+"already exists"
+msgstr ""
+"El par de claves, la información debe ser único. Un nombre clave %(key)s  "
+"con información %(info)s ya existe"
+
+msgid "The principal to get a keytab for (ex: ftp/ftp.example.com@EXAMPLE.COM)"
+msgstr ""
+"La principal para obtener una tabla de claves para (ex: ftp/ftp.example."
+"com@EXAMPLE.COM)"
+
+msgid ""
+"The realm for the principal does not match the realm for this IPA server"
+msgstr ""
+"El reinado para el principal no coincide con el reinado para este servidor "
+"IPA"
+
+msgid ""
+"The schema used on the LDAP server. Supported values are RFC2307 and "
+"RFC2307bis. The default is RFC2307bis"
+msgstr ""
+"El esquema utilizado en el servidor LDAP. Los valores admitidos son RFC2307 "
+"y RFC2307bis. El valor predeterminado es RFC2307bis"
+
+#, python-format
+msgid ""
+"The search criteria was not specific enough. Expected 1 and found %(found)d."
+msgstr ""
+"El criterio de búsqueda no fue bastante específico. Se esperaba 1 y se "
+"encontró %(found)d."
+
+msgid "This command requires root access"
+msgstr "Este comando necesita acceso de usuario root"
+
+msgid "This entry already exists"
+msgstr "Esta entrada ya existe"
+
+msgid "This entry cannot be enabled or disabled"
+msgstr "Esta entrada no puede ser activada o desactivada"
+
+msgid "This entry is already a member"
+msgstr "Esta entrada ya es un miembro"
+
+msgid "This entry is already disabled"
+msgstr "Esta entrada ya está desactivada"
+
+msgid "This entry is already enabled"
+msgstr "Esta entrada ya está habilitada"
+
+msgid "This entry is not a member"
+msgstr "Esta entrada no es miembro"
+
+msgid "This is already a posix group"
+msgstr "Este ya es un grupo posix"
+
+msgid "This page has unsaved changes. Please save or revert."
+msgstr "Esta página tiene cambios sin guardar. Por favor, guardar o deshacer."
+
+msgid "Ticket expired"
+msgstr "El ticket ha expirado"
+
+msgid "Time Limit"
+msgstr "Tiempo límite"
+
+msgid "Time limit of search in seconds"
+msgstr "Tiempo máximo de búsqueda en segundos"
+
+msgid "Time to live"
+msgstr "Tiempo para abandonar"
+
+msgid ""
+"To confirm your intention to restore this certificate, click the \"Restore\" "
+"button."
+msgstr ""
+"Para confirmar su intención de restaurar este certificado, haga clic en el "
+"botón \"Restaurar\"."
+
+msgid ""
+"To confirm your intention to revoke this certificate, select a reason from "
+"the pull-down list, and click the \"Revoke\" button."
+msgstr ""
+"Para confirmar su intención de revocar el certificado, seleccione una razón "
+"de la lista desplegable y haga clic en el botón \"Revocar\"."
+
+msgid "Topic commands:"
+msgstr "Tema comandos:"
+
+msgid "Total number of variables env (>= count)"
+msgstr "Cantidad total de variables env (>= count)"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid ""
+"Type of IPA object (user, group, host, hostgroup, service, netgroup, dns)"
+msgstr ""
+"Tipo de objeto del IPA (usuario, host, hostgroup, servicio, netgroup, dns)"
+
+msgid "UID"
+msgstr "UID"
+
+msgid "UUID"
+msgstr "UUID"
+
+#, python-format
+msgid "Unable to communicate with CMS (%s)"
+msgstr "No es posible comunicarse con CMS (%s)"
+
+#, python-format
+msgid "Unable to create private group. A group '%(group)s' already exists."
+msgstr "No se puede crear un grupo privado. Un grupo de '%(group)s' ya existe."
+
+#, c-format
+msgid "Unable to determine IPA server from %s\n"
+msgstr "No se puede determinar servidor de la IPA de%s\n"
+
+#, c-format
+msgid "Unable to determine certificate subject of %s\n"
+msgstr "No se puede determinar asunto del certificado de%s\n"
+
+#, c-format
+msgid "Unable to determine root DN of %s\n"
+msgstr "No se puede determinar DN de root de%s\n"
+
+#, c-format
+msgid "Unable to enable SSL in LDAP\n"
+msgstr "No se puede habilitar SSL en LDAP\n"
+
+#, c-format
+msgid "Unable to generate Kerberos Credential Cache\n"
+msgstr "No se puede generar la cache de credenciales de Kerberos\n"
+
+#, c-format
+msgid "Unable to initialize connection to ldap server: %s"
+msgstr "No se puede iniciar con servidor IDAP:%s"
+
+#, c-format
+msgid "Unable to initialize ldap library!\n"
+msgstr "¡No puede iniciar biblioteca IDAP!\n"
 
 #, c-format
 msgid "Unable to join host: Kerberos Credential Cache not found\n"
@@ -3833,117 +3483,467 @@ msgstr ""
 "host no se proporciona.\n"
 
 #, c-format
-msgid "fork() failed\n"
-msgstr "bifurcación () falló\n"
-
-#, c-format
-msgid "ipa-getkeytab not found\n"
-msgstr "ipa-getkeytab no se encuentra\n"
-
-#, c-format
-msgid "ipa-getkeytab has bad permissions?\n"
-msgstr "¿Tiene ipa-getkeytab permisos errados?\n"
-
-#, c-format
-msgid "executing ipa-getkeytab failed, errno %d\n"
-msgstr "la ejecución de ipa-getkeytab falló, errno %d\n"
-
-#, c-format
-msgid "child exited with %d\n"
-msgstr "hijo terminó con %d\n"
-
-#, c-format
-msgid "Certificate subject base is: %s\n"
-msgstr "Asunto de certificado es:%s\n"
-
-msgid "Print the raw XML-RPC output in GSSAPI mode"
-msgstr "Imprimir la salida cruda de XML-RPC en modo de GSSAPI"
-
-msgid "Quiet mode. Only errors are displayed."
-msgstr "Modo silencioso. Sólo se muestran los errores."
-
-msgid "Unenroll this host from IPA server"
-msgstr "Cancelar registro de host de servidor IPA"
-
-msgid "Hostname of this server"
-msgstr "Nombre de host de este servidor"
-
-msgid "hostname"
-msgstr "nombre de host"
-
-msgid "IPA Server to use"
-msgstr "Servidor de IPA a utilizar"
-
-msgid "Specifies where to store keytab information."
-msgstr "Especifica dónde almacenar la información de tabla de claves."
-
-msgid "filename"
-msgstr "nombre de archivo"
-
-msgid "LDAP password (if not using Kerberos)"
-msgstr "contraseña de LDAP (si no usa Kerberos)"
-
-msgid "password"
-msgstr "contraseña"
-
-#, c-format
-msgid "Unable to parse principal name\n"
-msgstr "No se puede analizar nombre principal\n"
-
-#, c-format
-msgid "Removing principal %s\n"
-msgstr "Eliminando %s principales\n"
-
-#, c-format
-msgid "Failed to open keytab\n"
-msgstr "No pudo abrir la tabla de claves\n"
-
-#, c-format
-msgid "principal not found\n"
-msgstr "principal no se encuentra\n"
-
-#, c-format
-msgid "Unable to remove entry\n"
-msgstr "No se puede eliminar la entrada\n"
-
-#, c-format
-msgid "kvno %d\n"
-msgstr "kvno %d\n"
+msgid "Unable to join host: Kerberos context initialization failed\n"
+msgstr ""
+"No se puede unir host: la inicialización de contexto de Kerberos falló\n"
 
 #, c-format
 msgid "Unable to parse principal\n"
 msgstr "No es posible analizar los principales\n"
 
 #, c-format
+msgid "Unable to parse principal name\n"
+msgstr "No se puede analizar nombre principal\n"
+
+#, c-format
+msgid "Unable to remove entry\n"
+msgstr "No se puede eliminar la entrada\n"
+
+#, c-format
+msgid "Unable to set LDAP version\n"
+msgstr "No se puede establecer la versión de LDAP\n"
+
+#, c-format
+msgid "Unable to set ldap options!\n"
+msgstr "¡No puede establecer opciones IDAP!\n"
+
+msgid "Unenroll this host from IPA server"
+msgstr "Cancelar registro de host de servidor IPA"
+
+#, c-format
+msgid "Unenrollment failed.\n"
+msgstr "Cancelación falló.\n"
+
+#, c-format
+msgid "Unenrollment successful.\n"
+msgstr "Cancelación de registro exitoso.\n"
+
+#, python-format
+msgid "Unlocked account \"%(value)s\""
+msgstr "Cuenta desbloqueada \" %(value)s \""
+
+msgid "Unprovision"
+msgstr "Unprovision"
+
+msgid "Unprovisioning ${entity}"
+msgstr "Cancelación ${entity}"
+
+msgid "Unresolved rules in --rules"
+msgstr "Eliminar miembro desde un grupo."
+
+msgid "Unrevoked"
+msgstr "No revocado"
+
+msgid "Unselect All"
+msgstr "Anular selección"
+
+msgid "Unspecified"
+msgstr "No especificada"
+
+msgid "Update"
+msgstr "Actualizar"
+
+msgid "User"
+msgstr "Usuario"
+
+msgid "User Groups"
+msgstr "Grupos de usuarios"
+
+msgid "User ID Number (system will assign one if not provided)"
+msgstr ""
+"Número de ID de usuario (el sistema le asignará uno si no se indica ninguno)"
+
+msgid "User category"
+msgstr "Categoría de usuario"
+
+msgid "User category the rule applies to"
+msgstr "Categoría de usuario al que se aplica la regla"
+
+msgid "User container"
+msgstr "Contenedor de usuario"
+
+msgid "User group"
+msgstr "Grupo de usuarios"
+
+msgid "User group ACI grants access to"
+msgstr "El grupo de usuarios ACI permite el acceso a"
+
+msgid "User group to apply delegation to"
+msgstr "Grupo de usuarios para solicitar a la delegación"
+
+msgid "User group to apply permissions to"
+msgstr "Grupo de usuario para aplicar permisos"
+
+msgid "User login"
+msgstr "Ingreso de usuario"
+
+msgid "User name"
+msgstr "Nombre de usuario"
+
+msgid "User object class"
+msgstr "Clase de objeto de usuario"
+
+msgid "User password"
+msgstr "Contraseña de usuario"
+
+msgid "User search fields"
+msgstr "Campos de búsqueda de usuario"
+
+msgid "Username"
+msgstr "Nombre de usuario"
+
+msgid "Users"
+msgstr "Usuarios"
+
+msgid "Valid Certificate Present"
+msgstr "Presentar certificado válido"
+
+msgid "Validity"
+msgstr "Validez"
+
+msgid "Verify Principal Password"
+msgstr "Verificar contraseña principal"
+
+msgid "Via Service"
+msgstr "Vía de servicio"
+
+msgid "View"
+msgstr "Ver"
+
+#, c-format
+msgid "Warning: failed to convert type (#%d)\n"
+msgstr "Advertencia: Tipo para convertir falló (#%d)⏎\n"
+
+#, c-format
+msgid ""
+"Warning: salt types are not honored with randomized passwords (see opt. -P)\n"
+msgstr ""
+"Advertencia: tipos salt no se aceptan con contraseñas aleatorias (ver opt.\n"
+
+msgid "Who"
+msgstr "¿Quién?"
+
+msgid "You must enroll a host in order to create a host service"
+msgstr "Debe registrar el equipo para poder generar un servicio de host"
+
+msgid "ZIP"
+msgstr "Zona "
+
+msgid "Zone name"
+msgstr "Nombre de la zona"
+
+msgid "Zone name (FQDN)"
+msgstr "Nombre de la zona (FQDN)"
+
+msgid "an internal error has occurred"
+msgstr "ha ocurrido un error interno"
+
+msgid ""
+"at least one of: type, filter, subtree, targetgroup, attrs or memberof are "
+"required"
+msgstr ""
+"es necesario como mínimo alguno de: tipo, filtro, subárbol, grupo de "
+"destino, atributos, o miembro de "
+
+#, python-format
+msgid "attribute \"%s\" not allowed"
+msgstr "atributo \"%s\" no permitido"
+
+msgid "automatically add the principal if it doesn't exist"
+msgstr "si no existe, agregar automáticamente el principal"
+
+msgid "automount key"
+msgstr "clave de automontaje"
+
+msgid "automount keys"
+msgstr "claves de automontaje"
+
+msgid "automount location"
+msgstr "localización automontaje"
+
+msgid "automount locations"
+msgstr "localizaciones de automontaje"
+
+msgid "automount map"
+msgstr "mapa de automontaje"
+
+msgid "automount maps"
+msgstr "mapas de automontaje"
+
+#, c-format
+msgid "ber_init() failed, Invalid control ?!\n"
+msgstr "Falló ber_init(), ¿control inválido?\n"
+
+msgid "bind password"
+msgstr "asociar contraseña"
+
+#, python-format
+msgid "can be at most %(len)d characters"
+msgstr "puede ser a lo sumo%(len)d caracteres"
+
+#, python-format
+msgid "can be at most %(maxlength)d bytes"
+msgstr "puede ser a lo sumo de %(maxlength)d bytes"
+
+#, python-format
+msgid "can be at most %(maxlength)d characters"
+msgstr "puede tener a lo sumo %(maxlength)d caracteres"
+
+#, python-format
+msgid "can be at most %(maxvalue)d"
+msgstr "puede ser como máximo %(maxvalue)d"
+
+msgid "cannot obtain next serial number"
+msgstr "no es posible obtener el próximo número de serie"
+
+#, c-format
+msgid "cannot open configuration file %s\n"
+msgstr "no se puede abrir archivo de configuración %s\\n\n"
+
+#, c-format
+msgid "cannot stat() configuration file %s\n"
+msgstr "no puede stat () del archivo de configuración%s\n"
+
+msgid "certutil failure"
+msgstr "falla de Certutil"
+
+msgid "change collided with another change"
+msgstr "la modificación choca con otra modificación diferente"
+
+msgid "change to a POSIX group"
+msgstr "Cambiar a un grupo POSIX"
+
+#, c-format
+msgid "child exited with %d\n"
+msgstr "hijo terminó con %d\n"
+
+msgid "configuration options"
+msgstr "opciones de configuración"
+
+#, python-format
+msgid "container entry (%(container)s) not found"
+msgstr "no se encuentra la entrada (%(container)s) de contenedor"
+
+msgid "description"
+msgstr "descripción"
+
+msgid "did not receive Kerberos credentials"
+msgstr "no se ha recibido ninguna credencial de Kerberos"
+
+msgid "empty filter"
+msgstr "Vaciar filtro"
+
+msgid "entries"
+msgstr "entradas"
+
+msgid "entry"
+msgstr "entrada"
+
+#, python-format
+msgid "error marshalling data for XML-RPC transport: %(error)s"
+msgstr "error de clasificación para el transporte de datos XML-RPC: %(error)s "
+
+#, c-format
+msgid "executing ipa-getkeytab failed, errno %d\n"
+msgstr "la ejecución de ipa-getkeytab falló, errno %d\n"
+
+msgid "file operation"
+msgstr "operación de archivo"
+
+msgid "file to store certificate in"
+msgstr "archivo para almacenar"
+
+msgid "filename"
+msgstr "nombre de archivo"
+
+msgid "filter and memberof are mutually exclusive"
+msgstr "filtro y memberof son mutuamente excluyentes"
+
+msgid "force NS record creation even if its hostname is not in DNS"
+msgstr "Forzar la creación del registro DNS, aunque su nombre no sea absoluto"
+
+msgid "force host name even if not in DNS"
+msgstr ""
+"fuerza el nombre del equipo anfitrión, incluso si no se encuentra en DNS"
+
+msgid "force principal name even if not in DNS"
+msgstr "fuerza el nombre del prinicpal, aún si no se encuentra en DNS"
+
+#, c-format
+msgid "fork() failed\n"
+msgstr "bifurcación () falló\n"
+
+msgid "group"
+msgstr "grupo"
+
+msgid "group, permission and self are mutually exclusive"
+msgstr "grupo, permisos y auto son mutuamente excluyentes"
+
+msgid "groups"
+msgstr "grupos"
+
+msgid "hostname"
+msgstr "nombre de host"
+
+msgid "incorrect type"
+msgstr "tipo incorrecto"
+
+#, c-format
+msgid "ipa-getkeytab has bad permissions?\n"
+msgstr "¿Tiene ipa-getkeytab permisos errados?\n"
+
+#, c-format
+msgid "ipa-getkeytab not found\n"
+msgstr "ipa-getkeytab no se encuentra\n"
+
+#, python-format
+msgid "key named %(key)s already exists"
+msgstr "ya existe una llave denominada %(key)s"
+
+#, c-format
+msgid "kvno %d\n"
+msgstr "kvno %d\n"
+
+msgid "limits exceeded for this query"
+msgstr "han sido excedidos los límites para esta consulta"
+
+#, python-format
+msgid "manager %(manager)s not found"
+msgstr "Administrador %(manager)s no encontrado"
+
+#, python-format
+msgid "member %s"
+msgstr "miembro %s"
+
+msgid "modifying primary key is not allowed"
+msgstr "modificar la clave principal no está permitido"
+
+msgid "must be True or False"
+msgstr "debe ser True o False"
+
+msgid "must be Unicode text"
+msgstr "debe ser texto Unicode"
+
+msgid "must be a decimal number"
+msgstr "debe ser un número decimal"
+
+msgid "must be an integer"
+msgstr "debe ser un entero"
+
+#, python-format
+msgid "must be at least %(minlength)d bytes"
+msgstr "debe ser como mínimo de %(minlength)d bytes"
+
+#, python-format
+msgid "must be at least %(minlength)d characters"
+msgstr "debe tener como mínimo %(minlength)d caracteres"
+
+#, python-format
+msgid "must be at least %(minvalue)d"
+msgstr "debe ser como mínimo %(minvalue)d"
+
+msgid "must be binary data"
+msgstr "debe ser un dato binario"
+
+#, python-format
+msgid "must be exactly %(length)d bytes"
+msgstr "debe ser exactamente de %(length)d bytes"
+
+#, python-format
+msgid "must be exactly %(length)d characters"
+msgstr "debe tener exactamente %(length)d caracteres"
+
+#, python-format
+msgid "must match pattern \"%(pattern)s\""
+msgstr "debe coincidir con el modelo \"%(pattern)s"
+
+msgid "no modifications to be performed"
+msgstr "no existen modificaciones a ser realizadas"
+
+msgid "not allowed to modify group entries"
+msgstr "no se permite modificar las entradas de los grupos"
+
+msgid "not allowed to modify user entries"
+msgstr "no se permite modificar las entradas de los usuarios"
+
+#, c-format
+msgid "out of memory\n"
+msgstr "sin Memoria\n"
+
+msgid "password"
+msgstr "contraseña"
+
+msgid "password to use if not using kerberos"
+msgstr "Contraseña a usar si no usa kerberos"
+
+#, c-format
+msgid "principal not found\n"
+msgstr "principal no se encuentra\n"
+
+#, c-format
+msgid "principal not found in XML-RPC response\n"
+msgstr "principales no se encuentran en respuesta XML-RPC\n"
+
+msgid "priority cannot be set on global policy"
+msgstr "la prioridad no puede ser definida en una plítica global"
+
+#, python-format
+msgid "priority must be a unique value (%(prio)d already used by %(gname)s)"
+msgstr ""
+"la prioridad debe ser un valor único (%(prio)d que ya esté siendo utilizado "
+"por %(gname)s)"
+
+#, c-format
+msgid "read error\n"
+msgstr "Error de lectura\n"
+
+#, c-format
 msgid "realm not found\n"
 msgstr "reino no encontrado\n"
 
-msgid "Print debugging information"
-msgstr "Imprimir la información de depuración"
-
-msgid "Debugging output"
-msgstr "Salida de depuración"
-
-msgid "Remove all principals in this realm"
-msgstr "Quite todos los principales en este ámbito"
-
 #, c-format
-msgid "Closing keytab failed\n"
-msgstr "Cierre de tabla de claves falló\n"
+msgid "result not found in XML-RPC response\n"
+msgstr "resultado no se encuentra en respuesta XML-RPC\n"
 
-msgid "Out of memory!?\n"
+msgid ""
+"retrieve and print all attributes from the server. Affects command output."
 msgstr ""
-"¡Memoria insuficiente!\n"
-"\n"
+"    Determinar si la ACI es un autoservicio de ACI  y   hacer una excepción "
+"si\n"
+"     no lo es.\n"
+"    Devolver el resultado si se trata de un autoservicio   de ACI."
 
-msgid "Out of memory\n"
-msgstr "¡Memoria insuficiente!\n"
+msgid "search for private groups"
+msgstr "Búsqueda de grupos privados"
 
-msgid "Enctype comparison failed!\n"
-msgstr "¡Falló comparación de Enctype!\n"
+msgid ""
+"search results for objects to be migrated\n"
+"have been truncated by the server;\n"
+"migration process might be incomplete\n"
+msgstr ""
+"los resultados de la búsqueda de los objetos que se van a migrar se han "
+"truncado por el servidor; el proceso de migración puede estar incompleto\n"
 
-msgid "Failed to create random key!\n"
-msgstr "Falló la creación de clave aleatoria\n"
+msgid "searchtimelimit must be -1 or > 1."
+msgstr "searchtimelimit debe ser -1 o&gt; 1."
 
-msgid "Failed to create key!\n"
-msgstr "¡Falló la creación de clave!\n"
+msgid "skip reverse DNS detection"
+msgstr "Ignorar la detección inversa de DNS"
+
+msgid "the entry was deleted while being modified"
+msgstr "la entrada fue eliminada mientras estaba siendo modificada"
+
+msgid "type of IPA object (user, group, host, hostgroup, service, netgroup)"
+msgstr ""
+"Objeto de tipo IPA (usuario, grupo, grupo de host, servicio, grupo de red)"
+
+msgid "type, filter, subtree and targetgroup are mutually exclusive"
+msgstr "tipo, filtro, subárbol y grupo de destino, se excluyen mutuamente"
+
+#, python-format
+msgid "unable to decode csr: %s"
+msgstr "no es posible decodificar csr: %s"
+
+#, python-format
+msgid "unknown error %(code)d from %(server)s: %(error)s"
+msgstr "error %(code)d desconocido de %(server)s: %(error)s"

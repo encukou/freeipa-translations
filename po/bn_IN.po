@@ -20,29 +20,6 @@ msgstr ""
 "Language: bn_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Passwords do not match"
-msgstr "পাসওয়ার্ড দুটি মিলছে না"
-
-msgid "This is already a posix group"
-msgstr "একটি পসিক্স (posix) গ্রুপ আগে থেকে উপস্থিত"
-
-#, python-format
-msgid "%(info)s"
-msgstr "%(info)s"
-
-msgid "incorrect type"
-msgstr "ভুল প্রকার"
-
-msgid "Only one value is allowed"
-msgstr "কেবলমাত্র একটি মান অনুমদিত"
-
-msgid "must be a decimal number"
-msgstr "একটি দশমিক সংখ্যা হওয়া জরুরি"
-
-#, python-format
-msgid "%(count)d variables"
-msgstr "%(count)d ভেরিয়াবেল"
-
 #, python-format
 msgid "%(count)d plugin loaded"
 msgid_plural "%(count)d plugins loaded"
@@ -50,11 +27,34 @@ msgstr[0] "%(count)d প্লাগ-ইন লোড করা হয়েছে"
 msgstr[1] "%(count)d প্লাগ-ইন লোড করা হয়েছে"
 
 #, python-format
+msgid "%(count)d variables"
+msgstr "%(count)d ভেরিয়াবেল"
+
+#, python-format
+msgid "%(info)s"
+msgstr "%(info)s"
+
+#, python-format
 msgid "Added user \"%(value)s\""
 msgstr "\"%(value)s\" ব্যবহারকারী যোগ করা হয়েছে"
+
+msgid "Only one value is allowed"
+msgstr "কেবলমাত্র একটি মান অনুমদিত"
+
+msgid "Passwords do not match"
+msgstr "পাসওয়ার্ড দুটি মিলছে না"
+
+msgid "This is already a posix group"
+msgstr "একটি পসিক্স (posix) গ্রুপ আগে থেকে উপস্থিত"
+
+msgid "cannot obtain next serial number"
+msgstr "সিরিয়াল নম্বর পাওয়া সম্ভব হয়নি"
 
 msgid "file operation"
 msgstr "ফাইল কার্য"
 
-msgid "cannot obtain next serial number"
-msgstr "সিরিয়াল নম্বর পাওয়া সম্ভব হয়নি"
+msgid "incorrect type"
+msgstr "ভুল প্রকার"
+
+msgid "must be a decimal number"
+msgstr "একটি দশমিক সংখ্যা হওয়া জরুরি"
