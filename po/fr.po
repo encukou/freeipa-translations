@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-10 10:37+0200\n"
-"PO-Revision-Date: 2013-04-10 08:38+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"PO-Revision-Date: 2013-04-10 17:07+0000\n"
+"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2460,6 +2460,13 @@ msgstr ""
 msgid "CIFS server denied your credentials"
 msgstr "Le serveur CIFS a refusé vos informations d'identification"
 
+msgid ""
+"CNAME record is not allowed to coexist with any other record (RFC 1034, "
+"section 3.6.2)"
+msgstr ""
+"Un enregistrement CNAME ne peut coexister avec aucun autre enregistrement "
+"(RFC 1034, section 3.6.2)"
+
 msgid "CSR"
 msgstr "CSR"
 
@@ -2803,6 +2810,14 @@ msgstr ""
 
 msgid "DN to bind as if not using kerberos"
 msgstr "DN à utiliser pour la connexion en cas de non-utilisation de kerberos"
+
+msgid ""
+"DNAME record is not allowed to coexist with an NS record except when located "
+"in a zone root record (RFC 6672, section 2.3)"
+msgstr ""
+"Un enregistrement DNAME ne peut coexister avec un enregistrement NS, sauf "
+"lorsqu'il se trouve dans l'enregistrement racine de la zone (RFC 6672, "
+"section 2.3)"
 
 msgid "DNS"
 msgstr "DNS"
@@ -4347,6 +4362,18 @@ msgstr "Émis le"
 msgid "Issued To"
 msgstr "Émis pour"
 
+msgid "Issued on from"
+msgstr "Émis à partir du"
+
+msgid "Issued on from this date (YYYY-mm-dd)"
+msgstr "Émis le, à partir de cette date (AAAA-mm-jj)"
+
+msgid "Issued on to"
+msgstr "Émis jusqu'au"
+
+msgid "Issued on to this date (YYYY-mm-dd)"
+msgstr "Émis le, jusque cette date (AAAA-mm-jj)"
+
 msgid "Issuer"
 msgstr "Émetteur"
 
@@ -4611,6 +4638,9 @@ msgstr "Durée de vie maximale d'un mot de passe (en jours)"
 msgid "Maximum renewable age (seconds)"
 msgstr "Âge maximale de renouvellement (secondes)"
 
+msgid "Maximum serial number"
+msgstr "Numéro de série maximum"
+
 msgid "Maximum ticket life (seconds)"
 msgstr "Durée de vie maximale (secondes)"
 
@@ -4708,6 +4738,9 @@ msgstr "Nombre minimal de classes de caractères"
 
 msgid "Minimum password lifetime (in hours)"
 msgstr "Durée de vie maximale d'un mot de passe (en jours)"
+
+msgid "Minimum serial number"
+msgstr "Numéro de série minimum"
 
 msgid "Minimum value is ${value}"
 msgstr "La valeur minimale est ${value}"
@@ -6066,6 +6099,18 @@ msgstr "Révoquer un certificat."
 msgid "Revoked"
 msgstr "Révoqué"
 
+msgid "Revoked on from"
+msgstr "Révoqué à partir du"
+
+msgid "Revoked on from this date (YYYY-mm-dd)"
+msgstr "Révoqué le, à partir de cette date (AAAA-mm-jj)"
+
+msgid "Revoked on to"
+msgstr "Révoqué jusqu'au"
+
+msgid "Revoked on to this date (YYYY-mm-dd)"
+msgstr "Révoqué le, jusque cette date (AAAA-mm-jj)"
+
 msgid "Rights"
 msgstr "Droits"
 
@@ -7303,11 +7348,29 @@ msgstr "Utilisateurs"
 msgid "Valid Certificate Present"
 msgstr "Certificat validé présent"
 
+msgid "Valid not after from"
+msgstr "Invalide après, à partir du"
+
 msgid "Valid not after from this date (YYYY-mm-dd)"
 msgstr "Valide à partir de cette date (AAAA-mm-jj)"
 
+msgid "Valid not after to"
+msgstr "Invalide après, jusqu'au"
+
 msgid "Valid not after to this date (YYYY-mm-dd)"
 msgstr "Valide jusque cette date (AAAA-mm-jj)"
+
+msgid "Valid not before from"
+msgstr "Invalide avant, à partir du"
+
+msgid "Valid not before from this date (YYYY-mm-dd)"
+msgstr "Invalide avant, à partir de cette date (AAAA-mm-jj)"
+
+msgid "Valid not before to"
+msgstr "Invalide avant, jusqu'au"
+
+msgid "Valid not before to this date (YYYY-mm-dd)"
+msgstr "Invalide avant, jusque cette date (AAAA-mm-jj)"
 
 msgid "Validation error"
 msgstr "Erreur de validation"
@@ -8049,6 +8112,16 @@ msgstr ""
 "seuls des lettres, nombres %(underscore)s et - sont autorisés. Les noms DNS "
 "ne peuvent commencer ou se terminer par -"
 
+msgid "only one CNAME record is allowed per name (RFC 2136, section 1.1.5)"
+msgstr ""
+"seul un unique enregistrement CNAME est autorisé par nom (RFC 2136, section "
+"1.1.5)"
+
+msgid "only one DNAME record is allowed per name (RFC 6672, section 2.4)"
+msgstr ""
+"seuil un unique enregistrement DNAME est autorisé par nom (RFC 6672, section "
+"2.4)"
+
 msgid "operation not defined"
 msgstr "opération non définie"
 
@@ -8172,8 +8245,21 @@ msgstr "rôle"
 msgid "roles"
 msgstr "rôles"
 
+msgid "search for POSIX groups"
+msgstr "rechercher des groupes POSIX"
+
+msgid ""
+"search for groups with support of external non-IPA members from trusted "
+"domains"
+msgstr ""
+"rechercher des groupes autorisant des membres externes non-IPA depuis les "
+"domaines approuvés"
+
 msgid "search for managed groups"
 msgstr "rechercher les groupes administrés"
+
+msgid "search for non-POSIX groups"
+msgstr "rechercher des groupes non-POSIX"
 
 msgid "search for private groups"
 msgstr "rechercher des groupes privés"
