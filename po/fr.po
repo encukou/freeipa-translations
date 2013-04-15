@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-11 16:01+0200\n"
-"PO-Revision-Date: 2013-04-11 14:04+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"PO-Revision-Date: 2013-04-11 16:01+0000\n"
+"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3087,6 +3087,10 @@ msgid "Deleted ACI \"%(value)s\""
 msgstr "Deleted ACI \"%(value)s\""
 
 #, python-format
+msgid "Deleted DNS zone \"%(value)s\""
+msgstr "Zone DNS « %(value)s » supprimée"
+
+#, python-format
 msgid "Deleted HBAC rule \"%(value)s\""
 msgstr "Règle HBAC \"%(value)s\" supprimée"
 
@@ -3523,7 +3527,7 @@ msgstr "Échec de l'enregistrement. %s\n"
 
 #, python-format
 msgid "Enter %(label)s again to verify: "
-msgstr "Entrer à nouveau %(label)s pour validation : "
+msgstr "Entrer à nouveau %(label)s pour validation :"
 
 msgid "Enter the Base64-encoded entitlement certificate below:"
 msgstr "Entrer le certificat encodé en Base64 ci-dessous :"
