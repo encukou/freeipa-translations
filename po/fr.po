@@ -6,13 +6,14 @@
 # Automatically generated, 2010.
 # Jérôme Fenal <jfenal@gmail.com>, 2011-2013.
 #   <jfenal@gmail.com>, 2011.
+# Petr Viktorin <encukou@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-11 16:01+0200\n"
-"PO-Revision-Date: 2013-04-11 16:01+0000\n"
+"POT-Creation-Date: 2013-04-15 16:42+0200\n"
+"PO-Revision-Date: 2013-04-15 15:38+0000\n"
 "Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -1882,9 +1883,6 @@ msgstr "Ajouter RunAs ${other_entity} à ${entity} ${primary_key}"
 msgid "Add RunAs Groups into ${entity} ${primary_key}"
 msgstr "Ajouter RunAs Groups à ${entity} ${primary_key}"
 
-msgid "Add Source ${other_entity} into ${entity} ${primary_key}"
-msgstr "Ajouter Source ${other_entity} à ${entity} ${primary_key}"
-
 msgid "Add a new HBAC service group."
 msgstr "Ajouter un nouveau groupe de services HBAC."
 
@@ -2007,9 +2005,6 @@ msgstr "Ajouter des privilèges à un rôle."
 
 msgid "Add services to an HBAC rule."
 msgstr "Ajouter des services à une règle HBAC."
-
-msgid "Add source hosts and hostgroups from a HBAC rule."
-msgstr "Ajouter des systèmes et groupes de systèmes sources à une règle HBAC."
 
 msgid "Add target hosts and hostgroups to an HBAC rule."
 msgstr "Ajouter des systèmes et groupes de systèmes cibles à une règle HBAC."
@@ -3848,9 +3843,6 @@ msgstr "Transmission désactivée"
 #, python-format
 msgid "Found '%(value)s'"
 msgstr "'%(value)s' trouvé."
-
-msgid "From"
-msgstr "Depuis"
 
 msgid "Full name"
 msgstr "Nom complet"
@@ -5835,9 +5827,6 @@ msgstr "Supprimer RunAs${other_entity} de ${entity} ${primary_key}"
 msgid "Remove RunAs Groups from ${entity} ${primary_key}"
 msgstr "Supprimer RunAs Groups de ${entity} ${primary_key}"
 
-msgid "Remove Source ${other_entity} from ${entity} ${primary_key}"
-msgstr "Supprimer la source ${other_entity} de ${entity} ${primary_key}"
-
 msgid "Remove a permission for per-zone access delegation."
 msgstr "Supprimer une permission pour la délégation par zone."
 
@@ -5897,9 +5886,6 @@ msgstr "Supprimer des privilèges d'un rôle."
 
 msgid "Remove service and service groups from an HBAC rule."
 msgstr "Ajouter des services et groupes de services d'une règle HBAC."
-
-msgid "Remove source hosts and hostgroups from an HBAC rule."
-msgstr "Retirer des systèmes et groupes de systèmes sources d'une règle HBAC."
 
 msgid "Remove target hosts and hostgroups from an HBAC rule."
 msgstr "Retirer des systèmes et groupes de systèmes cibles d'une règle HBAC."
@@ -6678,25 +6664,6 @@ msgstr "Certaines entrées n'ont pas été supprimées"
 msgid "Some operations failed."
 msgstr "Certaines opérations ont échoué."
 
-msgid "Source Host Groups"
-msgstr "Groupes de systèmes source"
-
-msgid "Source Hosts"
-msgstr "Systèmes sources"
-
-msgid "Source host"
-msgstr "Système source"
-
-msgid "Source host category"
-msgstr "Catégorie de système source"
-
-msgid "Source host category the rule applies to"
-msgstr "Catégorie de système sources sur laquelle la règle s'applique"
-
-#, python-format
-msgid "Sourcehost value of rule \"%s\" is ignored"
-msgstr "La valeur système source de la règle \"%s\" est ignorée"
-
 msgid "Specified Commands and Groups"
 msgstr "Commandes et groupes spécifiés"
 
@@ -6846,7 +6813,7 @@ msgstr "La clé automount %(key)s avec l'information %(info)s n'existe pas"
 
 #, python-format
 msgid "The character %(char)r is not allowed."
-msgstr "Le caractère « %(char)s » n'est pas autorisé."
+msgstr "Le caractère « %(char)r » n'est pas autorisé."
 
 msgid "The default users group cannot be removed"
 msgstr "Le groupe par défaut ne peut être supprimé"
@@ -7016,8 +6983,9 @@ msgid ""
 "html'>configured</a> the browser correctly, then click Login."
 msgstr ""
 "Afin de se connecter avec Kerberos, il faut s'assurer d'avoir un ticket "
-"valide (via kinit), que le navigateur est <a href='/ipa/config/unauthorized."
-"html'>configuré</a> correctement, puis cliquer sur « Connexion »."
+"valide (via kinit), que le navigateur est <a href='http://${host}/ipa/config/"
+"unauthorized.html'>configuré</a> correctement, puis cliquer sur « Connexion "
+"»."
 
 msgid ""
 "To login with username and password, enter them in the fields below then "
@@ -8308,18 +8276,6 @@ msgstr ""
 
 msgid "skip reverse DNS detection"
 msgstr "passer outre la détection de DNS inverse"
-
-msgid "source hosts cannot be added when sourcehost category='all'"
-msgstr ""
-"aucun système source ne peut être ajouté quand la catégorie de systèmes "
-"sources est à « all »"
-
-msgid ""
-"sourcehost category cannot be set to 'all' while there are allowed "
-"sourcehosts"
-msgstr ""
-"la catégorie système source ne peut être définie à 'all' alors qu'il reste "
-"des systèmes source autorisés"
 
 msgid "sudo command"
 msgstr "commande sudo"

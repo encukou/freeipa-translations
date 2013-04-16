@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-11 16:01+0200\n"
-"PO-Revision-Date: 2013-04-11 14:04+0000\n"
+"POT-Creation-Date: 2013-04-15 16:42+0200\n"
+"PO-Revision-Date: 2013-04-15 15:12+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -1818,9 +1818,6 @@ msgstr "Reenvía al servidor en lugar de ejecutarse localmente"
 msgid "Found '%(value)s'"
 msgstr "Ha sido encontrado '%(value)s'"
 
-msgid "From"
-msgstr "Desde"
-
 msgid "Full name"
 msgstr "Nombre y apellidos"
 
@@ -3189,12 +3186,6 @@ msgstr "¡Falló vinculación sencilla!\n"
 
 msgid "Size Limit"
 msgstr "Tamaño límite"
-
-msgid "Source host category"
-msgstr "Categoría del equipo de origen"
-
-msgid "Source host category the rule applies to"
-msgstr "Categoría del equipo de origen al que se aplica la regla"
 
 msgid "Specified Commands and Groups"
 msgstr "Comandos especificados y grupos"
