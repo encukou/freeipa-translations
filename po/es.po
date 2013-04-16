@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-15 15:12+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"PO-Revision-Date: 2013-04-16 13:29+0000\n"
+"Last-Translator: vareli <ehespinosa@ya.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -924,6 +924,9 @@ msgstr "Añadir ${other_entity} a ${entity} ${primary_key}"
 msgid "Add Many"
 msgstr "Añadir Muchos"
 
+msgid "Add a new delegation."
+msgstr "Añadir una nueva delegación."
+
 msgid ""
 "Add an attribute/value pair. Format is attr=value. The attribute\n"
 "must be part of the schema."
@@ -1379,9 +1382,15 @@ msgstr "Registro de recursos DNS"
 msgid "DNS reverse zone for IP address %(addr)s not found"
 msgstr "Zona invertida DNS para dirección IP %(addr)s no encontrada"
 
+msgid "DNS zone"
+msgstr "zona DNS"
+
 #, python-format
 msgid "DNS zone %(zone)s not found"
 msgstr "Zona DNS %(zone)s no encontrado"
+
+msgid "DNS zones"
+msgstr "zonas DNS"
 
 msgid "Data"
 msgstr "Datos"
@@ -1398,6 +1407,9 @@ msgstr "Grupo predeterminado para usuarios nuevos"
 msgid "Default group objectclasses"
 msgstr "Grupo predeterminado objectclass"
 
+msgid "Default group objectclasses (comma-separated list)"
+msgstr "Clases de objeto grupo por defecto (lista separada por comas)"
+
 msgid "Default location of home directories"
 msgstr "Localización por defecto de los directorios home"
 
@@ -1410,6 +1422,9 @@ msgstr "Shell predeterminada para usuarios nuevos"
 msgid "Default user objectclasses"
 msgstr "Usuario predeterminado objectclasses"
 
+msgid "Default user objectclasses (comma-separated list)"
+msgstr "Clases de objeto usuario por defecto (lista separada por comas)"
+
 msgid "Default users group"
 msgstr "Grupo de usuarios predeterminado"
 
@@ -1419,11 +1434,17 @@ msgstr "Delegación"
 msgid "Delegation name"
 msgstr "Nombre de delegación"
 
+msgid "Delegations"
+msgstr "Delegaciones"
+
 msgid "Delete"
 msgstr "Eliminar"
 
 msgid "Delete Key, Unprovision"
 msgstr "La eliminación de clave, unprovision"
+
+msgid "Delete a delegation."
+msgstr "Borrar una delegación."
 
 msgid "Delete all associated records"
 msgstr "Eliminar todos los registros asociados"
@@ -1588,6 +1609,9 @@ msgstr "Mostrar un mapa de automontaje"
 msgid "Display effective policy for a specific user"
 msgstr "Ofrece la política efectiva para un determinado usuario"
 
+msgid "Display information about a delegation."
+msgstr "Mostrar información sobre una delegación."
+
 msgid "Display name"
 msgstr "Mostrar nombre"
 
@@ -1695,6 +1719,9 @@ msgstr "De usuarios externos"
 
 msgid "External host"
 msgstr "Equipo externo"
+
+msgid "Extra hashes to generate in password plug-in"
+msgstr "Hashes extra para generar en el plugin de contraseña"
 
 msgid "Failed hosts/hostgroups"
 msgstr "Falló host/hostgroups"
@@ -2255,6 +2282,9 @@ msgstr "Duración máxima del ticket (en segundos)"
 msgid "Maximum username length"
 msgstr "Largo máximo para nombre de usuario"
 
+msgid "May not be empty"
+msgstr "Puede no estar vacío"
+
 msgid "Member HBAC service"
 msgstr "Miembro del servicio HBAC"
 
@@ -2469,6 +2499,9 @@ msgstr "Ha sido modificado el servicio \"%(value)s\""
 msgid "Modified user \"%(value)s\""
 msgstr "Ha sido modificado el usuario \"%(value)s\""
 
+msgid "Modify a delegation."
+msgstr "Modificar una delegación."
+
 msgid "Modify a group."
 msgstr "Modificar un grupo."
 
@@ -2477,6 +2510,9 @@ msgstr "Modificar una clave de automontaje."
 
 msgid "Modify an automount map."
 msgstr "Modificar un mapa de automontaje"
+
+msgid "Modify configuration options."
+msgstr "Modificar opciones de configuración."
 
 #, python-format
 msgid ""
@@ -2608,6 +2644,9 @@ msgstr "Número de condiciones agregadas"
 msgid "Number of conditions removed"
 msgstr "Número de condiciones eliminadas"
 
+msgid "Number of days's notice of impending password expiration"
+msgstr "Aviso de número de días de expiración inminente de contraseña"
+
 msgid "Number of members added"
 msgstr "Cantidad de miembros añadidos"
 
@@ -2706,6 +2745,9 @@ msgstr "Mapa del padre"
 
 msgid "Password"
 msgstr "Contraseña"
+
+msgid "Password Expiration Notification (days)"
+msgstr "Notificación de Expiración de Contraseña (días)"
 
 msgid "Password Policy"
 msgstr "Directiva de contraseñas"
@@ -3081,6 +3123,9 @@ msgstr "Buscar una localización de automontaje."
 
 msgid "Search for an automount map."
 msgstr "Buscar un mapa de automontaje."
+
+msgid "Search for delegations."
+msgstr "Buscar delegaciones."
 
 #, c-format
 msgid "Search for ipaCertificateSubjectBase failed with error %d"
@@ -3715,6 +3760,12 @@ msgstr "opciones de configuración"
 msgid "container entry (%(container)s) not found"
 msgstr "no se encuentra la entrada (%(container)s) de contenedor"
 
+msgid "delegation"
+msgstr "delegación"
+
+msgid "delegations"
+msgstr "delegaciones"
+
 msgid "description"
 msgstr "descripción"
 
@@ -3764,6 +3815,30 @@ msgstr "fuerza el nombre del prinicpal, aún si no se encuentra en DNS"
 msgid "fork() failed\n"
 msgstr "bifurcación () falló\n"
 
+msgid ""
+"format must be specified as\n"
+"    \"d1 [m1 [s1]] {\"N\"|\"S\"}  d2 [m2 [s2]] {\"E\"|\"W\"} alt[\"m\"] [siz"
+"[\"m\"] [hp[\"m\"] [vp[\"m\"]]]]\"\n"
+"    where:\n"
+"       d1:     [0 .. 90]            (degrees latitude)\n"
+"       d2:     [0 .. 180]           (degrees longitude)\n"
+"       m1, m2: [0 .. 59]            (minutes latitude/longitude)\n"
+"       s1, s2: [0 .. 59.999]        (seconds latitude/longitude)\n"
+"       alt:    [-100000.00 .. 42849672.95] BY .01 (altitude in meters)\n"
+"       siz, hp, vp: [0 .. 90000000.00] (size/precision in meters)\n"
+"    See RFC 1876 for details"
+msgstr ""
+"\"d1 [m1 [s1]] {\"N\"|\"S\"} d2 [m2 [s2]] {\"E\"|\"W\"} alt[\"m\"] [siz[\"m"
+"\"] [hp[\"m\"] [vp[\"m\"]]]]\"\n"
+"donde:\n"
+"d1: [0 .. 90] (grados de latitud)\n"
+"d2: [0 .. 180] (grados de longitud)\n"
+"m1, m2: [0 .. 59] (minutos de latitud/longitud)\n"
+"s1, s2: [0 .. 59.999] (segundos de latitud/longitud)\n"
+"alt: [-100000.00 .. 42849672.95] BY .01 (altitud en metros)\n"
+"siz, hp, vp: [0 .. 90000000.00] (tamaño/precisión en metros)\n"
+"Vea RFC 1876 para detalles"
+
 msgid "group"
 msgstr "grupo"
 
@@ -3778,6 +3853,12 @@ msgstr "nombre de host"
 
 msgid "incorrect type"
 msgstr "tipo incorrecto"
+
+msgid "invalid IP address format"
+msgstr "formato no válido de dirección IP"
+
+msgid "invalid IP network format"
+msgstr "formato no válido de red IP"
 
 #, c-format
 msgid "ipa-getkeytab has bad permissions?\n"
