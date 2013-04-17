@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-16 13:29+0000\n"
+"PO-Revision-Date: 2013-04-17 06:48+0000\n"
 "Last-Translator: vareli <ehespinosa@ya.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -946,8 +946,20 @@ msgstr "Agregar y Editar"
 msgid "Add members to a group."
 msgstr "Agregar miembro a un grupo."
 
+msgid "Add new DNS resource record."
+msgstr "Añadir nuevo registro de recurso DNS."
+
+msgid "Add services to an HBAC rule."
+msgstr "Añadir servicios a una regla HBAC."
+
+msgid "Add target hosts and hostgroups to an HBAC rule."
+msgstr "Añadir hosts objetivos y grupos de host a una regla HBAC."
+
 msgid "Add the host to DNS with this IP address"
 msgstr "Agregar el host de DNS con esta dirección IP"
+
+msgid "Add users and groups to an HBAC rule."
+msgstr "Añadir usuarios y grupos a una regla HBAC."
 
 #, python-format
 msgid "Added HBAC rule \"%(value)s\""
@@ -1101,6 +1113,9 @@ msgstr "Auditoría"
 
 msgid "Authoritative nameserver"
 msgstr "Nombre de servidor autoritativo"
+
+msgid "Authoritative nameserver domain name"
+msgstr "Nombre de dominio servidor de nombre autorizado"
 
 msgid "Auto Membership Rule"
 msgstr "Regla Auto Afiliación"
@@ -1304,6 +1319,9 @@ msgstr "Configuración"
 msgid "Consecutive failures before lockout"
 msgstr "Fallos consecutivos antes del bloqueo"
 
+msgid "Consume an entitlement."
+msgstr "Consumir un derecho."
+
 msgid "Consumed"
 msgstr "Consumido"
 
@@ -1332,6 +1350,9 @@ msgstr ""
 "    Modo de funcionamiento continuo. Reporta los errores, pero el proceso "
 "continúa."
 
+msgid "Create a new HBAC rule."
+msgstr "Crear una nueva regla HBAC."
+
 msgid "Create a new automount key."
 msgstr "Crear una nueva clave de automontaje."
 
@@ -1350,6 +1371,9 @@ msgstr "Crear un nuevo punto de montaje indirecto."
 msgid "Create as a non-POSIX group"
 msgstr "  Crear como un grupo no POSIX"
 
+msgid "Create new DNS zone (SOA record)."
+msgstr "Crear nueva zona DNS (registro SOA)."
+
 #, python-format
 msgid "Created ACI \"%(value)s\""
 msgstr "Ha sido creado ACI \"%(value)s\""
@@ -1366,8 +1390,20 @@ msgstr "DN a vincular como si no usara kerberos"
 msgid "DNS"
 msgstr "DNS"
 
+msgid "DNS Resource Record"
+msgstr "Registro de Recurso de DNS"
+
+msgid "DNS Resource Records"
+msgstr "Registros de Recursos DNS"
+
+msgid "DNS Zone"
+msgstr "Zona DNS"
+
 msgid "DNS Zone Settings"
 msgstr "Configuración de la Zona DNS"
+
+msgid "DNS Zones"
+msgstr "Zonas DNS"
 
 msgid "DNS class"
 msgstr "Clase DNS"
@@ -1377,6 +1413,9 @@ msgstr "DNS no está configurado"
 
 msgid "DNS resource record"
 msgstr "Registro de recursos DNS"
+
+msgid "DNS resource records"
+msgstr "Registros de recurso DNS"
 
 #, python-format
 msgid "DNS reverse zone for IP address %(addr)s not found"
@@ -1440,6 +1479,12 @@ msgstr "Delegaciones"
 msgid "Delete"
 msgstr "Eliminar"
 
+msgid "Delete DNS resource record."
+msgstr "Borrar un registro de recurso DNS."
+
+msgid "Delete DNS zone (SOA record)."
+msgstr "Borrar zona DNS (registro SOA)."
+
 msgid "Delete Key, Unprovision"
 msgstr "La eliminación de clave, unprovision"
 
@@ -1451,6 +1496,9 @@ msgstr "Eliminar todos los registros asociados"
 
 msgid "Delete all?"
 msgstr "¿Borrar todos?"
+
+msgid "Delete an HBAC rule."
+msgstr "Borrar una regla HBAC."
 
 msgid ""
 "Delete an attribute/value pair. The option will be evaluated\n"
@@ -1561,6 +1609,9 @@ msgstr "Negar"
 msgid "Description"
 msgstr "Descripción"
 
+msgid "Detach a managed group from a user."
+msgstr "Desenganchar un grupo gestionado desde un usuario."
+
 #, python-format
 msgid "Detached group \"%(value)s\" from user \"%(value)s\""
 msgstr "Ha sido desasociado el grupo \"%(value)s\" del usuario \"%(value)s\""
@@ -1576,6 +1627,12 @@ msgstr "El dict de JSON ha codificado objetos IPA"
 
 msgid "Dictionary mapping variable name to value"
 msgstr "Nombre de la variable de mapeo de dicionario a valorizar "
+
+msgid "Disable DNS Zone."
+msgstr "Deshabilitar Zona DNS."
+
+msgid "Disable an HBAC rule."
+msgstr "Deshabilitar una regla HBAC."
 
 #, python-format
 msgid "Disabled DNS zone \"%(value)s\""
@@ -1597,6 +1654,9 @@ msgstr "Servicio  inhabilitado \"%(value)s\""
 msgid "Disabled user account \"%(value)s\""
 msgstr " \"%(value)s\" de cuenta de usuario desactivada"
 
+msgid "Display DNS resource."
+msgstr "Mostrar un recurso DNS."
+
 msgid "Display an automount key."
 msgstr "Mostrar una clave de automontaje."
 
@@ -1606,11 +1666,20 @@ msgstr "Mostrar una localización de automontaje"
 msgid "Display an automount map."
 msgstr "Mostrar un mapa de automontaje"
 
+msgid "Display current entitlements."
+msgstr "Mostrar derechos actuales."
+
 msgid "Display effective policy for a specific user"
 msgstr "Ofrece la política efectiva para un determinado usuario"
 
+msgid "Display information about a DNS zone (SOA record)."
+msgstr "Mostrar información sobre una zona DNS (registro SOA)."
+
 msgid "Display information about a delegation."
 msgstr "Mostrar información sobre una delegación."
+
+msgid "Display information about a named group."
+msgstr "Mostrar información sobre un grupo denominado."
 
 msgid "Display name"
 msgstr "Mostrar nombre"
@@ -1621,6 +1690,9 @@ msgid ""
 msgstr ""
 "Mostrar los derechos de acceso de esta entrada (requiere --all). Consulte la "
 "página man de IPA para más detalles."
+
+msgid "Display the properties of an HBAC rule."
+msgstr "Mostrar las propiedades de una regla HBAC."
 
 msgid "Display user record for current Kerberos principal"
 msgstr "Muestra el registro del usuario para el principal de Kerberos actual"
@@ -1636,6 +1708,12 @@ msgstr "Dirección de correo electrónico"
 
 msgid "Employee Information"
 msgstr "Información del Empleado"
+
+msgid "Enable DNS Zone."
+msgstr "Habilitar Zona DNS."
+
+msgid "Enable an HBAC rule."
+msgstr "Habilitar una regla HBAC."
 
 msgid "Enable migration mode"
 msgstr "Habilitar modo migración"
@@ -1670,9 +1748,15 @@ msgstr "Inscripción"
 msgid "Enrollment UUID"
 msgstr "Inscripción UUID"
 
+msgid "Enrollment UUID (not implemented)"
+msgstr "Inscripción UUID (no implementado)"
+
 #, python-format
 msgid "Enter %(label)s again to verify: "
 msgstr "Ingrese %(label)s nuevamente para verificar: "
+
+msgid "Entitlement"
+msgstr "Derecho"
 
 msgid "Entitlement(s) synchronized."
 msgstr "Derecho (s) sincronizado(s)."
@@ -1841,6 +1925,9 @@ msgstr "Forzar"
 msgid "Forward to server instead of running locally"
 msgstr "Reenvía al servidor en lugar de ejecutarse localmente"
 
+msgid "Forward zones only"
+msgstr "Zonas de reenvío sólo"
+
 #, python-format
 msgid "Found '%(value)s'"
 msgstr "Ha sido encontrado '%(value)s'"
@@ -1919,8 +2006,17 @@ msgstr "Grupos"
 msgid "HBAC Rule"
 msgstr "REgla HBAC"
 
+msgid "HBAC Rules"
+msgstr "Reglas HBAC"
+
 msgid "HBAC Services"
 msgstr "Servicios HBAC"
+
+msgid "HBAC rule"
+msgstr "Regla HBAC"
+
+msgid "HBAC rules"
+msgstr "Reglas HBAC"
 
 msgid "HBAC service"
 msgstr "Servicio HBAC"
@@ -1965,6 +2061,9 @@ msgstr "Nombre de host"
 msgid "Host Settings"
 msgstr "Configuración del host"
 
+msgid "Host based access control commands"
+msgstr "Comandos de control de acceso basado en host"
+
 msgid "Host category"
 msgstr "Categoría del equipo"
 
@@ -1994,6 +2093,9 @@ msgid "Host operating system and version (e.g. \"Fedora 9\")"
 msgstr ""
 "Sistema operativo que utiliza el equipo y versión (p.ej. \"Fedora 11\")"
 
+msgid "Host-based access control commands"
+msgstr "Comandos de control de acceso basado en host"
+
 msgid "Host-group"
 msgstr "Grupo de equipo"
 
@@ -2009,6 +2111,9 @@ msgstr "Equipos"
 msgid "How long should negative responses be cached"
 msgstr "¿Por cuánto tiempo las respuestas negativas deben guardarse en cache?"
 
+msgid "IP network to create reverse zone name from"
+msgstr "Red IP para crear un nombre de zona reversa desde"
+
 msgid "IPA Server"
 msgstr "Servidor IPA"
 
@@ -2023,6 +2128,9 @@ msgstr "Identidad"
 
 msgid "Identity Settings"
 msgstr "Configuración de identidad"
+
+msgid "Import an entitlement certificate."
+msgstr "Importar un certificado de derecho."
 
 msgid "Import automount files for a specific location."
 msgstr "Importar ficheros de automontaje para una localización específica."
@@ -2499,11 +2607,20 @@ msgstr "Ha sido modificado el servicio \"%(value)s\""
 msgid "Modified user \"%(value)s\""
 msgstr "Ha sido modificado el usuario \"%(value)s\""
 
+msgid "Modify DNS zone (SOA record)."
+msgstr "Modificar zona DNS (registro SOA)."
+
+msgid "Modify a DNS resource record."
+msgstr "Modificar un registro de recurso DNS."
+
 msgid "Modify a delegation."
 msgstr "Modificar una delegación."
 
 msgid "Modify a group."
 msgstr "Modificar un grupo."
+
+msgid "Modify an HBAC rule."
+msgstr "Modificar una regla HBAC."
 
 msgid "Modify an automount key."
 msgstr "Modificar una clave de automontaje."
@@ -2909,6 +3026,9 @@ msgstr "Modo silencioso. Sólo se muestran los errores."
 msgid "Random password"
 msgstr "Contraseña aleatoria"
 
+msgid "Re-sync the local entitlement cache with the entitlement server."
+msgstr "Resincronizar el cache de derecho local con el servidor de derecho."
+
 msgid "Realm name"
 msgstr "Nombre de reino "
 
@@ -2926,6 +3046,9 @@ msgstr "Nombre de registro"
 
 msgid "Records for DNS Zone"
 msgstr "Los registros para la zona DNS"
+
+msgid "Register to the entitlement system."
+msgstr "Registro al sistema de derecho."
 
 msgid "Registered to entitlement server."
 msgstr "Registrado en el servidor de derechos."
@@ -2947,6 +3070,15 @@ msgstr "Borrar de CRL"
 
 msgid "Remove members from a group."
 msgstr "Eliminar miembro desde un grupo."
+
+msgid "Remove service and service groups from an HBAC rule."
+msgstr "Borrar servicio y grupos de servicio de una regla HBAC."
+
+msgid "Remove target hosts and hostgroups from an HBAC rule."
+msgstr "Borrar hosts objetivos y grupos de host de una regla HBAC."
+
+msgid "Remove users and groups from an HBAC rule."
+msgstr "Borrar usuarios y grupos de una regla HBAC."
 
 #, c-format
 msgid "Removing principal %s\n"
@@ -2983,6 +3115,9 @@ msgstr "Resetear"
 msgid "Reset Password"
 msgstr "Restablecer contraseña"
 
+msgid "Resolve a host name in DNS."
+msgstr "Resolver un nombre de host en DNS."
+
 msgid "Restore"
 msgstr "Restaurar"
 
@@ -3008,8 +3143,14 @@ msgstr ""
 "Recuperar e imprimir todos los atributos del servidor. Afecta a la salida "
 "del comando."
 
+msgid "Retrieve the entitlement certs."
+msgstr "Recuperar el derecho certs."
+
 msgid "Retry"
 msgstr "Reintentar"
+
+msgid "Reverse zone IP network"
+msgstr "Zona reversa de red IP"
 
 #, python-format
 msgid ""
@@ -3060,6 +3201,9 @@ msgstr "Estatus de reglas"
 
 msgid "Rule type"
 msgstr "Tipo de regla"
+
+msgid "Rule type (allow)"
+msgstr "Tipo de regla (permitir)"
 
 msgid "Run Commands"
 msgstr "Ejecutar comandos"
@@ -3115,6 +3259,15 @@ msgstr "Tiempo para abandonar SOA"
 msgid "Search"
 msgstr "Búsqueda"
 
+msgid "Search for DNS resources."
+msgstr "Buscar recursos DNS."
+
+msgid "Search for DNS zones (SOA records)."
+msgstr "Buscar zonas DNS (registros SOA)."
+
+msgid "Search for HBAC rules."
+msgstr "Buscar reglas HBAC."
+
 msgid "Search for an automount key."
 msgstr "Buscar una clave de automontaje."
 
@@ -3126,6 +3279,15 @@ msgstr "Buscar un mapa de automontaje."
 
 msgid "Search for delegations."
 msgstr "Buscar delegaciones."
+
+msgid "Search for entitlement accounts."
+msgstr "Buscar cuentas de derecho."
+
+msgid "Search for forward zones only"
+msgstr "Buscar zonas de reenvío sólo"
+
+msgid "Search for groups."
+msgstr "Buscar grupos."
 
 #, c-format
 msgid "Search for ipaCertificateSubjectBase failed with error %d"
@@ -3348,6 +3510,9 @@ msgstr "La clave de montaje automático %(key)s con info %(info)s no existe"
 
 msgid "The default users group cannot be removed"
 msgstr "El grupo de usuarios predeterminado no puede ser eliminado"
+
+msgid "The deny type has been deprecated."
+msgstr "El tipo deny ha quedado obsoleto."
 
 msgid "The group doesn't exist"
 msgstr "El grupo no existe"
@@ -3582,6 +3747,9 @@ msgstr "Actualizar"
 msgid "User"
 msgstr "Usuario"
 
+msgid "User Group"
+msgstr "Grupo Usuario"
+
 msgid "User Groups"
 msgstr "Grupos de usuarios"
 
@@ -3774,6 +3942,12 @@ msgstr "no se ha recibido ninguna credencial de Kerberos"
 
 msgid "empty filter"
 msgstr "Vaciar filtro"
+
+msgid "entitlement"
+msgstr "derecho"
+
+msgid "entitlements"
+msgstr "derechos"
 
 msgid "entries"
 msgstr "entradas"
