@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Eduardo Villagrán M <gotencool@gmail.com>, 2012.
-#  <ehespinosa@ya.com>, 2013.
-# gguerrer <gguerrer@redhat.com>, 2011.
-# Héctor Daniel Cabrera <logan@fedoraproject.org>, 2011.
-# Hugo Jiménez Hernández <hjimenezhdez@gmail.com>, 2011.
-# jdennis <jdennis@redhat.com>, 2011.
-# Petr Viktorin <encukou@gmail.com>, 2012.
+# Eduardo Villagrán M <gotencool@gmail.com>, 2012
+# vareli <ehespinosa@ya.com>, 2013
+# Gladys Guerrero <gguerrer@redhat.com>, 2011
+# Daniel Cabrera <logan@fedoraproject.org>, 2011
+# Hugo Jiménez Hernández <hjimenezhdez@gmail.com>, 2011
+# jdennis <jdennis@redhat.com>, 2011
+# Petr Viktorin <encukou@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-17 06:48+0000\n"
+"PO-Revision-Date: 2013-04-18 06:59+0000\n"
 "Last-Translator: vareli <ehespinosa@ya.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -897,6 +897,10 @@ msgstr "No se encuentra un ACI cuyo nombre sea \"%s\""
 msgid "ACIs"
 msgstr "ACI"
 
+#, python-format
+msgid "Access granted: %s"
+msgstr "Acceso obtenido: %s"
+
 msgid "Access this host"
 msgstr "Acceder a este host"
 
@@ -924,8 +928,20 @@ msgstr "Añadir ${other_entity} a ${entity} ${primary_key}"
 msgid "Add Many"
 msgstr "Añadir Muchos"
 
+msgid "Add a new HBAC service group."
+msgstr "Añadir un nuevo grupo de servicio HBAC."
+
+msgid "Add a new HBAC service."
+msgstr "Añadir un nuevo servicio HBAC."
+
 msgid "Add a new delegation."
 msgstr "Añadir una nueva delegación."
+
+msgid "Add a new host."
+msgstr "Añadir un n uevo host."
+
+msgid "Add a new hostgroup."
+msgstr "Añadir un nuevo grupo de host."
 
 msgid ""
 "Add an attribute/value pair. Format is attr=value. The attribute\n"
@@ -943,8 +959,17 @@ msgstr "Añadir y cerrar"
 msgid "Add and Edit"
 msgstr "Agregar y Editar"
 
+msgid "Add hosts that can manage this host."
+msgstr "Añadir hosts que pueda manejar este host."
+
 msgid "Add members to a group."
 msgstr "Agregar miembro a un grupo."
+
+msgid "Add members to a hostgroup."
+msgstr "Añadir miembros a un grupo de host."
+
+msgid "Add members to an HBAC service group."
+msgstr "Añadir miembros a un grupo de servicio HBAC."
 
 msgid "Add new DNS resource record."
 msgstr "Añadir nuevo registro de recurso DNS."
@@ -1491,6 +1516,12 @@ msgstr "La eliminación de clave, unprovision"
 msgid "Delete a delegation."
 msgstr "Borrar una delegación."
 
+msgid "Delete a host."
+msgstr "Borrar un host."
+
+msgid "Delete a hostgroup."
+msgstr "Borrar un grupo de host."
+
 msgid "Delete all associated records"
 msgstr "Eliminar todos los registros asociados"
 
@@ -1499,6 +1530,9 @@ msgstr "¿Borrar todos?"
 
 msgid "Delete an HBAC rule."
 msgstr "Borrar una regla HBAC."
+
+msgid "Delete an HBAC service group."
+msgstr "Borrar un grupo de servicio HBAC."
 
 msgid ""
 "Delete an attribute/value pair. The option will be evaluated\n"
@@ -1515,6 +1549,9 @@ msgstr "Borrar una localización de automontaje."
 
 msgid "Delete an automount map."
 msgstr "Borrar un mapa de automontaje."
+
+msgid "Delete an existing HBAC service."
+msgstr "Borrar un servicio HBAC existente."
 
 msgid "Delete group."
 msgstr "Eliminar grupo."
@@ -1634,6 +1671,11 @@ msgstr "Deshabilitar Zona DNS."
 msgid "Disable an HBAC rule."
 msgstr "Deshabilitar una regla HBAC."
 
+msgid "Disable the Kerberos key, SSL certificate and all services of a host."
+msgstr ""
+"Deshabilitar la clave Kerberos, el certificado SSL y todos los servicios de "
+"un host."
+
 #, python-format
 msgid "Disabled DNS zone \"%(value)s\""
 msgstr "Zona de DNS desactivada \"%(value)s\" "
@@ -1678,8 +1720,20 @@ msgstr "Mostrar información sobre una zona DNS (registro SOA)."
 msgid "Display information about a delegation."
 msgstr "Mostrar información sobre una delegación."
 
+msgid "Display information about a host."
+msgstr "Mostrar información sobre un host."
+
+msgid "Display information about a hostgroup."
+msgstr "Mostrar información sobre un grupo de host."
+
 msgid "Display information about a named group."
 msgstr "Mostrar información sobre un grupo denominado."
+
+msgid "Display information about an HBAC service group."
+msgstr "Mostrar información sobre un grupo de servicio HBAC."
+
+msgid "Display information about an HBAC service."
+msgstr "Mostrar información sobre un servicio HBAC."
 
 msgid "Display name"
 msgstr "Mostrar nombre"
@@ -2009,6 +2063,15 @@ msgstr "REgla HBAC"
 msgid "HBAC Rules"
 msgstr "Reglas HBAC"
 
+msgid "HBAC Service"
+msgstr "Servicio HBAC"
+
+msgid "HBAC Service Group"
+msgstr "Grupo de Servicio HBAC"
+
+msgid "HBAC Service Groups"
+msgstr "Grupos de Servicios HBAC"
+
 msgid "HBAC Services"
 msgstr "Servicios HBAC"
 
@@ -2024,11 +2087,24 @@ msgstr "Servicio HBAC"
 msgid "HBAC service description"
 msgstr "Descripción de servicio HBAC"
 
+msgid "HBAC service group"
+msgstr "Grupo de servicio HBAC"
+
 msgid "HBAC service group description"
 msgstr "Servicios y grupos especificados"
 
+msgid "HBAC service groups"
+msgstr "Grupos de servicio HBAC"
+
+msgid "HBAC services"
+msgstr "Servicios HBAC"
+
 msgid "Hardware platform of the host (e.g. Lenovo T61)"
 msgstr "Plataforma de hardware del equipo (p. ej. Lenovo T61)"
+
+msgid "Hide details which rules are matched, not matched, or invalid"
+msgstr ""
+"Esconder detalles de que reglas coinciden, no coinciden o son no válidas"
 
 msgid "History size"
 msgstr "Tamaño del historial"
@@ -2039,6 +2115,9 @@ msgstr "Directorio principal"
 msgid "Home directory base"
 msgstr "Base del directorio principal"
 
+msgid "Host"
+msgstr "Host"
+
 #, python-format
 msgid "Host '%(host)s' not found"
 msgstr "No ha sido encontrado el equipo anfitrión '%(host)s' "
@@ -2048,6 +2127,9 @@ msgstr "Control de Acceso basado en Host"
 
 msgid "Host Certificate"
 msgstr "Certificado de host"
+
+msgid "Host Group"
+msgstr "Grupo de Host"
 
 msgid "Host Group Settings"
 msgstr "Configuraciones del Grupo de Host"
@@ -2111,6 +2193,9 @@ msgstr "Equipos"
 msgid "How long should negative responses be cached"
 msgstr "¿Por cuánto tiempo las respuestas negativas deben guardarse en cache?"
 
+msgid "IP Address"
+msgstr "Dirección IP"
+
 msgid "IP network to create reverse zone name from"
 msgstr "Red IP para crear un nombre de zona reversa desde"
 
@@ -2134,6 +2219,12 @@ msgstr "Importar un certificado de derecho."
 
 msgid "Import automount files for a specific location."
 msgstr "Importar ficheros de automontaje para una localización específica."
+
+msgid "Include all disabled IPA rules into test"
+msgstr "Incluir todas las reglas IPA deshabilitadas en la prueba"
+
+msgid "Include all enabled IPA rules into test [default]"
+msgstr "Incluir todas las reglas IPA habilitadas en la prueba [por defecto]"
 
 msgid "Inclusive Regex"
 msgstr "Regex inclusivo"
@@ -2350,6 +2441,9 @@ msgstr "Mapa"
 
 msgid "Master file"
 msgstr "    Archivo maestro"
+
+msgid "Matched rules"
+msgstr "Reglas coincidentes"
 
 msgid "Max failures"
 msgstr "Número máximo de fallas"
@@ -2619,8 +2713,17 @@ msgstr "Modificar una delegación."
 msgid "Modify a group."
 msgstr "Modificar un grupo."
 
+msgid "Modify a hostgroup."
+msgstr "Modificar un grupo de host."
+
 msgid "Modify an HBAC rule."
 msgstr "Modificar una regla HBAC."
+
+msgid "Modify an HBAC service group."
+msgstr "Modificar un grupo de servicio HBAC."
+
+msgid "Modify an HBAC service."
+msgstr "Modificar un servicio HBAC."
 
 msgid "Modify an automount key."
 msgstr "Modificar una clave de automontaje."
@@ -2630,6 +2733,9 @@ msgstr "Modificar un mapa de automontaje"
 
 msgid "Modify configuration options."
 msgstr "Modificar opciones de configuración."
+
+msgid "Modify information about a host."
+msgstr "Modificar información sobre un host."
 
 #, python-format
 msgid ""
@@ -2647,6 +2753,9 @@ msgstr "Punto de montaje"
 
 msgid "NIS domain name"
 msgstr "Nombre del dominio NIS"
+
+msgid "Name of command to export"
+msgstr "Nombre de comando a exportar"
 
 msgid "Name of host-group"
 msgstr "Nombre del grupo de equipo"
@@ -2737,6 +2846,9 @@ msgstr "No hay valores para %s"
 msgid "No write permissions on keytab file '%s'\n"
 msgstr "No escribir permisos en archivo de tabla de claves'%s\n"
 
+msgid "Non-existent or invalid rules"
+msgstr "Reglas no existentes o no válidas"
+
 msgid "Not After"
 msgstr "No luego de"
 
@@ -2748,6 +2860,9 @@ msgstr "No es un grupo administrado"
 
 msgid "Not an entitlement certificate"
 msgstr "No es un certificado de derechos"
+
+msgid "Not matched rules"
+msgstr "Reglas no coincidentes"
 
 msgid "Not registered yet"
 msgstr "Aún no está registrado"
@@ -2868,6 +2983,9 @@ msgstr "Notificación de Expiración de Contraseña (días)"
 
 msgid "Password Policy"
 msgstr "Directiva de contraseñas"
+
+msgid "Password cannot be set on enrolled host."
+msgstr "La contraseña no puede ser fijada en el host matriculado."
 
 msgid "Password change complete"
 msgstr "Cambiar la contraseña completa"
@@ -3068,8 +3186,17 @@ msgstr "Eliminar entradas de DNS"
 msgid "Remove from CRL"
 msgstr "Borrar de CRL"
 
+msgid "Remove hosts that can manage this host."
+msgstr "Borrar hosts que puede manejar este host."
+
 msgid "Remove members from a group."
 msgstr "Eliminar miembro desde un grupo."
+
+msgid "Remove members from a hostgroup."
+msgstr "Borrar miembros de un grupo de host."
+
+msgid "Remove members from an HBAC service group."
+msgstr "Borrar miembros de un grupo de servicio HBAC."
 
 msgid "Remove service and service groups from an HBAC rule."
 msgstr "Borrar servicio y grupos de servicio de una regla HBAC."
@@ -3123,6 +3250,9 @@ msgstr "Restaurar"
 
 msgid "Restore Certificate for ${entity} ${primary_key}"
 msgstr "Restablecer Certificado para ${entity} ${primary_key}"
+
+msgid "Result of simulation"
+msgstr "Resultado de la simulación"
 
 msgid "Results are truncated, try a more specific search"
 msgstr ""
@@ -3205,6 +3335,9 @@ msgstr "Tipo de regla"
 msgid "Rule type (allow)"
 msgstr "Tipo de regla (permitir)"
 
+msgid "Rules to test. If not specified, --enabled is assumed"
+msgstr "Reglas para probar. Si no se especifica, - se asume que habilitado"
+
 msgid "Run Commands"
 msgstr "Ejecutar comandos"
 
@@ -3268,6 +3401,12 @@ msgstr "Buscar zonas DNS (registros SOA)."
 msgid "Search for HBAC rules."
 msgstr "Buscar reglas HBAC."
 
+msgid "Search for HBAC services."
+msgstr "Buscar un servicio HBAC."
+
+msgid "Search for an HBAC service group."
+msgstr "Buscar un grupo de servicio HBAC."
+
 msgid "Search for an automount key."
 msgstr "Buscar una clave de automontaje."
 
@@ -3288,6 +3427,12 @@ msgstr "Buscar zonas de reenvío sólo"
 
 msgid "Search for groups."
 msgstr "Buscar grupos."
+
+msgid "Search for hostgroups."
+msgstr "Buscar grupos de host."
+
+msgid "Search for hosts."
+msgstr "Buscar hosts."
 
 #, c-format
 msgid "Search for ipaCertificateSubjectBase failed with error %d"
@@ -3391,6 +3536,9 @@ msgstr "Mostrar la lista de los tipos cifrados permitidos y salir"
 msgid "Simple bind failed\n"
 msgstr "¡Falló vinculación sencilla!\n"
 
+msgid "Simulate use of Host-based access controls"
+msgstr "Simular el uso de controles de acceso basados en Host"
+
 msgid "Size Limit"
 msgstr "Tamaño límite"
 
@@ -3485,6 +3633,9 @@ msgstr "Meta"
 
 msgid "Target group"
 msgstr "Grupo elegido"
+
+msgid "Target host"
+msgstr "Host objetivo"
 
 msgid "Target members of a group"
 msgstr "Objetivo para los miembros de un grupo"
@@ -4022,8 +4173,20 @@ msgstr "grupo, permisos y auto son mutuamente excluyentes"
 msgid "groups"
 msgstr "grupos"
 
+msgid "host"
+msgstr "host"
+
+msgid "host group"
+msgstr "grupo de host"
+
+msgid "host groups"
+msgstr "grupos de host"
+
 msgid "hostname"
 msgstr "nombre de host"
+
+msgid "hosts"
+msgstr "hosts"
 
 msgid "incorrect type"
 msgstr "tipo incorrecto"
@@ -4102,6 +4265,14 @@ msgstr "debe tener exactamente %(length)d caracteres"
 #, python-format
 msgid "must match pattern \"%(pattern)s\""
 msgstr "debe coincidir con el modelo \"%(pattern)s"
+
+#, python-format
+msgid ""
+"netgroup with name \"%s\" already exists. Hostgroups and netgroups share a "
+"common namespace"
+msgstr ""
+"grupo de red con nombre “%s” ya existe. Los grupos de host y grupos de red "
+"comparten un espacio de nombre común"
 
 msgid "no modifications to be performed"
 msgstr "no existen modificaciones a ser realizadas"
