@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-18 06:59+0000\n"
+"PO-Revision-Date: 2013-04-23 12:35+0000\n"
 "Last-Translator: vareli <ehespinosa@ya.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -653,6 +653,18 @@ msgstr ""
 msgid "${entity} ${primary_key} Settings"
 msgstr "Configuraciones de  ${entity} ${primary_key}"
 
+msgid "${entity} successfully added"
+msgstr "${entity} añadido con éxito"
+
+msgid "${primary_key} is a member of:"
+msgstr "${primary_key} es un miembro de:"
+
+msgid "${primary_key} is managed by:"
+msgstr "${primary_key} es gestionada por:"
+
+msgid "${primary_key} members:"
+msgstr "${primary_key} miembros:"
+
 #, python-format
 msgid "%(attr)s does not contain '%(value)s'"
 msgstr "%(attr)s no contiene '%(value)s'"
@@ -821,6 +833,13 @@ msgstr "%s no es un atributo válido."
 msgid "'%(entry)s' doesn't have a certificate."
 msgstr "'%(entry)s' no tiene certificado"
 
+msgid ""
+". Check GID of the existing group. Use --group-overwrite-gid option to "
+"overwrite the GID"
+msgstr ""
+". Comprobar GID del grupo existente. Use la opción --group-overwrite-gid "
+"para anular la GID"
+
 msgid "7 is not a valid revocation reason"
 msgstr "7 no es una razón válida de revocación"
 
@@ -897,6 +916,12 @@ msgstr "No se encuentra un ACI cuyo nombre sea \"%s\""
 msgid "ACIs"
 msgstr "ACI"
 
+msgid "Access Denied"
+msgstr "Acceso Denegado"
+
+msgid "Access Granted"
+msgstr "Acceso Obtenido"
+
 #, python-format
 msgid "Access granted: %s"
 msgstr "Acceso obtenido: %s"
@@ -910,8 +935,14 @@ msgstr "Hora de acceso"
 msgid "Accessing"
 msgstr "Acceso"
 
+msgid "Account"
+msgstr "Cuenta"
+
 msgid "Account Settings"
 msgstr "Configuración de la cuenta"
+
+msgid "Account Status"
+msgstr "Estado de Cuenta"
 
 msgid "Account disabled"
 msgstr "Cuenta inhabilitada "
@@ -922,11 +953,32 @@ msgstr "Activar zona"
 msgid "Add"
 msgstr "Agregar"
 
+msgid "Add ${entity}"
+msgstr "Añadir ${entity}"
+
+msgid "Add ${entity} ${primary_key} into ${other_entity}"
+msgstr "Añadir ${entity} ${primary_key} en ${other_entity}"
+
+msgid "Add ${other_entity} Managing ${entity} ${primary_key}"
+msgstr "Añadir ${other_entity} Gestionando ${entity} ${primary_key}"
+
 msgid "Add ${other_entity} into ${entity} ${primary_key}"
 msgstr "Añadir ${other_entity} a ${entity} ${primary_key}"
 
+msgid "Add Allow ${other_entity} into ${entity} ${primary_key}"
+msgstr "Añadir Permitir ${other_entity} en ${entity} ${primary_key}"
+
+msgid "Add Deny ${other_entity} into ${entity} ${primary_key}"
+msgstr "Añadir Denegar ${other_entity} en ${entity} ${primary_key}"
+
 msgid "Add Many"
 msgstr "Añadir Muchos"
+
+msgid "Add RunAs ${other_entity} into ${entity} ${primary_key}"
+msgstr "Añadir RunAs ${other_entity} en ${entity} ${primary_key}"
+
+msgid "Add RunAs Groups into ${entity} ${primary_key}"
+msgstr "Añadir RunAs Grupos en ${entity} ${primary_key}"
 
 msgid "Add a new HBAC service group."
 msgstr "Añadir un nuevo grupo de servicio HBAC."
@@ -937,11 +989,23 @@ msgstr "Añadir un nuevo servicio HBAC."
 msgid "Add a new delegation."
 msgstr "Añadir una nueva delegación."
 
+msgid "Add a new group password policy."
+msgstr "Añadir un nuevo grupo de política de contraseña."
+
 msgid "Add a new host."
 msgstr "Añadir un n uevo host."
 
 msgid "Add a new hostgroup."
 msgstr "Añadir un nuevo grupo de host."
+
+msgid "Add a new netgroup."
+msgstr "Añadir un nuevo grupo de red."
+
+msgid "Add a new permission."
+msgstr "Añadir un nuevo permiso."
+
+msgid "Add a new privilege."
+msgstr "Añadir un nuevo privilegio."
 
 msgid ""
 "Add an attribute/value pair. Format is attr=value. The attribute\n"
@@ -968,11 +1032,20 @@ msgstr "Agregar miembro a un grupo."
 msgid "Add members to a hostgroup."
 msgstr "Añadir miembros a un grupo de host."
 
+msgid "Add members to a netgroup."
+msgstr "Añadir miembros a un grupo de red."
+
+msgid "Add members to a privilege."
+msgstr "Añadir miembros a un privilegio."
+
 msgid "Add members to an HBAC service group."
 msgstr "Añadir miembros a un grupo de servicio HBAC."
 
 msgid "Add new DNS resource record."
 msgstr "Añadir nuevo registro de recurso DNS."
+
+msgid "Add permissions to a privilege."
+msgstr "Añadir permisos a un privilegio."
 
 msgid "Add services to an HBAC rule."
 msgstr "Añadir servicios a una regla HBAC."
@@ -1101,6 +1174,13 @@ msgstr "Cualquiera"
 
 msgid "Apply ACI to your own entry (self)"
 msgstr "Aplique ACI a su propia entrada (usted)"
+
+msgid ""
+"Are you sure you want to ${action} the user?<br/>The change will take effect "
+"immediately."
+msgstr ""
+"¿Está seguro que desea ${action} el usuario?<br/>El cambio tendrá efecto "
+"inmediatamente."
 
 msgid "Are you sure you want to delete selected entries?"
 msgstr "¿Está seguro que desea eliminar las entradas seleccionadas?"
@@ -1277,6 +1357,9 @@ msgstr "Certificado almacenado en el archivo '%(file)s'"
 msgid "Certificate subject base is: %s\n"
 msgstr "Asunto de certificado es:%s\n"
 
+msgid "Certificates"
+msgstr "Certificados"
+
 msgid "Cessation of Operation"
 msgstr "Cese de operaciones"
 
@@ -1296,6 +1379,9 @@ msgstr "Ciudad"
 msgid "Class"
 msgstr "Clase"
 
+msgid "Click to ${action}"
+msgstr "Pulse para ${action}"
+
 msgid "Client is not configured. Run ipa-client-install."
 msgstr "El cliente no está configurado. Ejecutar la API de cliente a instalar."
 
@@ -1310,6 +1396,9 @@ msgstr "Cerrar"
 #, c-format
 msgid "Closing keytab failed\n"
 msgstr "Cierre de tabla de claves falló\n"
+
+msgid "Collapse All"
+msgstr "Cerrar Todo"
 
 msgid "Comma separated encryption types list"
 msgstr "Lista de tipos de cifrado separados por coma"
@@ -1341,8 +1430,17 @@ msgstr "Condiciones que no pueden ser eliminadas"
 msgid "Configuration"
 msgstr "Configuración"
 
+msgid "Confirmation"
+msgstr "Confirmación "
+
 msgid "Consecutive failures before lockout"
 msgstr "Fallos consecutivos antes del bloqueo"
+
+msgid "Consume"
+msgstr "Consumir"
+
+msgid "Consume Entitlement"
+msgstr "Consumir Derecho"
 
 msgid "Consume an entitlement."
 msgstr "Consumir un derecho."
@@ -1359,6 +1457,9 @@ msgstr "Configuración de contactos"
 
 msgid "Contact this specific KDC Server"
 msgstr "Contactar este servidor KDC específico"
+
+msgid "Continue"
+msgstr "Continuar"
 
 msgid "Continuous mode: Don't stop on errors."
 msgstr "Modo continuo: No se detenga en los errores."
@@ -1409,6 +1510,12 @@ msgstr "Los permisos de credenciales de caché son incorrectos"
 msgid "Current DNS record contents:\n"
 msgstr "Contenidos actuales del registro DNS:\n"
 
+msgid "Current Password"
+msgstr "Contraseña Actual"
+
+msgid "Current password is required"
+msgstr "Se necesita contraseña actual"
+
 msgid "DN to bind as if not using kerberos"
 msgstr "DN a vincular como si no usara kerberos"
 
@@ -1435,6 +1542,9 @@ msgstr "Clase DNS"
 
 msgid "DNS is not configured"
 msgstr "DNS no está configurado"
+
+msgid "DNS record was deleted because it contained no data."
+msgstr "Registro DNS fue borrado porque no contenía datos."
 
 msgid "DNS resource record"
 msgstr "Registro de recursos DNS"
@@ -1516,11 +1626,23 @@ msgstr "La eliminación de clave, unprovision"
 msgid "Delete a delegation."
 msgstr "Borrar una delegación."
 
+msgid "Delete a group password policy."
+msgstr "Borrar un grupo de política de contraseña."
+
 msgid "Delete a host."
 msgstr "Borrar un host."
 
 msgid "Delete a hostgroup."
 msgstr "Borrar un grupo de host."
+
+msgid "Delete a netgroup."
+msgstr "Borrar un grupo de red."
+
+msgid "Delete a permission."
+msgstr "Borrar un permiso."
+
+msgid "Delete a privilege."
+msgstr "Borrar un privilegio."
 
 msgid "Delete all associated records"
 msgstr "Eliminar todos los registros asociados"
@@ -1656,6 +1778,9 @@ msgstr "Ha sido desasociado el grupo \"%(value)s\" del usuario \"%(value)s\""
 msgid "Dict of I18N messages"
 msgstr "Dictado de los mensajes regionales"
 
+msgid "Dict of JSON encoded IPA Commands"
+msgstr "Dict de JSON comandos codificados IPA"
+
 msgid "Dict of JSON encoded IPA Methods"
 msgstr "Métodos IPA  codificados de Dict de JSON "
 
@@ -1664,6 +1789,12 @@ msgstr "El dict de JSON ha codificado objetos IPA"
 
 msgid "Dictionary mapping variable name to value"
 msgstr "Nombre de la variable de mapeo de dicionario a valorizar "
+
+msgid "Direct"
+msgstr "Directo"
+
+msgid "Direct Membership"
+msgstr "Afiliación Directa"
 
 msgid "Disable DNS Zone."
 msgstr "Deshabilitar Zona DNS."
@@ -1729,6 +1860,15 @@ msgstr "Mostrar información sobre un grupo de host."
 msgid "Display information about a named group."
 msgstr "Mostrar información sobre un grupo denominado."
 
+msgid "Display information about a netgroup."
+msgstr "Mostrar información sobre un grupo de red."
+
+msgid "Display information about a permission."
+msgstr "Mostrar información sobre un permiso."
+
+msgid "Display information about a privilege."
+msgstr "Mostrar información sobre un privilegio."
+
 msgid "Display information about an HBAC service group."
 msgstr "Mostrar información sobre un grupo de servicio HBAC."
 
@@ -1745,6 +1885,9 @@ msgstr ""
 "Mostrar los derechos de acceso de esta entrada (requiere --all). Consulte la "
 "página man de IPA para más detalles."
 
+msgid "Display the current Kerberos ticket policy."
+msgstr "Mostrar la actual entrada de política Kerberos."
+
 msgid "Display the properties of an HBAC rule."
 msgstr "Mostrar las propiedades de una regla HBAC."
 
@@ -1753,6 +1896,12 @@ msgstr "Muestra el registro del usuario para el principal de Kerberos actual"
 
 msgid "Don't create user private group"
 msgstr "No crear grupo privado de usuario"
+
+msgid "Download"
+msgstr "Descarga"
+
+msgid "Download Certificate"
+msgstr "Certificado de Descarga"
 
 msgid "Dynamic update"
 msgstr "Actualización dinámica"
@@ -1771,6 +1920,9 @@ msgstr "Habilitar una regla HBAC."
 
 msgid "Enable migration mode"
 msgstr "Habilitar modo migración"
+
+msgid "Enable or Disable Anonymous PKINIT."
+msgstr "Habilitar o Deshabilitar PKINIT Anónimo."
 
 msgid "Enabled"
 msgstr "Habilitado"
@@ -1809,6 +1961,9 @@ msgstr "Inscripción UUID (no implementado)"
 msgid "Enter %(label)s again to verify: "
 msgstr "Ingrese %(label)s nuevamente para verificar: "
 
+msgid "Enter the Base64-encoded entitlement certificate below:"
+msgstr "Introduzca el derecho codificado Base64 certificado abajo:"
+
 msgid "Entitlement"
 msgstr "Derecho"
 
@@ -1845,6 +2000,9 @@ msgstr "Error de almacenamiento de credenciales en cache de credenciales:%s.\n"
 
 msgid "Exclusive Regex"
 msgstr "Regex exclusivo"
+
+msgid "Expand All"
+msgstr "Expandir Todo"
 
 msgid "Expires On"
 msgstr "Expira el"
@@ -1939,6 +2097,9 @@ msgstr ""
 msgid "Failure reset interval"
 msgstr "Falló reajuste de intervalo"
 
+msgid "False"
+msgstr "Falso"
+
 msgid "False if migration mode was disabled."
 msgstr "\"False\", si el modo de migración fue inhabilitado."
 
@@ -2026,6 +2187,9 @@ msgstr "El grupo '%s' no existe"
 msgid "Group ID Number"
 msgstr "Número de Identificación de Grupo"
 
+msgid "Group Options"
+msgstr "Opciones de Grupo"
+
 msgid "Group Settings"
 msgstr "Configuración del grupo"
 
@@ -2075,6 +2239,9 @@ msgstr "Grupos de Servicios HBAC"
 msgid "HBAC Services"
 msgstr "Servicios HBAC"
 
+msgid "HBAC Test"
+msgstr "Prueba HBAC"
+
 msgid "HBAC rule"
 msgstr "Regla HBAC"
 
@@ -2099,8 +2266,14 @@ msgstr "Grupos de servicio HBAC"
 msgid "HBAC services"
 msgstr "Servicios HBAC"
 
+msgid "HTTP Error"
+msgstr "Error HTTP"
+
 msgid "Hardware platform of the host (e.g. Lenovo T61)"
 msgstr "Plataforma de hardware del equipo (p. ej. Lenovo T61)"
+
+msgid "Hide details"
+msgstr "Esconder detalles"
 
 msgid "Hide details which rules are matched, not matched, or invalid"
 msgstr ""
@@ -2199,6 +2372,9 @@ msgstr "Dirección IP"
 msgid "IP network to create reverse zone name from"
 msgstr "Red IP para crear un nombre de zona reversa desde"
 
+msgid "IPA Error"
+msgstr "Error IPA"
+
 msgid "IPA Server"
 msgstr "Servidor IPA"
 
@@ -2214,11 +2390,35 @@ msgstr "Identidad"
 msgid "Identity Settings"
 msgstr "Configuración de identidad"
 
+msgid "Ignore group attribute"
+msgstr "Ignorar atributo de grupo"
+
+msgid "Ignore group object class"
+msgstr "Ignorar clase de objeto grupo"
+
+msgid "Ignore user attribute"
+msgstr "Ignorar atributo de usuario"
+
+msgid "Ignore user object class"
+msgstr "Ignorar clase de objeto usuario"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Import Certificate"
+msgstr "Importar Certificado"
+
 msgid "Import an entitlement certificate."
 msgstr "Importar un certificado de derecho."
 
 msgid "Import automount files for a specific location."
 msgstr "Importar ficheros de automontaje para una localización específica."
+
+msgid "Include Disabled"
+msgstr "Include Deshabilitado"
+
+msgid "Include Enabled"
+msgstr "Include Habilitado"
 
 msgid "Include all disabled IPA rules into test"
 msgstr "Incluir todas las reglas IPA deshabilitadas en la prueba"
@@ -2232,6 +2432,9 @@ msgstr "Regex inclusivo"
 #, c-format
 msgid "Incorrect password.\n"
 msgstr "Contraseña incorrecta.\n"
+
+msgid "Indirect"
+msgstr "Indirecto"
 
 msgid "Indirect Member HBAC service"
 msgstr "Servicio HBAC de miembro indirecto"
@@ -2262,12 +2465,21 @@ msgstr ""
 msgid "Indirect Member users"
 msgstr "Usuarios indirectos miembros"
 
+msgid "Indirect Membership"
+msgstr "Afiliación Indirecta"
+
 msgid "Initials"
 msgstr "Iniciales"
+
+msgid "Input form contains invalid or missing values."
+msgstr "La entrada contiene valores no válidos o desaparecidos."
 
 #, python-format
 msgid "Insufficient access: %(info)s"
 msgstr "Acceso insuficiente: %(info)s"
+
+msgid "Internal Error"
+msgstr "Error Interno"
 
 #, python-format
 msgid "Invalid JSON-RPC request: %(error)s"
@@ -2313,6 +2525,9 @@ msgid "Kerberos Credential Cache not found. Do you have a Kerberos Ticket?\n"
 msgstr ""
 "No se encontró la cache de credencial kerberos. ¿Tiene un tiquete de "
 "kerberos?\n"
+
+msgid "Kerberos Key"
+msgstr "Clave Kerberos"
 
 msgid "Kerberos Key Not Present"
 msgstr "No hay clave Kerberos Presente"
@@ -2406,6 +2621,9 @@ msgstr "Lista de objetos migrados; clasificados por tipo."
 msgid "Lists of objects that could not be migrated; categorized by type."
 msgstr "Lista de objetos que no pueden ser migrados; categorizados por tipo."
 
+msgid "Loading..."
+msgstr "Cargando…"
+
 msgid "Locality"
 msgstr "Localidad"
 
@@ -2427,6 +2645,9 @@ msgstr "Huella digital de MD5"
 msgid "Mailing Address"
 msgstr "Dirección de correo"
 
+msgid "Malformed DN"
+msgstr "DN Malformado"
+
 msgid "Manage password policy for specific group"
 msgstr "Administra la política de contraseña de un grupo específico"
 
@@ -2439,8 +2660,14 @@ msgstr "Manager"
 msgid "Map"
 msgstr "Mapa"
 
+msgid "Map Type"
+msgstr "Tipo de Mapa"
+
 msgid "Master file"
 msgstr "    Archivo maestro"
+
+msgid "Matched"
+msgstr "Emparejado"
 
 msgid "Matched rules"
 msgstr "Reglas coincidentes"
@@ -2483,6 +2710,9 @@ msgstr "Duración máxima del ticket (en segundos)"
 
 msgid "Maximum username length"
 msgstr "Largo máximo para nombre de usuario"
+
+msgid "Maximum value is ${value}"
+msgstr "Valor máximo es ${value}"
 
 msgid "May not be empty"
 msgstr "Puede no estar vacío"
@@ -2599,10 +2829,16 @@ msgstr "Miembros que no han podido ser añadidos"
 msgid "Members that could not be removed"
 msgstr "Miembros que no han podido ser eliminados"
 
+msgid "Migrate users and groups from DS to IPA."
+msgstr "Migrar usuarios y grupos de DS a IPA."
+
 msgid "Migration mode is disabled. Use 'ipa config-mod' to enable it."
 msgstr ""
 "El modo de migración se encuentra inhabilitado. Utilice 'ipa config-mod' "
 "para habilitarlo."
+
+msgid "Migration of LDAP search reference is not supported."
+msgstr "Migración de búsqueda de referencia LDAP no está soportada."
 
 msgid "Min length"
 msgstr "Longitud mínima"
@@ -2618,6 +2854,9 @@ msgstr "Cantidad mínima de clases de caracteres"
 
 msgid "Minimum password lifetime (in hours)"
 msgstr "Vida mínima de la contraseña (en horas)"
+
+msgid "Minimum value is ${value}"
+msgstr "Valor mínimo es ${value}"
 
 msgid "Misc. Information"
 msgstr "Información diversa"
@@ -2704,6 +2943,9 @@ msgstr "Ha sido modificado el usuario \"%(value)s\""
 msgid "Modify DNS zone (SOA record)."
 msgstr "Modificar zona DNS (registro SOA)."
 
+msgid "Modify Kerberos ticket policy."
+msgstr "Modificar entrada de política Kerberos."
+
 msgid "Modify a DNS resource record."
 msgstr "Modificar un registro de recurso DNS."
 
@@ -2715,6 +2957,15 @@ msgstr "Modificar un grupo."
 
 msgid "Modify a hostgroup."
 msgstr "Modificar un grupo de host."
+
+msgid "Modify a netgroup."
+msgstr "Modificar un grupo de red."
+
+msgid "Modify a permission."
+msgstr "Modificar un permiso."
+
+msgid "Modify a privilege."
+msgstr "Modificar un privilegio."
 
 msgid "Modify an HBAC rule."
 msgstr "Modificar una regla HBAC."
@@ -2750,6 +3001,9 @@ msgstr "Información de montaje"
 
 msgid "Mount point"
 msgstr "Punto de montaje"
+
+msgid "Must be an integer"
+msgstr "Debe ser un entero"
 
 msgid "NIS domain name"
 msgstr "Nombre del dominio NIS"
@@ -2787,6 +3041,9 @@ msgstr ""
 msgid "Nested Methods to execute"
 msgstr "Métodos anidados para ejecutar"
 
+msgid "Netgroup"
+msgstr "Grupo de red"
+
 msgid "Netgroup Settings"
 msgstr "Configuración de Netgroup"
 
@@ -2811,14 +3068,26 @@ msgstr "Nueva Contraseña"
 msgid "New Principal Password"
 msgstr "Nueva contraseña principal"
 
+msgid "New Test"
+msgstr "Nueva Prueba"
+
 msgid "New mount information"
 msgstr "Nueva información de montaje"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "No Certificate."
+msgstr "Sin Certificado."
 
 msgid "No Valid Certificate"
 msgstr "Certificado no válido"
 
 msgid "No credentials cache found"
 msgstr "No se han encontrado credenciales de cache"
+
+msgid "No entries."
+msgstr "Sin entradas."
 
 msgid "No file to read"
 msgstr "No existe el fichero para leer"
@@ -2833,6 +3102,9 @@ msgstr "Ninguna opción para  borrar un registro en concreto especificado."
 #, c-format
 msgid "No permission to join this host to the IPA domain.\n"
 msgstr "No tiene permiso para vincular este equipo al dominio de la API.\n"
+
+msgid "No response"
+msgstr "Sin respuesta"
 
 #, c-format
 msgid "No system preferred enctypes ?!\n"
@@ -2909,6 +3181,15 @@ msgstr "Aceptar"
 msgid "One of group, permission or self is required"
 msgstr "Uno de grupo, permiso o self es necesario"
 
+msgid "One-Time-Password"
+msgstr "Contraseña de Una Vez"
+
+msgid "One-Time-Password Not Present"
+msgstr "Contraseña de Una Vez No Presente"
+
+msgid "One-Time-Password Present"
+msgstr "Contraseña de Una Vez Presente"
+
 msgid "Only one value is allowed"
 msgstr "Sólo se permite un valor"
 
@@ -2922,6 +3203,12 @@ msgstr "Sistema operativo"
 msgid "Operation failed! %s\n"
 msgstr "¡Falló operación! %s\n"
 
+msgid "Operations Error"
+msgstr "Error en Operaciones"
+
+msgid "Options"
+msgstr "Opciones"
+
 msgid "Org. Unit"
 msgstr "Unidad. org"
 
@@ -2930,6 +3217,9 @@ msgstr "Organización"
 
 msgid "Organizational Unit"
 msgstr "Unidad organizativa"
+
+msgid "Other Record Types"
+msgstr "Otros Tipos de Registro"
 
 #, c-format
 msgid "Out of Memory!\n"
@@ -2961,6 +3251,9 @@ msgstr "Nombre de archivo de salida"
 msgid "Output only on errors"
 msgstr "Solamente salida sobre errores"
 
+msgid "Overwrite GID"
+msgstr "Sobrescribir GID"
+
 msgid "PKINIT"
 msgstr ""
 "    Los certificados de entrada deben estar codificados en DER. \n"
@@ -2968,6 +3261,9 @@ msgstr ""
 "solamente las variables de \n"
 "    Unicode  se normalizan.\n"
 "    "
+
+msgid "Page"
+msgstr "Página"
 
 msgid "Pager Number"
 msgstr "Número de página"
@@ -2980,6 +3276,9 @@ msgstr "Contraseña"
 
 msgid "Password Expiration Notification (days)"
 msgstr "Notificación de Expiración de Contraseña (días)"
+
+msgid "Password Policies"
+msgstr "Políticas de Contraseña"
 
 msgid "Password Policy"
 msgstr "Directiva de contraseñas"
@@ -3053,6 +3352,9 @@ msgstr "Permisos"
 msgid "Permitted Encryption Types"
 msgstr "Tipos de cifrado permitidos"
 
+msgid "Ping a remote server."
+msgstr "Hacer ping a un servidor remoto."
+
 msgid "Platform"
 msgstr "Plataforma"
 
@@ -3065,6 +3367,9 @@ msgid ""
 msgstr ""
 "Prefijo utilizado para distinguir los tipos de ACI (permiso,delegación, "
 "autoservicio, ninguno)"
+
+msgid "Prev"
+msgstr "Anterior"
 
 msgid "Primary key only"
 msgstr "Sólo clave primaria"
@@ -3095,6 +3400,9 @@ msgstr "Prioridad"
 msgid "Priority of the policy (higher number means lower priority"
 msgstr ""
 "Prioridad de la política (a mayor número corresponde una política menor)"
+
+msgid "Privilege"
+msgstr "Privilegio"
 
 msgid "Privilege Settings"
 msgstr "Configuración de privilegios"
@@ -3159,11 +3467,20 @@ msgstr "Motivo de la revocación"
 msgid "Reason for revoking the certificate (0-10)"
 msgstr "Motivo por el cual el certificado ha sido revocado (0-10)"
 
+msgid "Record Type"
+msgstr "Tipo de Registro"
+
 msgid "Record name"
 msgstr "Nombre de registro"
 
 msgid "Records for DNS Zone"
 msgstr "Los registros para la zona DNS"
+
+msgid "Redirection"
+msgstr "Redirección "
+
+msgid "Register"
+msgstr "Registrar"
 
 msgid "Register to the entitlement system."
 msgstr "Registro al sistema de derecho."
@@ -3171,11 +3488,35 @@ msgstr "Registro al sistema de derecho."
 msgid "Registered to entitlement server."
 msgstr "Registrado en el servidor de derechos."
 
+msgid "Registration"
+msgstr "Registro"
+
 msgid "Registration password"
 msgstr "Contraseña de registro"
 
+msgid "Remove ${entity}"
+msgstr "Quitar ${entity}"
+
+msgid "Remove ${entity} ${primary_key} from ${other_entity}"
+msgstr "Quitar ${entity} ${primary_key} de ${other_entity}"
+
+msgid "Remove ${other_entity} Managing ${entity} ${primary_key}"
+msgstr "Quitar ${other_entity} Gestionando ${entity} ${primary_key}"
+
 msgid "Remove ${other_entity} from ${entity} ${primary_key}"
 msgstr "Retirar ${other_entity} de ${entity} ${primary_key}"
+
+msgid "Remove Allow ${other_entity} from ${entity} ${primary_key}"
+msgstr "Quitar Permitir ${other_entity} de ${entity} ${primary_key}"
+
+msgid "Remove Deny ${other_entity} from ${entity} ${primary_key}"
+msgstr "Quitar Denegar ${other_entity} de ${entity} ${primary_key}"
+
+msgid "Remove RunAs ${other_entity} from ${entity} ${primary_key}"
+msgstr "Quitar RunAs ${other_entity} de ${entity} ${primary_key}"
+
+msgid "Remove RunAs Groups from ${entity} ${primary_key}"
+msgstr "Quitar Grupos RunAs de ${entity} ${primary_key}"
 
 msgid "Remove all principals in this realm"
 msgstr "Quite todos los principales en este ámbito"
@@ -3195,8 +3536,14 @@ msgstr "Eliminar miembro desde un grupo."
 msgid "Remove members from a hostgroup."
 msgstr "Borrar miembros de un grupo de host."
 
+msgid "Remove members from a netgroup."
+msgstr "Borrar miembros de un grupo de red."
+
 msgid "Remove members from an HBAC service group."
 msgstr "Borrar miembros de un grupo de servicio HBAC."
+
+msgid "Remove permissions from a privilege."
+msgstr "Borrar permisos de un privilegio."
 
 msgid "Remove service and service groups from an HBAC rule."
 msgstr "Borrar servicio y grupos de servicio de una regla HBAC."
@@ -3236,8 +3583,20 @@ msgstr ""
 "El asunto solicitado \"%(request_subject)s\" no coincide con la forma "
 "\"%(subject_base)s\""
 
+msgid "Required field"
+msgstr "Campo requerido"
+
 msgid "Reset"
 msgstr "Resetear"
+
+msgid "Reset Kerberos ticket policy to the default values."
+msgstr "Reajustar la entrada de política Kerberos a los valores por defecto."
+
+msgid "Reset OTP"
+msgstr "Reajustar OTP"
+
+msgid "Reset One-Time-Password"
+msgstr "Reajustar Contraseña de Una Vez"
 
 msgid "Reset Password"
 msgstr "Restablecer contraseña"
@@ -3335,11 +3694,17 @@ msgstr "Tipo de regla"
 msgid "Rule type (allow)"
 msgstr "Tipo de regla (permitir)"
 
+msgid "Rules"
+msgstr "Reglas"
+
 msgid "Rules to test. If not specified, --enabled is assumed"
 msgstr "Reglas para probar. Si no se especifica, - se asume que habilitado"
 
 msgid "Run Commands"
 msgstr "Ejecutar comandos"
+
+msgid "Run Test"
+msgstr "Ejecutar Prueba"
 
 msgid "RunAs External Group"
 msgstr "Grupo externo RunAs"
@@ -3392,6 +3757,9 @@ msgstr "Tiempo para abandonar SOA"
 msgid "Search"
 msgstr "Búsqueda"
 
+msgid "Search Options"
+msgstr "Opciones de Búsqueda"
+
 msgid "Search for DNS resources."
 msgstr "Buscar recursos DNS."
 
@@ -3403,6 +3771,9 @@ msgstr "Buscar reglas HBAC."
 
 msgid "Search for HBAC services."
 msgstr "Buscar un servicio HBAC."
+
+msgid "Search for a netgroup."
+msgstr "Buscar un grupo de red."
 
 msgid "Search for an HBAC service group."
 msgstr "Buscar un grupo de servicio HBAC."
@@ -3438,6 +3809,12 @@ msgstr "Buscar hosts."
 msgid "Search for ipaCertificateSubjectBase failed with error %d"
 msgstr "Búsqueda de ipaCertificateSubjectBase falló con error %d"
 
+msgid "Search for permissions."
+msgstr "Buscar permisos."
+
+msgid "Search for privileges."
+msgstr "Buscar privilegios."
+
 msgid "Search size limit"
 msgstr "Límite del tamaño de la búsqueda"
 
@@ -3446,6 +3823,9 @@ msgstr "Buscar límite de tiempo"
 
 msgid "Select All"
 msgstr " Seleccionar todo"
+
+msgid "Select entries to be removed."
+msgstr "Las entradas seleccionadas han sido quitadas."
 
 msgid "Self"
 msgstr "Self"
@@ -3515,6 +3895,12 @@ msgstr "Sevicios HBAC"
 msgid "Set OTP"
 msgstr "Establecer OTP"
 
+msgid "Set One-Time-Password"
+msgstr "Fijar Contraseña de Una Vez"
+
+msgid "Set a user's password."
+msgstr "Fijar una contraseña de usuario."
+
 msgid ""
 "Set an attribute to a name/value pair. Format is attr=value.\n"
 "For multi-valued attributes, the command replaces the values already present."
@@ -3526,11 +3912,26 @@ msgstr ""
 msgid "Settings"
 msgstr "Configuración"
 
+msgid "Show Results"
+msgstr "Mostrar Resultados"
+
+msgid "Show all loaded plugins."
+msgstr "Mostrar todos los plugins cargados."
+
+msgid "Show details"
+msgstr "Mostrar detalles"
+
+msgid "Show environment variables."
+msgstr "Mostrar variables de entorno."
+
 msgid "Show the current configuration."
 msgstr "Muestra la configuración actual"
 
 msgid "Show the list of permitted encryption types and exit"
 msgstr "Mostrar la lista de los tipos cifrados permitidos y salir"
+
+msgid "Showing ${start} to ${end} of ${total} entries."
+msgstr "Mostrando ${start} a ${end} de ${total} entradas."
 
 #, c-format
 msgid "Simple bind failed\n"
@@ -3541,6 +3942,12 @@ msgstr "Simular el uso de controles de acceso basados en Host"
 
 msgid "Size Limit"
 msgstr "Tamaño límite"
+
+msgid "Some entries were not deleted"
+msgstr "Algunas entradas no fueron borradas"
+
+msgid "Some operations failed."
+msgstr "Algunas operaciones fallaron."
 
 msgid "Specified Commands and Groups"
 msgstr "Comandos especificados y grupos"
@@ -3559,6 +3966,12 @@ msgstr "Usuarios y grupos específicos"
 
 msgid "Specifies where to store keytab information."
 msgstr "Especifica dónde almacenar la información de tabla de claves."
+
+msgid "Specify external ${entity}"
+msgstr "Especificar ${entity} externa"
+
+msgid "Standard Record Types"
+msgstr "Tipos de Registro Estándar"
 
 msgid "Start"
 msgstr "Inicio"
@@ -3771,6 +4184,9 @@ msgstr "Tema comandos:"
 msgid "Total number of variables env (>= count)"
 msgstr "Cantidad total de variables env (>= count)"
 
+msgid "True"
+msgstr "Verdad"
+
 msgid "Type"
 msgstr "Tipo"
 
@@ -3781,6 +4197,9 @@ msgstr ""
 
 msgid "UID"
 msgstr "UID"
+
+msgid "URL"
+msgstr "URL"
 
 msgid "UUID"
 msgstr "UUID"
@@ -3870,9 +4289,15 @@ msgstr "Cancelación falló.\n"
 msgid "Unenrollment successful.\n"
 msgstr "Cancelación de registro exitoso.\n"
 
+msgid "Unknown Error"
+msgstr "Error Desconocido"
+
 #, python-format
 msgid "Unlocked account \"%(value)s\""
 msgstr "Cuenta desbloqueada \" %(value)s \""
+
+msgid "Unmatched"
+msgstr "Desemparejado"
 
 msgid "Unprovision"
 msgstr "Unprovision"
@@ -3885,6 +4310,9 @@ msgstr "Eliminar miembro desde un grupo."
 
 msgid "Unrevoked"
 msgstr "No revocado"
+
+msgid "Unsaved Changes"
+msgstr "Cambios No Guardados"
 
 msgid "Unselect All"
 msgstr "Anular selección"
@@ -3907,6 +4335,9 @@ msgstr "Grupos de usuarios"
 msgid "User ID Number (system will assign one if not provided)"
 msgstr ""
 "Número de ID de usuario (el sistema le asignará uno si no se indica ninguno)"
+
+msgid "User Options"
+msgstr "Opciones de Usuario"
 
 msgid "User category"
 msgstr "Categoría de usuario"
@@ -3953,8 +4384,14 @@ msgstr "Usuarios"
 msgid "Valid Certificate Present"
 msgstr "Presentar certificado válido"
 
+msgid "Validation error"
+msgstr "Error de validación"
+
 msgid "Validity"
 msgstr "Validez"
+
+msgid "Verify Password"
+msgstr "Verificar Contraseña"
 
 msgid "Verify Principal Password"
 msgstr "Verificar contraseña principal"
@@ -3975,11 +4412,21 @@ msgid ""
 msgstr ""
 "Advertencia: tipos salt no se aceptan con contraseñas aleatorias (ver opt.\n"
 
+msgid ""
+"When migrating a group already existing in IPA domain overwrite the group "
+"GID and report as success"
+msgstr ""
+"Cuando se migra un grupo que ya existe en el dominio IPA se sobrescribe el "
+"GID de grupo e informa como conseguido"
+
 msgid "Who"
 msgstr "¿Quién?"
 
 msgid "You must enroll a host in order to create a host service"
 msgstr "Debe registrar el equipo para poder generar un servicio de host"
+
+msgid "You will be redirected to DNS Zone."
+msgstr "Será redirigido a Zona DNS."
 
 msgid "ZIP"
 msgstr "Zona "
@@ -4182,6 +4629,14 @@ msgstr "grupo de host"
 msgid "host groups"
 msgstr "grupos de host"
 
+#, python-format
+msgid ""
+"hostgroup with name \"%s\" already exists. Hostgroups and netgroups share a "
+"common namespace"
+msgstr ""
+"grupo de host con nombre “%s” ya existe. Los grupos de nombres y los grupos "
+"de red comparten un espacio de nombre común"
+
 msgid "hostname"
 msgstr "nombre de host"
 
@@ -4204,6 +4659,9 @@ msgstr "¿Tiene ipa-getkeytab permisos errados?\n"
 #, c-format
 msgid "ipa-getkeytab not found\n"
 msgstr "ipa-getkeytab no se encuentra\n"
+
+msgid "kerberos ticket policy settings"
+msgstr "ajustes de la entrada de política kerberos"
 
 #, python-format
 msgid "key named %(key)s already exists"
@@ -4266,6 +4724,9 @@ msgstr "debe tener exactamente %(length)d caracteres"
 msgid "must match pattern \"%(pattern)s\""
 msgstr "debe coincidir con el modelo \"%(pattern)s"
 
+msgid "netgroup"
+msgstr "grupo de red"
+
 #, python-format
 msgid ""
 "netgroup with name \"%s\" already exists. Hostgroups and netgroups share a "
@@ -4273,6 +4734,9 @@ msgid ""
 msgstr ""
 "grupo de red con nombre “%s” ya existe. Los grupos de host y grupos de red "
 "comparten un espacio de nombre común"
+
+msgid "netgroups"
+msgstr "grupos de red"
 
 msgid "no modifications to be performed"
 msgstr "no existen modificaciones a ser realizadas"
@@ -4290,8 +4754,23 @@ msgstr "sin Memoria\n"
 msgid "password"
 msgstr "contraseña"
 
+msgid "password policies"
+msgstr "políticas de contraseña"
+
+msgid "password policy"
+msgstr "política de contraseña"
+
 msgid "password to use if not using kerberos"
 msgstr "Contraseña a usar si no usa kerberos"
+
+msgid "permission"
+msgstr "permiso"
+
+msgid "permissions"
+msgstr "permisos"
+
+msgid "pkinit"
+msgstr "pkinit"
 
 #, c-format
 msgid "principal not found\n"
@@ -4309,6 +4788,12 @@ msgid "priority must be a unique value (%(prio)d already used by %(gname)s)"
 msgstr ""
 "la prioridad debe ser un valor único (%(prio)d que ya esté siendo utilizado "
 "por %(gname)s)"
+
+msgid "privilege"
+msgstr "privilegio"
+
+msgid "privileges"
+msgstr "privilegios"
 
 #, c-format
 msgid "read error\n"
@@ -4329,6 +4814,9 @@ msgstr ""
 "si\n"
 "     no lo es.\n"
 "    Devolver el resultado si se trata de un autoservicio   de ACI."
+
+msgid "search for managed groups"
+msgstr "buscar grupos gestionados"
 
 msgid "search for private groups"
 msgstr "Búsqueda de grupos privados"
@@ -4360,6 +4848,12 @@ msgstr "tipo, filtro, subárbol y grupo de destino, se excluyen mutuamente"
 #, python-format
 msgid "unable to decode csr: %s"
 msgstr "no es posible decodificar csr: %s"
+
+msgid "undo"
+msgstr "deshacer"
+
+msgid "undo all"
+msgstr "deshacer todo"
 
 #, python-format
 msgid "unknown error %(code)d from %(server)s: %(error)s"
