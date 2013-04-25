@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-23 12:35+0000\n"
+"PO-Revision-Date: 2013-04-25 06:56+0000\n"
 "Last-Translator: vareli <ehespinosa@ya.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -702,6 +702,24 @@ msgstr[0] "Servicio HBAC %(count)d coincidente"
 msgstr[1] "Servicios HBAC %(count)d coincidentes"
 
 #, python-format
+msgid "%(count)d Sudo Command Group matched"
+msgid_plural "%(count)d Sudo Command Groups matched"
+msgstr[0] "%(count)d Grupo de Comando Sudo emparejado"
+msgstr[1] "%(count)d Grupos de Comando Sudo emparejados"
+
+#, python-format
+msgid "%(count)d Sudo Command matched"
+msgid_plural "%(count)d Sudo Commands matched"
+msgstr[0] "%(count)d Comando Sudo emparejado"
+msgstr[1] "%(count)d Comandos Sudo emparejados"
+
+#, python-format
+msgid "%(count)d Sudo Rule matched"
+msgid_plural "%(count)d Sudo Rules matched"
+msgstr[0] "%(count)d Regla Sudo emparejada"
+msgstr[1] "%(count)d Reglas Sudo emparejadas"
+
+#, python-format
 msgid "%(count)d automount key matched"
 msgid_plural "%(count)d automount keys matched"
 msgstr[0] "%(count)d clave de automontaje coincidente"
@@ -986,6 +1004,9 @@ msgstr "Añadir un nuevo grupo de servicio HBAC."
 msgid "Add a new HBAC service."
 msgstr "Añadir un nuevo servicio HBAC."
 
+msgid "Add a new IPA new service."
+msgstr "Añadir un nuevo servicio nuevo IPA."
+
 msgid "Add a new delegation."
 msgstr "Añadir una nueva delegación."
 
@@ -1007,6 +1028,12 @@ msgstr "Añadir un nuevo permiso."
 msgid "Add a new privilege."
 msgstr "Añadir un nuevo privilegio."
 
+msgid "Add a new role."
+msgstr "Añadir un nuevo rol."
+
+msgid "Add a new self-service permission."
+msgstr "Añadir un nuevo auto servicio de permiso."
+
 msgid ""
 "Add an attribute/value pair. Format is attr=value. The attribute\n"
 "must be part of the schema."
@@ -1023,8 +1050,20 @@ msgstr "Añadir y cerrar"
 msgid "Add and Edit"
 msgstr "Agregar y Editar"
 
+msgid "Add commands and sudo command groups affected by Sudo Rule."
+msgstr "Añadir comandos y grupos de comando sudo afectados por Regla Sudo."
+
+msgid "Add hosts and hostgroups affected by Sudo Rule."
+msgstr "Añadir hosts y grupos de hosts afectados por Regla Sudo."
+
 msgid "Add hosts that can manage this host."
 msgstr "Añadir hosts que pueda manejar este host."
+
+msgid "Add hosts that can manage this service."
+msgstr "Añadir hosts que pueden gestionar este servicio."
+
+msgid "Add members to Sudo Command Group."
+msgstr "Añadir miembros a Grupo de Comando Sudo."
 
 msgid "Add members to a group."
 msgstr "Agregar miembro a un grupo."
@@ -1038,6 +1077,9 @@ msgstr "Añadir miembros a un grupo de red."
 msgid "Add members to a privilege."
 msgstr "Añadir miembros a un privilegio."
 
+msgid "Add members to a role."
+msgstr "Añadir miembros a un rol."
+
 msgid "Add members to an HBAC service group."
 msgstr "Añadir miembros a un grupo de servicio HBAC."
 
@@ -1047,6 +1089,9 @@ msgstr "Añadir nuevo registro de recurso DNS."
 msgid "Add permissions to a privilege."
 msgstr "Añadir permisos a un privilegio."
 
+msgid "Add privileges to a role."
+msgstr "Añadir privilegios a un rol."
+
 msgid "Add services to an HBAC rule."
 msgstr "Añadir servicios a una regla HBAC."
 
@@ -1055,6 +1100,12 @@ msgstr "Añadir hosts objetivos y grupos de host a una regla HBAC."
 
 msgid "Add the host to DNS with this IP address"
 msgstr "Agregar el host de DNS con esta dirección IP"
+
+msgid "Add users and groups affected by Sudo Rule."
+msgstr "Añadir usuarios y grupos afectados por Regla Sudo."
+
+msgid "Add users and groups for Sudo to execute as."
+msgstr "Añadir usuarios y grupos para Sudo a ejecutar como."
 
 msgid "Add users and groups to an HBAC rule."
 msgstr "Añadir usuarios y grupos a una regla HBAC."
@@ -1070,6 +1121,18 @@ msgstr "Servicio de HBAC \"%(value)s\" añadido"
 #, python-format
 msgid "Added HBAC service group \"%(value)s\""
 msgstr "Agregado servicio de grupo HBAC \"%(value)s\""
+
+#, python-format
+msgid "Added Sudo Command \"%(value)s\""
+msgstr "Añadido Comando Sudo “%(value)s”"
+
+#, python-format
+msgid "Added Sudo Command Group \"%(value)s\""
+msgstr "Añadido Grupo de Comando Sudo “%(value)s”"
+
+#, python-format
+msgid "Added Sudo Rule \"%(value)s\""
+msgstr "Añadida Regla Sudo “%(value)s”"
 
 #, python-format
 msgid "Added automember rule \"%(value)s\""
@@ -1418,6 +1481,9 @@ msgstr "El comando no se ha implementado"
 msgid "Commands"
 msgstr "Comandos"
 
+msgid "Commands for controlling sudo configuration"
+msgstr "Comandos para controlar la configuración sudo"
+
 msgid "Common Name"
 msgstr "Nombre común"
 
@@ -1499,6 +1565,15 @@ msgstr "  Crear como un grupo no POSIX"
 
 msgid "Create new DNS zone (SOA record)."
 msgstr "Crear nueva zona DNS (registro SOA)."
+
+msgid "Create new Sudo Command Group."
+msgstr "Crear un nuevo Grupo de Comando Sudo."
+
+msgid "Create new Sudo Command."
+msgstr "Crear un nuevo Comando Sudo."
+
+msgid "Create new Sudo Rule."
+msgstr "Crear nueva Regla Sudo."
 
 #, python-format
 msgid "Created ACI \"%(value)s\""
@@ -1623,6 +1698,15 @@ msgstr "Borrar zona DNS (registro SOA)."
 msgid "Delete Key, Unprovision"
 msgstr "La eliminación de clave, unprovision"
 
+msgid "Delete Sudo Command Group."
+msgstr "Borrado Grupo de Comando Sudo."
+
+msgid "Delete Sudo Command."
+msgstr "Borrar Comando Sudo."
+
+msgid "Delete Sudo Rule."
+msgstr "Borrar Regla Sudo."
+
 msgid "Delete a delegation."
 msgstr "Borrar una delegación."
 
@@ -1644,6 +1728,12 @@ msgstr "Borrar un permiso."
 msgid "Delete a privilege."
 msgstr "Borrar un privilegio."
 
+msgid "Delete a role."
+msgstr "Borrar un rol."
+
+msgid "Delete a self-service permission."
+msgstr "Borrar un auto servicio de permiso."
+
 msgid "Delete all associated records"
 msgstr "Eliminar todos los registros asociados"
 
@@ -1655,6 +1745,9 @@ msgstr "Borrar una regla HBAC."
 
 msgid "Delete an HBAC service group."
 msgstr "Borrar un grupo de servicio HBAC."
+
+msgid "Delete an IPA service."
+msgstr "Borrar un servicio IPA."
 
 msgid ""
 "Delete an attribute/value pair. The option will be evaluated\n"
@@ -1693,6 +1786,18 @@ msgstr "Suprimido el servicio HBAC \"%(value)s\""
 #, python-format
 msgid "Deleted HBAC service group \"%(value)s\""
 msgstr "    Suprimido el servicio HBAC grupo \"%(value)s\""
+
+#, python-format
+msgid "Deleted Sudo Command \"%(value)s\""
+msgstr "Borrado Comando Sudo “%(value)s”"
+
+#, python-format
+msgid "Deleted Sudo Command Group \"%(value)s\""
+msgstr "Borrado Grupo de Comando Sudo “%(value)s”"
+
+#, python-format
+msgid "Deleted Sudo Rule \"%(value)s\""
+msgstr "Borrada Regla Sudo “%(value)s”"
 
 #, python-format
 msgid "Deleted automember rule \"%(value)s\""
@@ -1799,8 +1904,14 @@ msgstr "Afiliación Directa"
 msgid "Disable DNS Zone."
 msgstr "Deshabilitar Zona DNS."
 
+msgid "Disable a Sudo Rule."
+msgstr "Deshabilitar Regla Sudo."
+
 msgid "Disable an HBAC rule."
 msgstr "Deshabilitar una regla HBAC."
+
+msgid "Disable the Kerberos key and SSL certificate of a service."
+msgstr "Deshabilitar la clave Kerberos y el certificado SSL de un servicio."
 
 msgid "Disable the Kerberos key, SSL certificate and all services of a host."
 msgstr ""
@@ -1816,6 +1927,10 @@ msgid "Disabled HBAC rule \"%(value)s\""
 msgstr "\"%(value)s\" regla HBAC desactivada    "
 
 #, python-format
+msgid "Disabled Sudo Rule \"%s\""
+msgstr "Regla Sudo Deshabilitada “%s”"
+
+#, python-format
 msgid "Disabled host \"%(value)s\""
 msgstr "Host desactivado \"%(value)s\""
 
@@ -1829,6 +1944,15 @@ msgstr " \"%(value)s\" de cuenta de usuario desactivada"
 
 msgid "Display DNS resource."
 msgstr "Mostrar un recurso DNS."
+
+msgid "Display Sudo Command Group."
+msgstr "Mostrar Grupo de Comando Sudo."
+
+msgid "Display Sudo Command."
+msgstr "Mostrar Comando Sudo."
+
+msgid "Display Sudo Rule."
+msgstr "Mostrar Regla Sudo."
 
 msgid "Display an automount key."
 msgstr "Mostrar una clave de automontaje."
@@ -1869,11 +1993,23 @@ msgstr "Mostrar información sobre un permiso."
 msgid "Display information about a privilege."
 msgstr "Mostrar información sobre un privilegio."
 
+msgid "Display information about a role."
+msgstr "Mostrar información sobre un rol."
+
+msgid "Display information about a self-service permission."
+msgstr "Mostrar información sobre un auto servicio de permiso."
+
 msgid "Display information about an HBAC service group."
 msgstr "Mostrar información sobre un grupo de servicio HBAC."
 
 msgid "Display information about an HBAC service."
 msgstr "Mostrar información sobre un servicio HBAC."
+
+msgid "Display information about an IPA service."
+msgstr "Mostrar información sobre un servicio IPA."
+
+msgid "Display information about password policy."
+msgstr "Mostrar información sobre la política de contraseña."
 
 msgid "Display name"
 msgstr "Mostrar nombre"
@@ -1915,6 +2051,9 @@ msgstr "Información del Empleado"
 msgid "Enable DNS Zone."
 msgstr "Habilitar Zona DNS."
 
+msgid "Enable a Sudo Rule."
+msgstr "Habilitar Regla Sudo."
+
 msgid "Enable an HBAC rule."
 msgstr "Habilitar una regla HBAC."
 
@@ -1934,6 +2073,10 @@ msgstr "Zona DNS habilitada \" %(value)s \""
 #, python-format
 msgid "Enabled HBAC rule \"%(value)s\""
 msgstr "Habilitada regla HBAC \"%(value)s\""
+
+#, python-format
+msgid "Enabled Sudo Rule \"%s\""
+msgstr "Regla Sudo Habilitada “%s”"
 
 #, python-format
 msgid "Enabled user account \"%(value)s\""
@@ -2010,8 +2153,17 @@ msgstr "Expira el"
 msgid "External"
 msgstr "Externos"
 
+msgid "External Group the commands can run as (sudorule-find only)"
+msgstr "Grupo Externo los comandos pueden correr como (sudorule-find sólo)"
+
 msgid "External User"
 msgstr "De usuarios externos"
+
+msgid "External User the commands can run as (sudorule-find only)"
+msgstr "Usuario Externo los comandos pueden correr como (sudorule-find sólo)"
+
+msgid "External User the rule applies to (sudorule-find only)"
+msgstr "Usuario Externo la regla aplica a (sudorule-find sólo)"
 
 msgid "External host"
 msgstr "Equipo externo"
@@ -2220,6 +2372,9 @@ msgstr "Agrupamiento al cual se aplican las reglas"
 
 msgid "Groups"
 msgstr "Grupos"
+
+msgid "Groups of RunAs Users"
+msgstr "Grupos de Usuarios RunAs"
 
 msgid "HBAC Rule"
 msgstr "REgla HBAC"
@@ -2885,6 +3040,18 @@ msgid "Modified HBAC service group \"%(value)s\""
 msgstr "Servicio modificado HBAC grupo \"%(value)s\""
 
 #, python-format
+msgid "Modified Sudo Command \"%(value)s\""
+msgstr "Modificado Comando Sudo “%(value)s”"
+
+#, python-format
+msgid "Modified Sudo Command Group \"%(value)s\""
+msgstr "Modificado Grupo de Comando Sudo “%(value)s”"
+
+#, python-format
+msgid "Modified Sudo Rule \"%(value)s\""
+msgstr "Regla Sudo Modificada “%(value)s”"
+
+#, python-format
 msgid "Modified automember rule \"%(value)s\""
 msgstr "Modificada regla de automiembro \"%(value)s\""
 
@@ -2946,11 +3113,23 @@ msgstr "Modificar zona DNS (registro SOA)."
 msgid "Modify Kerberos ticket policy."
 msgstr "Modificar entrada de política Kerberos."
 
+msgid "Modify Sudo Command Group."
+msgstr "Modificar Grupo de Comando Sudo."
+
+msgid "Modify Sudo Command."
+msgstr "Modificar Comando Sudo."
+
+msgid "Modify Sudo Rule."
+msgstr "Modificar Regla Sudo."
+
 msgid "Modify a DNS resource record."
 msgstr "Modificar un registro de recurso DNS."
 
 msgid "Modify a delegation."
 msgstr "Modificar una delegación."
+
+msgid "Modify a group password policy."
+msgstr "Modificar un grupo de política de contraseña."
 
 msgid "Modify a group."
 msgstr "Modificar un grupo."
@@ -2967,6 +3146,12 @@ msgstr "Modificar un permiso."
 msgid "Modify a privilege."
 msgstr "Modificar un privilegio."
 
+msgid "Modify a role."
+msgstr "Modificar un rol."
+
+msgid "Modify a self-service permission."
+msgstr "Modificar un auto servicio de permiso."
+
 msgid "Modify an HBAC rule."
 msgstr "Modificar una regla HBAC."
 
@@ -2981,6 +3166,9 @@ msgstr "Modificar una clave de automontaje."
 
 msgid "Modify an automount map."
 msgstr "Modificar un mapa de automontaje"
+
+msgid "Modify an existing IPA service."
+msgstr "Modificar un servicio IPA existente."
 
 msgid "Modify configuration options."
 msgstr "Modificar opciones de configuración."
@@ -3521,14 +3709,26 @@ msgstr "Quitar Grupos RunAs de ${entity} ${primary_key}"
 msgid "Remove all principals in this realm"
 msgstr "Quite todos los principales en este ámbito"
 
+msgid "Remove commands and sudo command groups affected by Sudo Rule."
+msgstr "Quitar comandos y grupos de comando sudo afectados por Regla Sudo."
+
 msgid "Remove entries from DNS"
 msgstr "Eliminar entradas de DNS"
 
 msgid "Remove from CRL"
 msgstr "Borrar de CRL"
 
+msgid "Remove hosts and hostgroups affected by Sudo Rule."
+msgstr "Quitar hosts y grupos de hosts afectados por Regla Sudo."
+
 msgid "Remove hosts that can manage this host."
 msgstr "Borrar hosts que puede manejar este host."
+
+msgid "Remove hosts that can manage this service."
+msgstr "Borrar hosts que puedan gestionar este servicio."
+
+msgid "Remove members from Sudo Command Group."
+msgstr "Quitar miembros de un Grupo de Comando Sudo."
 
 msgid "Remove members from a group."
 msgstr "Eliminar miembro desde un grupo."
@@ -3539,17 +3739,29 @@ msgstr "Borrar miembros de un grupo de host."
 msgid "Remove members from a netgroup."
 msgstr "Borrar miembros de un grupo de red."
 
+msgid "Remove members from a role."
+msgstr "Borrar miembros de un rol."
+
 msgid "Remove members from an HBAC service group."
 msgstr "Borrar miembros de un grupo de servicio HBAC."
 
 msgid "Remove permissions from a privilege."
 msgstr "Borrar permisos de un privilegio."
 
+msgid "Remove privileges from a role."
+msgstr "Borrar privilegios de un rol."
+
 msgid "Remove service and service groups from an HBAC rule."
 msgstr "Borrar servicio y grupos de servicio de una regla HBAC."
 
 msgid "Remove target hosts and hostgroups from an HBAC rule."
 msgstr "Borrar hosts objetivos y grupos de host de una regla HBAC."
+
+msgid "Remove users and groups affected by Sudo Rule."
+msgstr "Quitar usuarios y grupos afectados por Regla Sudo."
+
+msgid "Remove users and groups for Sudo to execute as."
+msgstr "Quitar usuarios y grupos para Sudo a ejecutar como."
 
 msgid "Remove users and groups from an HBAC rule."
 msgstr "Borrar usuarios y grupos de una regla HBAC."
@@ -3706,11 +3918,38 @@ msgstr "Ejecutar comandos"
 msgid "Run Test"
 msgstr "Ejecutar Prueba"
 
+msgid "Run as a user"
+msgstr "Ejecutar como un usuario"
+
+msgid "Run as any user within a specified group"
+msgstr "Ejecutar como cualquier usuario dentro de un grupo especificado"
+
+msgid "Run with the gid of a specified POSIX group"
+msgstr "Ejecutar con la gid de un grupo POSIX especificado"
+
 msgid "RunAs External Group"
 msgstr "Grupo externo RunAs"
 
 msgid "RunAs External User"
 msgstr "RunAs de usuarios externos"
+
+msgid "RunAs Group category"
+msgstr "RunAs Grupo categoría"
+
+msgid "RunAs Group category the rule applies to"
+msgstr "RunAs Grupo categoría la regla aplica a"
+
+msgid "RunAs Groups"
+msgstr "Grupos RunAs"
+
+msgid "RunAs User category"
+msgstr "Categoría de Usuario RunAs"
+
+msgid "RunAs User category the rule applies to"
+msgstr "RunAs Usuario categoría la regla aplica a "
+
+msgid "RunAs Users"
+msgstr "RunAs Usuarios"
 
 msgid "SHA1 Fingerprint"
 msgstr "Huella digital SHA1"
@@ -3772,8 +4011,23 @@ msgstr "Buscar reglas HBAC."
 msgid "Search for HBAC services."
 msgstr "Buscar un servicio HBAC."
 
+msgid "Search for IPA services."
+msgstr "Buscar servicios IPA."
+
+msgid "Search for Sudo Command Groups."
+msgstr "Buscar Grupos de Comando Sudo."
+
+msgid "Search for Sudo Commands."
+msgstr "Buscar Comandos Sudo."
+
+msgid "Search for Sudo Rule."
+msgstr "Buscar Regla Sudo."
+
 msgid "Search for a netgroup."
 msgstr "Buscar un grupo de red."
+
+msgid "Search for a self-service permission."
+msgstr "Buscar un auto servicio de permiso."
 
 msgid "Search for an HBAC service group."
 msgstr "Buscar un grupo de servicio HBAC."
@@ -3796,6 +4050,9 @@ msgstr "Buscar cuentas de derecho."
 msgid "Search for forward zones only"
 msgstr "Buscar zonas de reenvío sólo"
 
+msgid "Search for group password policies."
+msgstr "Buscar grupo de políticas de contraseña."
+
 msgid "Search for groups."
 msgstr "Buscar grupos."
 
@@ -3815,6 +4072,9 @@ msgstr "Buscar permisos."
 msgid "Search for privileges."
 msgstr "Buscar privilegios."
 
+msgid "Search for roles."
+msgstr "Buscar roles."
+
 msgid "Search size limit"
 msgstr "Límite del tamaño de la búsqueda"
 
@@ -3829,6 +4089,9 @@ msgstr "Las entradas seleccionadas han sido quitadas."
 
 msgid "Self"
 msgstr "Self"
+
+msgid "Self Service Permission"
+msgstr "Auto Servicio de Permiso"
 
 msgid "Self Service Permissions"
 msgstr "Permisos de autoservicio"
@@ -4003,6 +4266,9 @@ msgstr "Subárbol para aplicar permisos"
 msgid "Sudo"
 msgstr "Sudo"
 
+msgid "Sudo Allow Command Groups"
+msgstr "Sudo Permitir Grupos de Comando"
+
 msgid "Sudo Allow Commands"
 msgstr "Comandos Allow de sudo"
 
@@ -4018,6 +4284,9 @@ msgstr "Grupos de comando sudo"
 msgid "Sudo Commands"
 msgstr "Comandos de sudo"
 
+msgid "Sudo Deny Command Groups"
+msgstr "Sudo Denegar Grupos de Comandos"
+
 msgid "Sudo Deny Commands"
 msgstr "Comandos Deny de sudo"
 
@@ -4026,6 +4295,9 @@ msgstr "Opción de sudo"
 
 msgid "Sudo Rule"
 msgstr "Regla Sudo"
+
+msgid "Sudo Rules"
+msgstr "Reglas Sudo"
 
 msgid "Superseded"
 msgstr "Obsoleta"
@@ -4495,6 +4767,9 @@ msgstr "puede tener a lo sumo %(maxlength)d caracteres"
 msgid "can be at most %(maxvalue)d"
 msgstr "puede ser como máximo %(maxvalue)d"
 
+msgid "cannot delete global password policy"
+msgstr "no puede borrar la Política global de contraseña"
+
 msgid "cannot obtain next serial number"
 msgstr "no es posible obtener el próximo número de serie"
 
@@ -4518,6 +4793,9 @@ msgstr "Cambiar a un grupo POSIX"
 #, c-format
 msgid "child exited with %d\n"
 msgstr "hijo terminó con %d\n"
+
+msgid "commands for controlling sudo configuration"
+msgstr "comandos para controlar la configuración sudo"
 
 msgid "configuration options"
 msgstr "opciones de configuración"
@@ -4815,6 +5093,12 @@ msgstr ""
 "     no lo es.\n"
 "    Devolver el resultado si se trata de un autoservicio   de ACI."
 
+msgid "role"
+msgstr "rol"
+
+msgid "roles"
+msgstr "roles"
+
 msgid "search for managed groups"
 msgstr "buscar grupos gestionados"
 
@@ -4832,11 +5116,44 @@ msgstr ""
 msgid "searchtimelimit must be -1 or > 1."
 msgstr "searchtimelimit debe ser -1 o&gt; 1."
 
+msgid "self service permission"
+msgstr "auto servicio de permiso"
+
+msgid "self service permissions"
+msgstr "auto servicio de permisos"
+
+msgid "service"
+msgstr "servicio"
+
+msgid "services"
+msgstr "servicios"
+
 msgid "skip reverse DNS detection"
 msgstr "Ignorar la detección inversa de DNS"
 
+msgid "sudo command"
+msgstr "comando sudo"
+
+msgid "sudo command group"
+msgstr "grupo de comando sudo"
+
+msgid "sudo command groups"
+msgstr "grupos de comando sudo"
+
+msgid "sudo commands"
+msgstr "comandos sudo"
+
+msgid "sudo rule"
+msgstr "regla sudo"
+
+msgid "sudo rules"
+msgstr "reglas sudo"
+
 msgid "the entry was deleted while being modified"
 msgstr "la entrada fue eliminada mientras estaba siendo modificada"
+
+msgid "this option has been deprecated."
+msgstr "esta opción ha quedado obsoleta."
 
 msgid "type of IPA object (user, group, host, hostgroup, service, netgroup)"
 msgstr ""
