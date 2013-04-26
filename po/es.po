@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-25 06:56+0000\n"
+"PO-Revision-Date: 2013-04-26 10:48+0000\n"
 "Last-Translator: vareli <ehespinosa@ya.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -107,6 +107,26 @@ msgstr ""
 "\n"
 "    Búsqueda reglas automiembro.\n"
 "    "
+
+msgid ""
+"\n"
+"    Unlock a user account\n"
+"\n"
+"    An account may become locked if the password is entered incorrectly too\n"
+"    many times within a specific time period as controlled by password\n"
+"    policy. A locked account is a temporary condition and may be unlocked "
+"by\n"
+"    an administrator."
+msgstr ""
+"\n"
+"Desbloquear una cuenta de usuario\n"
+"\n"
+" Una cuenta de usuario puede llegar a bloquearse si la contraseña se ha "
+"introducido incorrectamente demasiadas\n"
+"veces dentro de un período de tiempo controlado por la política de\n"
+"contraseña. Una cuenta bloqueada es una condición temporal y puede ser "
+"desbloqueada por\n"
+"un administrador."
 
 msgid ""
 "\n"
@@ -1034,12 +1054,18 @@ msgstr "Añadir un nuevo rol."
 msgid "Add a new self-service permission."
 msgstr "Añadir un nuevo auto servicio de permiso."
 
+msgid "Add a new user."
+msgstr "Añadir un nuevo usuario."
+
 msgid ""
 "Add an attribute/value pair. Format is attr=value. The attribute\n"
 "must be part of the schema."
 msgstr ""
 "Añadir un par atributo/valor. El formato es attr=value. El atributo debe ser "
 "parte del esquema."
+
+msgid "Add an option to the Sudo Rule."
+msgstr "Añadir una opción a la Regla Sudo."
 
 msgid "Add and Add Another"
 msgstr "Agregar y agregar otro"
@@ -1052,6 +1078,9 @@ msgstr "Agregar y Editar"
 
 msgid "Add commands and sudo command groups affected by Sudo Rule."
 msgstr "Añadir comandos y grupos de comando sudo afectados por Regla Sudo."
+
+msgid "Add group for Sudo to execute as."
+msgstr "Añadir grupo para Sudo a ejecutar como."
 
 msgid "Add hosts and hostgroups affected by Sudo Rule."
 msgstr "Añadir hosts y grupos de hosts afectados por Regla Sudo."
@@ -1734,6 +1763,9 @@ msgstr "Borrar un rol."
 msgid "Delete a self-service permission."
 msgstr "Borrar un auto servicio de permiso."
 
+msgid "Delete a user."
+msgstr "Borrar un usuario."
+
 msgid "Delete all associated records"
 msgstr "Eliminar todos los registros asociados"
 
@@ -1907,6 +1939,9 @@ msgstr "Deshabilitar Zona DNS."
 msgid "Disable a Sudo Rule."
 msgstr "Deshabilitar Regla Sudo."
 
+msgid "Disable a user account."
+msgstr "Deshabilitar una cuenta de usuario."
+
 msgid "Disable an HBAC rule."
 msgstr "Deshabilitar una regla HBAC."
 
@@ -1999,6 +2034,9 @@ msgstr "Mostrar información sobre un rol."
 msgid "Display information about a self-service permission."
 msgstr "Mostrar información sobre un auto servicio de permiso."
 
+msgid "Display information about a user."
+msgstr "Mostrar información sobre un usuario."
+
 msgid "Display information about an HBAC service group."
 msgstr "Mostrar información sobre un grupo de servicio HBAC."
 
@@ -2054,6 +2092,9 @@ msgstr "Habilitar Zona DNS."
 msgid "Enable a Sudo Rule."
 msgstr "Habilitar Regla Sudo."
 
+msgid "Enable a user account."
+msgstr "Habilitar una cuenta de usuario."
+
 msgid "Enable an HBAC rule."
 msgstr "Habilitar una regla HBAC."
 
@@ -2099,6 +2140,10 @@ msgstr "Inscripción UUID"
 
 msgid "Enrollment UUID (not implemented)"
 msgstr "Inscripción UUID (no implementado)"
+
+#, c-format
+msgid "Enrollment failed. %s\n"
+msgstr "Inscripción fallada. %s\n"
 
 #, python-format
 msgid "Enter %(label)s again to verify: "
@@ -2536,6 +2581,10 @@ msgstr "Servidor IPA"
 msgid "IPA Server to use"
 msgstr "Servidor de IPA a utilizar"
 
+#, c-format
+msgid "IPA namingContext not found\n"
+msgstr "IPA namingContext no encontrado \n"
+
 msgid "IPA unique ID"
 msgstr "ID unico de IPA"
 
@@ -2714,6 +2763,9 @@ msgstr "Inicio de contexto de kerberos falló\n"
 msgid "Kerberos error: %(major)s/%(minor)s"
 msgstr "Error de kerberos:  %(major)s/%(minor)s"
 
+msgid "Kerberos keys available"
+msgstr "Claves Kerberos disponibles"
+
 msgid "Kerberos principal"
 msgstr "Principal kerberos"
 
@@ -2751,6 +2803,9 @@ msgstr "LDAP URI"
 
 msgid "LDAP URI of DS server to migrate from"
 msgstr "LDAP URI del servidor DS desde donde realizar la migración"
+
+msgid "LDAP basedn"
+msgstr "LDAP basedn"
 
 msgid "LDAP password"
 msgstr "Contraseña LDAP"
@@ -3016,6 +3071,10 @@ msgstr "Valor mínimo es ${value}"
 msgid "Misc. Information"
 msgstr "Información diversa"
 
+#, python-format
+msgid "Missing or invalid HTTP Referer, %(referer)s"
+msgstr "Arbitro HTTP desaparecido o no válido, %(referer)s"
+
 #, c-format
 msgid "Missing reply control!\n"
 msgstr "¡Falta control de respuesta!\n"
@@ -3151,6 +3210,9 @@ msgstr "Modificar un rol."
 
 msgid "Modify a self-service permission."
 msgstr "Modificar un auto servicio de permiso."
+
+msgid "Modify a user."
+msgstr "Modificar un usuario."
 
 msgid "Modify an HBAC rule."
 msgstr "Modificar una regla HBAC."
@@ -3549,6 +3611,9 @@ msgstr "Plataforma"
 msgid "Policy"
 msgstr "Política"
 
+msgid "Positional arguments"
+msgstr "Argumentos posicionales"
+
 msgid ""
 "Prefix used to distinguish ACI types (permission, delegation, selfservice, "
 "none)"
@@ -3709,6 +3774,9 @@ msgstr "Quitar Grupos RunAs de ${entity} ${primary_key}"
 msgid "Remove all principals in this realm"
 msgstr "Quite todos los principales en este ámbito"
 
+msgid "Remove an option from Sudo Rule."
+msgstr "Quitar una opción de la Regla Sudo."
+
 msgid "Remove commands and sudo command groups affected by Sudo Rule."
 msgstr "Quitar comandos y grupos de comando sudo afectados por Regla Sudo."
 
@@ -3717,6 +3785,9 @@ msgstr "Eliminar entradas de DNS"
 
 msgid "Remove from CRL"
 msgstr "Borrar de CRL"
+
+msgid "Remove group for Sudo to execute as."
+msgstr "Quitar grupo para Sudo a ejecutar como."
 
 msgid "Remove hosts and hostgroups affected by Sudo Rule."
 msgstr "Quitar hosts y grupos de hosts afectados por Regla Sudo."
@@ -4011,6 +4082,10 @@ msgstr "Buscar reglas HBAC."
 msgid "Search for HBAC services."
 msgstr "Buscar un servicio HBAC."
 
+#, c-format
+msgid "Search for IPA namingContext failed with error %d\n"
+msgstr "Búsqueda de IPA namingContext fallada con error %d \n"
+
 msgid "Search for IPA services."
 msgstr "Buscar servicios IPA."
 
@@ -4074,6 +4149,9 @@ msgstr "Buscar privilegios."
 
 msgid "Search for roles."
 msgstr "Buscar roles."
+
+msgid "Search for users."
+msgstr "Buscar usuarios."
 
 msgid "Search size limit"
 msgstr "Límite del tamaño de la búsqueda"
@@ -4154,6 +4232,9 @@ msgstr ""
 
 msgid "Services"
 msgstr "Sevicios HBAC"
+
+msgid "Session error"
+msgstr "Error de sesión"
 
 msgid "Set OTP"
 msgstr "Establecer OTP"
@@ -4547,6 +4628,10 @@ msgid "Unable to set LDAP version\n"
 msgstr "No se puede establecer la versión de LDAP\n"
 
 #, c-format
+msgid "Unable to set LDAP_OPT_X_SASL_NOCANON\n"
+msgstr "Incapaz de fijar LDAP_OPT_X_SASL_NOCANON \n"
+
+#, c-format
 msgid "Unable to set ldap options!\n"
 msgstr "¡No puede establecer opciones IDAP!\n"
 
@@ -4744,6 +4829,9 @@ msgstr "mapa de automontaje"
 msgid "automount maps"
 msgstr "mapas de automontaje"
 
+msgid "basedn"
+msgstr "basedn"
+
 #, c-format
 msgid "ber_init() failed, Invalid control ?!\n"
 msgstr "Falló ber_init(), ¿control inválido?\n"
@@ -4766,6 +4854,9 @@ msgstr "puede tener a lo sumo %(maxlength)d caracteres"
 #, python-format
 msgid "can be at most %(maxvalue)d"
 msgstr "puede ser como máximo %(maxvalue)d"
+
+msgid "cannot be longer that 255 characters"
+msgstr "no puede ser más larga de 255 caracteres"
 
 msgid "cannot delete global password policy"
 msgstr "no puede borrar la Política global de contraseña"
@@ -5025,6 +5116,10 @@ msgstr "no se permite modificar las entradas de los grupos"
 msgid "not allowed to modify user entries"
 msgstr "no se permite modificar las entradas de los usuarios"
 
+#, python-format
+msgid "objectclass %s not found"
+msgstr "clase objeto %s no encontrada"
+
 #, c-format
 msgid "out of memory\n"
 msgstr "sin Memoria\n"
@@ -5155,6 +5250,9 @@ msgstr "la entrada fue eliminada mientras estaba siendo modificada"
 msgid "this option has been deprecated."
 msgstr "esta opción ha quedado obsoleta."
 
+msgid "too many '@' characters"
+msgstr "demasiados ‘@’ caracteres"
+
 msgid "type of IPA object (user, group, host, hostgroup, service, netgroup)"
 msgstr ""
 "Objeto de tipo IPA (usuario, grupo, grupo de host, servicio, grupo de red)"
@@ -5175,3 +5273,9 @@ msgstr "deshacer todo"
 #, python-format
 msgid "unknown error %(code)d from %(server)s: %(error)s"
 msgstr "error %(code)d desconocido de %(server)s: %(error)s"
+
+msgid "user"
+msgstr "usuario"
+
+msgid "users"
+msgstr "usuarios"
