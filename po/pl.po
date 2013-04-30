@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# jdennis <jdennis@redhat.com>, 2011.
-# Mateusz Marzantowicz <mmarzantowicz@osdf.com.pl>, 2013.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010,2013.
+# jdennis <jdennis@redhat.com>, 2011
+# mmarzantowicz <mmarzantowicz@osdf.com.pl>, 2013
+# Piotr Drąg <piotrdrag@gmail.com>, 2010,2013
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-15 15:12+0000\n"
+"POT-Creation-Date: 2013-04-30 10:22+0200\n"
+"PO-Revision-Date: 2013-04-30 08:29+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Polish <trans-pl@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -1079,14 +1079,6 @@ msgstr "Identyfikator żądania"
 msgid "Request status"
 msgstr "Stan żądania"
 
-#, python-format
-msgid ""
-"Request subject \"%(request_subject)s\" does not match the form "
-"\"%(subject_base)s\""
-msgstr ""
-"Temat żądania \"%(request_subject)s\" nie pasuje do formatu "
-"\"%(subject_base)s\""
-
 msgid "Reset"
 msgstr "Przywróć"
 
@@ -1509,9 +1501,6 @@ msgstr "może wynosić co najwyżej %(maxlength)d znaków"
 msgid "can be at most %(maxvalue)d"
 msgstr "może wynosić co najwyżej %(maxvalue)d"
 
-msgid "cannot obtain next serial number"
-msgstr "nie można uzyskać następnego numeru szeregowego"
-
 #, c-format
 msgid "cannot open configuration file %s\n"
 msgstr "nie można otworzyć pliku konfiguracji %s\n"
@@ -1519,9 +1508,6 @@ msgstr "nie można otworzyć pliku konfiguracji %s\n"
 #, c-format
 msgid "cannot stat() configuration file %s\n"
 msgstr "nie można wykonać stat() na pliku konfiguracji %s\n"
-
-msgid "certutil failure"
-msgstr "narzędzie certyfikatów nie powiodło się"
 
 msgid "change collided with another change"
 msgstr "zmiana koliduje z inną zmianą"
@@ -1546,9 +1532,6 @@ msgstr "nie otrzymano danych uwierzytelniających Kerberosa"
 #, c-format
 msgid "executing ipa-getkeytab failed, errno %d\n"
 msgstr "wykonanie ipa-getkeytab nie powiodło się, errno %d\n"
-
-msgid "file operation"
-msgstr "działanie na pliku"
 
 msgid "force host name even if not in DNS"
 msgstr "wymuszenie nazwy komputera nawet, jeśli nie w DNS"
@@ -1668,10 +1651,6 @@ msgid "type, filter, subtree and targetgroup are mutually exclusive"
 msgstr ""
 "wartości \"type\", \"filter\", \"subtree\" i \"targetgroup\" są wzajemnie "
 "wyłączne"
-
-#, python-format
-msgid "unable to decode csr: %s"
-msgstr "nie można dekodować csr: %s"
 
 #, python-format
 msgid "unknown error %(code)d from %(server)s: %(error)s"

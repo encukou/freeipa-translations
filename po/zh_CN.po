@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Jake Li <gnozil@gmail.com>, 2010.
-# jdennis <jdennis@redhat.com>, 2011.
+# Jake Li <gnozil@gmail.com>, 2010
+# jdennis <jdennis@redhat.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-15 15:12+0000\n"
+"POT-Creation-Date: 2013-04-30 10:22+0200\n"
+"PO-Revision-Date: 2013-04-30 08:29+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Chinese (China) <trans-zh_cn@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -369,17 +369,11 @@ msgstr "用户"
 msgid "an internal error has occurred"
 msgstr "发生了一个内部错误"
 
-msgid "cannot obtain next serial number"
-msgstr "无法得到下一个序列号"
-
 msgid "change collided with another change"
 msgstr "修改冲突"
 
 msgid "description"
 msgstr "描述"
-
-msgid "file operation"
-msgstr "文件操作"
 
 msgid "incorrect type"
 msgstr "不正确的类型"
@@ -398,7 +392,3 @@ msgstr "必须是一个整数"
 
 msgid "must be binary data"
 msgstr "必须是二进制数据"
-
-#, python-format
-msgid "unable to decode csr: %s"
-msgstr "不能解码csr: %s"

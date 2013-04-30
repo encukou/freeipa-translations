@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# jdennis <jdennis@redhat.com>, 2011.
-# Yuri Chornoivan <yurchor@ukr.net>, 2011-2013.
+# jdennis <jdennis@redhat.com>, 2011
+# Yuri Chornoivan <yurchor@ukr.net>, 2011-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-16 05:41+0000\n"
+"POT-Creation-Date: 2013-04-30 10:22+0200\n"
+"PO-Revision-Date: 2013-04-30 08:48+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -1798,10 +1798,6 @@ msgid ""
 " Display information about a named group:\n"
 "   ipa hbacsvcgroup-show login\n"
 "\n"
-" Add a new group to the \"login\" group:\n"
-"   ipa hbacsvcgroup-add --desc=\"switch users\" login\n"
-"   ipa hbacsvcgroup-add-member --hbacsvcs=su --hbacsvcs=su-l login\n"
-"\n"
 " Delete an HBAC service group:\n"
 "   ipa hbacsvcgroup-del login\n"
 msgstr ""
@@ -1821,10 +1817,6 @@ msgstr ""
 "\n"
 " Показ даних щодо вказаної групи:\n"
 "   ipa hbacsvcgroup-show login\n"
-"\n"
-" Додавання нової групи до групи \"login\":\n"
-"   ipa hbacsvcgroup-add --desc=\"switch users\" login\n"
-"   ipa hbacsvcgroup-add-member --hbacsvcs=su --hbacsvcs=su-l login\n"
 "\n"
 " Вилучення групи служб HBAC:\n"
 "   ipa hbacsvcgroup-del login\n"
@@ -2396,9 +2388,8 @@ msgid ""
 "(CSR)\n"
 "in PEM format.\n"
 "\n"
-"If using the selfsign back end then the subject in the CSR needs to match\n"
-"the subject configured in the server. The dogtag CA uses just the CN\n"
-"value of the CSR and forces the rest of the subject.\n"
+"The dogtag CA uses just the CN value of the CSR and forces the rest of the\n"
+"subject to values configured in the server.\n"
 "\n"
 "A certificate is stored with a service principal and a service principal\n"
 "needs a host.\n"
@@ -2539,16 +2530,16 @@ msgstr ""
 "\n"
 "Передбачено підтримку таких причин відкликання:\n"
 "\n"
-"    * 0 - unspecified\n"
-"    * 1 - keyCompromise\n"
-"    * 2 - cACompromise\n"
-"    * 3 - affiliationChanged\n"
-"    * 4 - superseded\n"
-"    * 5 - cessationOfOperation\n"
-"    * 6 - certificateHold\n"
-"    * 8 - removeFromCRL\n"
-"    * 9 - privilegeWithdrawn\n"
-"    * 10 - aACompromise\n"
+"* 0 - unspecified\n"
+" * 1 - keyCompromise\n"
+" * 2 - cACompromise\n"
+" * 3 - affiliationChanged\n"
+" * 4 - superseded\n"
+" * 5 - cessationOfOperation\n"
+" * 6 - certificateHold\n"
+" * 8 - removeFromCRL\n"
+" * 9 - privilegeWithdrawn\n"
+" * 10 - aACompromise\n"
 "\n"
 "Зауважте, що коди причини 7 не використовується. Докладніші дані у RFC "
 "5280:\n"
@@ -7115,6 +7106,13 @@ msgstr "Команди керування доступом на основі в�
 msgid "Host category"
 msgstr "Категорія вузлів"
 
+msgid ""
+"Host category (semantics placed on this attribute are for local "
+"interpretation)"
+msgstr ""
+"Категорія вузлів (семантика розташування цього атрибуту призначена для "
+"локальної обробки)"
+
 msgid "Host category the rule applies to"
 msgstr "Категорія вузлів, до якої застосовується правило"
 
@@ -8992,14 +8990,6 @@ msgstr "Запит має належати до типу словника (dict)
 msgid "Request status"
 msgstr "Стан запиту"
 
-#, python-format
-msgid ""
-"Request subject \"%(request_subject)s\" does not match the form "
-"\"%(subject_base)s\""
-msgstr ""
-"Об’єкт запиту «%(request_subject)s» вказано у формі, відмінній від "
-"«%(subject_base)s»"
-
 msgid "Required field"
 msgstr "Обов’язкове поле"
 
@@ -10131,10 +10121,6 @@ msgstr "Не вдалося обмінятися даними з CMS (%s)"
 msgid "Unable to create private group. A group '%(group)s' already exists."
 msgstr "Не вдалося створити закриту групу. Група «%(group)s» вже існує."
 
-#, python-format
-msgid "Unable to decode certificate in entry: %s"
-msgstr "Не вдалося розкодувати сертифікат у запису: %s"
-
 #, c-format
 msgid "Unable to determine IPA server from %s\n"
 msgstr "Не вдалося визначити сервер IPA з %s\n"
@@ -10585,9 +10571,6 @@ msgstr "не можна вилучати домен сервера IPA"
 msgid "cannot delete global password policy"
 msgstr "неможливо вилучити загальні правила паролів"
 
-msgid "cannot obtain next serial number"
-msgstr "не вдалося отримати наступний серійний номер"
-
 #, c-format
 msgid "cannot open configuration file %s\n"
 msgstr "не вдалося відкрити файл налаштувань %s\n"
@@ -10595,9 +10578,6 @@ msgstr "не вдалося відкрити файл налаштувань %s\
 #, c-format
 msgid "cannot stat() configuration file %s\n"
 msgstr "не вдалося обробити функцією stat() файл налаштування %s\n"
-
-msgid "certutil failure"
-msgstr "помилка certutil"
 
 msgid "change collided with another change"
 msgstr "зміна конфліктує з іншою внесеною зміною"
@@ -10712,9 +10692,6 @@ msgstr "помилка на сервері «%(server)s»: %(error)s"
 #, c-format
 msgid "executing ipa-getkeytab failed, errno %d\n"
 msgstr "спроба виконання ipa-getkeytab зазнала невдачі, номер помилки %d\n"
-
-msgid "file operation"
-msgstr "дія над файлами"
 
 msgid "file to store certificate in"
 msgstr "файл, у якому зберігатимуться дані сертифіката"
@@ -11379,10 +11356,6 @@ msgstr ""
 
 msgid "type, filter, subtree and targetgroup are mutually exclusive"
 msgstr "type, filter, subtree і targetgroup є взаємовиключними"
-
-#, python-format
-msgid "unable to decode csr: %s"
-msgstr "не вдалося декодувати csr: %s"
 
 msgid "unable to determine realm"
 msgstr "не вдалося визначити область"

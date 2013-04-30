@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-17 16:59+0000\n"
-"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
+"POT-Creation-Date: 2013-04-30 10:22+0200\n"
+"PO-Revision-Date: 2013-04-30 08:29+0000\n"
+"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5960,14 +5960,6 @@ msgstr "La requête doit être un dictionnaire"
 msgid "Request status"
 msgstr "État de la demande"
 
-#, python-format
-msgid ""
-"Request subject \"%(request_subject)s\" does not match the form "
-"\"%(subject_base)s\""
-msgstr ""
-"Le sujet de la demande \"%(request_subject)s\" ne correspondant pas à la "
-"forme \"%(subject_base)s\""
-
 msgid "Required field"
 msgstr "Champ requis"
 
@@ -7094,10 +7086,6 @@ msgid "Unable to create private group. A group '%(group)s' already exists."
 msgstr ""
 "Impossible de créer un groupe privé. Un groupe '%(group)s' existe déjà."
 
-#, python-format
-msgid "Unable to decode certificate in entry: %s"
-msgstr "Impossible de décoder le certificat de l'entrée %s"
-
 #, c-format
 msgid "Unable to determine IPA server from %s\n"
 msgstr "Impossible de déterminer le serveur IPA depuis %s\n"
@@ -7545,9 +7533,6 @@ msgstr "Impossible de supprimer le domaine du serveur IPA"
 msgid "cannot delete global password policy"
 msgstr "impossible de supporimer une politique de mot de passe globale"
 
-msgid "cannot obtain next serial number"
-msgstr "impossible d'obtenir le nouveau numéro de série"
-
 #, c-format
 msgid "cannot open configuration file %s\n"
 msgstr "impossible d'ouvrir le fichier de configuration %s\n"
@@ -7555,9 +7540,6 @@ msgstr "impossible d'ouvrir le fichier de configuration %s\n"
 #, c-format
 msgid "cannot stat() configuration file %s\n"
 msgstr "impossible d'utiliser stat() sur le fichier de configuration %s\n"
-
-msgid "certutil failure"
-msgstr "échec de certutil"
 
 msgid "change collided with another change"
 msgstr "la modification a subit un collision avec une autre"
@@ -7672,9 +7654,6 @@ msgstr "erreur sur le serveur « %(server)s » : %(error)s"
 #, c-format
 msgid "executing ipa-getkeytab failed, errno %d\n"
 msgstr "échec de l'exécution de ipa-getkeytab, errno %d\n"
-
-msgid "file operation"
-msgstr "opération fichier"
 
 msgid "file to store certificate in"
 msgstr "fichier où stocker le certificat"
@@ -8340,10 +8319,6 @@ msgstr "type d'objet IPA (user, group, host, hostgroup, service, netgroup)"
 
 msgid "type, filter, subtree and targetgroup are mutually exclusive"
 msgstr "type, filter, subtree et targetgroup sont mutuellement exclusifs"
-
-#, python-format
-msgid "unable to decode csr: %s"
-msgstr "impossible de décoder le csr : %s"
 
 msgid "unable to determine realm"
 msgstr "impossible de déterminer le domaine"

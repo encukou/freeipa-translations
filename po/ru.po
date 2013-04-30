@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Alexander Ivanov <hrafn@hrafn.me>, 2011.
-# Andrew Martynov <andrewm@inventa.ru>, 2010.
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2012.
-# jdennis <jdennis@redhat.com>, 2011.
+# Alexander Ivanov <hrafn@hrafn.me>, 2011
+# Andrew Martynov <andrewm@inventa.ru>, 2010
+# Azamat Hackimov <azamat.hackimov@gmail.com>, 2012
+# jdennis <jdennis@redhat.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-15 15:12+0000\n"
+"POT-Creation-Date: 2013-04-30 10:22+0200\n"
+"PO-Revision-Date: 2013-04-30 08:29+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Russian <trans-ru@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -713,14 +713,6 @@ msgstr "ID запроса"
 msgid "Request status"
 msgstr "Статус запроса"
 
-#, python-format
-msgid ""
-"Request subject \"%(request_subject)s\" does not match the form "
-"\"%(subject_base)s\""
-msgstr ""
-"Заголовок запроса «%(request_subject)s» не совпадает с формой "
-"«%(subject_base)s»"
-
 msgid "Reset"
 msgstr "Сбросить"
 
@@ -980,15 +972,9 @@ msgstr "может быть не длиннее %(maxlength)d символов"
 msgid "can be at most %(maxvalue)d"
 msgstr "может быть не более %(maxvalue)d"
 
-msgid "cannot obtain next serial number"
-msgstr "невозможно получить следующий порядковый номер"
-
 #, c-format
 msgid "cannot open configuration file %s\n"
 msgstr "невозможно открыть конфигурационный файл %s\n"
-
-msgid "certutil failure"
-msgstr "ошибка certutil"
 
 msgid "change collided with another change"
 msgstr "изменение противоречит другому сделанному изменению"
@@ -1013,9 +999,6 @@ msgstr "записи"
 
 msgid "entry"
 msgstr "запись"
-
-msgid "file operation"
-msgstr "операция над файлом"
 
 msgid "group"
 msgstr "группа"
@@ -1143,10 +1126,6 @@ msgstr "слишком много символов @"
 
 msgid "type, filter, subtree and targetgroup are mutually exclusive"
 msgstr "type, filter, subtree и targetgroup являются взаимоисключающими"
-
-#, python-format
-msgid "unable to decode csr: %s"
-msgstr "невозможно декодировать CSR: %s"
 
 msgid "undo"
 msgstr "отменить"

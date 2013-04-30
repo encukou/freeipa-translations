@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# gundachandru <gundachandru@gmail.com>, 2010.
-# jdennis <jdennis@redhat.com>, 2011.
+# Chandru <gundachandru@gmail.com>, 2010
+# jdennis <jdennis@redhat.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-15 15:12+0000\n"
+"POT-Creation-Date: 2013-04-30 10:22+0200\n"
+"PO-Revision-Date: 2013-04-30 08:29+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Kannada (http://www.transifex.com/projects/p/fedora/language/"
 "kn/)\n"
@@ -462,14 +462,6 @@ msgstr "ಬೇಡಿಕೆ ID"
 msgid "Request status"
 msgstr "ಬೇಡಿಕೆ ಸ್ಥಿತಿ"
 
-#, python-format
-msgid ""
-"Request subject \"%(request_subject)s\" does not match the form "
-"\"%(subject_base)s\""
-msgstr ""
-"ಕೋರಿಕೆ ವಿಷಯ \"%(request_subject)s\" ಸ್ವರೂಪ \"%(subject_base)s\" ಕ್ಕೆ "
-"ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ"
-
 msgid "Results are truncated, try a more specific search"
 msgstr "ಫಲಿತಾಂಶಗಳು ಕತ್ತರಿಸಲ್ಪಟ್ಟಿವೆ, ಹೆಚ್ಚ್ಹು ನಿರ್ದಿಷ್ಟವಾದ ಶೋಧನೆ ಪ್ರಯತ್ನಿಸಿ"
 
@@ -655,12 +647,6 @@ msgstr "ಗರಿಷ್ಠವಾಗಿ %(maxlength)d ಅಕ್ಷರಗಳು �
 msgid "can be at most %(maxvalue)d"
 msgstr "ಗರಿಷ್ಠವಾಗಿ %(maxvalue)d ಆಗಿರಬಹುದು"
 
-msgid "cannot obtain next serial number"
-msgstr "ಮುಂದಿನ ಸೀರಿಯಲ್ ನಂಬರ್ ಅನ್ನು ಪಡೆಯಲು ಆಗುತ್ತಿಲ್ಲ"
-
-msgid "certutil failure"
-msgstr "certutil ವಿಫಲತೆ"
-
 msgid "change collided with another change"
 msgstr "ಬದಲಾವಣೆ ಮತ್ತೊಂದು ಬದಲಾವಣೆಯೊಂದಿಗೆ ಡಿಕ್ಕಿಹೊಡೆದಿದೆ"
 
@@ -669,9 +655,6 @@ msgstr "ವಿವರಣೆ"
 
 msgid "did not receive Kerberos credentials"
 msgstr "Kerberos ಯೋಗ್ಯತಾಪತ್ರಗಳನ್ನು ಪಡೆದಿಲ್ಲ"
-
-msgid "file operation"
-msgstr "ಕಡತದ ಕಾರ್ಯಾಚರಣೆ"
 
 msgid "incorrect type"
 msgstr "ಸರಿಯಲ್ಲದ ಬಗೆ"
@@ -726,10 +709,6 @@ msgstr "ಗ್ಲೋಬಲ್ ಪಾಲಿಸಿಯಲ್ಲಿ ಆದ್ಯತ�
 
 msgid "type, filter, subtree and targetgroup are mutually exclusive"
 msgstr " ಬಗೆ, ಫಿಲ್ಟರ್, ಸಬ್‌ಟ್ರೀ ಮತ್ತು ಟಾರ್ಗೆಟ್‌ಗ್ರೂಪ್  ಗಳು ಪರಸ್ಪರ ಪ್ರತ್ಯೇಕ"
-
-#, python-format
-msgid "unable to decode csr: %s"
-msgstr "csr ವನ್ನು ಡಿಕೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ: %s"
 
 #, python-format
 msgid "unknown error %(code)d from %(server)s: %(error)s"

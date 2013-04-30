@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-04-15 16:42+0200\n"
-"PO-Revision-Date: 2013-04-26 10:48+0000\n"
-"Last-Translator: vareli <ehespinosa@ya.com>\n"
+"POT-Creation-Date: 2013-04-30 10:22+0200\n"
+"PO-Revision-Date: 2013-04-30 08:29+0000\n"
+"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3858,14 +3858,6 @@ msgstr "Id de la petición"
 msgid "Request status"
 msgstr "Estado de la petición"
 
-#, python-format
-msgid ""
-"Request subject \"%(request_subject)s\" does not match the form "
-"\"%(subject_base)s\""
-msgstr ""
-"El asunto solicitado \"%(request_subject)s\" no coincide con la forma "
-"\"%(subject_base)s\""
-
 msgid "Required field"
 msgstr "Campo requerido"
 
@@ -4861,9 +4853,6 @@ msgstr "no puede ser más larga de 255 caracteres"
 msgid "cannot delete global password policy"
 msgstr "no puede borrar la Política global de contraseña"
 
-msgid "cannot obtain next serial number"
-msgstr "no es posible obtener el próximo número de serie"
-
 #, c-format
 msgid "cannot open configuration file %s\n"
 msgstr "no se puede abrir archivo de configuración %s\\n\n"
@@ -4871,9 +4860,6 @@ msgstr "no se puede abrir archivo de configuración %s\\n\n"
 #, c-format
 msgid "cannot stat() configuration file %s\n"
 msgstr "no puede stat () del archivo de configuración%s\n"
-
-msgid "certutil failure"
-msgstr "falla de Certutil"
 
 msgid "change collided with another change"
 msgstr "la modificación choca con otra modificación diferente"
@@ -4929,9 +4915,6 @@ msgstr "error de clasificación para el transporte de datos XML-RPC: %(error)s "
 #, c-format
 msgid "executing ipa-getkeytab failed, errno %d\n"
 msgstr "la ejecución de ipa-getkeytab falló, errno %d\n"
-
-msgid "file operation"
-msgstr "operación de archivo"
 
 msgid "file to store certificate in"
 msgstr "archivo para almacenar"
@@ -5259,10 +5242,6 @@ msgstr ""
 
 msgid "type, filter, subtree and targetgroup are mutually exclusive"
 msgstr "tipo, filtro, subárbol y grupo de destino, se excluyen mutuamente"
-
-#, python-format
-msgid "unable to decode csr: %s"
-msgstr "no es posible decodificar csr: %s"
 
 msgid "undo"
 msgstr "deshacer"
