@@ -13,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-04-30 10:22+0200\n"
-"PO-Revision-Date: 2013-04-30 08:29+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"PO-Revision-Date: 2013-04-30 16:06+0000\n"
+"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2646,6 +2646,10 @@ msgstr "T"
 msgid "Comma separated encryption types list"
 msgstr "Liste séparée par des virgules des types de chiffrement"
 
+#, python-format
+msgid "Command '%(name)s' has been deprecated"
+msgstr "La commande « %(name)s » est maintenant obsolète."
+
 msgid "Command category"
 msgstr "Catégorie de commande"
 
@@ -4068,6 +4072,12 @@ msgstr "Commandes HBAC."
 
 msgid "Host category"
 msgstr "Catégorie de système"
+
+msgid ""
+"Host category (semantics placed on this attribute are for local "
+"interpretation)"
+msgstr ""
+"Catégorie d'hôte (les sémantiques associées à cet attribut vous sont propres)"
 
 msgid "Host category the rule applies to"
 msgstr "Catégorie de système sur laquelle la règle s'applique"
@@ -8289,6 +8299,9 @@ msgstr "la valeur n'est pas au format temporel \"YYYYMMDDHHMMSS\""
 
 msgid "this option has been deprecated."
 msgstr "cette option a été rendue obsolète."
+
+msgid "this option is deprecated"
+msgstr "cette option est obsolète"
 
 msgid "too many '@' characters"
 msgstr "trop de caractères '@'"
