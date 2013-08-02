@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-05-07 09:52+0200\n"
-"PO-Revision-Date: 2013-05-07 07:53+0000\n"
+"POT-Creation-Date: 2013-08-01 16:02+0200\n"
+"PO-Revision-Date: 2013-08-01 14:06+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Japanese <trans-ja@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -141,12 +141,6 @@ msgstr "HBAC サービスに関する情報を表示します。"
 msgid "Display the properties of an HBAC rule."
 msgstr "HBAC ルールのプロパティーを表示します。"
 
-msgid "Download"
-msgstr "ダウンロード"
-
-msgid "Download Certificate"
-msgstr "証明書のダウンロード"
-
 msgid "Edit ${entity}"
 msgstr "${entity} の編集"
 
@@ -212,12 +206,6 @@ msgstr "IP アドレス"
 msgid "IPA Error"
 msgstr "IPA エラー"
 
-msgid "Import"
-msgstr "インポート"
-
-msgid "Import Certificate"
-msgstr "証明書のインポート"
-
 msgid "Internal Error"
 msgstr "内部エラー"
 
@@ -234,9 +222,6 @@ msgstr "Kerberos エラー: %(major)s/%(minor)s"
 
 msgid "Labels"
 msgstr "ラベル"
-
-msgid "Loading..."
-msgstr "読み込み中..."
 
 msgid "Member of a group"
 msgstr "グループのメンバー"
@@ -258,9 +243,6 @@ msgstr "HBAC サービスグループを変更します。"
 
 msgid "Modify an HBAC service."
 msgstr "HBAC サービスを変更します。"
-
-msgid "No Certificate."
-msgstr "証明書がありません。"
 
 msgid "One-Time-Password"
 msgstr "ワンタイムパスワード"

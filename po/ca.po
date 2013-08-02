@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-05-07 09:52+0200\n"
-"PO-Revision-Date: 2013-05-07 07:53+0000\n"
+"POT-Creation-Date: 2013-08-01 16:02+0200\n"
+"PO-Revision-Date: 2013-08-01 14:06+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Catalan <fedora@llistes.softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -142,9 +142,6 @@ msgstr "Inhabilitat"
 msgid "Domain"
 msgstr "Domini"
 
-msgid "Download"
-msgstr "Baixada"
-
 msgid "Edit"
 msgstr "Edita"
 
@@ -156,9 +153,6 @@ msgstr "Habilita"
 
 msgid "Enabled"
 msgstr "S'ha habilitat"
-
-msgid "End"
-msgstr "Fi"
 
 msgid "Error"
 msgstr "Error"
@@ -241,9 +235,6 @@ msgstr "Identitat"
 msgid "Identity Settings"
 msgstr "Paràmetres de la identitat"
 
-msgid "Import"
-msgstr "Importa"
-
 msgid "Initials"
 msgstr "Inicials"
 
@@ -276,9 +267,6 @@ msgstr "Etiquetes"
 
 msgid "Last name"
 msgstr "Cognom"
-
-msgid "Loading..."
-msgstr "S'està carregant…"
 
 msgid "Locality"
 msgstr "Localitat"
@@ -388,9 +376,6 @@ msgstr "Anterior"
 msgid "Priority"
 msgstr "Prioritat"
 
-msgid "Product"
-msgstr "Producte"
-
 msgid "Protocol"
 msgstr "Protocol"
 
@@ -405,12 +390,6 @@ msgstr "Tipus de registre"
 
 msgid "Refresh"
 msgstr "Refresca"
-
-msgid "Register"
-msgstr "Registre"
-
-msgid "Registration"
-msgstr "Registre"
 
 msgid "Regular Expression"
 msgstr "Expressió regular"
@@ -487,9 +466,6 @@ msgstr "Signatura"
 msgid "Size"
 msgstr "Mida"
 
-msgid "Start"
-msgstr "Inici"
-
 msgid "State/Province"
 msgstr "Estat/província"
 
@@ -531,9 +507,6 @@ msgstr "UID"
 
 msgid "URL"
 msgstr "URL"
-
-msgid "UUID"
-msgstr "UUID"
 
 msgid "Unknown"
 msgstr "Desconegut"

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-05-07 09:52+0200\n"
-"PO-Revision-Date: 2013-05-07 07:53+0000\n"
+"POT-Creation-Date: 2013-08-01 16:02+0200\n"
+"PO-Revision-Date: 2013-08-01 14:06+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/projects/p/fedora/language/"
 "eu/)\n"
@@ -182,9 +182,6 @@ msgstr "E-posta helbidea"
 
 msgid "Enabled"
 msgstr "Gaituta"
-
-msgid "End"
-msgstr "Amaitu"
 
 msgid "Error"
 msgstr "Errorea"
@@ -381,12 +378,6 @@ msgstr "Baimena"
 msgid "Permissions"
 msgstr "Baimenak"
 
-msgid "Product"
-msgstr "Produktua"
-
-msgid "Quantity"
-msgstr "Kantitatea"
-
 msgid "Random password"
 msgstr "Ausazko pasahitza"
 
@@ -454,9 +445,6 @@ msgstr "Ezarpenak"
 msgid "Specified Groups"
 msgstr "Zehazturiko taldeak"
 
-msgid "Start"
-msgstr "Hasi"
-
 msgid "Status"
 msgstr "Egoera"
 
@@ -502,9 +490,6 @@ msgstr "Mota"
 
 msgid "UID"
 msgstr "UID"
-
-msgid "UUID"
-msgstr "UUID"
 
 msgid "User"
 msgstr "Erabiltzailea"

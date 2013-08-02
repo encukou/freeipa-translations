@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
-"POT-Creation-Date: 2013-05-07 09:52+0200\n"
-"PO-Revision-Date: 2013-05-07 07:53+0000\n"
+"POT-Creation-Date: 2013-08-01 16:02+0200\n"
+"PO-Revision-Date: 2013-08-01 14:06+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
@@ -127,88 +127,6 @@ msgstr ""
 "contraseña. Una cuenta bloqueada es una condición temporal y puede ser "
 "desbloqueada por\n"
 "un administrador."
-
-msgid ""
-"\n"
-"Entitlements\n"
-"\n"
-"Manage entitlements for client machines\n"
-"\n"
-"Entitlements can be managed either by registering with an entitlement\n"
-"server with a username and password or by manually importing entitlement\n"
-"certificates. An entitlement certificate contains embedded information\n"
-"such as the product being entitled, the quantity and the validity dates.\n"
-"\n"
-"An entitlement server manages the number of client entitlements available.\n"
-"To mark these entitlements as used by the IPA server you provide a quantity\n"
-"and they are marked as consumed on the entitlement server.\n"
-"\n"
-" Register with an entitlement server:\n"
-"   ipa entitle-register consumer\n"
-"\n"
-" Import an entitlement certificate:\n"
-"   ipa entitle-import /home/user/ipaclient.pem\n"
-"\n"
-" Display current entitlements:\n"
-"   ipa entitle-status\n"
-"\n"
-" Retrieve details on entitlement certificates:\n"
-"   ipa entitle-get\n"
-"\n"
-" Consume some entitlements from the entitlement server:\n"
-"   ipa entitle-consume 50\n"
-"\n"
-"The registration ID is a Unique Identifier (UUID). This ID will be\n"
-"IMPORTED if you have used entitle-import.\n"
-"\n"
-"Changes to /etc/rhsm/rhsm.conf require a restart of the httpd service.\n"
-msgstr ""
-"\n"
-"\\n\n"
-"Derechos\\n\n"
-"\\n\n"
-"Administrar derechos para máquinas clientes\\n\n"
-"\\n\n"
-"Los derechos pueden ser administrados ya sea al registrar un servidor \\n\n"
-"de derecho server con un nombre de usuario y contraseña o al importar "
-"manualmente los certificados\\n\n"
-"\n"
-"Un certificado de derechos contiene información incorporada\\n\n"
-"tal como el producto que va a ser autorizado, la cantidad y fechas de "
-"validez.\\n\n"
-"\n"
-"\\n\n"
-"Un servidor de derechos administra el número de derechos de cliente "
-"disponibles.\\n\n"
-"Para marcar estos derechos como usados por el servidor de IPA, se "
-"proporciona una cantidad\\n\n"
-"y se marca como consumida en el servidor de derechos.\\n\n"
-"\n"
-"\\n\n"
-" Registrar con un servidor de derechos:\\n\n"
-"   ipa entitle-register consumer\\n\n"
-"\n"
-"\\n\n"
-" Importar un certificado de derechos:\\n\n"
-"   ipa entitle-import /home/user/ipaclient.pem\\n\n"
-"\n"
-"\\n\n"
-" Mostrar los derechos actuales:\\n\n"
-"   ipa entitle-status\\n\n"
-"\n"
-"\\n\n"
-" Recuperar detalles sobre certificados de derechos:\\n\n"
-"   ipa entitle-get\\n\n"
-"\n"
-"\\n\n"
-" Consumir algunos derechos del servidor de derechos:\\n\n"
-"   ipa entitle-consume 50\\n\n"
-"\\n\n"
-"La ID de registro es un identificador único (UUID). Esta ID será\\n\n"
-"IMPORTED if you have used entitle-import.\\n\n"
-"\\n\n"
-"\n"
-"Cambios a /etc/rhsm/rhsm.conf requieren un reinicio del servicio httpd.\\n\n"
 
 msgid ""
 "\n"
@@ -1531,22 +1449,6 @@ msgstr "Confirmación "
 msgid "Consecutive failures before lockout"
 msgstr "Fallos consecutivos antes del bloqueo"
 
-msgid "Consume"
-msgstr "Consumir"
-
-msgid "Consume Entitlement"
-msgstr "Consumir Derecho"
-
-msgid "Consume an entitlement."
-msgstr "Consumir un derecho."
-
-msgid "Consumed"
-msgstr "Consumido"
-
-#, python-format
-msgid "Consumed %(value)s entitlement(s)."
-msgstr "Derecho(s) consumido(s) %(value)s."
-
 msgid "Contact Settings"
 msgstr "Configuración de contactos"
 
@@ -1998,9 +1900,6 @@ msgstr "Mostrar una localización de automontaje"
 msgid "Display an automount map."
 msgstr "Mostrar un mapa de automontaje"
 
-msgid "Display current entitlements."
-msgstr "Mostrar derechos actuales."
-
 msgid "Display effective policy for a specific user"
 msgstr "Ofrece la política efectiva para un determinado usuario"
 
@@ -2071,12 +1970,6 @@ msgstr "Muestra el registro del usuario para el principal de Kerberos actual"
 msgid "Don't create user private group"
 msgstr "No crear grupo privado de usuario"
 
-msgid "Download"
-msgstr "Descarga"
-
-msgid "Download Certificate"
-msgstr "Certificado de Descarga"
-
 msgid "Dynamic update"
 msgstr "Actualización dinámica"
 
@@ -2129,17 +2022,8 @@ msgstr "Solicitud de tipos de cifrado"
 msgid "Enctype comparison failed!\n"
 msgstr "¡Falló comparación de Enctype!\n"
 
-msgid "End"
-msgstr "Fin"
-
 msgid "Enrollment"
 msgstr "Inscripción"
-
-msgid "Enrollment UUID"
-msgstr "Inscripción UUID"
-
-msgid "Enrollment UUID (not implemented)"
-msgstr "Inscripción UUID (no implementado)"
 
 #, c-format
 msgid "Enrollment failed. %s\n"
@@ -2148,18 +2032,6 @@ msgstr "Inscripción fallada. %s\n"
 #, python-format
 msgid "Enter %(label)s again to verify: "
 msgstr "Ingrese %(label)s nuevamente para verificar: "
-
-msgid "Enter the Base64-encoded entitlement certificate below:"
-msgstr "Introduzca el derecho codificado Base64 certificado abajo:"
-
-msgid "Entitlement"
-msgstr "Derecho"
-
-msgid "Entitlement(s) synchronized."
-msgstr "Derecho (s) sincronizado(s)."
-
-msgid "Entitlements"
-msgstr "Autorizaciones"
 
 msgid "Entry"
 msgstr "Entrada"
@@ -2349,9 +2221,6 @@ msgstr "Nombre y apellidos"
 
 msgid "Fully Qualified Host Name"
 msgstr "Nombre de host totalmente calificado"
-
-msgid "GECOS field"
-msgstr "Campo GECOS"
 
 msgid "GID"
 msgstr "GID"
@@ -2606,15 +2475,6 @@ msgstr "Ignorar atributo de usuario"
 msgid "Ignore user object class"
 msgstr "Ignorar clase de objeto usuario"
 
-msgid "Import"
-msgstr "Importar"
-
-msgid "Import Certificate"
-msgstr "Importar Certificado"
-
-msgid "Import an entitlement certificate."
-msgstr "Importar un certificado de derecho."
-
 msgid "Import automount files for a specific location."
 msgstr "Importar ficheros de automontaje para una localización específica."
 
@@ -2830,9 +2690,6 @@ msgstr "Lista de objetos migrados; clasificados por tipo."
 
 msgid "Lists of objects that could not be migrated; categorized by type."
 msgstr "Lista de objetos que no pueden ser migrados; categorizados por tipo."
-
-msgid "Loading..."
-msgstr "Cargando…"
 
 msgid "Locality"
 msgstr "Localidad"
@@ -3327,9 +3184,6 @@ msgstr "Nueva información de montaje"
 msgid "Next"
 msgstr "Siguiente"
 
-msgid "No Certificate."
-msgstr "Sin Certificado."
-
 msgid "No Valid Certificate"
 msgstr "Certificado no válido"
 
@@ -3379,9 +3233,6 @@ msgstr "No antes de"
 
 msgid "Not a managed group"
 msgstr "No es un grupo administrado"
-
-msgid "Not an entitlement certificate"
-msgstr "No es un certificado de derechos"
 
 msgid "Not matched rules"
 msgstr "Reglas no coincidentes"
@@ -3674,9 +3525,6 @@ msgstr "    Añadir un nuevo servicio de la nueva IPA."
 msgid "Privileges"
 msgstr "    Objeto de servicio."
 
-msgid "Product"
-msgstr "Producto"
-
 msgid "Prompt to set the user password"
 msgstr "Solicita establecer la contraseña de usuario"
 
@@ -3685,9 +3533,6 @@ msgstr "Prospectivo"
 
 msgid "Provisioning"
 msgstr "Aprovisionamiento"
-
-msgid "Quantity"
-msgstr "Cantidad"
 
 msgid ""
 "Query returned more results than the configured size limit. Displaying the "
@@ -3704,9 +3549,6 @@ msgstr "Modo silencioso. Sólo se muestran los errores."
 
 msgid "Random password"
 msgstr "Contraseña aleatoria"
-
-msgid "Re-sync the local entitlement cache with the entitlement server."
-msgstr "Resincronizar el cache de derecho local con el servidor de derecho."
 
 msgid "Realm name"
 msgstr "Nombre de reino "
@@ -3731,21 +3573,6 @@ msgstr "Los registros para la zona DNS"
 
 msgid "Redirection"
 msgstr "Redirección "
-
-msgid "Register"
-msgstr "Registrar"
-
-msgid "Register to the entitlement system."
-msgstr "Registro al sistema de derecho."
-
-msgid "Registered to entitlement server."
-msgstr "Registrado en el servidor de derechos."
-
-msgid "Registration"
-msgstr "Registro"
-
-msgid "Registration password"
-msgstr "Contraseña de registro"
 
 msgid "Remove ${entity}"
 msgstr "Quitar ${entity}"
@@ -3906,9 +3733,6 @@ msgid ""
 msgstr ""
 "Recuperar e imprimir todos los atributos del servidor. Afecta a la salida "
 "del comando."
-
-msgid "Retrieve the entitlement certs."
-msgstr "Recuperar el derecho certs."
 
 msgid "Retry"
 msgstr "Reintentar"
@@ -4111,9 +3935,6 @@ msgstr "Buscar un mapa de automontaje."
 msgid "Search for delegations."
 msgstr "Buscar delegaciones."
 
-msgid "Search for entitlement accounts."
-msgstr "Buscar cuentas de derecho."
-
 msgid "Search for forward zones only"
 msgstr "Buscar zonas de reenvío sólo"
 
@@ -4308,9 +4129,6 @@ msgstr "Especificar ${entity} externa"
 
 msgid "Standard Record Types"
 msgstr "Tipos de Registro Estándar"
-
-msgid "Start"
-msgstr "Inicio"
 
 msgid "State/Province"
 msgstr "Estado / Provincia"
@@ -4545,9 +4363,6 @@ msgstr "UID"
 
 msgid "URL"
 msgstr "URL"
-
-msgid "UUID"
-msgstr "UUID"
 
 #, python-format
 msgid "Unable to communicate with CMS (%s)"
@@ -4895,12 +4710,6 @@ msgstr "no se ha recibido ninguna credencial de Kerberos"
 
 msgid "empty filter"
 msgstr "Vaciar filtro"
-
-msgid "entitlement"
-msgstr "derecho"
-
-msgid "entitlements"
-msgstr "derechos"
 
 msgid "entries"
 msgstr "entradas"
