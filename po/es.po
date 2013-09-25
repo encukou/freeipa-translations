@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
 # Eduardo Villagrán M <gotencool@gmail.com>, 2012
 # vareli <ehespinosa@ya.com>, 2013
 # Gladys Guerrero <gguerrer@redhat.com>, 2011
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-08-01 16:02+0200\n"
-"PO-Revision-Date: 2013-08-01 14:06+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"PO-Revision-Date: 2013-09-20 06:46+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
 "Language-Team: Spanish <trans-es@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -930,6 +931,9 @@ msgstr "Añadir Denegar ${other_entity} en ${entity} ${primary_key}"
 msgid "Add Many"
 msgstr "Añadir Muchos"
 
+msgid "Add Rule"
+msgstr "Añadir una regla"
+
 msgid "Add RunAs ${other_entity} into ${entity} ${primary_key}"
 msgstr "Añadir RunAs ${other_entity} en ${entity} ${primary_key}"
 
@@ -1155,6 +1159,9 @@ msgstr "Correo-e de administrador"
 msgid "Affiliation Changed"
 msgstr "Afiliación cambiada"
 
+msgid "Algorithm"
+msgstr "Algoritmo"
+
 msgid "All commands should at least have a result"
 msgstr "Todos los comandos deberían por lo menos tener un resultado"
 
@@ -1348,6 +1355,9 @@ msgstr "Certificado revocado"
 msgid "Certificate Subject base"
 msgstr "Base de certificado de asunto"
 
+msgid "Certificate Type"
+msgstr "Tipo de certificado"
+
 msgid "Certificate for ${entity} ${primary_key}"
 msgstr "Certificado para ${entity} ${primary_key}"
 
@@ -1366,6 +1376,9 @@ msgstr "Certificado almacenado en el archivo '%(file)s'"
 #, c-format
 msgid "Certificate subject base is: %s\n"
 msgstr "Asunto de certificado es:%s\n"
+
+msgid "Certificate/CRL"
+msgstr "Certificado/CRL"
 
 msgid "Certificates"
 msgstr "Certificados"
@@ -1472,6 +1485,10 @@ msgid ""
 msgstr ""
 "    Modo de funcionamiento continuo. Reporta los errores, pero el proceso "
 "continúa."
+
+#, python-format
+msgid "Could not get %(name)s interactively"
+msgstr "No se pudo obtener %(name)s interactivamente"
 
 msgid "Create a new HBAC rule."
 msgstr "Crear una nueva regla HBAC."
@@ -1835,6 +1852,9 @@ msgstr "Directo"
 msgid "Direct Membership"
 msgstr "Afiliación Directa"
 
+msgid "Disable"
+msgstr "Desactivar"
+
 msgid "Disable DNS Zone."
 msgstr "Deshabilitar Zona DNS."
 
@@ -1854,6 +1874,9 @@ msgid "Disable the Kerberos key, SSL certificate and all services of a host."
 msgstr ""
 "Deshabilitar la clave Kerberos, el certificado SSL y todos los servicios de "
 "un host."
+
+msgid "Disabled"
+msgstr "Desactivado"
 
 #, python-format
 msgid "Disabled DNS zone \"%(value)s\""
@@ -1973,11 +1996,20 @@ msgstr "No crear grupo privado de usuario"
 msgid "Dynamic update"
 msgstr "Actualización dinámica"
 
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Edit ${entity}"
+msgstr "Editar ${entity}"
+
 msgid "Email address"
 msgstr "Dirección de correo electrónico"
 
 msgid "Employee Information"
 msgstr "Información del Empleado"
+
+msgid "Enable"
+msgstr "Activar"
 
 msgid "Enable DNS Zone."
 msgstr "Habilitar Zona DNS."
@@ -2191,11 +2223,17 @@ msgstr "Filtro"
 msgid "Find"
 msgstr "Buscar"
 
+msgid "Fingerprint"
+msgstr "Huella digital"
+
 msgid "Fingerprint (MD5)"
 msgstr "Huella digital (MD5)"
 
 msgid "Fingerprint (SHA1)"
 msgstr "Huella digital (SHA1)"
+
+msgid "Fingerprint Type"
+msgstr "Tipo de huella digital"
 
 msgid "Fingerprints"
 msgstr "Las huellas dactilares"
@@ -2556,6 +2594,9 @@ msgstr " URI LDAP no válida."
 msgid "Invalid Service Principal Name\n"
 msgstr "Nombre de servicio principal inválido\n"
 
+msgid "Invalid number of parts!"
+msgstr "El número de partes no es válido."
+
 msgid "Is zone active?"
 msgstr "¿Está la zona activa?"
 
@@ -2676,6 +2717,9 @@ msgstr "contraseña de LDAP (si no usa Kerberos)"
 msgid "LDAP schema"
 msgstr "Esquema LDAP"
 
+msgid "Labels"
+msgstr "Etiquetas"
+
 msgid "Last name"
 msgstr "Apellido"
 
@@ -2684,6 +2728,9 @@ msgstr "No están permitidos espacios iniciales ni finales"
 
 msgid "Legal LDAP filter (e.g. ou=Engineering)"
 msgstr "Filtro legal LDAP (p.ej. ou=Ingeniería)"
+
+msgid "List of deletions that failed"
+msgstr "Lista de eliminaciones fallidas"
 
 msgid "Lists of objects migrated; categorized by type."
 msgstr "Lista de objetos migrados; clasificados por tipo."
@@ -2705,6 +2752,9 @@ msgstr "Registrado como"
 
 msgid "Login shell"
 msgstr "Shell de ingreso"
+
+msgid "MAC address"
+msgstr "Dirección MAC"
 
 msgid "MD5 Fingerprint"
 msgstr "Huella digital de MD5"
@@ -3234,6 +3284,15 @@ msgstr "No antes de"
 msgid "Not a managed group"
 msgstr "No es un grupo administrado"
 
+msgid "Not a valid IP address"
+msgstr "No es una dirección IP válida"
+
+msgid "Not a valid IPv4 address"
+msgstr "No es una dirección IPv4 válida"
+
+msgid "Not a valid IPv6 address"
+msgstr "No es una dirección IPv6 válida"
+
 msgid "Not matched rules"
 msgstr "Reglas no coincidentes"
 
@@ -3251,6 +3310,9 @@ msgstr "Número de condiciones eliminadas"
 
 msgid "Number of days's notice of impending password expiration"
 msgstr "Aviso de número de días de expiración inminente de contraseña"
+
+msgid "Number of entries returned"
+msgstr "Cantidad de entradas devueltas"
 
 msgid "Number of members added"
 msgstr "Cantidad de miembros añadidos"
@@ -3318,6 +3380,9 @@ msgstr "Organización"
 
 msgid "Organizational Unit"
 msgstr "Unidad organizativa"
+
+msgid "Original TTL"
+msgstr "TTL original"
 
 msgid "Other Record Types"
 msgstr "Otros Tipos de Registro"
@@ -3389,6 +3454,9 @@ msgstr "La contraseña no puede ser fijada en el host matriculado."
 
 msgid "Password change complete"
 msgstr "Cambiar la contraseña completa"
+
+msgid "Password expiration"
+msgstr "Caducidad de la contraseña"
 
 msgid "Password history size"
 msgstr "Tamaño del historial de la contraseña"
@@ -3462,8 +3530,14 @@ msgstr "Plataforma"
 msgid "Policy"
 msgstr "Política"
 
+msgid "Port"
+msgstr "Puerto"
+
 msgid "Positional arguments"
 msgstr "Argumentos posicionales"
+
+msgid "Preference"
+msgstr "Preferencia"
 
 msgid ""
 "Prefix used to distinguish ACI types (permission, delegation, selfservice, "
@@ -3531,8 +3605,14 @@ msgstr "Solicita establecer la contraseña de usuario"
 msgid "Prospective"
 msgstr "Prospectivo"
 
+msgid "Protocol"
+msgstr "Protocolo"
+
 msgid "Provisioning"
 msgstr "Aprovisionamiento"
+
+msgid "Public Key"
+msgstr "Clave pública"
 
 msgid ""
 "Query returned more results than the configured size limit. Displaying the "
@@ -3568,11 +3648,23 @@ msgstr "Tipo de Registro"
 msgid "Record name"
 msgstr "Nombre de registro"
 
+msgid "Record type"
+msgstr "Tipo de registro"
+
+msgid "Records"
+msgstr "Registros"
+
 msgid "Records for DNS Zone"
 msgstr "Los registros para la zona DNS"
 
 msgid "Redirection"
 msgstr "Redirección "
+
+msgid "Refresh"
+msgstr "Actualizar"
+
+msgid "Regular Expression"
+msgstr "Expresión regular"
 
 msgid "Remove ${entity}"
 msgstr "Quitar ${entity}"
@@ -4049,6 +4141,9 @@ msgstr "Sevicios HBAC"
 msgid "Session error"
 msgstr "Error de sesión"
 
+msgid "Set"
+msgstr "Definir"
+
 msgid "Set OTP"
 msgstr "Establecer OTP"
 
@@ -4089,6 +4184,15 @@ msgstr "Mostrar la lista de los tipos cifrados permitidos y salir"
 
 msgid "Showing ${start} to ${end} of ${total} entries."
 msgstr "Mostrando ${start} a ${end} de ${total} entradas."
+
+msgid "Signature"
+msgstr "Firma"
+
+msgid "Signature Expiration"
+msgstr "Caducidad de la firma"
+
+msgid "Signer's Name"
+msgstr "Nombre del firmante"
 
 #, c-format
 msgid "Simple bind failed\n"
@@ -4139,6 +4243,9 @@ msgstr "Estatus"
 msgid "Street address"
 msgstr "Dirección postal"
 
+msgid "Structured"
+msgstr "Estructurado"
+
 msgid "Subject"
 msgstr "Asunto"
 
@@ -4153,6 +4260,9 @@ msgstr "Subárbol al que aplicar ACI"
 
 msgid "Subtree to apply permissions to"
 msgstr "Subárbol para aplicar permisos"
+
+msgid "Subtype"
+msgstr "Subtipo"
 
 msgid "Sudo"
 msgstr "Sudo"
@@ -4224,6 +4334,9 @@ msgstr "Número de teléfono"
 
 msgid "Test the ACI syntax but don't write anything"
 msgstr "Probar la sintaxis pero no escribir nada"
+
+msgid "Text Data"
+msgstr "Datos de texto"
 
 msgid "Text does not match field pattern"
 msgstr "El texto no coincide con el patrón de campo"
@@ -4349,6 +4462,9 @@ msgstr "Cantidad total de variables env (>= count)"
 
 msgid "True"
 msgstr "Verdad"
+
+msgid "True means the operation was successful"
+msgstr "«Verdadero» significa que la operación fue exitosa"
 
 msgid "Type"
 msgstr "Tipo"
@@ -4487,6 +4603,9 @@ msgstr "No especificada"
 msgid "Update"
 msgstr "Actualizar"
 
+msgid "Update DNS entries"
+msgstr "Actualizar las entradas DNS"
+
 msgid "User"
 msgstr "Usuario"
 
@@ -4566,6 +4685,9 @@ msgstr "Vía de servicio"
 msgid "View"
 msgstr "Ver"
 
+msgid "Warning"
+msgstr "Aviso"
+
 #, c-format
 msgid "Warning: failed to convert type (#%d)\n"
 msgstr "Advertencia: Tipo para convertir falló (#%d)⏎\n"
@@ -4600,6 +4722,10 @@ msgstr "Nombre de la zona"
 
 msgid "Zone name (FQDN)"
 msgstr "Nombre de la zona (FQDN)"
+
+#, python-format
+msgid "Zone record '%s' cannot be deleted"
+msgstr "No se puede eliminar el registro de zona «%s»"
 
 msgid "an internal error has occurred"
 msgstr "ha ocurrido un error interno"
@@ -4812,6 +4938,10 @@ msgstr "formato no válido de dirección IP"
 
 msgid "invalid IP network format"
 msgstr "formato no válido de red IP"
+
+#, python-format
+msgid "invalid domain-name: %s"
+msgstr "nombre de dominio no válido: %s"
 
 #, c-format
 msgid "ipa-getkeytab has bad permissions?\n"
