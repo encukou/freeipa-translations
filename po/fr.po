@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.redhat.com/enter_bug.cgi?"
 "product=freeIPA\n"
 "POT-Creation-Date: 2013-08-01 16:02+0200\n"
-"PO-Revision-Date: 2013-10-13 20:19+0000\n"
+"PO-Revision-Date: 2013-10-19 10:04+0000\n"
 "Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/fedora/language/"
 "fr/)\n"
@@ -2625,7 +2625,7 @@ msgid ""
 "  ipa krbtpolicy-mod admin --maxlife=3600\n"
 msgstr ""
 "\n"
-"Politique de ticket Kerberos\n"
+"Politique de tickets Kerberos\n"
 "\n"
 "Il n'existe qu'une unique politique de ticket Kerberos. Cette politique\n"
 "définit la durée de vie maximale des tickets, ainsi que l'âge maximal de\n"
@@ -6508,7 +6508,7 @@ msgstr ""
 "manuel de ipa pour plus d'informations."
 
 msgid "Display the current Kerberos ticket policy."
-msgstr "Afficher la politique de ticket Kerberos."
+msgstr "Afficher la politique de tickets Kerberos."
 
 msgid "Display the list of realm domains."
 msgstr "Afficher la liste des domaines."
@@ -7534,7 +7534,7 @@ msgid "Kerberos Service Principal Name"
 msgstr "Nom de principal de service Kerberos"
 
 msgid "Kerberos Ticket Policy"
-msgstr "Politique de ticket Kerberos"
+msgstr "Politique de tickets Kerberos"
 
 #, c-format
 msgid ""
@@ -7687,7 +7687,7 @@ msgid "Manage password policy for specific group"
 msgstr "Gérer la politique de mots de passe d'un groupe spécifique"
 
 msgid "Manage ticket policy for specific user"
-msgstr "Administre la politique de ticket d'un utilisateur spécifique"
+msgstr "Administrer la politique de tickets d'un utilisateur spécifique"
 
 msgid "Managedby permission"
 msgstr "Permission managedby"
@@ -7999,7 +7999,7 @@ msgid "Modify ID range."
 msgstr "Modifier une plage."
 
 msgid "Modify Kerberos ticket policy."
-msgstr "Modifier la politique de ticket Kerberos."
+msgstr "Modifier la politique de tickets Kerberos."
 
 msgid "Modify Sudo Command Group."
 msgstr "Modifier un groupe de commandes Sudo."
@@ -9057,7 +9057,7 @@ msgid "Reset"
 msgstr "Réinitialiser"
 
 msgid "Reset Kerberos ticket policy to the default values."
-msgstr "Réinitialiser la politique de ticket Kerberos."
+msgstr "Réinitialiser la politique de tickets Kerberos."
 
 msgid "Reset OTP"
 msgstr "Remise à zéro OTP"
@@ -10935,7 +10935,7 @@ msgid "ipa-getkeytab not found\n"
 msgstr "ipa-getkeytab introuvable\n"
 
 msgid "kerberos ticket policy settings"
-msgstr "configuration de la politique de ticket Kerberos"
+msgstr "configuration de la politique de tickets Kerberos"
 
 #, python-format
 msgid "key %(key)s already exists"
@@ -11207,7 +11207,7 @@ msgid "password policies"
 msgstr "politiques de mot de passe"
 
 msgid "password policy"
-msgstr "politique de mot de passe"
+msgstr "politique de mots de passe"
 
 msgid "password to use if not using kerberos"
 msgstr ""
