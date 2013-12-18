@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2013-08-01 16:02+0200\n"
-"PO-Revision-Date: 2013-11-20 11:14+0000\n"
+"POT-Creation-Date: 2013-12-17 11:57+0100\n"
+"PO-Revision-Date: 2013-12-17 11:00+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Kannada (http://www.transifex.com/projects/p/fedora/language/"
 "kn/)\n"
@@ -189,9 +189,6 @@ msgstr "ಹೊರಗಿನ ಹೋಸ್ಟ್"
 
 msgid "Failed members"
 msgstr "ವಿಫಲಗೊಂಡ ಸದಸ್ಯರು"
-
-msgid "Failure decoding Certificate Signing Request"
-msgstr "ಪ್ರಮಾಣಪತ್ರದ ಸಹಿಯ ಕೋರಿಕೆಯ ಡಿಕೋಡಿಂಗ್‌ನ ವಿಫಲತೆ"
 
 #, python-format
 msgid "Failure decoding Certificate Signing Request: %s"

@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2013-08-01 16:02+0200\n"
-"PO-Revision-Date: 2013-11-20 11:15+0000\n"
+"POT-Creation-Date: 2013-12-17 11:57+0100\n"
+"PO-Revision-Date: 2013-12-17 11:00+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/fedora/language/"
 "pl/)\n"
@@ -473,12 +473,6 @@ msgstr "Otwarcie tablicy kluczy nie powiodło się\n"
 msgid "Failed to open keytab\n"
 msgstr "Otwarcie tablicy kluczy nie powiodło się\n"
 
-msgid "Failure decoding Certificate Signing Request"
-msgstr "Dekodowanie żądania podpisywania certyfikatu nie powiodło się"
-
-msgid "Failure decoding Certificate Signing Request:"
-msgstr "Dekodowanie żądania podpisywania certyfikatu nie powiodło się:"
-
 #, python-format
 msgid "Failure decoding Certificate Signing Request: %s"
 msgstr "Dekodowanie żądania podpisywania certyfikatu nie powiodło się: %s"
@@ -545,10 +539,6 @@ msgstr "Nazwa grupy"
 
 msgid "Group to apply ACI to"
 msgstr "Grupa, do której zastosować ACI"
-
-#, python-format
-msgid "Group: %s not found!"
-msgstr "Grupa: nie odnaleziono %s."
 
 msgid "Groups"
 msgstr "Grupy"
