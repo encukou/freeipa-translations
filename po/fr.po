@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2013-12-17 13:30+0000\n"
+"PO-Revision-Date: 2013-12-20 19:46+0000\n"
 "Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/fedora/language/"
 "fr/)\n"
@@ -6109,6 +6109,9 @@ msgstr "Identifiant de sécurité du domaine"
 msgid "Domain controller for the Active Directory domain (optional)"
 msgstr "Contrôleur de domaine pour le domaine Active Directory (optionnel)"
 
+msgid "Domain name"
+msgstr "Nom de domaine"
+
 msgid "Don't create user private group"
 msgstr "Ne pas créer de groupe privé"
 
@@ -9650,6 +9653,9 @@ msgstr "Le domaine approuvé n'a pas renvoyé un unique objet"
 msgid "Trusted domain did not return a valid SID for the object"
 msgstr "Le domaine approuvé n'a pas renvoyé un SID valide pour l'objet"
 
+msgid "Trusted domains"
+msgstr "Domaines approuvés"
+
 msgid "Trusted for delegation"
 msgstr "Approuvé pour délégation."
 
@@ -10916,6 +10922,12 @@ msgstr "approbation"
 
 msgid "trust configuration"
 msgstr "configuration des relations d'approbation"
+
+msgid "trust domain"
+msgstr "domaine d'approbation"
+
+msgid "trust domains"
+msgstr "domaines d'approbation"
 
 msgid "trust type"
 msgstr "type d'approbation"
