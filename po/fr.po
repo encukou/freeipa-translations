@@ -7,7 +7,7 @@
 # Dralyab <geodebay@gmail.com>, 2013
 # Dralyab <geodebay@gmail.com>, 2013
 # Gé Baylard <<Geodebay@gmail.com>>, 2013
-# Jérôme Fenal <jfenal@gmail.com>, 2011-2013
+# Jérôme Fenal <jfenal@gmail.com>, 2011-2014
 # Jérôme Fenal <jfenal@gmail.com>, 2011
 # Petr Viktorin <encukou@gmail.com>, 2013
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2013-12-20 19:46+0000\n"
+"PO-Revision-Date: 2014-01-05 18:58+0000\n"
 "Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/fedora/language/"
 "fr/)\n"
@@ -5046,6 +5046,9 @@ msgstr "Auto-adhésion"
 msgid "Automember Rule"
 msgstr "Règle d'auto adhésion"
 
+msgid "Automember rebuild membership task completed"
+msgstr "La tâche de reconstruction d'appartenance automatique est terminée"
+
 msgid "Automount"
 msgstr "Automontage"
 
@@ -8382,6 +8385,18 @@ msgstr "Raison de la révocation"
 msgid "Reason for revoking the certificate (0-10)"
 msgstr "Raison de révocation du certificat (0-10)"
 
+msgid "Rebuild auto membership."
+msgstr "Reconstruire l'appartenance automatique."
+
+msgid "Rebuild membership for all members of a grouping"
+msgstr "Reconstruire l'appartenance pour tous les membres d'un groupe"
+
+msgid "Rebuild membership for specified hosts"
+msgstr "Reconstruire l'appartenance pour les hôtes indiqués"
+
+msgid "Rebuild membership for specified users"
+msgstr "Reconstruire l'appartenance pour les utilisateurs indiqués "
+
 msgid "Record Type"
 msgstr "Type d'enregistrement"
 
@@ -10392,6 +10407,9 @@ msgid "hosts cannot be added when host category='all'"
 msgstr ""
 "des systèmes ne peuvent être ajoutés quand la catégorie systèmes est définie "
 "à 'all'"
+
+msgid "hosts cannot be set when type is 'group'"
+msgstr "des hôtes ne peuvent être indiqués lorsque le type est « group »"
 
 msgid "id range"
 msgstr "plage d'identifiants"
