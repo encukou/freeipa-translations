@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2014-01-05 18:58+0000\n"
+"PO-Revision-Date: 2014-01-06 21:40+0000\n"
 "Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/fedora/language/"
 "fr/)\n"
@@ -1221,6 +1221,13 @@ msgstr ""
 " Modifier la configuration DNS globale et définit une liste de transmetteurs "
 "globaux :\n"
 "   ipa dnsconfig-mod --forwarder=10.0.0.1\n"
+
+msgid ""
+"\n"
+"EXAMPLES:\n"
+msgstr ""
+"\n"
+"EXEMPLES :\n"
 
 msgid ""
 "\n"
@@ -4341,6 +4348,10 @@ msgstr "%s à exclure de la migration"
 msgid "%s to remove"
 msgstr "%s à supprimer"
 
+#, python-format
+msgid "%s: group not found"
+msgstr "%s : groupe introuvable"
+
 msgid "'${port}' is not a valid port"
 msgstr "« ${port} » n'est pas un port valide"
 
@@ -4883,6 +4894,9 @@ msgstr "Autoriser"
 
 msgid "Allow PTR sync"
 msgstr "Autoriser la synchronisation PTR"
+
+msgid "Allow access from the trusted domain"
+msgstr "Autoriser l'accès depuis le domaine approuvé"
 
 msgid "Allow adding external non-IPA members from trusted domains"
 msgstr ""
@@ -7631,6 +7645,9 @@ msgstr "Modifier les informations d'un hôte."
 msgid "Modify realm domains."
 msgstr "Modifier les domaines."
 
+msgid "Modify trustdomain of the trust"
+msgstr "Modifier le domaine de la relation d'approbation"
+
 #, python-format
 msgid ""
 "More than one entry with key %(key)s found, use --info to select specific "
@@ -8180,6 +8197,9 @@ msgstr "L'ACI Permission donne accès à"
 msgid "Permission denied: %(file)s"
 msgstr "Autorisation refusée : %(file)s"
 
+msgid "Permission flags"
+msgstr "Indicateurs de permissions"
+
 msgid "Permission name"
 msgstr "Nom de permission"
 
@@ -8331,6 +8351,18 @@ msgstr "Liens rapides"
 
 msgid "Quiet mode. Only errors are displayed."
 msgstr "Mode silencieux. Seules les erreurs sont affichées."
+
+msgid "RADIUS Server"
+msgstr "Serveur RADIUS"
+
+msgid "RADIUS Servers"
+msgstr "Serveurs RADIUS"
+
+msgid "RADIUS proxy configuration"
+msgstr "Configuration du mandataire RADIUS"
+
+msgid "RADIUS proxy username"
+msgstr "Nom d'utilisateur du mandataire RADIUS"
 
 msgid "RFC4120-compliant Kerberos realm"
 msgstr "Domaine Kerberos conforme à la RFC4120"
@@ -8950,6 +8982,9 @@ msgstr "Rechercher"
 
 msgid "Search Options"
 msgstr "Options de recherche"
+
+msgid "Search domains of the trust"
+msgstr "Recherches dans les domaines approuvés"
 
 #, python-format
 msgid ""
@@ -9657,6 +9692,9 @@ msgstr "Type d'approbation"
 msgid "Trust type (ad for Active Directory, default)"
 msgstr "Type d'approbation (par défaut, ad pour Active Directory)"
 
+msgid "Trusted domain"
+msgstr "Domaine approuvé"
+
 msgid "Trusted domain and administrator account use different realms"
 msgstr ""
 "Le domaine approuvé et le compte administrateur utilisent des domaines "
@@ -9667,6 +9705,9 @@ msgstr "Le domaine approuvé n'a pas renvoyé un unique objet"
 
 msgid "Trusted domain did not return a valid SID for the object"
 msgstr "Le domaine approuvé n'a pas renvoyé un SID valide pour l'objet"
+
+msgid "Trusted domain partner"
+msgstr "Partenaire de domaine approuvé"
 
 msgid "Trusted domains"
 msgstr "Domaines approuvés"
@@ -9885,6 +9926,9 @@ msgstr ""
 
 msgid "User Options"
 msgstr "Options utilisateurs"
+
+msgid "User authentication types"
+msgstr "Types d'authentification utilisateur"
 
 msgid "User category"
 msgstr "Catégorie d'utilisateur"
@@ -10891,6 +10935,9 @@ msgid "services cannot be added when service category='all'"
 msgstr ""
 "aucun service ne peut être ajouté quand la catégorie de services sources est "
 "à « all »"
+
+msgid "sidgen_was_run"
+msgstr "sidgen_was_run"
 
 msgid "skip reverse DNS detection"
 msgstr "passer outre la détection de DNS inverse"
