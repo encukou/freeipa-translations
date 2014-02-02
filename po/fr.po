@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2014-01-06 21:40+0000\n"
+"PO-Revision-Date: 2014-01-31 11:06+0000\n"
 "Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/fedora/language/"
 "fr/)\n"
@@ -309,6 +309,83 @@ msgstr ""
 "    spécifiée par la politique de mot de passe. Le verrouillage d'un compte\n"
 "    est une situation temporaire et le compte peut être déverrouillé par un\n"
 "    administrateur."
+
+msgid ""
+"\n"
+" Add a host that can manage this host's keytab and certificate:\n"
+"   ipa host-add-managedby --hosts=test2 test\n"
+msgstr ""
+"\n"
+" Ajouter un hôte pouvant gérer la keytab et le certificat de l'hôte "
+"courant :\n"
+"   ipa host-add-managedby --hosts=test2 test\n"
+
+msgid ""
+"\n"
+" Add a new host with a one-time password:\n"
+"   ipa host-add --os='Fedora 12' --password=Secret123 test.example.com\n"
+msgstr ""
+"\n"
+" Ajouter un nouvel hôte à l'aide d'un mot de passe à usage unique :\n"
+"   ipa host-add --os='Fedora 12' --password=Secret123 test.example.com\n"
+
+msgid ""
+"\n"
+" Add a new host with a random one-time password:\n"
+"   ipa host-add --os='Fedora 12' --random test.example.com\n"
+msgstr ""
+"\n"
+"Ajouter un nouvel hôte avec un mot de passe aléatoire :\n"
+"   ipa host-add --os='Fedora 12' --random test.example.com\n"
+
+msgid ""
+"\n"
+" Add a new host:\n"
+"   ipa host-add --location=\"3rd floor lab\" --locality=Dallas test.example."
+"com\n"
+msgstr ""
+"\n"
+" Ajouter un nouvel hôte :\n"
+"   ipa host-add --location=\"3rd floor lab\" --locality=Dallas test.example."
+"com\n"
+
+msgid ""
+"\n"
+" Delete a host:\n"
+"   ipa host-del test.example.com\n"
+msgstr ""
+"\n"
+" Supprimer un hôte :\n"
+"   ipa host-del test.example.com\n"
+
+msgid ""
+"\n"
+" Disable the host Kerberos key, SSL certificate and all of its services:\n"
+"   ipa host-disable test.example.com\n"
+msgstr ""
+"\n"
+"Désactiver la clé Kerberos, les certificats SSL et tous les services d'un "
+"hôte :\n"
+"   ipa host-disable test.example.com\n"
+
+msgid ""
+"\n"
+" Modify information about a host:\n"
+"   ipa host-mod --os='Fedora 12' test.example.com\n"
+msgstr ""
+"\n"
+" Modifier les informations d'un hôte :\n"
+"   ipa host-mod --os='Fedora 12' test.example.com\n"
+
+msgid ""
+"\n"
+" Remove SSH public keys of a host and update DNS to reflect this change:\n"
+"   ipa host-mod --sshpubkey= --updatedns test.example.com\n"
+msgstr ""
+"\n"
+" Supprimer les clés publiques SSH d'un hôte et modifier DNS en "
+"conséquence :\n"
+"   ipa host-mod --sshpubkey= --updatedns test.example.com\n"
 
 msgid ""
 "\n"
@@ -1224,6 +1301,33 @@ msgstr ""
 
 msgid ""
 "\n"
+"ENROLLMENT:\n"
+"\n"
+"There are three enrollment scenarios when enrolling a new client:\n"
+"\n"
+"1. You are enrolling as a full administrator. The host entry may exist\n"
+"   or not. A full administrator is a member of the hostadmin role\n"
+"   or the admins group.\n"
+"2. You are enrolling as a limited administrator. The host must already\n"
+"   exist. A limited administrator is a member a role with the\n"
+"   Host Enrollment privilege.\n"
+"3. The host has been created with a one-time password.\n"
+msgstr ""
+"\n"
+"INSCRIPTION :\n"
+"\n"
+"Trois scenarii d'inscriptions d'un nouveau client sont possibles :\n"
+"\n"
+"1. La machine est enregistrée par un administrateur de plein droit.\n"
+"   L'entrée système peut pré-exister ou non. Un administrateur de\n"
+"   plein droit est membre du rôle hostadmin ou du groupe admins\n"
+"2. L'inscription est faite par un administrateur limité. L'hôte\n"
+"   doit avoir été préalablement créé. Un administrateur limité\n"
+"   possède le privilège Host Enrollment.\n"
+"3. Le système a été créé avec un mot de passe à usage unique.\n"
+
+msgid ""
+"\n"
 "EXAMPLES:\n"
 msgstr ""
 "\n"
@@ -1773,6 +1877,26 @@ msgstr ""
 " Supprimer une règle HBAC nommée :\n"
 "   ipa hbacrule-del allow_server\n"
 "\n"
+
+msgid ""
+"\n"
+"Hosts/Machines\n"
+"\n"
+"A host represents a machine. It can be used in a number of contexts:\n"
+"- service entries are associated with a host\n"
+"- a host stores the host/ service principal\n"
+"- a host can be used in Host-based Access Control (HBAC) rules\n"
+"- every enrolled client generates a host entry\n"
+msgstr ""
+"\n"
+"Hôtes/Machines\n"
+"\n"
+"Un hôte représente une machine. Elle peut être utilisée dans un certain "
+"nombre de contextes :\n"
+"- les entrées de service associées à un hôte,\n"
+"- un hôte stockant le principal de service host/,\n"
+"- un hôte utilisé dans les règles Host-based Access Control (HBAC),\n"
+"- chaque client enregistré crée sa propre entrée d'hôte.\n"
 
 msgid ""
 "\n"
@@ -2739,6 +2863,13 @@ msgstr ""
 
 msgid ""
 "\n"
+"Permissions\n"
+msgstr ""
+"\n"
+"Permissions\n"
+
+msgid ""
+"\n"
 "Ping the remote IPA server to ensure it is running.\n"
 "\n"
 "The ping command sends an echo request to an IPA server. The server\n"
@@ -2840,6 +2971,31 @@ msgstr ""
 "\n"
 "Reportez-vous la gestion des rôles et des permissions pour plus "
 "d'informations.\n"
+
+msgid ""
+"\n"
+"RE-ENROLLMENT:\n"
+"\n"
+"Host that has been enrolled at some point, and lost its configuration (e.g. "
+"VM\n"
+"destroyed) can be re-enrolled.\n"
+"\n"
+"For more information, consult the manual pages for ipa-client-install.\n"
+"\n"
+"A host can optionally store information such as where it is located,\n"
+"the OS that it runs, etc.\n"
+msgstr ""
+"\n"
+"RÉ-INSCRIPTION :\n"
+"\n"
+"Un hôte qui a déjà été inscrit mais a perdu sa configuration (parce que sa "
+"VM a été supprimée par exemple), peut être ré-inscrit.\n"
+"\n"
+"Pour plus d'informations sur le sujet, consulter les pages de manuel de la "
+"commande ipa-client-install.\n"
+"\n"
+"Un système peut de façon optionnelle stocker des informations\n"
+"complémentaires comme sa localisation, son système d'exploitation, etc.\n"
 
 msgid ""
 "\n"
@@ -4040,7 +4196,7 @@ msgid "${primary_key} is a member of:"
 msgstr "${primary_key} est membre de :"
 
 msgid "${primary_key} is managed by:"
-msgstr "${primary_key} est gérée par :"
+msgstr "${primary_key} est géré par :"
 
 msgid "${primary_key} members:"
 msgstr "membres ${primary_key} :"
@@ -4102,6 +4258,12 @@ msgid "%(count)d HBAC service matched"
 msgid_plural "%(count)d HBAC services matched"
 msgstr[0] "%(count)d service HBAC correspondant"
 msgstr[1] "%(count)d services HBAC correspondants"
+
+#, python-format
+msgid "%(count)d RADIUS proxy server matched"
+msgid_plural "%(count)d RADIUS proxy servers matched"
+msgstr[0] "%(count)d serveur mandataire RADIUS correspondant"
+msgstr[1] "%(count)d serveurs mandataires RADIUS correspondants"
 
 #, python-format
 msgid "%(count)d SELinux User Map matched"
@@ -4403,6 +4565,9 @@ msgstr ""
 "CSR (de <em>-----BEGIN NEW CERTIFICATE REQUEST-----</em> à <em>-----END NEW "
 "CERTIFICATE REQUEST-----</em>) dans la zone de texte ci-dessous : </li> </ol>"
 
+msgid "A SYSTEM permission may not be modified or removed"
+msgstr "Une permission SYSTEM ne peut être modifiée ni supprimée"
+
 msgid "A comma-separated list of fields to search in when searching for groups"
 msgstr ""
 "Une liste séparée par des virgules des champs à fouiller lors d'une "
@@ -4412,6 +4577,9 @@ msgid "A comma-separated list of fields to search in when searching for users"
 msgstr ""
 "Une liste séparée par des virgules des champs à fouiller lors d'une "
 "recherche d'utilisateurs"
+
+msgid "A description of this RADIUS proxy server"
+msgstr "Description de ce serveur mandataire RADIUS"
 
 msgid "A description of this auto member rule"
 msgstr "Une description de cette règle d'auto-adhésion"
@@ -4485,6 +4653,12 @@ msgstr "Préfixe ACI"
 
 msgid "ACI prefix is required"
 msgstr "Un préfixe ACI est requis"
+
+msgid "ACI target DN"
+msgstr "DN de la cible de l'ACI"
+
+msgid "ACI target filter"
+msgstr "Filtre de cible de l'ACI"
 
 #, python-format
 msgid "ACI with name \"%s\" not found"
@@ -4621,6 +4795,9 @@ msgstr "Ajouter un nouveau service HBAC."
 msgid "Add a new IPA new service."
 msgstr "Ajouter un nouveau service IPA."
 
+msgid "Add a new RADIUS proxy server."
+msgstr "Ajouter un nouveau serveur mandataire RADIUS."
+
 msgid "Add a new delegation."
 msgstr "Ajouter une nouvelle délégation."
 
@@ -4653,6 +4830,9 @@ msgstr "Ajouter un nouvel utilisateur."
 
 msgid "Add a permission for per-zone access delegation."
 msgstr "Ajouter une permission pour la délégation par zone."
+
+msgid "Add a system permission without an ACI (internal command)"
+msgstr "Ajouter une permission système sans ACI (commande interne)"
 
 msgid ""
 "Add an attribute/value pair. Format is attr=value. The attribute\n"
@@ -4775,6 +4955,10 @@ msgstr "Groupe de services HBAC « %(value)s » ajouté"
 #, python-format
 msgid "Added ID range \"%(value)s\""
 msgstr "Plage d'ID « %(value)s » ajoutée"
+
+#, python-format
+msgid "Added RADIUS proxy server \"%(value)s\""
+msgstr "Serveur mandataire RADIUS « %(value)s » ajouté"
 
 #, python-format
 msgid "Added SELinux User Map \"%(value)s\""
@@ -4980,14 +5164,26 @@ msgstr ""
 "Êtes-vous sûr de vouloir ${action} l'utilisateur ?<br/>Le changement prendra "
 "effet immédiatement."
 
+msgid "Are you sure you want to delete ${object}?"
+msgstr "Êtes-vous sûr de vouloir supprimer ${object} ?"
+
 msgid "Are you sure you want to delete selected entries?"
 msgstr "Êtes-vous sûr de vouloir supprimer les entrées sélectionnées ?"
+
+msgid "Are you sure you want to disable ${object}?"
+msgstr "Êtes-vous sûr de vouloir désactiver ${object} ?"
 
 msgid "Are you sure you want to disable selected entries?"
 msgstr "Êtes-vous sûr de vouloir désactiver les entrées sélectionnées ?"
 
+msgid "Are you sure you want to enable ${object}?"
+msgstr "Êtes-vous sûr de vouloir activer ${object} ?"
+
 msgid "Are you sure you want to enable selected entries?"
 msgstr "Êtes-vous sûr de vouloir activer les entrées sélectionnées ?"
+
+msgid "Are you sure you want to proceed with the action?"
+msgstr "Êtes-vous sûr de vouloir procéder à cette action ?"
 
 msgid "Are you sure you want to unprovision this host?"
 msgstr "Êtes-vous sûr de vouloir décommissionner ce système ?"
@@ -5120,6 +5316,9 @@ msgstr "Mauvais format de cache de crédit"
 msgid "Bad or unsupported salt type.\n"
 msgstr "Type de sel non-conforme ou non pris en compte.\n"
 
+msgid "Bad search filter"
+msgstr "Filtre de recherche invalide"
+
 #, python-format
 msgid "Bad search filter %(info)s"
 msgstr "Filtre de recherche invalide %(info)s"
@@ -5156,8 +5355,14 @@ msgstr ""
 "Mot de passe de connexion requis lors de l'utilisation d'un DN de "
 "connexion.\n"
 
+msgid "Bind rule type"
+msgstr "Type de règle de connexion"
+
 msgid "CA Compromise"
 msgstr "AC compromise"
+
+msgid "CA certificate"
+msgstr "Certificat de l'AC"
 
 msgid "CIFS credentials object"
 msgstr "Objet identification CIFS"
@@ -5249,6 +5454,10 @@ msgstr ""
 "Impossible d'effectuer une recherche sur les domaines approuvés sans avoir "
 "au préalable configuré son propre domaine. Assurez-vous d'avoir d'abord "
 "lancé ipa-adtrust-install sur le serveur"
+
+#, python-format
+msgid "Cannot use %(old_name)s with %(new_name)s"
+msgstr "Impossible d'utiliser %(old_name)s avec %(new_name)s"
 
 msgid "Car License"
 msgstr "Carte d'identité"
@@ -5644,6 +5853,12 @@ msgstr "Interpréteur de commande par défaut pour les nouveaux utilisateurs"
 msgid "Default types of PAC supported for services"
 msgstr "Types de PAC par défaut pris en charge pour les services"
 
+msgid "Default types of supported user authentication"
+msgstr "Types d'authentification utilisateur pris en charge par défaut"
+
+msgid "Default user authentication types"
+msgstr "Types d'authentification utilisateur par défaut"
+
 msgid "Default user group"
 msgstr "Groupe d'utilisateur par défaut"
 
@@ -5697,6 +5912,9 @@ msgstr "Supprimer une commande Sudo."
 
 msgid "Delete Sudo Rule."
 msgstr "Règle Sudo supprimée."
+
+msgid "Delete a RADIUS proxy server."
+msgstr "Supprimer un serveur mandataire RADIUS."
 
 msgid "Delete a SELinux User Map."
 msgstr "Supprimer une liste de correspondance d'utilisateurs SELinux"
@@ -5802,6 +6020,10 @@ msgid "Deleted ID range \"%(value)s\""
 msgstr "Plage d'ID « %(value)s » supprimée"
 
 #, python-format
+msgid "Deleted RADIUS proxy server \"%(value)s\""
+msgstr "Serveur mandataire RADIUS « %(value)s » supprimé"
+
+#, python-format
 msgid "Deleted SELinux User Map \"%(value)s\""
 msgstr ""
 "Liste de correspondance d'utilisateurs SELinux « %(value)s » supprimée."
@@ -5893,6 +6115,10 @@ msgstr ""
 msgid "Deny"
 msgstr "Interdire"
 
+#, python-format
+msgid "Deprecated; use %s"
+msgstr "Obsolète ; utiliser %s"
+
 msgid "Description"
 msgstr "Description"
 
@@ -5902,6 +6128,9 @@ msgstr "Détacher un groupe administré d'un utilisateur."
 #, python-format
 msgid "Detached group \"%(value)s\" from user \"%(value)s\""
 msgstr "Groupe « %(value)s » détaché de l'utilisateur « %(value)s »"
+
+msgid "Detect"
+msgstr "Détection"
 
 msgid "Determine whether ipa-adtrust-install has been run on this system"
 msgstr ""
@@ -6027,6 +6256,9 @@ msgid "Display information about a DNS zone (SOA record)."
 msgstr ""
 "Afficher les informations au sujet d'une zone DNS (enregistrement SOA)."
 
+msgid "Display information about a RADIUS proxy server."
+msgstr "Afficher les informations sur un serveur mandataire RADIUS."
+
 msgid "Display information about a delegation."
 msgstr "Afficher les informations sur une délégation."
 
@@ -6089,7 +6321,7 @@ msgid "Display the current Kerberos ticket policy."
 msgstr "Afficher la politique de tickets Kerberos."
 
 msgid "Display the list of realm domains."
-msgstr "Afficher la liste des domaines."
+msgstr "Afficher la liste des domaines du royaume."
 
 msgid "Display the properties of a SELinux User Map rule."
 msgstr ""
@@ -6191,6 +6423,10 @@ msgid "Enabled Sudo Rule \"%s\""
 msgstr "Règle Sudo « %s » activée"
 
 #, python-format
+msgid "Enabled trust domain \"%(value)s\""
+msgstr "Activation du domaine approuvé « %(value)s »"
+
+#, python-format
 msgid "Enabled user account \"%(value)s\""
 msgstr "Compte utilisateur « %(value)s » activé"
 
@@ -6216,6 +6452,14 @@ msgstr "Entrer à nouveau %(label)s pour validation :"
 
 msgid "Entry"
 msgstr "Entrée"
+
+#, python-format
+msgid "Entry %s does not exist"
+msgstr "L'entrée « %s » n'existe pas"
+
+#, python-format
+msgid "Entry %s not found"
+msgstr "Entrée %s introuvable"
 
 msgid "Error"
 msgstr "Erreur"
@@ -6577,7 +6821,7 @@ msgstr "Groupe"
 
 #, python-format
 msgid "Group '%s' does not exist"
-msgstr "Le groupe '%s' n'existe pas"
+msgstr "Le groupe « %s » n'existe pas"
 
 msgid "Group ID Number"
 msgstr "Numéro d'identifiant de groupe"
@@ -6975,7 +7219,7 @@ msgid ""
 "Insufficient 'write' privilege to the 'krbLastPwdChange' attribute of entry "
 "'%s'."
 msgstr ""
-"Privilège en écriture insuffisant sur l'attribut « krbLastPwdChange »de  "
+"Privilège en écriture insuffisant sur l'attribut « krbLastPwdChange » de  "
 "l'entrée « %s »."
 
 #, python-format
@@ -7128,7 +7372,7 @@ msgstr "Principal Kerberos"
 msgid ""
 "Kerberos principal %s already exists. Use 'ipa user-mod' to set it manually."
 msgstr ""
-"Le principal Kerberos %s existe déjà. Utiliser la commande 'ipa user-mod' "
+"Le principal Kerberos %s existe déjà. Utiliser la commande « ipa user-mod » "
 "pour le créer manuellement."
 
 msgid "Kerberos principal name for this host"
@@ -7175,7 +7419,7 @@ msgid "LDAP schema"
 msgstr "Schéma LDAP"
 
 msgid "LDAP timeout"
-msgstr "expiration de délai LDAP"
+msgstr "Délai d'expiration LDAP"
 
 msgid "Labels"
 msgstr "Étiquettes"
@@ -7203,6 +7447,9 @@ msgstr "Liste des objets migrés, catégorisés par type."
 
 msgid "Lists of objects that could not be migrated; categorized by type."
 msgstr "Liste des objets n'ayant pu être migrés, catégorisés par type."
+
+msgid "Load CA certificate of LDAP server from FILE"
+msgstr "Charger le certification de l'AC du serveur LDAP depuis FILE"
 
 msgid "Local domain"
 msgstr "Domaine local :"
@@ -7474,6 +7721,10 @@ msgid "Modified ID range \"%(value)s\""
 msgstr "Plage d'ID « %(value)s » modifiée"
 
 #, python-format
+msgid "Modified RADIUS proxy server \"%(value)s\""
+msgstr "Serveur mandataire RADIUS « %(value)s » modifié"
+
+#, python-format
 msgid "Modified SELinux User Map \"%(value)s\""
 msgstr "Liste de correspondance d'utilisateurs SELinux « %(value)s » modifiée"
 
@@ -7579,6 +7830,9 @@ msgstr "Modifier une règle Sudo."
 msgid "Modify a DNS resource record."
 msgstr "Modifier un enregistrement de ressources DNS."
 
+msgid "Modify a RADIUS proxy server."
+msgstr "Modifier un serveur mandataire RADIUS"
+
 msgid "Modify a SELinux User Map."
 msgstr "Modifier une liste de correspondance d'utilisateurs SELinux"
 
@@ -7643,7 +7897,7 @@ msgid "Modify information about a host."
 msgstr "Modifier les informations d'un hôte."
 
 msgid "Modify realm domains."
-msgstr "Modifier les domaines."
+msgstr "Modifier les domaines du royaume."
 
 msgid "Modify trustdomain of the trust"
 msgstr "Modifier le domaine de la relation d'approbation"
@@ -7835,11 +8089,11 @@ msgstr "Aucun domaine approuvé n'est pas configuré"
 
 #, c-format
 msgid "No values for %s"
-msgstr "Pas de valeurs pour %s"
+msgstr "Aucune valeur pour %s"
 
 #, c-format
 msgid "No write permissions on keytab file '%s'\n"
-msgstr "Pas de permissions en écriture sur le fichier keytab '%s'\n"
+msgstr "Pas de permissions en écriture sur le fichier keytab « %s »\n"
 
 msgid "Non-Active Directory domain"
 msgstr "Domaine non-Active Directory"
@@ -8206,6 +8460,12 @@ msgstr "Nom de permission"
 msgid "Permission with invalid target specification"
 msgstr "Permission avec spécification de cible invalide"
 
+#, python-format
+msgid "Permission with unknown flag %s may not be modified or removed"
+msgstr ""
+"Les permissions avec le drapeau inconnu %s ne peuvent être supprimées ni "
+"modifiées."
+
 msgid "Permissions"
 msgstr "Permissions"
 
@@ -8361,6 +8621,15 @@ msgstr "Serveurs RADIUS"
 msgid "RADIUS proxy configuration"
 msgstr "Configuration du mandataire RADIUS"
 
+msgid "RADIUS proxy server"
+msgstr "Serveur mandataire RADIUS"
+
+msgid "RADIUS proxy server name"
+msgstr "Nom du serveur mandataire RADIUS"
+
+msgid "RADIUS proxy servers"
+msgstr "Serveurs mandataires RADIUS"
+
 msgid "RADIUS proxy username"
 msgstr "Nom d'utilisateur du mandataire RADIUS"
 
@@ -8397,13 +8666,13 @@ msgid "Re-established trust to domain \"%(value)s\""
 msgstr "Ré-approbation du domaine « %(value)s »"
 
 msgid "Realm Domains"
-msgstr "Domaines"
+msgstr "Domaines pour le royaume"
 
 msgid "Realm administrator password should be specified"
 msgstr "Le mot de passe de l'administrateur du domaine doit être spécifié"
 
 msgid "Realm domains"
-msgstr "Domaines"
+msgstr "Domaines pour le royaume"
 
 msgid "Realm name"
 msgstr "Nom du royaume"
@@ -8416,6 +8685,9 @@ msgstr "Raison de la révocation"
 
 msgid "Reason for revoking the certificate (0-10)"
 msgstr "Raison de révocation du certificat (0-10)"
+
+msgid "Rebuild auto membership"
+msgstr "Reconstruire l'appartenance automatique"
 
 msgid "Rebuild auto membership."
 msgstr "Reconstruire l'appartenance automatique."
@@ -8687,6 +8959,9 @@ msgstr ""
 "Les résultats devraient contenir uniquement des attributs clé primaire "
 "uniquement (« %s »)"
 
+msgid "Retries"
+msgstr "Tentatives"
+
 msgid "Retrieve an existing certificate."
 msgstr "Récupérer un certificat existant."
 
@@ -8769,6 +9044,9 @@ msgstr "Révoqué le, jusque cette date (AAAA-mm-jj)"
 msgid "Rights"
 msgstr "Droits"
 
+msgid "Rights to grant (read, search, compare, write, add, delete, all)"
+msgstr "Droits à accorder (read, search, compare, write, add, delete, all)"
+
 msgid "Role"
 msgstr "Rôle"
 
@@ -8783,6 +9061,11 @@ msgstr "Nom du rôle"
 
 msgid "Roles"
 msgstr "Rôles"
+
+msgid "Root domain of the trust is always enabled for the existing trust"
+msgstr ""
+"Le domaine racine de la relation d'approbation est toujours activé pour la "
+"relation existante"
 
 msgid "Rule name"
 msgstr "Nom de règle"
@@ -9022,6 +9305,9 @@ msgstr "La recherche du namingContext d'IPA a échoué avec l'erreur %d\n"
 msgid "Search for IPA services."
 msgstr "Rechercher des services IPA."
 
+msgid "Search for RADIUS proxy servers."
+msgstr "Rechercher des serveurs mandataires RADIUS."
+
 msgid "Search for SELinux User Maps."
 msgstr "Rechercher des listes de correspondance d'utilisateurs SELinux"
 
@@ -9109,6 +9395,9 @@ msgstr "Secondes latitude"
 
 msgid "Seconds Longitude"
 msgstr "Secondes de Longitude"
+
+msgid "Secret"
+msgstr "Secret"
 
 msgid "Security Identifier"
 msgstr "Identifiant de sécurité"
@@ -9449,6 +9738,9 @@ msgstr "Groupe cible"
 msgid "Target host"
 msgstr "Système cible"
 
+msgid "Target members of a group (sets targetfilter)"
+msgstr "Membres cibles d'un groupe (définit targetfilter)"
+
 msgid "Target reverse zone not found."
 msgstr "Zone inverse cible non trouvée."
 
@@ -9466,6 +9758,10 @@ msgstr "Donnée texte"
 
 msgid "Text does not match field pattern"
 msgstr "Le texte ne correspond pas au motif de champ"
+
+#, python-format
+msgid "The ACI for permission %(name)s was not found in %(dn)s "
+msgstr "L'ACI pour la permission %(name)s est introuvable dans %(dn)s"
 
 msgid "The IPA realm"
 msgstr "Le domaine IPA"
@@ -9510,6 +9806,9 @@ msgstr "Le nom d'hôte doit être pleinement qualifié : %s\n"
 msgid "The hostname must not be: %s\n"
 msgstr "Le nom d'hôte ne peut être : %s\n"
 
+msgid "The hostname or IP (with or without port)"
+msgstr "Nom d'hôte ou adresse IP (avec ou sans port)"
+
 msgid "The hostname this reverse record points to"
 msgstr "Le nom de système vers lequel cet enregistrement inverse pointe"
 
@@ -9527,6 +9826,9 @@ msgstr ""
 #, python-format
 msgid "The most common types for this type of zone are: %s\n"
 msgstr "Les types les plus courants pour ce type de zone sont : %s\n"
+
+msgid "The number of times to retry authentication"
+msgstr "Le nombre de tentatives de ré-authentification"
 
 msgid "The password or username you entered is incorrect."
 msgstr "Le mot de passe ou le nom d'utilisateur entré est incorrect."
@@ -9556,11 +9858,20 @@ msgstr ""
 "Le critère de recherche n'est pas suffisamment spécifique. Une valeur "
 "attendue, mais %(found)d trouvées."
 
+msgid "The secret used to encrypt data"
+msgstr "Le secret utilisé pour chiffrer les données"
+
 msgid "The service principal for this request doesn't exist."
 msgstr "Le principal de service pour cette requête est inexistant"
 
 msgid "The topic or command name."
 msgstr "Le nom du thème ou de la commande."
+
+msgid "The total timeout across all retries (in seconds)"
+msgstr "Délai d'expiration total pour toutes les tentatives (en secondes)"
+
+msgid "The username attribute on the user object"
+msgstr "L'attribut de nom d'utilisateur de l'objet utilisateur"
 
 msgid "This command requires root access"
 msgstr "Cette commande requiert des droits root"
@@ -9618,6 +9929,9 @@ msgstr "Heure actuelle"
 
 msgid "Time to live"
 msgstr "Durée de vie"
+
+msgid "Timeout"
+msgstr "Délai d'expiration"
 
 msgid ""
 "To confirm your intention to restore this certificate, click the \"Restore\" "
@@ -9735,6 +10049,9 @@ msgstr "Type couvert"
 
 msgid "Type Map"
 msgstr "Type de carte"
+
+msgid "Type of IPA object (sets subtree and filter)"
+msgstr "Type d'objet IPA (définit la sous-arborescence et le filtre)"
 
 msgid "Type of trusted domain ID range, one of {vals}"
 msgstr ""
@@ -9927,6 +10244,9 @@ msgstr ""
 msgid "User Options"
 msgstr "Options utilisateurs"
 
+msgid "User attribute"
+msgstr "Attribut utilisateur"
+
 msgid "User authentication types"
 msgstr "Types d'authentification utilisateur"
 
@@ -9953,6 +10273,10 @@ msgstr "Règles de groupes d'utilisateurs"
 
 msgid "User group to apply delegation to"
 msgstr "Groupe d'utilisateur auquel appliquer la délégation"
+
+msgid "User group to apply permissions to (sets target)"
+msgstr ""
+"Groupe d'utilisateur sur lequel appliquer les permissions (définit la cible)"
 
 msgid "User login"
 msgstr "Identifiant de connexion"
@@ -10123,6 +10447,9 @@ msgstr "n'importe lequel des serveurs configurés"
 #, python-format
 msgid "api has no such namespace: '%(name)s'"
 msgstr "l'API ne possède pas cet espace de nom : « %(name)s »"
+
+msgid "at least one of options: type, users, hosts must be specified"
+msgstr "au moins l'une des options type, users ou hosts doit être indiquée"
 
 msgid ""
 "at least one of: type, filter, subtree, targetgroup, attrs or memberof are "
@@ -10502,6 +10829,9 @@ msgstr "clé publique SSH invalide"
 msgid "invalid address format"
 msgstr "format d'adresse invalide"
 
+msgid "invalid attribute name"
+msgstr "nom d'attribut invalide"
+
 #, python-format
 msgid "invalid domain-name: %s"
 msgstr "nom de domaine invalide : %s"
@@ -10509,6 +10839,9 @@ msgstr "nom de domaine invalide : %s"
 #, python-format
 msgid "invalid e-mail format: %(email)s"
 msgstr "format d'e-mail invalide : %(email)s"
+
+msgid "invalid port number"
+msgstr "numéro de port invalide"
 
 #, c-format
 msgid "ipa-getkeytab has bad permissions?\n"
@@ -10756,6 +11089,10 @@ msgstr ""
 msgid "operation not defined"
 msgstr "opération non définie"
 
+#, python-format
+msgid "option was renamed; use %s"
+msgstr "l'option a été renommée ; utiliser %s"
+
 msgid "options are not allowed"
 msgstr "les options ne sont pas autorisées"
 
@@ -10942,6 +11279,9 @@ msgstr "sidgen_was_run"
 msgid "skip reverse DNS detection"
 msgstr "passer outre la détection de DNS inverse"
 
+msgid "subtree and type are mutually exclusive"
+msgstr "subtree et type sont mutuellement exclusifs"
+
 msgid "sudo command"
 msgstr "commande sudo"
 
@@ -10960,6 +11300,12 @@ msgstr "règle sudo"
 msgid "sudo rules"
 msgstr "règles sudo"
 
+msgid "target and targetgroup are mutually exclusive"
+msgstr "target et targetgroup sont mutuellement exclusifs"
+
+msgid "target and type are mutually exclusive"
+msgstr "target et type sont mutuellement exclusifs"
+
 #, python-format
 msgid ""
 "the IPA server and the remote domain cannot share the same NetBIOS name: %s"
@@ -10972,6 +11318,13 @@ msgstr "cette entrée a été supprimée pendant sa modification"
 
 msgid "the value does not follow \"YYYYMMDDHHMMSS\" time format"
 msgstr "la valeur n'est pas au format temporel « YYYYMMDDHHMMSS »"
+
+msgid ""
+"there must be at least one target entry specifier (e.g. target, "
+"targetfilter, attrs)"
+msgstr ""
+"il doit y avoir au moins un indicateur d'entrée cible (par exemple target, "
+"targetfilter, attrs)"
 
 msgid "this option has been deprecated."
 msgstr "cette option a été rendue obsolète."
@@ -11054,6 +11407,9 @@ msgstr ""
 msgid "users"
 msgstr "utilisateurs"
 
+msgid "users and hosts cannot both be set"
+msgstr "impossible d'indiquer à la fois les utilisateurs et les hôtes"
+
 msgid "users cannot be added when runAs user or runAs group category='all'"
 msgstr ""
 "des utilisateurs ne peuvent être ajoutés quand une catégorie RunAs User ou "
@@ -11063,6 +11419,10 @@ msgid "users cannot be added when user category='all'"
 msgstr ""
 "des utilisateurs ne peuvent être ajoutés quand la catégorie utilisateurs est "
 "définie à 'all'"
+
+msgid "users cannot be set when type is 'hostgroup'"
+msgstr ""
+"impossible d'indiquer les utilisateurs lorsque le type est « hostgroup »"
 
 msgid ""
 "you cannot specify the --domain option together with --add-domain or --del-"

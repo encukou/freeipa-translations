@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Fito Jayme <fitoschido@ubuntu.com>, 2013
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2014
 # Eduardo Villagrán M <gotencool@gmail.com>, 2012
 # vareli <ehespinosa@ya.com>, 2013
 # Gladys Guerrero <gguerrer@redhat.com>, 2011
@@ -17,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2013-12-17 11:00+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"PO-Revision-Date: 2014-02-01 19:33+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/fedora/language/"
 "es/)\n"
 "MIME-Version: 1.0\n"
@@ -660,6 +661,11 @@ msgid "%(info)s"
 msgstr "%(info)s"
 
 #, python-format
+msgid "%(key)s cannot be deleted because %(label)s %(dependent)s requires it"
+msgstr ""
+"No se puede eliminar %(key)s porque %(label)s %(dependent)s lo requiere"
+
+#, python-format
 msgid "%(oname)s with name \"%(pkey)s\" already exists"
 msgstr " %(oname)s  con el nombre \"%(pkey)s\" ya existe"
 
@@ -672,16 +678,47 @@ msgid "%(pkey)s: %(oname)s not found"
 msgstr "%(pkey)s: no se encuentra %(oname)s"
 
 #, python-format
+msgid "%(port)s is not a valid port"
+msgstr "%(port)s no es un puerto válido"
+
+#, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
+
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#, python-format
+msgid "%s Record"
+msgstr "%s registro"
 
 #, python-format
 msgid "%s is not a valid attribute."
 msgstr "%s no es un atributo válido."
 
 #, python-format
+msgid "%s record"
+msgstr "%s registro"
+
+#, python-format
+msgid "%s to add"
+msgstr "%s a añadir"
+
+#, python-format
+msgid "%s to remove"
+msgstr "%s a eliminar"
+
+msgid "'${port}' is not a valid port"
+msgstr "«${port}» no es un puerto válido"
+
+#, python-format
 msgid "'%(entry)s' doesn't have a certificate."
 msgstr "'%(entry)s' no tiene certificado"
+
+#, python-format
+msgid "'%s' is a required part of DNS record"
+msgstr "«%s» es una parte requerida del registro DNS"
 
 msgid ""
 ". Check GID of the existing group. Use --group-overwrite-gid option to "
@@ -796,6 +833,9 @@ msgstr "Estado de Cuenta"
 
 msgid "Account disabled"
 msgstr "Cuenta inhabilitada "
+
+msgid "Active Directory domain range"
+msgstr "Intervalo de dominios de Active Directory"
 
 msgid "Active zone"
 msgstr "Activar zona"
@@ -967,6 +1007,10 @@ msgid "Added HBAC service group \"%(value)s\""
 msgstr "Agregado servicio de grupo HBAC \"%(value)s\""
 
 #, python-format
+msgid "Added ID range \"%(value)s\""
+msgstr "Se añadió el intervalo de ID «%(value)s»"
+
+#, python-format
 msgid "Added Sudo Command \"%(value)s\""
 msgstr "Añadido Comando Sudo “%(value)s”"
 
@@ -1046,6 +1090,9 @@ msgstr "Ha sido agregado el servicio \"%(value)s\""
 msgid "Added user \"%(value)s\""
 msgstr "Ha sido agregado el usuario \"%(value)s\""
 
+msgid "Additional instructions:"
+msgstr "Instrucciones adicionales:"
+
 msgid "Administrator e-mail address"
 msgstr "Correo-e de administrador"
 
@@ -1064,8 +1111,17 @@ msgstr "Permitir"
 msgid "Allow dynamic updates."
 msgstr "Permitir actualizaciones dinámicas."
 
+msgid "Allow query"
+msgstr "Permitir consulta"
+
+msgid "Allow transfer"
+msgstr "Permitir transferencia"
+
 msgid "Already registered"
 msgstr "Ya está registrado"
+
+msgid "Altitude"
+msgstr "Altitud"
 
 msgid "Any Command"
 msgstr "Cualquier comando"
@@ -1289,6 +1345,9 @@ msgstr "Clases de caracteres"
 msgid "Check the status of a certificate signing request."
 msgstr "Verificar el estado de una solicitud de firma de certificado."
 
+msgid "Checking if record exists."
+msgstr "Comprobando que el registro existe."
+
 msgid "City"
 msgstr "Ciudad"
 
@@ -1404,6 +1463,9 @@ msgstr "Crear un nuevo punto de montaje indirecto."
 msgid "Create as a non-POSIX group"
 msgstr "  Crear como un grupo no POSIX"
 
+msgid "Create dns record"
+msgstr "Crear registro DNS"
+
 msgid "Create new DNS zone (SOA record)."
 msgstr "Crear nueva zona DNS (registro SOA)."
 
@@ -1419,6 +1481,9 @@ msgstr "Crear nueva Regla Sudo."
 #, python-format
 msgid "Created ACI \"%(value)s\""
 msgstr "Ha sido creado ACI \"%(value)s\""
+
+msgid "Creating record."
+msgstr "Creando el registro."
 
 msgid "Credentials cache permissions incorrect"
 msgstr "Los permisos de credenciales de caché son incorrectos"
@@ -1438,6 +1503,9 @@ msgstr "DN a vincular como si no usara kerberos"
 msgid "DNS"
 msgstr "DNS"
 
+msgid "DNS Global Configuration"
+msgstr "Configuración global de DNS"
+
 msgid "DNS Resource Record"
 msgstr "Registro de Recurso de DNS"
 
@@ -1455,6 +1523,9 @@ msgstr "Zonas DNS"
 
 msgid "DNS class"
 msgstr "Clase DNS"
+
+msgid "DNS configuration options"
+msgstr "Opciones de configuración de DNS"
 
 msgid "DNS is not configured"
 msgstr "DNS no está configurado"
@@ -1517,6 +1588,9 @@ msgstr "Clases de objeto usuario por defecto (lista separada por comas)"
 
 msgid "Default users group"
 msgstr "Grupo de usuarios predeterminado"
+
+msgid "Degrees Latitude"
+msgstr "Latitud en grados"
 
 msgid "Delegation"
 msgstr "Delegación"
@@ -1590,6 +1664,9 @@ msgstr "Borrar una regla HBAC."
 msgid "Delete an HBAC service group."
 msgstr "Borrar un grupo de servicio HBAC."
 
+msgid "Delete an ID range."
+msgstr "Eliminar un intervalo de ID."
+
 msgid "Delete an IPA service."
 msgstr "Borrar un servicio IPA."
 
@@ -1630,6 +1707,10 @@ msgstr "Suprimido el servicio HBAC \"%(value)s\""
 #, python-format
 msgid "Deleted HBAC service group \"%(value)s\""
 msgstr "    Suprimido el servicio HBAC grupo \"%(value)s\""
+
+#, python-format
+msgid "Deleted ID range \"%(value)s\""
+msgstr "Se eliminó el intervalo de ID «%(value)s»"
 
 #, python-format
 msgid "Deleted Sudo Command \"%(value)s\""
@@ -1744,6 +1825,9 @@ msgstr "Directo"
 
 msgid "Direct Membership"
 msgstr "Afiliación Directa"
+
+msgid "Direction Latitude"
+msgstr "Latitud de dirección"
 
 msgid "Disable"
 msgstr "Desactivar"
@@ -1883,6 +1967,9 @@ msgstr "Mostrar las propiedades de una regla HBAC."
 msgid "Display user record for current Kerberos principal"
 msgstr "Muestra el registro del usuario para el principal de Kerberos actual"
 
+msgid "Domain"
+msgstr "Dominio"
+
 msgid "Don't create user private group"
 msgstr "No crear grupo privado de usuario"
 
@@ -1992,6 +2079,9 @@ msgstr "Expandir Todo"
 msgid "Expires On"
 msgstr "Expira el"
 
+msgid "Expression"
+msgstr "Expresión"
+
 msgid "External"
 msgstr "Externos"
 
@@ -2015,6 +2105,9 @@ msgstr "Hashes extra para generar en el plugin de contraseña"
 
 msgid "Failed hosts/hostgroups"
 msgstr "Falló host/hostgroups"
+
+msgid "Failed logins"
+msgstr "Inicios de sesión fallidos"
 
 msgid "Failed managedby"
 msgstr "Falló managedby"
@@ -2182,6 +2275,9 @@ msgstr "Opciones de Grupo"
 msgid "Group Settings"
 msgstr "Configuración del grupo"
 
+msgid "Group Type"
+msgstr "Tipo de grupo"
+
 msgid "Group container"
 msgstr "Contenedor de grupoi"
 
@@ -2276,6 +2372,9 @@ msgstr "Directorio principal"
 msgid "Home directory base"
 msgstr "Base del directorio principal"
 
+msgid "Horizontal Precision"
+msgstr "Precisión horizontal"
+
 msgid "Host"
 msgstr "Host"
 
@@ -2353,6 +2452,12 @@ msgstr "Equipos"
 
 msgid "How long should negative responses be cached"
 msgstr "¿Por cuánto tiempo las respuestas negativas deben guardarse en cache?"
+
+msgid "ID Range"
+msgstr "Intervalo de ID"
+
+msgid "ID Ranges"
+msgstr "Intervalos de ID"
 
 msgid "IP Address"
 msgstr "Dirección IP"
@@ -2566,6 +2671,9 @@ msgstr "Llave"
 
 msgid "Key Compromise"
 msgstr "Clave de transacción"
+
+msgid "Key Tag"
+msgstr "Etiqueta de clave"
 
 msgid "Keytab"
 msgstr "Keytab"
@@ -2856,6 +2964,9 @@ msgstr "Vida mínima de la contraseña (en horas)"
 msgid "Minimum value is ${value}"
 msgstr "Valor mínimo es ${value}"
 
+msgid "Minutes Latitude"
+msgstr "Latitud en minutos"
+
 msgid "Misc. Information"
 msgstr "Información diversa"
 
@@ -2866,6 +2977,9 @@ msgstr "Arbitro HTTP desaparecido o no válido, %(referer)s"
 #, c-format
 msgid "Missing reply control!\n"
 msgstr "¡Falta control de respuesta!\n"
+
+msgid "Missing values: "
+msgstr "Valores faltantes:"
 
 msgid "Mobile Telephone Number"
 msgstr "Número de teléfono celular"
@@ -3046,6 +3160,9 @@ msgstr "Debe ser un entero"
 msgid "NIS domain name"
 msgstr "Nombre del dominio NIS"
 
+msgid "Name"
+msgstr "Nombre"
+
 msgid "Name of command to export"
 msgstr "Nombre de comando a exportar"
 
@@ -3130,6 +3247,9 @@ msgstr "No existe el fichero para leer"
 #, c-format
 msgid "No keys accepted by KDC\n"
 msgstr "No hay claves aceptadas por KDC\n"
+
+msgid "No matching entries found"
+msgstr "No se encontraron entradas coincidentes"
 
 msgid "No option to delete specific record provided."
 msgstr "Ninguna opción para  borrar un registro en concreto especificado."
@@ -3253,6 +3373,9 @@ msgstr "Error en Operaciones"
 msgid "Options"
 msgstr "Opciones"
 
+msgid "Order"
+msgstr "Orden"
+
 msgid "Org. Unit"
 msgstr "Unidad. org"
 
@@ -3301,6 +3424,9 @@ msgstr "Solamente salida sobre errores"
 msgid "Overwrite GID"
 msgstr "Sobrescribir GID"
 
+msgid "PAC type"
+msgstr "Tipo PAC"
+
 msgid "PKINIT"
 msgstr ""
 "    Los certificados de entrada deben estar codificados en DER. \n"
@@ -3308,6 +3434,9 @@ msgstr ""
 "solamente las variables de \n"
 "    Unicode  se normalizan.\n"
 "    "
+
+msgid "POSIX"
+msgstr "POSIX"
 
 msgid "Page"
 msgstr "Página"
@@ -3353,7 +3482,7 @@ msgstr "Las contraseñas no coinciden"
 
 #, c-format
 msgid "Passwords do not match!"
-msgstr "¡Las contraseñas no coinciden!"
+msgstr "Las contraseñas no coinciden."
 
 msgid ""
 "Passwords have been migrated in pre-hashed format.\n"
@@ -3413,6 +3542,9 @@ msgstr "Puerto"
 
 msgid "Positional arguments"
 msgstr "Argumentos posicionales"
+
+msgid "Pre-shared password"
+msgstr "Contraseña precompartida"
 
 msgid "Preference"
 msgstr "Preferencia"
@@ -3508,6 +3640,12 @@ msgstr "Modo silencioso. Sólo se muestran los errores."
 msgid "Random password"
 msgstr "Contraseña aleatoria"
 
+msgid "Range name"
+msgstr "Nombre del intervalo"
+
+msgid "Range type"
+msgstr "Tipo de intervalo"
+
 msgid "Realm name"
 msgstr "Nombre de reino "
 
@@ -3523,8 +3661,17 @@ msgstr "Motivo por el cual el certificado ha sido revocado (0-10)"
 msgid "Record Type"
 msgstr "Tipo de Registro"
 
+msgid "Record creation failed."
+msgstr "Falló la creación del registro."
+
+msgid "Record data"
+msgstr "Registrar datos"
+
 msgid "Record name"
 msgstr "Nombre de registro"
+
+msgid "Record not found."
+msgstr "No se encontró el registro."
 
 msgid "Record type"
 msgstr "Tipo de registro"
@@ -3634,6 +3781,10 @@ msgstr "Quitar usuarios y grupos para Sudo a ejecutar como."
 msgid "Remove users and groups from an HBAC rule."
 msgstr "Borrar usuarios y grupos de una regla HBAC."
 
+#, python-format
+msgid "Removed condition(s) from \"%(value)s\""
+msgstr "Condición(es) eliminada(s) de «%(value)s»"
+
 #, c-format
 msgid "Removing principal %s\n"
 msgstr "Eliminando %s principales\n"
@@ -3648,6 +3799,9 @@ msgstr "Cambie el nombre del %(ldap_obj_name)s  objeto"
 #, python-format
 msgid "Renamed ACI to \"%(value)s\""
 msgstr "ACI renombrado a \"%(value)s\""
+
+msgid "Replacement"
+msgstr "Reemplazo"
 
 msgid "Request id"
 msgstr "Id de la petición"
@@ -3679,6 +3833,9 @@ msgstr "Resolver un nombre de host en DNS."
 msgid "Restore"
 msgstr "Restaurar"
 
+msgid "Restore Certificate"
+msgstr "Restaurar certificado"
+
 msgid "Restore Certificate for ${entity} ${primary_key}"
 msgstr "Restablecer Certificado para ${entity} ${primary_key}"
 
@@ -3704,6 +3861,10 @@ msgstr ""
 "Recuperar e imprimir todos los atributos del servidor. Afecta a la salida "
 "del comando."
 
+#, python-format
+msgid "Retrieving CA status failed: %s"
+msgstr "Falló la obtención del estado de CA: %s"
+
 msgid "Retry"
 msgstr "Reintentar"
 
@@ -3723,6 +3884,9 @@ msgstr "Motivo de la revocación"
 
 msgid "Revoke"
 msgstr "Revocar"
+
+msgid "Revoke Certificate"
+msgstr "Revocar certificado"
 
 msgid "Revoke Certificate for ${entity} ${primary_key}"
 msgstr "Revocar certificado por ${entity} ${primary_key}"
@@ -3811,6 +3975,12 @@ msgstr "RunAs Usuarios"
 msgid "SHA1 Fingerprint"
 msgstr "Huella digital SHA1"
 
+msgid "SID"
+msgstr "SID"
+
+msgid "SID is not valid"
+msgstr "el SID no es válido"
+
 msgid "SOA class"
 msgstr "Clase SOA"
 
@@ -3849,6 +4019,9 @@ msgstr "Serie SOA"
 
 msgid "SOA time to live"
 msgstr "Tiempo para abandonar SOA"
+
+msgid "SSH public key"
+msgstr "Clave pública SSH"
 
 msgid "Search"
 msgstr "Búsqueda"
@@ -3930,6 +4103,9 @@ msgstr "Buscar permisos."
 msgid "Search for privileges."
 msgstr "Buscar privilegios."
 
+msgid "Search for ranges."
+msgstr "Buscar intervalos."
+
 msgid "Search for roles."
 msgstr "Buscar roles."
 
@@ -3941,6 +4117,9 @@ msgstr "Límite del tamaño de la búsqueda"
 
 msgid "Search time limit"
 msgstr "Buscar límite de tiempo"
+
+msgid "Seconds Latitude"
+msgstr "Latitud en segundos"
 
 msgid "Select All"
 msgstr " Seleccionar todo"
@@ -3963,11 +4142,20 @@ msgstr "Auto-servicio de nombres"
 msgid "Serial Number"
 msgstr "Número de serie"
 
+msgid "Serial Number (hex)"
+msgstr "N.º de serie (hex.)"
+
 msgid "Serial number"
 msgstr "Número de serie"
 
+msgid "Serial number (hex)"
+msgstr "N.º de serie (hex.)"
+
 msgid "Serial number in decimal or if prefixed with 0x in hexadecimal"
 msgstr "Número de serie en decimales, o hexadecimales, si tiene un prefijo 0x"
+
+msgid "Server"
+msgstr "Servidor"
 
 msgid "Server Name"
 msgstr "Nombre de servidor"
@@ -4078,6 +4266,9 @@ msgstr "¡Falló vinculación sencilla!\n"
 
 msgid "Simulate use of Host-based access controls"
 msgstr "Simular el uso de controles de acceso basados en Host"
+
+msgid "Size"
+msgstr "Tamaño"
 
 msgid "Size Limit"
 msgstr "Tamaño límite"
@@ -4240,6 +4431,10 @@ msgstr "El host fue añadido, pero la actualización de DNS falló con:%(exc)s"
 msgid "The hostname must be fully-qualified: %s\n"
 msgstr "El nombre de host debe ser totalmente calificado:%s\n"
 
+#, c-format
+msgid "The hostname must not be: %s\n"
+msgstr "El nombre del equipo no debe ser: %s\n"
+
 msgid "The hostname to register as"
 msgstr "El nombre del equipo a ser registrado como"
 
@@ -4250,6 +4445,9 @@ msgid ""
 msgstr ""
 "El par de claves, la información debe ser único. Un nombre clave %(key)s  "
 "con información %(info)s ya existe"
+
+msgid "The primary_key value of the entry, e.g. 'jdoe' for a user"
+msgstr "El valor de primary_key de la entrada, p.ej., «jperez» para un usuario"
 
 msgid "The principal to get a keytab for (ex: ftp/ftp.example.com@EXAMPLE.COM)"
 msgstr ""
@@ -4337,6 +4535,9 @@ msgstr "Cantidad total de variables env (>= count)"
 
 msgid "True"
 msgstr "Verdad"
+
+msgid "True if not all results were returned"
+msgstr "Verdadero si no todos los resultados se devolvieron"
 
 msgid "True means the operation was successful"
 msgstr "«Verdadero» significa que la operación fue exitosa"
@@ -4439,6 +4640,9 @@ msgstr "Cancelación falló.\n"
 msgid "Unenrollment successful.\n"
 msgstr "Cancelación de registro exitoso.\n"
 
+msgid "Unknown"
+msgstr "Desconocido"
+
 msgid "Unknown Error"
 msgstr "Error Desconocido"
 
@@ -4469,6 +4673,9 @@ msgstr "Anular selección"
 
 msgid "Unspecified"
 msgstr "No especificada"
+
+msgid "Unsupported value"
+msgstr "Valor no admitido"
 
 msgid "Update"
 msgstr "Actualizar"
@@ -4525,6 +4732,9 @@ msgstr "Contraseña de usuario"
 msgid "User search fields"
 msgstr "Campos de búsqueda de usuario"
 
+msgid "User-friendly description of action performed"
+msgstr "Descripción sencilla de la acción realizada"
+
 msgid "Username"
 msgstr "Nombre de usuario"
 
@@ -4545,6 +4755,9 @@ msgstr "Verificar Contraseña"
 
 msgid "Verify Principal Password"
 msgstr "Verificar contraseña principal"
+
+msgid "Vertical Precision"
+msgstr "Precisión vertical"
 
 msgid "Via Service"
 msgstr "Vía de servicio"
@@ -4701,6 +4914,9 @@ msgstr "descripción"
 msgid "did not receive Kerberos credentials"
 msgstr "no se ha recibido ninguna credencial de Kerberos"
 
+msgid "domain is not configured"
+msgstr "el dominio no está configurado"
+
 msgid "empty filter"
 msgstr "Vaciar filtro"
 
@@ -4807,6 +5023,16 @@ msgid "invalid IP network format"
 msgstr "formato no válido de red IP"
 
 #, python-format
+msgid "invalid SID: %(value)s"
+msgstr "SID no válido: %(value)s"
+
+msgid "invalid SSH public key"
+msgstr "clave SSH pública no válida"
+
+msgid "invalid address format"
+msgstr "formato de dirección no válido"
+
+#, python-format
 msgid "invalid domain-name: %s"
 msgstr "nombre de dominio no válido: %s"
 
@@ -4832,6 +5058,9 @@ msgstr "kvno %d\n"
 msgid "limits exceeded for this query"
 msgstr "han sido excedidos los límites para esta consulta"
 
+msgid "local domain range"
+msgstr "intervalo de dominios locales"
+
 #, python-format
 msgid "manager %(manager)s not found"
 msgstr "Administrador %(manager)s no encontrado"
@@ -4842,6 +5071,10 @@ msgstr "miembro %s"
 
 msgid "modifying primary key is not allowed"
 msgstr "modificar la clave principal no está permitido"
+
+#, python-format
+msgid "must be '%(value)s'"
+msgstr "debe ser «%(value)s»"
 
 msgid "must be True or False"
 msgstr "debe ser True o False"
@@ -4909,6 +5142,9 @@ msgstr "no se permite modificar las entradas de los usuarios"
 msgid "objectclass %s not found"
 msgstr "clase objeto %s no encontrada"
 
+msgid "only \"ad\" is supported"
+msgstr "solo se admite «ad»"
+
 #, c-format
 msgid "out of memory\n"
 msgstr "sin Memoria\n"
@@ -4956,6 +5192,9 @@ msgstr "privilegio"
 
 msgid "privileges"
 msgstr "privilegios"
+
+msgid "range exists"
+msgstr "el intervalo existe"
 
 #, c-format
 msgid "read error\n"
