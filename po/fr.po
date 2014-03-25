@@ -9,15 +9,15 @@
 # Gé Baylard <<Geodebay@gmail.com>>, 2013
 # Jérôme Fenal <jfenal@gmail.com>, 2011-2014
 # Jérôme Fenal <jfenal@gmail.com>, 2011
-# Petr Viktorin <encukou@gmail.com>, 2013
+# Petr Viktorin <encukou@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2014-01-31 11:06+0000\n"
-"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
+"PO-Revision-Date: 2014-03-21 09:38+0000\n"
+"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/fedora/language/"
 "fr/)\n"
 "MIME-Version: 1.0\n"
@@ -2923,8 +2923,7 @@ msgstr ""
 " Ping verbeux d'un serveur IPA :\n"
 "   ipa -v ping\n"
 "   ipa: INFO: trying https://ipa.example.com/ipa/xml\n"
-"   ipa: INFO: Forwarding 'ping' to server u'https://ipa.example.com/ipa/"
-"xml'\n"
+"   ipa: INFO: Forwarding 'ping' to server 'https://ipa.example.com/ipa/xml'\n"
 "   -----------------------------------------------------\n"
 "   IPA server version 2.1.9. API version 2.20\n"
 "   -----------------------------------------------------\n"

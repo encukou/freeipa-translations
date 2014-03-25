@@ -4,6 +4,7 @@
 #
 # Translators:
 # jdennis <jdennis@redhat.com>, 2011
+# Petr Viktorin <encukou@gmail.com>, 2014
 # Yuri Chornoivan <yurchor@ukr.net>, 2011-2013
 msgid ""
 msgstr ""
@@ -11,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2013-12-17 19:34+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2014-03-21 09:38+0000\n"
+"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/fedora/"
 "language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -3039,8 +3040,7 @@ msgstr ""
 " Перевірити луна-імпульсом сервер IPA і отримати докладні дані:\n"
 "   ipa -v ping\n"
 "   ipa: INFO: trying https://ipa.example.com/ipa/xml\n"
-"   ipa: INFO: Forwarding 'ping' to server u'https://ipa.example.com/ipa/"
-"xml'\n"
+"   ipa: INFO: Forwarding 'ping' to server 'https://ipa.example.com/ipa/xml'\n"
 "   -----------------------------------------------------\n"
 "   Сервер IPA версії 2.1.9. Версія API 2.20\n"
 "   -----------------------------------------------------\n"
