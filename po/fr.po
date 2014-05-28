@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2013-12-17 11:57+0100\n"
-"PO-Revision-Date: 2014-03-21 09:38+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/fedora/language/"
+"POT-Creation-Date: 2013-09-12 15:37+0200\n"
+"PO-Revision-Date: 2014-05-26 21:28+0000\n"
+"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/freeipa/language/"
 "fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -417,6 +417,184 @@ msgstr ""
 "l'encontre du même domaine,\n"
 "elle modifiera les références de la relation de confiance des deux côtés.\n"
 "    "
+
+msgid ""
+"\n"
+"Auto Membership Rule.\n"
+"\n"
+"Bring clarity to the membership of hosts and users by configuring inclusive\n"
+"or exclusive regex patterns, you can automatically assign a new entries "
+"into\n"
+"a group or hostgroup based upon attribute information.\n"
+"\n"
+"A rule is directly associated with a group by name, so you cannot create\n"
+"a rule without an accompanying group or hostgroup.\n"
+"\n"
+"A condition is a regular expression used by 389-ds to match a new incoming\n"
+"entry with an automember rule. If it matches an inclusive rule then the\n"
+"entry is added to the appropriate group or hostgroup.\n"
+"\n"
+"A default group or hostgroup could be specified for entries that do not\n"
+"match any rule. In case of user entries this group will be a fallback group\n"
+"because all users are by default members of group specified in IPA config.\n"
+"\n"
+"\n"
+"EXAMPLES:\n"
+"\n"
+" Add the initial group or hostgroup:\n"
+"   ipa hostgroup-add --desc=\"Web Servers\" webservers\n"
+"   ipa group-add --desc=\"Developers\" devel\n"
+"\n"
+" Add the initial rule:\n"
+"   ipa automember-add --type=hostgroup webservers\n"
+"   ipa automember-add --type=group devel\n"
+"\n"
+" Add a condition to the rule:\n"
+"   ipa automember-add-condition --key=fqdn --type=hostgroup --inclusive-"
+"regex=^web[1-9]+\\.example\\.com webservers\n"
+"   ipa automember-add-condition --key=manager --type=group --inclusive-"
+"regex=^uid=mscott devel\n"
+"\n"
+" Add an exclusive condition to the rule to prevent auto assignment:\n"
+"   ipa automember-add-condition --key=fqdn --type=hostgroup --exclusive-"
+"regex=^web5\\.example\\.com webservers\n"
+"\n"
+" Add a host:\n"
+"    ipa host-add web1.example.com\n"
+"\n"
+" Add a user:\n"
+"    ipa user-add --first=Tim --last=User --password tuser1 --manager=mscott\n"
+"\n"
+" Verify automembership:\n"
+"    ipa hostgroup-show webservers\n"
+"      Host-group: webservers\n"
+"      Description: Web Servers\n"
+"      Member hosts: web1.example.com\n"
+"\n"
+"    ipa group-show devel\n"
+"      Group name: devel\n"
+"      Description: Developers\n"
+"      GID: 1004200000\n"
+"      Member users: tuser\n"
+"\n"
+" Remove a condition from the rule:\n"
+"   ipa automember-remove-condition --key=fqdn --type=hostgroup --inclusive-"
+"regex=^web[1-9]+\\.example\\.com webservers\n"
+"\n"
+" Modify the automember rule:\n"
+"    ipa automember-mod\n"
+"\n"
+" Set the default (fallback) target group:\n"
+"    ipa automember-default-group-set --default-group=webservers --"
+"type=hostgroup\n"
+"    ipa automember-default-group-set --default-group=ipausers --type=group\n"
+"\n"
+" Remove the default (fallback) target group:\n"
+"    ipa automember-default-group-remove --type=hostgroup\n"
+"    ipa automember-default-group-remove --type=group\n"
+"\n"
+" Show the default (fallback) target group:\n"
+"    ipa automember-default-group-show --type=hostgroup\n"
+"    ipa automember-default-group-show --type=group\n"
+"\n"
+" Find all of the automember rules:\n"
+"    ipa automember-find\n"
+"\n"
+" Display a automember rule:\n"
+"    ipa automember-show --type=hostgroup webservers\n"
+"    ipa automember-show --type=group devel\n"
+"\n"
+" Delete an automember rule:\n"
+"    ipa automember-del --type=hostgroup webservers\n"
+"    ipa automember-del --type=group devel\n"
+msgstr ""
+"\n"
+"Règle d'auto adhésion.\n"
+"\n"
+"Il est possible d'apporter de la clarté dans l'adhésion de systèmes ou\n"
+"d'utilisateurs en configurant des motifs d'expressions rationnelles "
+"inclusives\n"
+"ou exclusives, ce qui permet d'assigner de nouvelles entrées dans un groupe\n"
+"d'utilisateurs ou de systèmes sur la base d'informations dans les "
+"attributs.\n"
+"\n"
+"Une règle est directement associée avec un groupe par son nom, il est donc\n"
+"impossible de créer une règle sans le nom du groupe auquel elle est "
+"associée.\n"
+"\n"
+"Une condition est une expression rationnelle utilisée par 389-ds pour\n"
+"identifier les nouvelles entrées à utiliser dans la règle d'auto-adhésion.\n"
+"S'il y a correspondance avec une règle d'auto-adhésion, alors l'entrée\n"
+"est automatiquement ajoutée au groupe d'utilisateurs ou de systèmes.\n"
+"\n"
+"EXEMPLES :\n"
+"\n"
+" Ajouter le groupe d'utilisateurs ou de systèmes initial :\n"
+"   ipa hostgroup-add --desc=\"Web Servers\" webservers\n"
+"   ipa group-add --desc=\"Developers\" devel\n"
+"\n"
+" Créer la règle initiale :\n"
+"   ipa automember-add --type=hostgroup webservers\n"
+"   ipa automember-add --type=group devel\n"
+"\n"
+" Ajouter une condition à la règle :\n"
+"   ipa automember-add-condition --key=fqdn --type=hostgroup --inclusive-"
+"regex=^web[1-9]+\\\\.example\\\\.com webservers\n"
+"   ipa automember-add-condition --key=manager --type=group --inclusive-"
+"regex=^uid=mscott devel\n"
+"\n"
+" Ajouter une condition exclusive à la règle empêchant l'auto-adhésion :\n"
+"   ipa automember-add-condition --key=fqdn --type=hostgroup --exclusive-"
+"regex=^web5\\\\.example\\\\.com webservers\n"
+"\n"
+" Ajouter un système :\n"
+"    ipa host-add web1.example.com\n"
+"\n"
+" Ajouter un utilisateur :\n"
+"    ipa user-add --first=Tim --last=User --password tuser1 --manager=mscott\n"
+"\n"
+" Vérifier l'auto-adhésion :\n"
+"    ipa hostgroup-show webservers\n"
+"      Host-group: webservers\n"
+"      Description: Web Servers\n"
+"      Member hosts: web1.example.com\n"
+"\n"
+"    ipa group-show devel\n"
+"      Group name: devel\n"
+"      Description: Developers\n"
+"      GID: 1004200000\n"
+"      Member users: tuser\n"
+"\n"
+" Supprimer une conditition de la règle :\n"
+"   ipa automember-remove-condition --key=fqdn --type=hostgroup --inclusive-"
+"regex=^web[1-9]+\\\\.example\\\\.com webservers\n"
+"\n"
+" Modifier la règle d'auto-adhésion:\n"
+"    ipa automember-mod\n"
+"\n"
+" Définir le groupe cible par défaut :\n"
+"    ipa automember-default-group-set --default-group=webservers --"
+"type=hostgroup\n"
+"    ipa automember-default-group-set --default-group=ipausers --type=group\n"
+"\n"
+" Supprimer le groupe cible par défaut :\n"
+"    ipa automember-default-group-remove --type=hostgroup\n"
+"    ipa automember-default-group-remove --type=group\n"
+"\n"
+" Afficher le groupe cible par défaut :\n"
+"    ipa automember-default-group-show --type=hostgroup\n"
+"    ipa automember-default-group-show --type=group\n"
+"\n"
+" Rechercher toutes les règles d'auto-adhésion :\n"
+"    ipa automember-find\n"
+"\n"
+" Afficher une règle d'auto-adhésion :\n"
+"    ipa automember-show --type=hostgroup webservers\n"
+"    ipa automember-show --type=group devel\n"
+"\n"
+" Supprimer une règle d'auto-adhésion :\n"
+"    ipa automember-del --type=hostgroup webservers\n"
+"    ipa automember-del --type=group devel\n"
 
 msgid ""
 "\n"
@@ -2864,9 +3042,117 @@ msgstr ""
 msgid ""
 "\n"
 "Permissions\n"
+"\n"
+"A permission enables fine-grained delegation of rights. A permission is\n"
+"a human-readable form of a 389-ds Access Control Rule, or instruction "
+"(ACI).\n"
+"A permission grants the right to perform a specific task such as adding a\n"
+"user, modifying a group, etc.\n"
+"\n"
+"A permission may not contain other permissions.\n"
+"\n"
+"* A permission grants access to read, write, add or delete.\n"
+"* A privilege combines similar permissions (for example all the permissions\n"
+"  needed to add a user).\n"
+"* A role grants a set of privileges to users, groups, hosts or hostgroups.\n"
+"\n"
+"A permission is made up of a number of different parts:\n"
+"\n"
+"1. The name of the permission.\n"
+"2. The target of the permission.\n"
+"3. The rights granted by the permission.\n"
+"\n"
+"Rights define what operations are allowed, and may be one or more\n"
+"of the following:\n"
+"1. write - write one or more attributes\n"
+"2. read - read one or more attributes\n"
+"3. add - add a new entry to the tree\n"
+"4. delete - delete an existing entry\n"
+"5. all - all permissions are granted\n"
+"\n"
+"Read permission is granted for most attributes by default so the read\n"
+"permission is not expected to be used very often.\n"
+"\n"
+"Note the distinction between attributes and entries. The permissions are\n"
+"independent, so being able to add a user does not mean that the user will\n"
+"be editable.\n"
+"\n"
+"There are a number of allowed targets:\n"
+"1. type: a type of object (user, group, etc).\n"
+"2. memberof: a member of a group or hostgroup\n"
+"3. filter: an LDAP filter\n"
+"4. subtree: an LDAP filter specifying part of the LDAP DIT. This is a\n"
+"   super-set of the \"type\" target.\n"
+"5. targetgroup: grant access to modify a specific group (such as granting\n"
+"   the rights to manage group membership)\n"
+"\n"
+"EXAMPLES:\n"
+"\n"
+" Add a permission that grants the creation of users:\n"
+"   ipa permission-add --type=user --permissions=add \"Add Users\"\n"
+"\n"
+" Add a permission that grants the ability to manage group membership:\n"
+"   ipa permission-add --attrs=member --permissions=write --type=group "
+"\"Manage Group Members\"\n"
 msgstr ""
 "\n"
 "Permissions\n"
+"\n"
+"Une permission permet une définition fine des délégations de droits. Une\n"
+"permission est une forme lisible par un humain des règles ou instructions\n"
+"de contrôle d'accès (ACI) de 389-ds. Une permission accorde le droit\n"
+"d'effectuer une tâche spécifique comme la création d'un utilisateur, la\n"
+"modification d'un groupe, etc.\n"
+"\n"
+"Une permission ne peut contenir d'autres permissions.\n"
+"\n"
+"* Une permission accorde un droit en lecture, écriture, ajout ou "
+"supression.\n"
+"* Un privilège combine des permissions similaires (par exemple toutes les\n"
+"  permissions requises pour la création d'un utilisateur).\n"
+"* Un rôle accorde un jeu de privilèges à des utilisateurs, des groupes, des\n"
+"  systèmes, ou à des groupes de systèmes.\n"
+"\n"
+"Une permission est constitués des éléments suivants :\n"
+"\n"
+"1. Le nom de la permission.\n"
+"2. La cible de la permission.\n"
+"3. Les droits accordés par la permission.\n"
+"\n"
+"Les droits définissent quelles opérations sont autorisées, et\n"
+"peuvent être une ou plusieurs parmi :\n"
+"1. write - écrire un ou plusieurs attributs\n"
+"2. read - lire un ou plusieurs attributs\n"
+"3. add - ajouter une nouvelle entrée dans l'arbre\n"
+"4. delete - supprimer une entrée existante\n"
+"5. all - toutes les permissions sont accordées\n"
+"\n"
+"La permission read est accordée par défaut sur la plupart des\n"
+"attributs, elle ne sera donc utilisée que peu souvent.\n"
+"\n"
+"Notez la distinction entre attributs and entrées. Les permissions sont\n"
+"indépendantes, donc la capacité de créer un utilisateur ne signifie pas\n"
+"que l'utilisateur sera modifiable.\n"
+"\n"
+"Il existe plusieurs sortes de cibles autorisées dans une permission :\n"
+"1. type: un type d'objet (user, group, etc.).\n"
+"2. memberof: un membre d'un groupe ou d'un groupe de systèmes\n"
+"3. filter: un filtre LDAP\n"
+"4. subtree: un filtre LDAP spécifiant une branche du DIT LDAP. Ceci est un\n"
+"   sur-ensemble de la cible 'type'.\n"
+"5. targetgroup: accorde l'accès permettant de modifier un groupe spécifique\n"
+"   (comme le fait d'accorder les droits en modification des membres d'un "
+"groupe)\n"
+"\n"
+"EXEMPLES :\n"
+"\n"
+" Ajouter une permission accordant la création d'utilisateurs :\n"
+"   ipa permission-add --type=user --permissions=add \"Add Users\"\n"
+"\n"
+" Ajouter une permission accordant la capacité de gérer les membres d'un "
+"groupe :\n"
+"   ipa permission-add --attrs=member --permissions=write --type=group "
+"\"Manage Group Members\"\n"
 
 msgid ""
 "\n"
@@ -4259,12 +4545,6 @@ msgstr[0] "%(count)d service HBAC correspondant"
 msgstr[1] "%(count)d services HBAC correspondants"
 
 #, python-format
-msgid "%(count)d RADIUS proxy server matched"
-msgid_plural "%(count)d RADIUS proxy servers matched"
-msgstr[0] "%(count)d serveur mandataire RADIUS correspondant"
-msgstr[1] "%(count)d serveurs mandataires RADIUS correspondants"
-
-#, python-format
 msgid "%(count)d SELinux User Map matched"
 msgid_plural "%(count)d SELinux User Maps matched"
 msgstr[0] ""
@@ -4458,10 +4738,6 @@ msgid "%(oname)s with name \"%(pkey)s\" already exists"
 msgstr "L'objet %(oname)s avec le nom « %(pkey)s » existe déjà"
 
 #, python-format
-msgid "%(otype)s \"%(oname)s\" not found"
-msgstr "%(otype)s \"%(oname)s\" introuvable"
-
-#, python-format
 msgid "%(parent)s: %(oname)s not found"
 msgstr "%(parent)s: %(oname)s introuvable"
 
@@ -4508,10 +4784,6 @@ msgstr "%s à exclure de la migration"
 #, python-format
 msgid "%s to remove"
 msgstr "%s à supprimer"
-
-#, python-format
-msgid "%s: group not found"
-msgstr "%s : groupe introuvable"
 
 msgid "'${port}' is not a valid port"
 msgstr "« ${port} » n'est pas un port valide"
@@ -4564,8 +4836,11 @@ msgstr ""
 "CSR (de <em>-----BEGIN NEW CERTIFICATE REQUEST-----</em> à <em>-----END NEW "
 "CERTIFICATE REQUEST-----</em>) dans la zone de texte ci-dessous : </li> </ol>"
 
-msgid "A SYSTEM permission may not be modified or removed"
-msgstr "Une permission SYSTEM ne peut être modifiée ni supprimée"
+msgid "A SYSTEM permission may not be modified"
+msgstr "Une permission SYSTEM ne peut être modifiée"
+
+msgid "A SYSTEM permission may not be removed"
+msgstr "Une permission SYSTEM ne peut être supprimée"
 
 msgid "A comma-separated list of fields to search in when searching for groups"
 msgstr ""
@@ -4576,9 +4851,6 @@ msgid "A comma-separated list of fields to search in when searching for users"
 msgstr ""
 "Une liste séparée par des virgules des champs à fouiller lors d'une "
 "recherche d'utilisateurs"
-
-msgid "A description of this RADIUS proxy server"
-msgstr "Description de ce serveur mandataire RADIUS"
 
 msgid "A description of this auto member rule"
 msgstr "Une description de cette règle d'auto-adhésion"
@@ -4652,12 +4924,6 @@ msgstr "Préfixe ACI"
 
 msgid "ACI prefix is required"
 msgstr "Un préfixe ACI est requis"
-
-msgid "ACI target DN"
-msgstr "DN de la cible de l'ACI"
-
-msgid "ACI target filter"
-msgstr "Filtre de cible de l'ACI"
 
 #, python-format
 msgid "ACI with name \"%s\" not found"
@@ -4794,9 +5060,6 @@ msgstr "Ajouter un nouveau service HBAC."
 msgid "Add a new IPA new service."
 msgstr "Ajouter un nouveau service IPA."
 
-msgid "Add a new RADIUS proxy server."
-msgstr "Ajouter un nouveau serveur mandataire RADIUS."
-
 msgid "Add a new delegation."
 msgstr "Ajouter une nouvelle délégation."
 
@@ -4830,8 +5093,8 @@ msgstr "Ajouter un nouvel utilisateur."
 msgid "Add a permission for per-zone access delegation."
 msgstr "Ajouter une permission pour la délégation par zone."
 
-msgid "Add a system permission without an ACI (internal command)"
-msgstr "Ajouter une permission système sans ACI (commande interne)"
+msgid "Add a system permission without an ACI"
+msgstr "Ajouter une permission système sans ACI"
 
 msgid ""
 "Add an attribute/value pair. Format is attr=value. The attribute\n"
@@ -4954,10 +5217,6 @@ msgstr "Groupe de services HBAC « %(value)s » ajouté"
 #, python-format
 msgid "Added ID range \"%(value)s\""
 msgstr "Plage d'ID « %(value)s » ajoutée"
-
-#, python-format
-msgid "Added RADIUS proxy server \"%(value)s\""
-msgstr "Serveur mandataire RADIUS « %(value)s » ajouté"
 
 #, python-format
 msgid "Added SELinux User Map \"%(value)s\""
@@ -5106,6 +5365,9 @@ msgstr ""
 msgid "Allow transfer"
 msgstr "Autoriser le transfert"
 
+msgid "Allow use of IPA resources by the domain of the trust"
+msgstr "Autoriser l'utlisation de ressources IPA par le domain approuvé"
+
 msgid "Allows migration despite the usage of compat plugin"
 msgstr "Autoriser les migrations malgré l'utilisation du greffon compat"
 
@@ -5163,25 +5425,25 @@ msgstr ""
 "Êtes-vous sûr de vouloir ${action} l'utilisateur ?<br/>Le changement prendra "
 "effet immédiatement."
 
-msgid "Are you sure you want to delete ${object}?"
+msgid "Are you sure you want to delete ${object}"
 msgstr "Êtes-vous sûr de vouloir supprimer ${object} ?"
 
 msgid "Are you sure you want to delete selected entries?"
 msgstr "Êtes-vous sûr de vouloir supprimer les entrées sélectionnées ?"
 
-msgid "Are you sure you want to disable ${object}?"
+msgid "Are you sure you want to disable ${object}"
 msgstr "Êtes-vous sûr de vouloir désactiver ${object} ?"
 
 msgid "Are you sure you want to disable selected entries?"
 msgstr "Êtes-vous sûr de vouloir désactiver les entrées sélectionnées ?"
 
-msgid "Are you sure you want to enable ${object}?"
+msgid "Are you sure you want to enable ${object}"
 msgstr "Êtes-vous sûr de vouloir activer ${object} ?"
 
 msgid "Are you sure you want to enable selected entries?"
 msgstr "Êtes-vous sûr de vouloir activer les entrées sélectionnées ?"
 
-msgid "Are you sure you want to proceed with the action?"
+msgid "Are you sure you want to proceed with the action."
 msgstr "Êtes-vous sûr de vouloir procéder à cette action ?"
 
 msgid "Are you sure you want to unprovision this host?"
@@ -5255,9 +5517,6 @@ msgstr "Auto-adhésion"
 msgid "Automember Rule"
 msgstr "Règle d'auto adhésion"
 
-msgid "Automember rebuild membership task completed"
-msgstr "La tâche de reconstruction d'appartenance automatique est terminée"
-
 msgid "Automount"
 msgstr "Automontage"
 
@@ -5315,9 +5574,6 @@ msgstr "Mauvais format de cache de crédit"
 msgid "Bad or unsupported salt type.\n"
 msgstr "Type de sel non-conforme ou non pris en compte.\n"
 
-msgid "Bad search filter"
-msgstr "Filtre de recherche invalide"
-
 #, python-format
 msgid "Bad search filter %(info)s"
 msgstr "Filtre de recherche invalide %(info)s"
@@ -5354,14 +5610,8 @@ msgstr ""
 "Mot de passe de connexion requis lors de l'utilisation d'un DN de "
 "connexion.\n"
 
-msgid "Bind rule type"
-msgstr "Type de règle de connexion"
-
 msgid "CA Compromise"
 msgstr "AC compromise"
-
-msgid "CA certificate"
-msgstr "Certificat de l'AC"
 
 msgid "CIFS credentials object"
 msgstr "Objet identification CIFS"
@@ -5453,10 +5703,6 @@ msgstr ""
 "Impossible d'effectuer une recherche sur les domaines approuvés sans avoir "
 "au préalable configuré son propre domaine. Assurez-vous d'avoir d'abord "
 "lancé ipa-adtrust-install sur le serveur"
-
-#, python-format
-msgid "Cannot use %(old_name)s with %(new_name)s"
-msgstr "Impossible d'utiliser %(old_name)s avec %(new_name)s"
 
 msgid "Car License"
 msgstr "Carte d'identité"
@@ -5852,12 +6098,6 @@ msgstr "Interpréteur de commande par défaut pour les nouveaux utilisateurs"
 msgid "Default types of PAC supported for services"
 msgstr "Types de PAC par défaut pris en charge pour les services"
 
-msgid "Default types of supported user authentication"
-msgstr "Types d'authentification utilisateur pris en charge par défaut"
-
-msgid "Default user authentication types"
-msgstr "Types d'authentification utilisateur par défaut"
-
 msgid "Default user group"
 msgstr "Groupe d'utilisateur par défaut"
 
@@ -5911,9 +6151,6 @@ msgstr "Supprimer une commande Sudo."
 
 msgid "Delete Sudo Rule."
 msgstr "Règle Sudo supprimée."
-
-msgid "Delete a RADIUS proxy server."
-msgstr "Supprimer un serveur mandataire RADIUS."
 
 msgid "Delete a SELinux User Map."
 msgstr "Supprimer une liste de correspondance d'utilisateurs SELinux"
@@ -6019,10 +6256,6 @@ msgid "Deleted ID range \"%(value)s\""
 msgstr "Plage d'ID « %(value)s » supprimée"
 
 #, python-format
-msgid "Deleted RADIUS proxy server \"%(value)s\""
-msgstr "Serveur mandataire RADIUS « %(value)s » supprimé"
-
-#, python-format
 msgid "Deleted SELinux User Map \"%(value)s\""
 msgstr ""
 "Liste de correspondance d'utilisateurs SELinux « %(value)s » supprimée."
@@ -6114,10 +6347,6 @@ msgstr ""
 msgid "Deny"
 msgstr "Interdire"
 
-#, python-format
-msgid "Deprecated; use %s"
-msgstr "Obsolète ; utiliser %s"
-
 msgid "Description"
 msgstr "Description"
 
@@ -6131,10 +6360,22 @@ msgstr "Groupe « %(value)s » détaché de l'utilisateur « %(value)s »"
 msgid "Detect"
 msgstr "Détection"
 
+msgid ""
+"Determine whether Schema Compatibility plugin is configured to serve trusted "
+"domain users and groups"
+msgstr ""
+"Déterminer si le greffon de compatibilité de schéma est configuré pour "
+"servir les utilisateurs et groupes du domaine"
+
 msgid "Determine whether ipa-adtrust-install has been run on this system"
 msgstr ""
 "Déterminer si la commande ipa-adtrust-install a déjà été exécutée sur ce "
 "système"
+
+msgid "Determine whether ipa-adtrust-install has been run with sidgen task"
+msgstr ""
+"Déterminer si la commande ipa-adtrust-install a été lancée avec la tâche "
+"sidgen"
 
 msgid "Dict of I18N messages"
 msgstr "Dictionnaire de messages I18N"
@@ -6195,6 +6436,9 @@ msgstr ""
 "Désactiver la clé Kerberos, les certificats SSL et tous les services d'un "
 "hôte."
 
+msgid "Disable use of IPA resources by the domain of the trust"
+msgstr "Interdire l'utlisation de ressources IPA par le domain approuvé"
+
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -6222,6 +6466,10 @@ msgstr "Hôte « %(value)s » désactivé"
 #, python-format
 msgid "Disabled service \"%(value)s\""
 msgstr "Service « %(value)s » désactivé"
+
+#, python-format
+msgid "Disabled trust domain \"%(value)s\""
+msgstr "Domaine approuvé « %(value)s » désactivé"
 
 #, python-format
 msgid "Disabled user account \"%(value)s\""
@@ -6254,9 +6502,6 @@ msgstr "Afficher la politique effective sur un utilisateur spécifique"
 msgid "Display information about a DNS zone (SOA record)."
 msgstr ""
 "Afficher les informations au sujet d'une zone DNS (enregistrement SOA)."
-
-msgid "Display information about a RADIUS proxy server."
-msgstr "Afficher les informations sur un serveur mandataire RADIUS."
 
 msgid "Display information about a delegation."
 msgstr "Afficher les informations sur une délégation."
@@ -6452,14 +6697,6 @@ msgstr "Entrer à nouveau %(label)s pour validation :"
 msgid "Entry"
 msgstr "Entrée"
 
-#, python-format
-msgid "Entry %s does not exist"
-msgstr "L'entrée « %s » n'existe pas"
-
-#, python-format
-msgid "Entry %s not found"
-msgstr "Entrée %s introuvable"
-
 msgid "Error"
 msgstr "Erreur"
 
@@ -6626,6 +6863,12 @@ msgstr "Échec lors de la récupération du type de chiffrement #%d\n"
 
 msgid "Failed users/groups"
 msgstr "Utilisateurs et groupes en échec"
+
+msgid "Failure decoding Certificate Signing Request"
+msgstr "Échec dans le décodage du Certificate Signing Request"
+
+msgid "Failure decoding Certificate Signing Request:"
+msgstr "Échec dans le décodage du Certificate Signing Request :"
 
 #, python-format
 msgid "Failure decoding Certificate Signing Request: %s"
@@ -6848,6 +7091,10 @@ msgstr "Classes d'objets groupes"
 
 msgid "Group to apply ACI to"
 msgstr "Groupe sur lequel appliquer l'ACI"
+
+#, python-format
+msgid "Group: %s not found!"
+msgstr "Groupe : %s introuvable !"
 
 msgid "Grouping Type"
 msgstr "Type de groupe"
@@ -7441,14 +7688,14 @@ msgstr "Filtre LDAP valide (i.e. ou=Engineering)"
 msgid "List of deletions that failed"
 msgstr "Liste des suppressions en échec"
 
+msgid "List of trust domains successfully refreshed"
+msgstr "Liste des domaines approuvés rafraîchie avec succès"
+
 msgid "Lists of objects migrated; categorized by type."
 msgstr "Liste des objets migrés, catégorisés par type."
 
 msgid "Lists of objects that could not be migrated; categorized by type."
 msgstr "Liste des objets n'ayant pu être migrés, catégorisés par type."
-
-msgid "Load CA certificate of LDAP server from FILE"
-msgstr "Charger le certification de l'AC du serveur LDAP depuis FILE"
 
 msgid "Local domain"
 msgstr "Domaine local :"
@@ -7458,9 +7705,6 @@ msgstr "Ville"
 
 msgid "Location"
 msgstr "Lieu"
-
-msgid "Location of the ACI"
-msgstr "Emplacement de l'ACI"
 
 msgid "Lockout duration"
 msgstr "Durée de verrouillage"
@@ -7720,10 +7964,6 @@ msgid "Modified ID range \"%(value)s\""
 msgstr "Plage d'ID « %(value)s » modifiée"
 
 #, python-format
-msgid "Modified RADIUS proxy server \"%(value)s\""
-msgstr "Serveur mandataire RADIUS « %(value)s » modifié"
-
-#, python-format
 msgid "Modified SELinux User Map \"%(value)s\""
 msgstr "Liste de correspondance d'utilisateurs SELinux « %(value)s » modifiée"
 
@@ -7828,9 +8068,6 @@ msgstr "Modifier une règle Sudo."
 
 msgid "Modify a DNS resource record."
 msgstr "Modifier un enregistrement de ressources DNS."
-
-msgid "Modify a RADIUS proxy server."
-msgstr "Modifier un serveur mandataire RADIUS"
 
 msgid "Modify a SELinux User Map."
 msgstr "Modifier une liste de correspondance d'utilisateurs SELinux"
@@ -8020,6 +8257,9 @@ msgstr "Nouveau test"
 msgid "New mount information"
 msgstr "Nouvelle information de montage"
 
+msgid "New name can not be empty"
+msgstr "Un nouveau nom ne peut être vide"
+
 msgid "New password is required"
 msgstr "Un nouveau mot de passe est requis"
 
@@ -8059,6 +8299,9 @@ msgstr "Aucune clé acceptée par le KDC\n"
 
 msgid "No matching entries found"
 msgstr "Aucune entrée correspondante trouvée"
+
+msgid "No new trust domains were found"
+msgstr "Aucun nouveau domaine approuvé trouvé"
 
 msgid "No option to delete specific record provided."
 msgstr "Pas d'option fournie pour supprimer un enregistrement spécifique."
@@ -8446,30 +8689,30 @@ msgstr "Permission"
 msgid "Permission ACI grants access to"
 msgstr "L'ACI Permission donne accès à"
 
+msgid "Permission Type"
+msgstr "Type de permission"
+
 #, python-format
 msgid "Permission denied: %(file)s"
 msgstr "Autorisation refusée : %(file)s"
 
-msgid "Permission flags"
-msgstr "Indicateurs de permissions"
-
 msgid "Permission name"
 msgstr "Nom de permission"
 
+msgid "Permission type"
+msgstr "Type de permission"
+
 msgid "Permission with invalid target specification"
 msgstr "Permission avec spécification de cible invalide"
-
-#, python-format
-msgid "Permission with unknown flag %s may not be modified or removed"
-msgstr ""
-"Les permissions avec le drapeau inconnu %s ne peuvent être supprimées ni "
-"modifiées."
 
 msgid "Permissions"
 msgstr "Permissions"
 
 msgid "Permissions to grant (read, write). Default is write."
 msgstr "Permissions à accorder (read, write). La valeur par défaut est write."
+
+msgid "Permissions to grant (read, write, add, delete, all)"
+msgstr "Permissions à accorder (read, write, add, delete, all)"
 
 msgid "Permissions to grant(read, write, add, delete, all)"
 msgstr "Permissions à accorder (read, write, add, delete, all)"
@@ -8611,27 +8854,6 @@ msgstr "Liens rapides"
 msgid "Quiet mode. Only errors are displayed."
 msgstr "Mode silencieux. Seules les erreurs sont affichées."
 
-msgid "RADIUS Server"
-msgstr "Serveur RADIUS"
-
-msgid "RADIUS Servers"
-msgstr "Serveurs RADIUS"
-
-msgid "RADIUS proxy configuration"
-msgstr "Configuration du mandataire RADIUS"
-
-msgid "RADIUS proxy server"
-msgstr "Serveur mandataire RADIUS"
-
-msgid "RADIUS proxy server name"
-msgstr "Nom du serveur mandataire RADIUS"
-
-msgid "RADIUS proxy servers"
-msgstr "Serveurs mandataires RADIUS"
-
-msgid "RADIUS proxy username"
-msgstr "Nom d'utilisateur du mandataire RADIUS"
-
 msgid "RFC4120-compliant Kerberos realm"
 msgstr "Domaine Kerberos conforme à la RFC4120"
 
@@ -8676,6 +8898,9 @@ msgstr "Domaines pour le royaume"
 msgid "Realm name"
 msgstr "Nom du royaume"
 
+msgid "Realm-domain mismatch"
+msgstr "Non correspondance de domaine et de royaume Kerberos"
+
 msgid "Reason"
 msgstr "Raison"
 
@@ -8684,21 +8909,6 @@ msgstr "Raison de la révocation"
 
 msgid "Reason for revoking the certificate (0-10)"
 msgstr "Raison de révocation du certificat (0-10)"
-
-msgid "Rebuild auto membership"
-msgstr "Reconstruire l'appartenance automatique"
-
-msgid "Rebuild auto membership."
-msgstr "Reconstruire l'appartenance automatique."
-
-msgid "Rebuild membership for all members of a grouping"
-msgstr "Reconstruire l'appartenance pour tous les membres d'un groupe"
-
-msgid "Rebuild membership for specified hosts"
-msgstr "Reconstruire l'appartenance pour les hôtes indiqués"
-
-msgid "Rebuild membership for specified users"
-msgstr "Reconstruire l'appartenance pour les utilisateurs indiqués "
 
 msgid "Record Type"
 msgstr "Type d'enregistrement"
@@ -8732,6 +8942,9 @@ msgstr "Redirection vers l'enregistrement PTR"
 
 msgid "Refresh"
 msgstr "Rafraîchir"
+
+msgid "Refresh list of the domains associated with the trust"
+msgstr "Rafraîchir la liste des domaines associés à la relation d'approbation"
 
 msgid "Refresh the page."
 msgstr "Rafraîchir la page."
@@ -8803,6 +9016,10 @@ msgstr "Supprimer les hôtes qui peuvent gérer cet hôte."
 msgid "Remove hosts that can manage this service."
 msgstr "Supprimer des sytèmes pouvant administrer ce service."
 
+msgid "Remove infromation about the domain associated with the trust."
+msgstr ""
+"Supprimer les informations du domaine associées à la relation d'approbation."
+
 msgid "Remove members from Sudo Command Group."
 msgstr "Supprimer des membres d'un groupe de commandes Sudo."
 
@@ -8860,6 +9077,10 @@ msgstr "Conditions supprimées de « %(value)s »"
 msgid "Removed default (fallback) group for automember \"%(value)s\""
 msgstr ""
 "Groupe par défaut (de repli) supprimé pour l'auto-adhésion « %(value)s »"
+
+#, python-format
+msgid "Removed information about the trusted domain \"%(value)s\""
+msgstr "Informations sur le domaine approuvé « %(value)s » supprimées"
 
 #, python-format
 msgid "Removed option \"%(option)s\" from Sudo Rule \"%(rule)s\""
@@ -8958,9 +9179,6 @@ msgstr ""
 "Les résultats devraient contenir uniquement des attributs clé primaire "
 "uniquement (« %s »)"
 
-msgid "Retries"
-msgstr "Tentatives"
-
 msgid "Retrieve an existing certificate."
 msgstr "Récupérer un certificat existant."
 
@@ -9042,9 +9260,6 @@ msgstr "Révoqué le, jusque cette date (AAAA-mm-jj)"
 
 msgid "Rights"
 msgstr "Droits"
-
-msgid "Rights to grant (read, search, compare, write, add, delete, all)"
-msgstr "Droits à accorder (read, search, compare, write, add, delete, all)"
 
 msgid "Role"
 msgstr "Rôle"
@@ -9304,9 +9519,6 @@ msgstr "La recherche du namingContext d'IPA a échoué avec l'erreur %d\n"
 msgid "Search for IPA services."
 msgstr "Rechercher des services IPA."
 
-msgid "Search for RADIUS proxy servers."
-msgstr "Rechercher des serveurs mandataires RADIUS."
-
 msgid "Search for SELinux User Maps."
 msgstr "Rechercher des listes de correspondance d'utilisateurs SELinux"
 
@@ -9394,9 +9606,6 @@ msgstr "Secondes latitude"
 
 msgid "Seconds Longitude"
 msgstr "Secondes de Longitude"
-
-msgid "Secret"
-msgstr "Secret"
 
 msgid "Security Identifier"
 msgstr "Identifiant de sécurité"
@@ -9737,8 +9946,8 @@ msgstr "Groupe cible"
 msgid "Target host"
 msgstr "Système cible"
 
-msgid "Target members of a group (sets targetfilter)"
-msgstr "Membres cibles d'un groupe (définit targetfilter)"
+msgid "Target members of a group"
+msgstr "Membres cible d'un groupe"
 
 msgid "Target reverse zone not found."
 msgstr "Zone inverse cible non trouvée."
@@ -9757,10 +9966,6 @@ msgstr "Donnée texte"
 
 msgid "Text does not match field pattern"
 msgstr "Le texte ne correspond pas au motif de champ"
-
-#, python-format
-msgid "The ACI for permission %(name)s was not found in %(dn)s "
-msgstr "L'ACI pour la permission %(name)s est introuvable dans %(dn)s"
 
 msgid "The IPA realm"
 msgstr "Le domaine IPA"
@@ -9805,9 +10010,6 @@ msgstr "Le nom d'hôte doit être pleinement qualifié : %s\n"
 msgid "The hostname must not be: %s\n"
 msgstr "Le nom d'hôte ne peut être : %s\n"
 
-msgid "The hostname or IP (with or without port)"
-msgstr "Nom d'hôte ou adresse IP (avec ou sans port)"
-
 msgid "The hostname this reverse record points to"
 msgstr "Le nom de système vers lequel cet enregistrement inverse pointe"
 
@@ -9825,9 +10027,6 @@ msgstr ""
 #, python-format
 msgid "The most common types for this type of zone are: %s\n"
 msgstr "Les types les plus courants pour ce type de zone sont : %s\n"
-
-msgid "The number of times to retry authentication"
-msgstr "Le nombre de tentatives de ré-authentification"
 
 msgid "The password or username you entered is incorrect."
 msgstr "Le mot de passe ou le nom d'utilisateur entré est incorrect."
@@ -9857,20 +10056,18 @@ msgstr ""
 "Le critère de recherche n'est pas suffisamment spécifique. Une valeur "
 "attendue, mais %(found)d trouvées."
 
-msgid "The secret used to encrypt data"
-msgstr "Le secret utilisé pour chiffrer les données"
-
 msgid "The service principal for this request doesn't exist."
 msgstr "Le principal de service pour cette requête est inexistant"
 
 msgid "The topic or command name."
 msgstr "Le nom du thème ou de la commande."
 
-msgid "The total timeout across all retries (in seconds)"
-msgstr "Délai d'expiration total pour toutes les tentatives (en secondes)"
-
-msgid "The username attribute on the user object"
-msgstr "L'attribut de nom d'utilisateur de l'objet utilisateur"
+msgid ""
+"This command relies on the existence of the \"editors\" group, but this "
+"group was not found."
+msgstr ""
+"Cette commande s'appuie sur l'existence effective du groupe « editors », "
+"mais ce groupe est introuvable."
 
 msgid "This command requires root access"
 msgstr "Cette commande requiert des droits root"
@@ -9929,9 +10126,6 @@ msgstr "Heure actuelle"
 msgid "Time to live"
 msgstr "Durée de vie"
 
-msgid "Timeout"
-msgstr "Délai d'expiration"
-
 msgid ""
 "To confirm your intention to restore this certificate, click the \"Restore\" "
 "button."
@@ -9945,6 +10139,13 @@ msgid ""
 msgstr ""
 "Afin de confirmer votre intention de révoquer ce certificat, sélectionner "
 "une raison dans la liste, puis de cliquer sur le bouton \"Révoquer\"."
+
+msgid ""
+"To estabilish trust with Active Directory, the domain name and the realm "
+"name of the IPA server must match"
+msgstr ""
+"Afin d'établir une relation d'approbation avec Active Directory, le nom de "
+"domaine et le nom de royaume Kerberos du serveur IPA doivent correspondre"
 
 msgid "To get command help, use:"
 msgstr "Pour obtenir de l'aide, utiliser :"
@@ -10049,8 +10250,10 @@ msgstr "Type couvert"
 msgid "Type Map"
 msgstr "Type de carte"
 
-msgid "Type of IPA object (sets subtree and filter)"
-msgstr "Type d'objet IPA (définit la sous-arborescence et le filtre)"
+msgid ""
+"Type of IPA object (user, group, host, hostgroup, service, netgroup, dns)"
+msgstr ""
+"Type d'objet IPA (user, group, host, hostgroup, service, netgroup, dns)"
 
 msgid "Type of trusted domain ID range, one of {vals}"
 msgstr ""
@@ -10243,12 +10446,6 @@ msgstr ""
 msgid "User Options"
 msgstr "Options utilisateurs"
 
-msgid "User attribute"
-msgstr "Attribut utilisateur"
-
-msgid "User authentication types"
-msgstr "Types d'authentification utilisateur"
-
 msgid "User category"
 msgstr "Catégorie d'utilisateur"
 
@@ -10273,9 +10470,8 @@ msgstr "Règles de groupes d'utilisateurs"
 msgid "User group to apply delegation to"
 msgstr "Groupe d'utilisateur auquel appliquer la délégation"
 
-msgid "User group to apply permissions to (sets target)"
-msgstr ""
-"Groupe d'utilisateur sur lequel appliquer les permissions (définit la cible)"
+msgid "User group to apply permissions to"
+msgstr "Groupe d'utilisateur sur lequel appliquer les permissions"
 
 msgid "User login"
 msgstr "Identifiant de connexion"
@@ -10447,9 +10643,6 @@ msgstr "n'importe lequel des serveurs configurés"
 msgid "api has no such namespace: '%(name)s'"
 msgstr "l'API ne possède pas cet espace de nom : « %(name)s »"
 
-msgid "at least one of options: type, users, hosts must be specified"
-msgstr "au moins l'une des options type, users ou hosts doit être indiquée"
-
 msgid ""
 "at least one of: type, filter, subtree, targetgroup, attrs or memberof are "
 "required"
@@ -10538,6 +10731,20 @@ msgstr "Impossible de supprimer le domaine du serveur IPA"
 
 msgid "cannot delete global password policy"
 msgstr "impossible de supporimer une politique de mot de passe globale"
+
+msgid ""
+"cannot delete root domain of the trust, use trust-del to delete the trust "
+"itself"
+msgstr ""
+"impossible de supprimer le domaine racine de la relation d'approbation, "
+"utiliser la commande trust-del pour supprimer la relation d'approbation"
+
+msgid ""
+"cannot disable root domain of the trust, use trust-del to delete the trust "
+"itself"
+msgstr ""
+"impossible de désactiver le domaine racine de la relation d'approbation, "
+"utiliser la commande trust-del pour supprimer la relation"
 
 #, c-format
 msgid "cannot open configuration file %s\n"
@@ -10778,9 +10985,6 @@ msgstr ""
 "des systèmes ne peuvent être ajoutés quand la catégorie systèmes est définie "
 "à 'all'"
 
-msgid "hosts cannot be set when type is 'group'"
-msgstr "des hôtes ne peuvent être indiqués lorsque le type est « group »"
-
 msgid "id range"
 msgstr "plage d'identifiants"
 
@@ -10828,9 +11032,6 @@ msgstr "clé publique SSH invalide"
 msgid "invalid address format"
 msgstr "format d'adresse invalide"
 
-msgid "invalid attribute name"
-msgstr "nom d'attribut invalide"
-
 #, python-format
 msgid "invalid domain-name: %s"
 msgstr "nom de domaine invalide : %s"
@@ -10838,9 +11039,6 @@ msgstr "nom de domaine invalide : %s"
 #, python-format
 msgid "invalid e-mail format: %(email)s"
 msgstr "format d'e-mail invalide : %(email)s"
-
-msgid "invalid port number"
-msgstr "numéro de port invalide"
 
 #, c-format
 msgid "ipa-getkeytab has bad permissions?\n"
@@ -11088,10 +11286,6 @@ msgstr ""
 msgid "operation not defined"
 msgstr "opération non définie"
 
-#, python-format
-msgid "option was renamed; use %s"
-msgstr "l'option a été renommée ; utiliser %s"
-
 msgid "options are not allowed"
 msgstr "les options ne sont pas autorisées"
 
@@ -11278,9 +11472,6 @@ msgstr "sidgen_was_run"
 msgid "skip reverse DNS detection"
 msgstr "passer outre la détection de DNS inverse"
 
-msgid "subtree and type are mutually exclusive"
-msgstr "subtree et type sont mutuellement exclusifs"
-
 msgid "sudo command"
 msgstr "commande sudo"
 
@@ -11299,12 +11490,6 @@ msgstr "règle sudo"
 msgid "sudo rules"
 msgstr "règles sudo"
 
-msgid "target and targetgroup are mutually exclusive"
-msgstr "target et targetgroup sont mutuellement exclusifs"
-
-msgid "target and type are mutually exclusive"
-msgstr "target et type sont mutuellement exclusifs"
-
 #, python-format
 msgid ""
 "the IPA server and the remote domain cannot share the same NetBIOS name: %s"
@@ -11317,13 +11502,6 @@ msgstr "cette entrée a été supprimée pendant sa modification"
 
 msgid "the value does not follow \"YYYYMMDDHHMMSS\" time format"
 msgstr "la valeur n'est pas au format temporel « YYYYMMDDHHMMSS »"
-
-msgid ""
-"there must be at least one target entry specifier (e.g. target, "
-"targetfilter, attrs)"
-msgstr ""
-"il doit y avoir au moins un indicateur d'entrée cible (par exemple target, "
-"targetfilter, attrs)"
 
 msgid "this option has been deprecated."
 msgstr "cette option a été rendue obsolète."
@@ -11406,9 +11584,6 @@ msgstr ""
 msgid "users"
 msgstr "utilisateurs"
 
-msgid "users and hosts cannot both be set"
-msgstr "impossible d'indiquer à la fois les utilisateurs et les hôtes"
-
 msgid "users cannot be added when runAs user or runAs group category='all'"
 msgstr ""
 "des utilisateurs ne peuvent être ajoutés quand une catégorie RunAs User ou "
@@ -11418,10 +11593,6 @@ msgid "users cannot be added when user category='all'"
 msgstr ""
 "des utilisateurs ne peuvent être ajoutés quand la catégorie utilisateurs est "
 "définie à 'all'"
-
-msgid "users cannot be set when type is 'hostgroup'"
-msgstr ""
-"impossible d'indiquer les utilisateurs lorsque le type est « hostgroup »"
 
 msgid ""
 "you cannot specify the --domain option together with --add-domain or --del-"
