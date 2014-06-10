@@ -4,14 +4,14 @@
 #
 # Translators:
 # Tomoyuki KATO <tomo@dream.daynight.jp>, 2012
-# 高一人参 @欠陥遺伝子 <www.carrotsoft@gmail.com>, 2011
+# carrotsoft <www.carrotsoft@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2013-09-12 15:37+0200\n"
-"PO-Revision-Date: 2014-05-26 17:18+0000\n"
+"POT-Creation-Date: 2014-06-10 13:35+0200\n"
+"PO-Revision-Date: 2014-06-10 11:46+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/freeipa/"
 "language/ja/)\n"
@@ -142,6 +142,7 @@ msgstr "HBAC サービスに関する情報を表示します。"
 msgid "Display the properties of an HBAC rule."
 msgstr "HBAC ルールのプロパティーを表示します。"
 
+#, python-brace-format
 msgid "Edit ${entity}"
 msgstr "${entity} の編集"
 

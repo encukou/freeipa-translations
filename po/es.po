@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
-# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2014
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2014
 # Eduardo Villagrán M <gotencool@gmail.com>, 2012
 # vareli <ehespinosa@ya.com>, 2013
 # Gladys Guerrero <gguerrer@redhat.com>, 2011
@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2013-09-12 15:37+0200\n"
-"PO-Revision-Date: 2014-05-26 17:18+0000\n"
+"POT-Creation-Date: 2014-06-10 13:35+0200\n"
+"PO-Revision-Date: 2014-06-10 11:46+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/freeipa/language/"
 "es/)\n"
@@ -483,18 +483,23 @@ msgstr ""
 "   ipa sudocmd-del /usr/bin/less\n"
 "\n"
 
+#, python-brace-format
 msgid "${entity} ${primary_key} Settings"
 msgstr "Configuraciones de  ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "${entity} successfully added"
 msgstr "${entity} añadido con éxito"
 
+#, python-brace-format
 msgid "${primary_key} is a member of:"
 msgstr "${primary_key} es un miembro de:"
 
+#, python-brace-format
 msgid "${primary_key} is managed by:"
 msgstr "${primary_key} es gestionada por:"
 
+#, python-brace-format
 msgid "${primary_key} members:"
 msgstr "${primary_key} miembros:"
 
@@ -709,6 +714,7 @@ msgstr "%s a añadir"
 msgid "%s to remove"
 msgstr "%s a eliminar"
 
+#, python-brace-format
 msgid "'${port}' is not a valid port"
 msgstr "«${port}» no es un puerto válido"
 
@@ -843,21 +849,27 @@ msgstr "Activar zona"
 msgid "Add"
 msgstr "Agregar"
 
+#, python-brace-format
 msgid "Add ${entity}"
 msgstr "Añadir ${entity}"
 
+#, python-brace-format
 msgid "Add ${entity} ${primary_key} into ${other_entity}"
 msgstr "Añadir ${entity} ${primary_key} en ${other_entity}"
 
+#, python-brace-format
 msgid "Add ${other_entity} Managing ${entity} ${primary_key}"
 msgstr "Añadir ${other_entity} Gestionando ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Add ${other_entity} into ${entity} ${primary_key}"
 msgstr "Añadir ${other_entity} a ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Add Allow ${other_entity} into ${entity} ${primary_key}"
 msgstr "Añadir Permitir ${other_entity} en ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Add Deny ${other_entity} into ${entity} ${primary_key}"
 msgstr "Añadir Denegar ${other_entity} en ${entity} ${primary_key}"
 
@@ -867,9 +879,11 @@ msgstr "Añadir Muchos"
 msgid "Add Rule"
 msgstr "Añadir una regla"
 
+#, python-brace-format
 msgid "Add RunAs ${other_entity} into ${entity} ${primary_key}"
 msgstr "Añadir RunAs ${other_entity} en ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Add RunAs Groups into ${entity} ${primary_key}"
 msgstr "Añadir RunAs Grupos en ${entity} ${primary_key}"
 
@@ -1141,6 +1155,7 @@ msgstr "Cualquiera"
 msgid "Apply ACI to your own entry (self)"
 msgstr "Aplique ACI a su propia entrada (usted)"
 
+#, python-brace-format
 msgid ""
 "Are you sure you want to ${action} the user?<br/>The change will take effect "
 "immediately."
@@ -1307,6 +1322,7 @@ msgstr "Base de certificado de asunto"
 msgid "Certificate Type"
 msgstr "Tipo de certificado"
 
+#, python-brace-format
 msgid "Certificate for ${entity} ${primary_key}"
 msgstr "Certificado para ${entity} ${primary_key}"
 
@@ -1354,6 +1370,7 @@ msgstr "Ciudad"
 msgid "Class"
 msgstr "Clase"
 
+#, python-brace-format
 msgid "Click to ${action}"
 msgstr "Pulse para ${action}"
 
@@ -1979,6 +1996,7 @@ msgstr "Actualización dinámica"
 msgid "Edit"
 msgstr "Editar"
 
+#, python-brace-format
 msgid "Edit ${entity}"
 msgstr "Editar ${entity}"
 
@@ -2589,6 +2607,7 @@ msgstr "¿Está la zona activa?"
 msgid "Issue"
 msgstr "Tema"
 
+#, python-brace-format
 msgid "Issue New Certificate for ${entity} ${primary_key}"
 msgstr "Enviar Nuevo Certificado para ${entity} ${primary_key}"
 
@@ -2817,6 +2836,7 @@ msgstr "Duración máxima del ticket (en segundos)"
 msgid "Maximum username length"
 msgstr "Largo máximo para nombre de usuario"
 
+#, python-brace-format
 msgid "Maximum value is ${value}"
 msgstr "Valor máximo es ${value}"
 
@@ -2961,6 +2981,7 @@ msgstr "Cantidad mínima de clases de caracteres"
 msgid "Minimum password lifetime (in hours)"
 msgstr "Vida mínima de la contraseña (en horas)"
 
+#, python-brace-format
 msgid "Minimum value is ${value}"
 msgstr "Valor mínimo es ${value}"
 
@@ -3519,9 +3540,6 @@ msgstr "Permiso denegado:%(file)s "
 msgid "Permission name"
 msgstr "Nombre de permiso"
 
-msgid "Permission with invalid target specification"
-msgstr "Permiso con especificación de destino inválida"
-
 msgid "Permissions"
 msgstr "Permisos"
 
@@ -3624,6 +3642,7 @@ msgstr "Aprovisionamiento"
 msgid "Public Key"
 msgstr "Clave pública"
 
+#, python-brace-format
 msgid ""
 "Query returned more results than the configured size limit. Displaying the "
 "first ${counter} results."
@@ -3691,27 +3710,35 @@ msgstr "Actualizar"
 msgid "Regular Expression"
 msgstr "Expresión regular"
 
+#, python-brace-format
 msgid "Remove ${entity}"
 msgstr "Quitar ${entity}"
 
+#, python-brace-format
 msgid "Remove ${entity} ${primary_key} from ${other_entity}"
 msgstr "Quitar ${entity} ${primary_key} de ${other_entity}"
 
+#, python-brace-format
 msgid "Remove ${other_entity} Managing ${entity} ${primary_key}"
 msgstr "Quitar ${other_entity} Gestionando ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Remove ${other_entity} from ${entity} ${primary_key}"
 msgstr "Retirar ${other_entity} de ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Remove Allow ${other_entity} from ${entity} ${primary_key}"
 msgstr "Quitar Permitir ${other_entity} de ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Remove Deny ${other_entity} from ${entity} ${primary_key}"
 msgstr "Quitar Denegar ${other_entity} de ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Remove RunAs ${other_entity} from ${entity} ${primary_key}"
 msgstr "Quitar RunAs ${other_entity} de ${entity} ${primary_key}"
 
+#, python-brace-format
 msgid "Remove RunAs Groups from ${entity} ${primary_key}"
 msgstr "Quitar Grupos RunAs de ${entity} ${primary_key}"
 
@@ -3836,6 +3863,7 @@ msgstr "Restaurar"
 msgid "Restore Certificate"
 msgstr "Restaurar certificado"
 
+#, python-brace-format
 msgid "Restore Certificate for ${entity} ${primary_key}"
 msgstr "Restablecer Certificado para ${entity} ${primary_key}"
 
@@ -3888,6 +3916,7 @@ msgstr "Revocar"
 msgid "Revoke Certificate"
 msgstr "Revocar certificado"
 
+#, python-brace-format
 msgid "Revoke Certificate for ${entity} ${primary_key}"
 msgstr "Revocar certificado por ${entity} ${primary_key}"
 
@@ -4248,6 +4277,7 @@ msgstr "Muestra la configuración actual"
 msgid "Show the list of permitted encryption types and exit"
 msgstr "Mostrar la lista de los tipos cifrados permitidos y salir"
 
+#, python-brace-format
 msgid "Showing ${start} to ${end} of ${total} entries."
 msgstr "Mostrando ${start} a ${end} de ${total} entradas."
 
@@ -4297,6 +4327,7 @@ msgstr "Usuarios y grupos específicos"
 msgid "Specifies where to store keytab information."
 msgstr "Especifica dónde almacenar la información de tabla de claves."
 
+#, python-brace-format
 msgid "Specify external ${entity}"
 msgstr "Especificar ${entity} externa"
 
@@ -4656,6 +4687,7 @@ msgstr "Desemparejado"
 msgid "Unprovision"
 msgstr "Unprovision"
 
+#, python-brace-format
 msgid "Unprovisioning ${entity}"
 msgstr "Cancelación ${entity}"
 

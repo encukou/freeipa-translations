@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# jordimash <jmas@softcatala.org>, 2013
+# Jordi Mas <jmas@softcatala.org>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2013-09-12 15:37+0200\n"
-"PO-Revision-Date: 2014-05-26 17:18+0000\n"
+"POT-Creation-Date: 2014-06-10 13:35+0200\n"
+"PO-Revision-Date: 2014-06-10 11:46+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/freeipa/language/"
 "ca/)\n"

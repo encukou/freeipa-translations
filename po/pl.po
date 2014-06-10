@@ -4,15 +4,15 @@
 #
 # Translators:
 # jdennis <jdennis@redhat.com>, 2011
-# mmarzantowicz <mmarzantowicz@osdf.com.pl>, 2013
+# Mateusz Marzantowicz <mmarzantowicz@osdf.com.pl>, 2013
 # Piotr Drąg <piotrdrag@gmail.com>, 2010,2013
 msgid ""
 msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2013-09-12 15:37+0200\n"
-"PO-Revision-Date: 2014-05-26 17:18+0000\n"
+"POT-Creation-Date: 2014-06-10 13:35+0200\n"
+"PO-Revision-Date: 2014-06-10 11:46+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/freeipa/language/"
 "pl/)\n"
