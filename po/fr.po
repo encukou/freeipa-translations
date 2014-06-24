@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2014-06-12 10:17+0200\n"
-"PO-Revision-Date: 2014-06-12 08:23+0000\n"
-"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"PO-Revision-Date: 2014-06-19 15:44+0000\n"
+"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/freeipa/language/"
 "fr/)\n"
 "MIME-Version: 1.0\n"
@@ -10642,6 +10642,9 @@ msgstr "clé publique SSH invalide"
 
 msgid "invalid address format"
 msgstr "format d'adresse invalide"
+
+msgid "invalid domain name"
+msgstr "nom de domaine invalide"
 
 #, python-format
 msgid "invalid domain-name: %s"
