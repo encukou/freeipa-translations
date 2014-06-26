@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2014-06-12 10:17+0200\n"
-"PO-Revision-Date: 2014-06-12 08:23+0000\n"
+"POT-Creation-Date: 2014-06-25 21:39+0200\n"
+"PO-Revision-Date: 2014-06-25 19:44+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/freeipa/language/"
 "ca/)\n"
@@ -263,9 +263,6 @@ msgstr "Tecla"
 msgid "Key Compromise"
 msgstr "Clau en compromís"
 
-msgid "Labels"
-msgstr "Etiquetes"
-
 msgid "Last name"
 msgstr "Cognom"
 
@@ -377,12 +374,6 @@ msgstr "Anterior"
 msgid "Priority"
 msgstr "Prioritat"
 
-msgid "Protocol"
-msgstr "Protocol"
-
-msgid "Public Key"
-msgstr "Clau pública"
-
 msgid "Reason"
 msgstr "Raó"
 
@@ -460,9 +451,6 @@ msgstr "Paràmetres"
 
 msgid "Show details"
 msgstr "Mostra els detalls"
-
-msgid "Signature"
-msgstr "Signatura"
 
 msgid "Size"
 msgstr "Mida"

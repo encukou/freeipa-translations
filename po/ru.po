@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: FreeIPA\n"
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
-"POT-Creation-Date: 2014-06-12 10:17+0200\n"
-"PO-Revision-Date: 2014-06-12 08:23+0000\n"
+"POT-Creation-Date: 2014-06-25 21:39+0200\n"
+"PO-Revision-Date: 2014-06-25 19:44+0000\n"
 "Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/freeipa/language/"
 "ru/)\n"
@@ -668,12 +668,6 @@ msgstr "Приоритет"
 
 msgid "Prompt to set the user password"
 msgstr "Запросить пароль у пользователя"
-
-msgid "Protocol"
-msgstr "Протокол"
-
-msgid "Public Key"
-msgstr "Открытый ключ"
 
 msgid "Random password"
 msgstr "Случайный пароль"
