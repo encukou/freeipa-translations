@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2014-06-25 21:39+0200\n"
-"PO-Revision-Date: 2014-06-26 08:36+0000\n"
+"PO-Revision-Date: 2014-06-26 09:08+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/freeipa/"
 "language/uk/)\n"
@@ -5065,6 +5065,13 @@ msgstr ""
 "завдання: «%(task_dn)s»"
 
 #, python-format
+msgid ""
+"%(type)s category cannot be set to 'all' while there are allowed %(objects)s"
+msgstr ""
+"Значенням категорії %(type)s не можна встановлювати «all», якщо існують "
+"дозволені %(objects)s"
+
+#, python-format
 msgid "%(user)s is not a POSIX user"
 msgstr "%(user)s не є користувачем з групи POSIX"
 
@@ -5447,6 +5454,11 @@ msgstr "Додати нові права доступу автослужби."
 msgid "Add a new user."
 msgstr "Додати нового користувача."
 
+msgid "Add a permission for per-forward zone access delegation."
+msgstr ""
+"Додати право доступу до делегування доступу на основі окремих зон "
+"переспрямовування."
+
 msgid "Add a permission for per-zone access delegation."
 msgstr "Додати права доступу до надання доступу до окремих зон."
 
@@ -5550,6 +5562,9 @@ msgstr "Додати користувачів та групи до правил�
 
 msgid "Add users and groups to an SELinux User Map rule."
 msgstr "Додати користувачів і групи до правила карти користувачів SELinux."
+
+msgid "Add users that can manage this token."
+msgstr "Додати записи користувачів, які можуть керувати цим ключем."
 
 #, python-format
 msgid "Added Active Directory trust for realm \"%(value)s\""
@@ -7279,6 +7294,12 @@ msgid "External Group the commands can run as (sudorule-find only)"
 msgstr ""
 "Зовнішня група, від імені якої можна віддавати команди (лише sudorule-find)"
 
+msgid "External Groups of RunAs Users"
+msgstr "Зовнішні групи користувачів для запуску від імені"
+
+msgid "External Groups of users that the command can run as"
+msgstr "Зовнішні групи користувачів, від імені яких можна виконувати команду"
+
 msgid "External User"
 msgstr "Зовнішній користувач"
 
@@ -7750,6 +7771,9 @@ msgstr "Параметри групи вузлів"
 
 msgid "Host Groups"
 msgstr "Групи вузлів"
+
+msgid "Host Masks"
+msgstr "Маски вузлів"
 
 msgid "Host Name"
 msgstr "Назва вузла"
@@ -9632,6 +9656,11 @@ msgstr "Вилучити ${other_entity} запуску від імені з ${e
 #, python-brace-format
 msgid "Remove RunAs Groups from ${entity} ${primary_key}"
 msgstr "Вилучити групи запуску від імені з ${entity} ${primary_key}"
+
+msgid "Remove a permission for per-forward zone access delegation."
+msgstr ""
+"Вилучити права доступу до делегування доступу для окремих зон "
+"переспрямовування."
 
 msgid "Remove a permission for per-zone access delegation."
 msgstr "Вилучити права доступу до надання доступу до окремих зон."
@@ -11562,6 +11591,9 @@ msgstr "дочірній процес завершив роботу з пові�
 msgid "cn is immutable"
 msgstr "cn є незмінним"
 
+msgid "command"
+msgstr "команда"
+
 #, python-format
 msgid "command '%(name)s' takes at most %(count)d argument"
 msgid_plural "command '%(name)s' takes at most %(count)d arguments"
@@ -11572,6 +11604,9 @@ msgstr[2] "команда «%(name)s» приймає не більше %(count)
 #, python-format
 msgid "command '%(name)s' takes no arguments"
 msgstr "команда «%(name)s» не приймає ніяких аргументів"
+
+msgid "commands"
+msgstr "команди"
 
 msgid "commands cannot be added when command category='all'"
 msgstr "не можна додавати команди, якщо категорія команд=«all»"
@@ -11727,6 +11762,9 @@ msgstr ""
 msgid "group"
 msgstr "група"
 
+msgid "group runAs"
+msgstr "група, від імені якої виконуватиметься"
+
 msgid "group, permission and self are mutually exclusive"
 msgstr "group, permission і self не можна використовувати разом"
 
@@ -11746,6 +11784,9 @@ msgstr "група вузлів"
 
 msgid "host groups"
 msgstr "групи вузлів"
+
+msgid "host masks of allowed hosts"
+msgstr "маски для дозволених вузлів"
 
 #, python-format
 msgid ""
@@ -11844,6 +11885,9 @@ msgstr "некоректний формат адреси електронної 
 
 msgid "invalid escape code in domain name"
 msgstr "некоректний керівний код у назві домену"
+
+msgid "invalid hostmask"
+msgstr "некоректна маска вузлів"
 
 msgid "invalid port number"
 msgstr "некоректний номер порту"
@@ -12238,6 +12282,15 @@ msgstr "роль"
 
 msgid "roles"
 msgstr "ролі"
+
+msgid "runAs groups"
+msgstr "групи, від імені яких виконуватиметься"
+
+msgid "runAs user"
+msgstr "користувач, від імені якого виконуватиметься"
+
+msgid "runAs users"
+msgstr "користувачі, від імені яких виконуватиметься"
 
 msgid "search for POSIX groups"
 msgstr "шукати групи POSIX"
