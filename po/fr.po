@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
 "newticket\n"
 "POT-Creation-Date: 2014-07-03 10:36+0200\n"
-"PO-Revision-Date: 2014-08-18 07:56+0000\n"
+"PO-Revision-Date: 2014-09-04 20:14+0000\n"
 "Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/freeipa/language/"
 "fr/)\n"
@@ -3673,6 +3673,10 @@ msgstr ""
 msgid "  ipa <command> --help"
 msgstr "  ipa <command> --help"
 
+#, python-format
+msgid "\"%s\" is not a valid permission type"
+msgstr "« %s » n'est pas un type de permission autorisé"
+
 #, python-brace-format
 msgid "${count} item(s) added"
 msgstr "${count} élément(s) ajouté(s)"
@@ -4577,6 +4581,9 @@ msgstr "L'affiliation a changé"
 
 msgid "Algorithm"
 msgstr "Algorithme"
+
+msgid "All attributes to which the permission applies"
+msgstr "Tous les attributs auxquels la permission s'applique"
 
 msgid "All commands should at least have a result"
 msgstr "Toutes les commandes doivent avoir au moins un résultat"
@@ -5921,6 +5928,9 @@ msgstr "Modifier"
 msgid "Edit ${entity}"
 msgstr "Modifier ${entity}"
 
+msgid "Effective attributes"
+msgstr "Attributs impactés"
+
 msgid "Email address"
 msgstr "Adresse courriel"
 
@@ -6241,6 +6251,9 @@ msgstr "Condensés"
 msgid "First"
 msgstr "Premier"
 
+msgid "First Code"
+msgstr "Premier code"
+
 msgid "First Posix ID of the range"
 msgstr "Premier ID POSIX de la plage"
 
@@ -6370,6 +6383,9 @@ msgid ""
 msgstr ""
 "Politique de transmission globale. Mettre à « none » pour désactiver tout "
 "transmetteur global configuré."
+
+msgid "Granted rights"
+msgstr "Droits accordés"
 
 msgid "Granting privilege to roles"
 msgstr "Accord en cours des privilègues aux rôles"
@@ -8631,6 +8647,10 @@ msgstr "Révoqué le, jusque cette date (AAAA-mm-jj)"
 msgid "Rights"
 msgstr "Droits"
 
+msgid "Rights to grant (read, search, compare, write, add, delete, all)"
+msgstr ""
+"Droit d'accorder des droits (read, search, compare, write, add, delete, all)"
+
 msgid "Role"
 msgstr "Rôle"
 
@@ -8969,6 +8989,9 @@ msgstr "Taille limite de recherche"
 msgid "Search time limit"
 msgstr "Durée de recherche limite"
 
+msgid "Second Code"
+msgstr "Second code"
+
 msgid "Secondary RID base"
 msgstr "Base de RID secondaire"
 
@@ -9296,6 +9319,9 @@ msgstr "Type de chiffrements supportés :\n"
 
 msgid "Suppress processing of membership attributes."
 msgstr "Arrêt du traitement des attributs d'adhésion."
+
+msgid "Synchronize an OTP token."
+msgstr "Synchroniser un jeton OTP."
 
 #, python-format
 msgid "Syntax Error: %(error)s"
@@ -9809,6 +9835,9 @@ msgstr "Groupe d'Utilisateurs"
 
 msgid "User Groups"
 msgstr "Groupes d'utilisateurs"
+
+msgid "User ID"
+msgstr "Identifiant utilisateur"
 
 msgid "User ID Number (system will assign one if not provided)"
 msgstr ""
