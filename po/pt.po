@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Red Hat
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Fernando Carvalho <phaetonkde@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeIPA\n"
+"Report-Msgid-Bugs-To: https://hosted.fedoraproject.org/projects/freeipa/"
+"newticket\n"
+"POT-Creation-Date: 2014-09-24 14:37+0200\n"
+"PO-Revision-Date: 2014-09-24 12:41+0000\n"
+"Last-Translator: Petr Viktorin <encukou@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/freeipa/"
+"language/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "  ipa <command> --help"
+msgstr "ipa <command> --help"
+
+msgid "Command name"
+msgstr "Nome do comando"
+
+msgid "Deprecated options"
+msgstr "Opçoes desaprovadas"
+
+#, python-format
+msgid "Enter %(label)s again to verify: "
+msgstr "Inserir %(label)s novamente a verificar:"
+
+msgid "No file to read"
+msgstr "Nenhum ficheiro a ler"
+
+msgid "No matching entries found"
+msgstr "Nao encontradas entradas identicas"
+
+#, c-format
+msgid "Passwords do not match!"
+msgstr "Palavras-passe nao correspondem!"
+
+msgid "Positional arguments"
+msgstr "Argumentos posicionais"
+
+#, python-format
+msgid "Same as --%s"
+msgstr "O mesmo que --%s"
+
+msgid "The topic or command name."
+msgstr "O nome do topico ou comando."
+
+msgid "To get command help, use:"
+msgstr "Para obter ajuda nos comandos, use:"
+
+msgid "Topic commands:"
+msgstr "Comandos do topico:"
+
+msgid "Topic or Command"
+msgstr "Topico ou Comando"
+
+msgid "an internal error has occurred"
+msgstr "um erro interno ocorreu"
+
+#, python-format
+msgid "an internal error has occurred on server at '%(server)s'"
+msgstr "um erro interno ocorreu no servidor em '%(server)s'"
+
+#, python-format
+msgid "unknown command '%(name)s'"
+msgstr "comando desconhecido '%(name)s'"
